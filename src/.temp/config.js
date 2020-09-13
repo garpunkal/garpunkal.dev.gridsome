@@ -1,6 +1,6 @@
 export default {
   "trailingSlash": true,
-  "pathPrefix": "/garpunkal.github.io",
+  "pathPrefix": "",
   "titleTemplate": "%s - garpunkal.uk",
   "siteUrl": "https://garpunkal.uk",
   "version": "0.7.20",

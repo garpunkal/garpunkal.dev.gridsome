@@ -5,22 +5,10 @@
     <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
       garpunkal.uk
       <br>
-      <span class="text-indigo-600">Hello World</span>
-    </h2>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
-      <div class="inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-         Button 1
-        </a>
-      </div>
-      <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-          Button 2
-        </a>
-      </div>
-    </div>
+      <span class="text-indigo-600">In development again!</span>
+    </h2>    
   </div>
-</div> 
+
 
   </Layout>
 </template>
@@ -33,6 +21,4 @@ export default {
 }
 </script>
 
-<style>
 
-</style>
