@@ -1,0 +1,23 @@
+{
+  "name": "garpunkal.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "start": "gridsome develop",
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d dist"
+  },
+  "dependencies": {   
+    "gridsome": "^0.7.0",
+    "tailwindcss": "^1.8.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2" 
+  }
+}
