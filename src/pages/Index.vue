@@ -670,9 +670,9 @@
 
 <div class="md:p-2 p-1 w-full md:w-1/2">
               <g-image
-                alt="Just Gulp"
+                alt="eFooters"
                 class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                src="../images/justgulp.png"
+                src="../images/efooters.png"
                 fit="cover"
                 width="500"
                 height="300"
