@@ -145,24 +145,24 @@
       
         <div class="flex flex-wrap md:-m-2 -m-1">
           <div class="flex flex-wrap w-full md:w-1/2">
-            <div class="md:p-2 p-1 w-full">
+            <div class="md:p-2 p-1 w-full ">
               <a href="https://www.nextbase.com/en-gb" target="_blank" rel="noopener">
 
-                <g-image alt="Nextbase" class="w-full object-cover h-full object-center block"
+                <g-image alt="Nextbase" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/nextbase.png" fit="cover" width="601" height="361" position="center top"
                   immediate="false" quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.occstrategy.com/en/" target="_blank" rel="noopener">
-                <g-image alt="OCC Strategy" class="w-full object-cover h-full object-center block"
+                <g-image alt="OCC Strategy" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/occ.png" fit="cover" width="502" height="302" position="left top" immediate="false"
                   quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.sunbites.co.uk" target="_blank" rel="noopener">
-                <g-image alt="Sunbites" class="w-full object-cover h-full object-center block"
+                <g-image alt="Sunbites" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/sunbites.png" fit="cover" width="503" height="303" position="center top"
                   immediate="false" quality="75" />
               </a>
@@ -171,7 +171,7 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.wrighthassall.co.uk" target="_blank" rel="noopener">
-                <g-image alt="Wright Hassall" class="w-full object-cover h-full object-center block"
+                <g-image alt="Wright Hassall" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/wrighthassall.png" fit="cover" width="500" height="300" position="left top"
                   immediate="false" quality="75" />
               </a>
@@ -180,14 +180,14 @@
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.hrp.org.uk" target="_blank" rel="noopener">
 
-                <g-image alt="Historic Royal Palaces" class="w-full object-cover h-full object-center block"
+                <g-image alt="Historic Royal Palaces" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/hrp.png" fit="cover" width="501" height="301" position="center top" immediate="false"
                   quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
               <a href="https://www.isio.com" target="_blank" rel="noopener">
-                <g-image alt="Isio" class="w-full object-cover h-full object-center block" src="../images/isio.png"
+                <g-image alt="Isio" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg " src="../images/isio.png"
                   fit="cover" width="600" height="360" position="center top" immediate="false" quality="75" />
               </a>
             </div>
@@ -197,7 +197,7 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.merlinsmagicallondon.com" target="_blank" rel="noopener">
-                <g-image alt="Merlin's Magical London" class="w-full object-cover h-full object-center block"
+                <g-image alt="Merlin's Magical London" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/mml.png" fit="cover" width="500" height="300" position="center top" immediate="false"
                   quality="75" />
               </a>
@@ -205,13 +205,13 @@
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.visitsealife.com" target="_blank" rel="noopener">
-                <g-image alt="Sea Life" class="w-full object-cover h-full object-center block"
+                <g-image alt="Sea Life" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/sealife.png" fit="cover" width="501" height="301" position="left top" immediate="false"
                   quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
-              <g-image alt="3m Make It Happen" class="w-full object-cover h-full object-center block"
+              <g-image alt="3m Make It Happen" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                 src="../images/makeithappen.png" fit="cover" width="600" height="360" position="center top"
                 immediate="false" quality="75" />
             </div>
@@ -219,20 +219,20 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full">
               <a href="https://www.skyoceanrescue.com" target="_blank" rel="noopener">
-                <g-image alt="Sky Ocean Rescue" class="w-full object-cover h-full object-center block"
+                <g-image alt="Sky Ocean Rescue" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/sor.png" fit="cover" width="502" height="302" position="left top" immediate="false"
                   quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.addict.co.uk" target="_blank" rel="noopener">
-                <g-image alt="Addict" class="w-full object-cover h-full object-center block" src="../images/addict.png"
+                <g-image alt="Addict" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg " src="../images/addict.png"
                   fit="cover" width="502" height="302" position="left top" immediate="false" quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.shreksadventure.com" target="_blank" rel="noopener">
-                <g-image alt="Shreks Adventure" class="w-full object-cover h-full object-center block"
+                <g-image alt="Shreks Adventure" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/shrek.png" fit="cover" width="503" height="303" position="top" immediate="false"
                   quality="75" />
               </a>
@@ -241,7 +241,7 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.crimestoppers.org.uk" target="_blank" rel="noopener">
-                <g-image alt="Crimestoppers" class="w-full object-cover h-full object-center block"
+                <g-image alt="Crimestoppers" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/crimestoppers.png" fit="cover" width="500" height="300" position="left top"
                   immediate="false" quality="75" />
               </a>
@@ -249,14 +249,14 @@
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://afaeducation.org/" target="_blank" rel="noopener">
-                <g-image alt="Achievement For All" class="w-full object-cover h-full object-center block"
+                <g-image alt="Achievement For All" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/afa.png" fit="cover" width="501" height="301" position="left top" immediate="false"
                   quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
               <a href="http://www.taylorroot.co.uk/" target="_blank" rel="noopener">
-                <g-image alt="Taylor Root" class="w-full object-cover h-full object-center block"
+                <g-image alt="Taylor Root" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/taylorroot.png" fit="cover" width="600" height="360" position="top" immediate="false"
                   quality="75" />
               </a>
@@ -265,20 +265,20 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full">
               <a href="https://www.madametussauds.com" target="_blank" rel="noopener">
-                <g-image alt="Madame Tussauds" class="w-full object-cover h-full object-center block"
+                <g-image alt="Madame Tussauds" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/madametussauds.png" fit="cover" width="502" height="302" position="center top"
                   immediate="false" quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.nakedjuice.co.uk" target="_blank" rel="noopener">
-                <g-image alt="Naked Juice" class="w-full object-cover h-full object-center block" src="../images/nakedjuice.png"
+                <g-image alt="Naked Juice" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg " src="../images/nakedjuice.png"
                   fit="cover" width="502" height="302" position="left top" immediate="false" quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.railcard.co.uk" target="_blank" rel="noopener">
-                <g-image alt="Rail Delivery Group" class="w-full object-cover h-full object-center block"
+                <g-image alt="Rail Delivery Group" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/rdg.png" fit="cover" width="503" height="303" position="top" immediate="false"
                   quality="75" />
               </a>
@@ -287,21 +287,21 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
               
-                <g-image alt="Just Gulp" class="w-full object-cover h-full object-center block"
+                <g-image alt="Just Gulp" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/justgulp.png" fit="cover" width="500" height="300" position="left top"
                   immediate="false" quality="75" />
             </div>
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.snowandrock.com" target="_blank" rel="noopener">
-                <g-image alt="Snow + Rock" class="w-full object-cover h-full object-center block"
+                <g-image alt="Snow + Rock" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/snowandrock.png" fit="cover" width="501" height="301" position="left top" immediate="false"
                   quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
               <a href="http://www.littlefreddie.com" target="_blank" rel="noopener">
-                <g-image alt="littlefreddie" class="w-full object-cover h-full object-center block"
+                <g-image alt="littlefreddie" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/littlefreddie.png" fit="cover" width="600" height="360" position="top" immediate="false"
                   quality="75" />
               </a>
@@ -310,21 +310,21 @@
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full">
               <a href="https://www.egress.com" target="_blank" rel="noopener">
-                <g-image alt="Egress" class="w-full object-cover h-full object-center block"
+                <g-image alt="Egress" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/egress.png" fit="cover" width="502" height="302" position="center top"
                   immediate="false" quality="75" />
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
                 <a href="https://www.spar.co.uk" target="_blank" rel="noopener">
-                  <g-image alt="Spar" class="w-full object-cover h-full object-center block"
+                  <g-image alt="Spar" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                     src="../images/spar.png" fit="cover" width="502" height="302" position="left top" immediate="false"
                     quality="75" />
                 </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a href="https://www.godolphin.com" target="_blank" rel="noopener">
-                <g-image alt="Godolphin" class="w-full object-cover h-full object-center block"
+                <g-image alt="Godolphin" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg "
                   src="../images/godolphin.png" fit="cover" width="503" height="303" position="top" immediate="false"
                   quality="75" />
               </a>
@@ -352,15 +352,3 @@
     </footer>
   </Layout>
 </template>
-
-<script>
-  import myData from '~/data/garpunkal.json'
-
-  export default {
-    data() {
-      return {
-        myData
-      }
-    }
-  }
-</script>

@@ -12,15 +12,15 @@ export default function (Vue, {
     src: 'https://platform.twitter.com/widgets.js',
     body: false
   })
-
+  
   head.meta.push({
     name: 'keywords',
-    content: 'garpunkal, gareth, wright, gareth wright, garpunkal.uk, technical manager, c# web developer, umbraco, umbraco certified developer, c# developer, developer, umbraco certified expert, andover, hampshire, csharp'
+    content: 'garpunkal, gareth, wright, gareth wright, garpunkal.uk, development manager, c# web developer, umbraco, umbraco certified developer, c# developer, developer, umbraco certified expert, andover, hampshire, csharp'
   })
 
   head.meta.push({
     name: 'description',
-    content: 'Personal website for Gareth Wright. Technical Manager. c# .net MVC Developer. Umbraco Certified Expert.'
+    content: 'Personal website for Gareth Wright. Development Manager. c# .net MVC Developer. Umbraco Certified Expert.'
   })
 
   head.meta.push({
