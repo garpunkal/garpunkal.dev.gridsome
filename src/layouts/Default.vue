@@ -1,27 +1,16 @@
+
 <template>
-  <div class="layout">
-    <header class="header">
-      <!-- <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong> -->
-      <!-- <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-      </nav> -->
-    </header>
+  <div class="layout">    
+    
     <slot/>
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
+<script>
+  export default {
+    name: 'garpunkal',
+    metaInfo: {      
+      title: 'garpunkal.uk',    
+    }
   }
-}
-</static-query>
-
-<style>
-  body {
-    background-color:#077da0;
-  }
-</style>
+</script>
