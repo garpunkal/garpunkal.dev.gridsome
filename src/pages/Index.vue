@@ -523,14 +523,14 @@
             </div>
             <div class="md:p-2 p-1 w-full">
               <a
-                href="http://www.taylorroot.co.uk/"
+                href="http://www.londoneye.com"
                 target="_blank"
                 rel="noopener"
               >
                 <g-image
-                  alt="Taylor Root"
+                  alt="London Eye"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                  src="../images/taylorroot.png"
+                  src="../images/londoneye.png"
                   fit="cover"
                   width="600"
                   height="360"
@@ -617,14 +617,14 @@
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a
-                href="https://www.snowandrock.com"
+                href="https://www.taylorroot.com"
                 target="_blank"
                 rel="noopener"
               >
                 <g-image
-                  alt="Snow + Rock"
+                  alt="Taylor Root"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                  src="../images/snowandrock.png"
+                  src="../images/taylorroot.png"
                   fit="cover"
                   width="501"
                   height="301"
