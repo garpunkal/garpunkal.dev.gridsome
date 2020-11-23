@@ -730,3 +730,13 @@
     </footer>
   </Layout>
 </template>
+
+
+<script>
+export default {
+  name: 'Home',
+  metaInfo: {
+    title: 'Gareth Wright - Development Manager - C# .net MVC Developer',
+  }
+}
+</script>
