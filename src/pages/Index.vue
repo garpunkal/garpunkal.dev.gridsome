@@ -265,10 +265,10 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.nakedjuice.co.uk" target="_blank" rel="noopener">
-                <g-image alt="Naked Juice"
+              <a href="https://www.egress.com" target="_blank" rel="noopener">
+                <g-image alt="Egress"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                  src="../images/nakedjuice.png" fit="cover" width="502" height="302" position="left top"
+                  src="../images/egress.png" fit="cover" width="502" height="302" position="top"
                   immediate="false" quality="60" />
               </a>
             </div>
@@ -298,7 +298,7 @@
               <a href="https://afaeducation.org/" target="_blank" rel="noopener">
                 <g-image alt="Achievement For All"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                  src="../images/afa.png" fit="cover" width="501" height="301" position="left top" immediate="false"
+                  src="../images/afa.png" fit="cover" width="501" height="301" position="top" immediate="false"
                   quality="60" />
               </a>
             </div>
@@ -318,9 +318,9 @@
 
 
             <div class="md:p-2 p-1 w-full">
-              <a href="https://www.egress.com" target="_blank" rel="noopener">
-                <g-image alt="Egress" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                  src="../images/egress.png" fit="cover" width="502" height="302" position="center top"
+              <a href="https://www.nakedjuice.co.uk" target="_blank" rel="noopener">
+                <g-image alt="Naked Juice" class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="../images/nakedjuice.png" fit="cover" width="502" height="302" position="top"
                   immediate="false" quality="60" />
               </a>
             </div>
