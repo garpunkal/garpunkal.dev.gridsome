@@ -240,7 +240,7 @@
           </div>
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.crimestoppers.org.uk" target="_blank" rel="noopener">
+              <a href="https://crimestoppers-uk.org/" target="_blank" rel="noopener">
                 <g-image alt="Crimestoppers" class="w-full object-cover h-full object-center block"
                   src="../images/crimestoppers.png" fit="cover" width="500" height="300" position="left top"
                   immediate="false" quality="75" />
@@ -277,7 +277,7 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.railcard.co.uk" target="_blank" rel="noopener">
+              <a href="https://secure.railcard.co.uk/" target="_blank" rel="noopener">
                 <g-image alt="Rail Delivery Group" class="w-full object-cover h-full object-center block"
                   src="../images/rdg.png" fit="cover" width="503" height="303" position="top" immediate="false"
                   quality="75" />
