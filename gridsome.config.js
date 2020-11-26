@@ -13,13 +13,17 @@ module.exports = {
         enabled: true,
         debug: false
       }
-    }    
-  ], 
+    },
+
+  ],
   css: {
     loaderOptions: {
       postcss: {
         plugins: postcssPlugins
       }
     }
-  } 
+  },
+  chainWebpack: config => {
+    config.resolve.alias.set('@images', '@/assets/images')
+  },
 }
