@@ -1,7 +1,8 @@
 <template>
   <Layout>
+    <a id="top"></a>
     <div
-      class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto my-32 md:my-12 lg:my-0"
+      class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto my-20 md:my-12 lg:my-18"
     >
       <div
         id="profile"
@@ -23,7 +24,7 @@
             />
           </div>
 
-          <h1 class="text-3xl font-bold pt-8 lg:pt-0">Gareth Wright</h1>
+          <h1 class="text-3xl font-bold pt-2 lg:pt-0">Gareth Wright</h1>
 
           <div
             class="mx-auto lg:mx-0 w-5/5 pt-3 border-b-2 brand-color opacity-25"
@@ -95,21 +96,15 @@
             >
           </p>
 
-          <!-- <div class="pt-6 pb-8">
-				<button class="brand-color bg-brand hover:bg-black text-white font-bold py-2 px-4 rounded-full">
-				  Get In Touch
-				</button> 
-			</div> -->
-
           <div
-            class="mt-12 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between"
+            class="mt-12 pb-8 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between"
           >
             <a
               class="link"
               href="https://twitter.com/garpunkal"
               data-tippy-content="@twitter_handle"
               target="_blank"
-              rel="nonopener"
+              rel="noopener"
               ><svg
                 class="h-6 fill-current text-gray-600 hover:text-brand"
                 role="img"
@@ -126,7 +121,7 @@
               href="https://github.com/garpunkal"
               data-tippy-content="@github_handle"
               target="_blank"
-              rel="nonopener"
+              rel="noopener"
               ><svg
                 class="h-6 fill-current text-gray-600 hover:text-brand"
                 role="img"
@@ -143,7 +138,7 @@
               href="https://umbraco.com/training/certified-developers/developer/?id=e0ad657a-e715-4852-8063-f11e398d686a"
               data-tippy-content="@umbraco_handle"
               target="_blank"
-              rel="nonopener"
+              rel="noopener"
               ><svg
                 class="h-6 fill-current text-gray-600 hover:text-brand"
                 role="img"
@@ -158,10 +153,30 @@
 
             <a
               class="link"
+              href="https://www.linkedin.com/in/garpunkal/"
+              data-tippy-content="@reddit_handle"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+                class="h-6 fill-current text-gray-600 hover:text-brand"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="link"
               href="https://www.reddit.com/user/garpunkal"
               data-tippy-content="@reddit_handle"
               target="_blank"
-              rel="nonopener"
+              rel="noopener"
               ><svg
                 class="h-6 fill-current text-gray-600 hover:text-brand"
                 role="img"
@@ -178,7 +193,7 @@
               href="https://stackexchange.com/users/94651/garpunkal"
               data-tippy-content="@umbraco_handle"
               target="_blank"
-              rel="nonopener"
+              rel="noopener"
               ><svg
                 class="h-6 fill-current text-gray-600 hover:text-brand"
                 role="img"
@@ -196,7 +211,7 @@
               href="https://www.paypal.me/garpunkal"
               data-tippy-content="@paypal_handle"
               target="_blank"
-              rel="nonopener"
+              rel="noopener"
               ><svg
                 class="h-6 fill-current text-gray-600 hover:text-brand"
                 role="img"
@@ -228,7 +243,7 @@
       <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-0">
         <a href="#content">
           <svg
-            class="animate-bounce w-6 h-6 text-amber-900"
+            class="animate-bounce w-6 h-6"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -467,17 +482,23 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
-              <g-image
-                alt="3m Make It Happen"
-                class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                src="~/assets/images/makeithappen.png"
-                fit="cover"
-                width="600"
-                height="360"
-                position="center top"
-                immediate="false"
-                quality="60"
-              />
+              <a
+                rel="noopener"
+                href="https://www.3m.co.uk/3M/en_GB/post-it-notes/"
+                target="_blank"
+              >
+                <g-image
+                  alt="3m Make It Happen"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/makeithappen.png"
+                  fit="cover"
+                  width="600"
+                  height="360"
+                  position="center top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
             </div>
           </div>
           <div class="flex flex-wrap w-full md:w-1/2">
@@ -517,7 +538,7 @@
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a
-                href="https://www.railcard.co.uk"
+                href="https://secure.railcard.co.uk/"
                 target="_blank"
                 rel="noopener"
               >
@@ -711,8 +732,9 @@
           href="https://twitter.com/garpunkal"
           data-tweet-limit="1"
           data-theme="light"
-          data-width="400"
-          data-height="300"
+          data-width="800"
+          data-height="200"
+          data-chrome="noheader nofooter noborders"
         ></a>
       </div>
     </div>
@@ -722,7 +744,7 @@
         <!-- carbon -->
 
         <div class="pt-0 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -745,7 +767,7 @@
               </a>
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Development Manager
@@ -781,7 +803,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>Team management.</li>
                 <li>C# .net MVC development.</li>
                 <li>Umbraco 8 with Models-builder.</li>
@@ -809,7 +831,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -856,7 +878,7 @@
                 Contributions:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -894,7 +916,7 @@
         <!-- jaywing -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -913,7 +935,7 @@
               </a>
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Senior Developer
@@ -949,7 +971,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>C# .net MVC development.</li>
                 <li>
                   Experience with Umbraco 7 and 8, Sitecore 9 and Sitefinity 11.
@@ -993,7 +1015,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -1007,7 +1029,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="https://secure.railcard.co.uk/purchase/"
+                    href="https://secure.railcard.co.uk/"
                     target="_blank"
                     title="Rail Delivery Group"
                     class="text-white inline-flex items-center"
@@ -1036,7 +1058,7 @@
                 </li>
                 <li>
                   Walkers
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>Sensations Global Travel</li>
                   </ul>
                 </li>
@@ -1046,7 +1068,7 @@
                 Contributions:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -1066,7 +1088,7 @@
         <!-- jaywing -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -1085,7 +1107,7 @@
               </a>
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Technical Manager
@@ -1121,7 +1143,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>Technical Manager for various projects and clients.</li>
                 <li>
                   Providing direction for the development team in support of
@@ -1145,7 +1167,7 @@
                 <li>
                   Azure hosting service management and integration:
                   <ul
-                    class="list-inside list-disc font-smaller text-sm pl-5 pt-2"
+                    class="list-outside list-disc font-smaller text-sm pl-5 pt-2"
                   >
                     <li>Traffic Manager.</li>
                     <li>Azure DNS.</li>
@@ -1156,7 +1178,7 @@
                     <li>
                       Vision API
                       <ul
-                        class="list-inside list-disc font-smaller text-sm pl-5"
+                        class="list-outside list-disc font-smaller text-sm pl-5"
                       >
                         <li>AI Cognitive Services for analysing imagery.</li>
                       </ul>
@@ -1164,7 +1186,7 @@
                     <li>
                       Media Services
                       <ul
-                        class="list-inside list-disc font-smaller text-sm pl-5"
+                        class="list-outside list-disc font-smaller text-sm pl-5"
                       >
                         <li>Encoding-on-demand and adaptive streaming.</li>
                       </ul>
@@ -1172,7 +1194,7 @@
                     <li>
                       Application Insights
                       <ul
-                        class="list-inside list-disc font-smaller text-sm pl-5"
+                        class="list-outside list-disc font-smaller text-sm pl-5"
                       >
                         <li>Server monitoring and fault finding.</li>
                       </ul>
@@ -1187,7 +1209,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>Scania</li>
                 <li>
                   <a
@@ -1200,7 +1222,7 @@
                 </li>
                 <li>
                   Merlin Entertainments
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>
                       <a
                         rel="noopener"
@@ -1241,7 +1263,7 @@
                 </li>
                 <li>
                   Sky
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>
                       <a
                         rel="noopener"
@@ -1264,7 +1286,7 @@
                 </li>
                 <li>
                   Pepsico
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>Pepsi Max Football</li>
                     <li>
                       <a
@@ -1313,7 +1335,7 @@
                 Contributions:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -1378,7 +1400,7 @@
         <!-- jaywing -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -1397,7 +1419,7 @@
               </a>
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Senior Web Application Developer
@@ -1433,7 +1455,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>
                   Web development specialising in the Microsoft .net framework.
                 </li>
@@ -1458,7 +1480,7 @@
                     class="text-white inline-flex items-center"
                     >w3 Gold Winner</a
                   >
-                  <ul class="list-inside list-disc font-smaller text-sm pl-5">
+                  <ul class="list-outside list-disc font-smaller text-sm pl-5">
                     <li>
                       JAYWING,
                       <a
@@ -1480,10 +1502,10 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   Impellam Group:
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>
                       <a
                         rel="noopener"
@@ -1545,7 +1567,7 @@
                     class="text-white inline-flex items-center"
                     >SR Group</a
                   >
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>
                       <a
                         rel="noopener"
@@ -1580,7 +1602,7 @@
                 </li>
                 <li>
                   Standard Bank
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>Apply</li>
                   </ul>
                 </li>
@@ -1616,7 +1638,7 @@
                 </li>
                 <li>
                   3M
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>
                       <a
                         rel="noopener"
@@ -1631,7 +1653,7 @@
                 </li>
                 <li>
                   Merlin Entertainments
-                  <ul class="list-inside list-disc font-smaller text-xs pl-5">
+                  <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>Orlando Eye</li>
                     <li>
                       <a
@@ -1665,7 +1687,7 @@
         <!-- jaywing -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -1684,7 +1706,7 @@
               </a>
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Web Application Developer
@@ -1720,7 +1742,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>
                   Web development specialising in the Microsoft .net framework.
                 </li>
@@ -1751,7 +1773,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -1824,7 +1846,7 @@
         <!-- guava -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -1841,7 +1863,7 @@
               />
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Web Programmer
@@ -1867,7 +1889,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>ASP VBScript OOP / ASP.net C# driven websites.</li>
                 <li>Utilising XML and SQL server for databases.</li>
                 <li>
@@ -1894,7 +1916,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -1935,7 +1957,7 @@
         <!-- mad -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -1952,7 +1974,7 @@
               />
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Web Developer
@@ -1978,7 +2000,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>ASP / ASP.net driven website builds.</li>
                 <li>VBScript</li>
                 <li>SQL Enterprise Manager / MS Access.</li>
@@ -2000,7 +2022,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -2043,7 +2065,7 @@
         <!-- tnt -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -2060,7 +2082,7 @@
               />
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Webmaster
@@ -2095,7 +2117,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>ASP (Visual Basic and JScript).</li>
                 <li>SQL Enterprise Manager.</li>
                 <li>
@@ -2115,7 +2137,7 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
@@ -2137,7 +2159,7 @@
         <!-- ibm -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -2154,7 +2176,7 @@
               />
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Senior Webmaster & Deputy Team Leader
@@ -2169,11 +2191,11 @@
               </h6>
               <h6 class="font-smaller title-font mb-5 text-sm">
                 <a
-                  href="https://www.ibm.com/uk-en/"
+                  href="https://www.ibm.com/"
                   target="_blank"
                   rel="noopener"
                   class="text-white inline-flex items-center"
-                  >https://www.ibm.com/uk-en/</a
+                  >https://www.ibm.com/</a
                 >
               </h6>
 
@@ -2189,7 +2211,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>
                   Prioritising workload for both team and myself and training
                   new starters and country contacts.
@@ -2212,11 +2234,11 @@
                 Projects:
               </h6>
 
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
-                    href="https://www.ibm.com/en-gb"
+                    href="https://www.ibm.com/"
                     target="_blank"
                     title="IBM UK"
                     class="text-white inline-flex items-center"
@@ -2233,7 +2255,7 @@
         <!-- ibm -->
 
         <div class="pt-5 pb-10 sm:items-start mx-auto">
-          <div class="lg:grid lg:grid-cols-4 md:pl-8 pl-6">
+          <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
@@ -2250,7 +2272,7 @@
               />
             </div>
             <div
-              class="col-span-2 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+              class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
             >
               <h2 class="font-medium title-font text-white mb-1 text-xl">
                 Public Sector Sales Productivity Centre Professional
@@ -2265,11 +2287,11 @@
               </h6>
               <h6 class="font-smaller title-font mb-5 text-sm">
                 <a
-                  href="https://www.ibm.com/uk-en/"
+                  href="https://www.ibm.com/"
                   target="_blank"
                   rel="noopener"
                   class="text-white inline-flex items-center"
-                  >https://www.ibm.com/uk-en/</a
+                  >https://www.ibm.com/</a
                 >
               </h6>
 
@@ -2285,7 +2307,7 @@
                 >
               </p>
 
-              <ul class="list-inside list-disc font-smaller text-sm pl-5">
+              <ul class="list-outside list-disc font-smaller text-sm pl-5">
                 <li>Working with large tender response documents.</li>
                 <li>
                   Supporting the sales team on information gathering and
@@ -2298,11 +2320,11 @@
               <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
                 Projects:
               </h6>
-              <ul class="list-inside list-disc font-smaller text-xs pl-5">
+              <ul class="list-outside list-disc font-smaller text-xs pl-5">
                 <li>
                   <a
                     rel="noopener"
-                    href="https://www.ibm.com/en-gb"
+                    href="https://www.ibm.com/"
                     target="_blank"
                     title="IBM UK"
                     class="text-white inline-flex items-center"
@@ -2320,6 +2342,22 @@
 
     <footer class="text-white body-font">
       <div class="container px-10 py-10 mx-auto flex flex-wrap">
+        <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-0 mb-5">
+          <a href="#top">
+            <svg
+            class="animate-bounce w-6 h-6"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="white"
+          >
+            <path d="M12 19V5M5 12l7-7 7 7"></path>
+          </svg>
+          </a>
+        </div>
+
         <div class="flex w-full flex-wrap">
           <p class="mx-auto">&copy; 2020 Gareth Wright</p>
         </div>
@@ -2345,6 +2383,16 @@ export default {
         });
       });
     });
-  }
-  };
+
+    document.querySelectorAll('a[href^="#top"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    });
+  },
+};
 </script>
