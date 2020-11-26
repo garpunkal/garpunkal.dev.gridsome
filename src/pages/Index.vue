@@ -2,7 +2,7 @@
   <Layout>
     <a id="top"></a>
     <div
-      class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto my-20 md:my-12 lg:my-18"
+      class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto my-20 md:my-12 lg:my-18"
     >
       <div
         id="profile"
@@ -240,7 +240,7 @@
         />
       </div>
 
-      <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-0">
+      <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-10 xl:pt-0">
         <a href="#content">
           <svg
             class="animate-bounce w-6 h-6"
