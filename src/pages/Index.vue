@@ -805,26 +805,26 @@
               </p>
 
               <ul class="list-outside list-disc font-smaller text-sm pl-5">
-                <li>Team management.</li>
-                <li>C# .net MVC development.</li>
-                <li>Umbraco 8 with Models-builder.</li>
-                <li>JavaScript ECMAScript / JQuery.</li>
-                <li>Grunt / Node.js / Yarn / NPM / NVM / Gulp.</li>
-                <li>HTML / SCSS / Nunjucks.</li>
-                <li>
-                  Integration of Shopify, including building a JavaScript
-                  shopping cart. 
-                </li>
-                <li>Integration of MailChimp for newsletter subscriptions. </li>
-                <li>
-                  Building a bespoke personalisation engine for Umbraco based on
-                  user's behaviour.
-                </li>
-                <li>nPoco code-first data layer solutions.</li>
-                <li>
-                  Hosting utilising Amazon Web Services, Umbraco Cloud and
-                  Azure.
-                </li>
+
+<li>Team management &amp; project development. </li>
+<li>C# .net MVC development, .net framework and .net core.</li>
+<li>Project delivery using DevOps with Build and Release pipelines.</li>
+<li>Azure functions and logic apps development.</li>
+<li>Umbraco 8 with Models-builder.</li>
+<li>Utilising Vendr for Umbraco to produce an ecommerce site, including contributions. </li>
+<li>Integration of Shopify, including building a JavaScript shopping cart. </li>
+<li>Integration of MailChimp / SendInBlue for newsletter subscriptions. </li>
+<li>Using MaxMind / IPStack for geo location services. </li>
+<li>Building a bespoke personalisation engine for Umbraco based on user's behaviour.</li>
+<li>nPoco code-first data layer solutions.</li>
+<li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li>
+<li>Azure hosting service management and integration:
+   <ul class="list-outside list-disc font-smaller text-sm pl-5">
+<li>Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.</li></ul>
+<li>JavaScript / JQuery / Node / Yarn / NPM / Gulp.</li>
+<li>HTML / SCSS / TailwindCSS / Nunjucks / Vue.js experience.</li>
+
+               
               </ul>
             </div>
             <div class="sm:pl-6 mt-6 sm:mt-0">
@@ -974,42 +974,18 @@
               </p>
 
               <ul class="list-outside list-disc font-smaller text-sm pl-5">
-                <li>C# .net MVC development.</li>
-                <li>
-                  Experience with Umbraco 7 and 8, Sitecore 9 and Sitefinity 11.
-                </li>
-                <li>Certified Umbraco Expert.</li>
-                <li>Umbraco CMS Contributor.</li>
-                <li>Umbraco ModelsBuilder & Umco Ditto experience.</li>
-                <li>
-                  Extending Umbraco by creating C# and AngularJS packages.
-                </li>
-                <li>Sitecore Certified Developer.</li>
-                <li>SQL Server database administration and optimisation.</li>
-                <li>
-                  Continuous Integration and Deployment through Azure DevOps.
-                </li>
-                <li>
-                  Git source control utilising branches / merging / pull
-                  requests.
-                </li>
-                <li>Creating NuGet packages for internal projects</li>
-                <li>
-                  Test Driven Development with MS Test projects and unit tests.
-                </li>
-                <li>Utilising nPoco and Entity Framework ORMs.</li>
-                <li>
-                  Working with IdentityServer to connect WebAPI to mobile
-                  applications.
-                </li>
-                <li>
-                  Integration with Amazon S3 Buckets and Azure Blob Storage
-                </li>
-                <li>Experience with .net core.</li>
-                <li>
-                  Continuing the developer responsibilities from previous
-                  Jaywing roles.
-                </li>
+<li>C# .net MVC development.</li>
+<li>.net core experience.</li>
+<li>Experience with Umbraco, Sitecore and Sitefinity.</li>
+<li>UmbracoCMS Contributor.</li>
+<li>Extending Umbraco by creating C# and AngularJS packages.</li>
+<li>Sitecore 9 experience.</li>
+<li>Creating NuGet packages for internal &amp; external use. </li>
+<li>Test Driven Development with MS Test projects.</li>
+<li>Utilising nPoco and Entity Framework.</li>
+<li>Working with IdentityServer to connect WebAPI to mobile applications. </li>
+<li>Integration with Amazon S3 Buckets and Azure Blob Storage</li>
+
               </ul>
             </div>
             <div class="sm:pl-6 mt-6 sm:mt-0">
