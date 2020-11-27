@@ -1,5 +1,5 @@
 <template>
-  <Layout>    
+  <Layout>
     <div
       class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto my-20 md:my-12 lg:my-18"
     >
@@ -86,15 +86,6 @@
             understanding, empathetic and passionate. This always delivers the
             best results.
           </p>
-
-          <p class="pt-8 text-sm">
-            Check out my latest Skrift article:<br /><a
-              href="https://skrift.io/authors/gareth-wright"
-              class="font-bold"
-              >https://skrift.io/authors/gareth-wright</a
-            >
-          </p>
-
           <div
             class="mt-12 pb-8 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between"
           >
@@ -149,6 +140,26 @@
                   d="M0 12C0 5.522 5.363.319 12 .319S24 5.522 24 12c0 6.476-5.363 11.681-12 11.681S0 18.477 0 12zm11.734 3.98c-1.168 0-2.123-.104-2.76-.211-.744-.158-1.223-.584-1.541-1.168-.266-.586-.424-1.539-.371-2.814 0-.689.053-1.327.104-1.965.108-.636.16-1.167.267-1.594l.105-.424v-.052c0-.105-.105-.213-.212-.213l-1.54-.212h-.052c-.105 0-.213.105-.266.16 0 .104-.053.159-.104.371-.108.478-.161.902-.267 1.486-.109.685-.163 1.378-.159 2.071 0 0-.053.159 0 1.434s.266 2.283.69 3.08c.425.742 1.116 1.326 2.124 1.645 1.01.32 2.389.479 4.142.479h.213c1.753 0 3.132-.158 4.14-.479 1.01-.318 1.701-.902 2.126-1.645.425-.795.638-1.805.69-3.08.053-1.275 0-1.434 0-1.434 0-.743-.104-1.435-.16-2.069-.105-.638-.158-1.063-.266-1.487-.053-.212-.053-.319-.105-.371 0-.107-.105-.16-.266-.16h-.053l-1.54.212c-.105 0-.213.107-.213.213v.052l.106.424c.106.427.158.957.266 1.593.105.639.105 1.275.105 1.965 0 1.275-.104 2.177-.371 2.814-.266.586-.795 1.01-1.539 1.168-.639.16-1.594.213-2.762.213h-.531v-.002z"
                 /></svg
             ></a>
+
+            <a
+              href="https://skrift.io/authors/gareth-wright"
+              class="link"
+              data-tippy-content="@skrift_handle"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+               class="h-6 fill-current text-gray-600 hover:text-brand"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Skrift</title>
+                <path
+                  d="M2.759 24l.664-.144c.207-.044.412-.085.619-.126.318-.062.637-.123.955-.182.24-.046.48-.085.721-.129l.055-.015c.25-.044.498-.09.747-.12l1.214-.179V-.001h-.042c-.63.004-1.256.016-1.884.036-.689.018-1.394.06-2.084.105-.299.021-.6.046-.899.07H2.78v23.784L2.759 24zM8.911.015v22.942c.861-.1 1.72-.182 2.582-.246 2.121-.161 4.248-.211 6.373-.151 1.128.034 2.253.099 3.374.192V1.503c-1.004-.229-2.012-.432-3.028-.607-1.968-.342-3.955-.581-5.947-.731C11.151.084 10.032.033 8.913.016h-.002zm10.763 14.797l-.046-.004-.561-.061c-1.399-.146-2.805-.242-4.207-.291-1.407-.045-2.815-.03-4.223.016h-.044c-.045 0-.091 0-.135-.016-.101-.03-.195-.074-.267-.149-.127-.136-.186-.315-.156-.495.008-.061.029-.105.054-.166.027-.044.063-.104.104-.134.043-.045.09-.075.143-.104.061-.03.121-.046.18-.061h.09c.195 0 .391-.016.57-.016 1.395-.029 2.773-.029 4.169.03 1.439.06 2.864.165 4.288.33l.151.015c.044.016.089.016.135.03.105.046.194.105.255.181.044.044.074.104.105.164.029.061.044.12.044.18.015.165-.044.33-.164.45-.046.046-.091.075-.135.105-.047.03-.105.044-.166.06-.03.016-.045.016-.089.016h-.047l-.048-.08zm.035-2.711c-.044 0-.044 0-.09-.006l-.555-.071c-1.395-.179-2.804-.3-4.198-.359-1.395-.075-2.805-.09-4.214-.06l-.046-.016c-.045-.015-.09-.015-.135-.029-.09-.03-.194-.09-.254-.166-.03-.045-.076-.104-.09-.148-.075-.166-.075-.361.014-.525.031-.061.061-.105.105-.15s.09-.09.15-.104c.061-.03.119-.06.18-.06l.09-.016.585-.015c1.396-.016 2.774.015 4.153.09 1.439.075 2.865.21 4.289.39l.149.016.091.014c.105.031.194.075.27.166.12.119.18.284.165.449 0 .061-.016.121-.045.165-.029.06-.061.104-.09.15-.03.044-.074.075-.136.12-.044.029-.104.045-.164.061l-.091.014H19.8l-.091.09zm0-2.711c-.044 0-.044 0-.09-.006l-.555-.08c-1.395-.19-2.789-.334-4.198-.428-1.395-.092-2.805-.135-4.214-.129h-.046l-.09-.016c-.059-.016-.104-.036-.164-.068-.15-.092-.256-.254-.285-.438 0-.061 0-.12.016-.18.014-.061.029-.117.059-.17.031-.054.076-.102.121-.144.074-.075.18-.126.285-.15.045-.011.089-.015.135-.015h.569c1.439.009 2.879.064 4.304.172 1.395.105 2.774.26 4.153.457l.15.021c.046.007.061.007.09.019.06.02.12.046.165.08.061.033.104.075.135.123.031.048.061.101.09.158.062.156.045.334-.029.479-.029.055-.061.105-.105.146-.075.074-.164.127-.27.15-.029.012-.046.012-.091.014l-.044.005h-.091zm0-2.712c-.044 0-.044 0-.09-.007l-.555-.09c-1.395-.225-2.789-.391-4.198-.496-1.395-.119-2.805-.179-4.214-.209h-.046l-.105-.014c-.061-.015-.115-.045-.165-.074-.053-.031-.099-.076-.14-.121-.036-.045-.068-.104-.094-.149-.02-.06-.037-.12-.044-.181-.016-.18.053-.371.181-.494.074-.075.176-.125.279-.15.045-.015.09-.015.135-.015.189 0 .38.005.57.008 1.437.034 2.871.113 4.304.246 1.387.119 2.77.3 4.145.524l.135.016c.04 0 .052 0 .09.014.062.016.112.046.165.076.046.029.09.074.125.119.091.135.135.301.105.465-.015.061-.031.105-.061.166-.03.045-.074.104-.12.135-.074.074-.165.119-.271.149h-.135l.004.082zm-15.67-.509c-.09 0-.181-.021-.271-.063-.194-.095-.314-.293-.329-.505 0-.057.015-.111.03-.165.014-.068.045-.133.09-.19.045-.065.104-.12.164-.162.077-.05.167-.076.241-.092l.48-.044c.659-.058 1.305-.105 1.949-.144h.06c.105.004.195.024.271.071.194.103.314.305.314.519 0 .055-.015.109-.029.161-.016.067-.045.132-.091.189-.044.075-.104.12-.165.165-.074.045-.15.074-.24.09-.104.015-.209.015-.314.03-.136.015-.286.015-.436.031l-1.168.088-.285.031c-.061.015-.122.015-.196.015l-.075-.025zm15.655-2.201l-.091-.01-.554-.1c-1.395-.234-2.805-.425-4.214-.564-1.395-.138-2.804-.225-4.214-.271h-.045l-.09-.018c-.061-.015-.105-.038-.165-.071-.045-.03-.091-.072-.135-.121-.12-.138-.165-.33-.12-.506.016-.061.045-.12.074-.18.031-.061.076-.105.121-.15.074-.076.18-.121.285-.15.045-.015.089-.015.135-.015l.584.015c1.395.061 2.774.15 4.154.301 1.439.148 2.864.359 4.288.6l.15.014c.046 0 .061 0 .09.016.06.015.12.045.165.074.135.105.225.256.239.421.016.06 0 .12-.015.181 0 .059-.029.119-.059.164-.031.045-.062.09-.105.135-.076.076-.181.12-.286.135l-.086.014h-.046l-.06.086zM4.022 3.199c-.086 0-.171-.019-.25-.056-.07-.033-.134-.079-.187-.137-.045-.053-.086-.112-.111-.181-.02-.049-.034-.101-.039-.156-.022-.214.078-.427.255-.546.078-.054.167-.086.26-.099.158-.014.314-.014.473-.029.65-.045 1.301-.075 1.949-.105h.048c.091.016.181.03.256.075.179.105.3.315.3.524 0 .061-.016.121-.03.166-.03.074-.06.135-.104.195-.047.06-.107.12-.182.15-.075.045-.165.075-.255.075-.104.014-.21.014-.33.014l-.449.031c-.405.029-.795.045-1.186.074l-.3.016c-.075.015-.134.015-.194.015l.076-.026z"
+                />
+              </svg>
+            </a>
 
             <a
               class="link"
@@ -260,8 +271,10 @@
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
           <a id="content"></a>
-          
-          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center">
+
+          <p
+            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center"
+          >
             I love working with clients throughout the longevity of a project,
             from initial conversations to delivery and further. They're part of
             the team that ultimately delivers great creative projects to help
@@ -276,6 +289,7 @@
                 href="https://www.nextbase.com/en-gb"
                 target="_blank"
                 rel="noopener"
+                title="Nextbase"
               >
                 <g-image
                   alt="Nextbase"
@@ -295,6 +309,7 @@
                 href="https://www.occstrategy.com/en/"
                 target="_blank"
                 rel="noopener"
+                title="OCC Strategy"
               >
                 <g-image
                   alt="OCC Strategy"
@@ -314,6 +329,7 @@
                 href="https://www.sunbites.co.uk"
                 target="_blank"
                 rel="noopener"
+                title="Sunbites"
               >
                 <g-image
                   alt="Sunbites"
@@ -335,6 +351,7 @@
                 href="https://www.wrighthassall.co.uk"
                 target="_blank"
                 rel="noopener"
+                title="Wright Hassall"
               >
                 <g-image
                   alt="Wright Hassall"
@@ -350,7 +367,8 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.hrp.org.uk" target="_blank" rel="noopener">
+              <a href="https://www.hrp.org.uk" target="_blank" rel="noopener"
+              title="Historic Royal Palaces">
                 <g-image
                   alt="Historic Royal Palaces"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -365,7 +383,7 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
-              <a href="https://www.isio.com" target="_blank" rel="noopener">
+              <a href="https://www.isio.com" target="_blank" rel="noopener" title="Isio">
                 <g-image
                   alt="Isio"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -387,6 +405,7 @@
                 href="https://www.skyoceanrescue.com"
                 target="_blank"
                 rel="noopener"
+                title="Sky Ocean Rescue"
               >
                 <g-image
                   alt="Sky Ocean Rescue"
@@ -402,7 +421,8 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.addict.co.uk" target="_blank" rel="noopener">
+              <a href="https://www.addict.co.uk" target="_blank" rel="noopener"
+              title="Addict">
                 <g-image
                   alt="Addict"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -421,9 +441,10 @@
                 href="https://www.shreksadventure.com"
                 target="_blank"
                 rel="noopener"
+                title="Shrek's Adventure"
               >
                 <g-image
-                  alt="Shreks Adventure"
+                  alt="Shrek's Adventure"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
                   src="~/assets/images/shrek.png"
                   fit="cover"
@@ -442,6 +463,7 @@
                 href="https://www.merlinsmagicallondon.com"
                 target="_blank"
                 rel="noopener"
+                title="Merlin's Magical London"
               >
                 <g-image
                   alt="Merlin's Magical London"
@@ -458,12 +480,11 @@
             </div>
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
-
-
-            <a
+              <a
                 href="http://www.tntmagazine.com/uk"
                 target="_blank"
                 rel="noopener"
+                title="TNT Magazine"
               >
                 <g-image
                   alt="TNT Magazine"
@@ -476,16 +497,17 @@
                   immediate="false"
                   quality="60"
                 />
-            </a>
+              </a>
             </div>
             <div class="md:p-2 p-1 w-full">
               <a
                 rel="noopener"
                 href="https://web.archive.org/web/20140929202405/http://makeithappen.post-it.co.uk/"
                 target="_blank"
+                title="3M: Make It Happen"
               >
                 <g-image
-                  alt="3m Make It Happen"
+                  alt="3M: Make It Happen"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
                   src="~/assets/images/makeithappen.png"
                   fit="cover"
@@ -504,6 +526,7 @@
                 href="https://www.madametussauds.com"
                 target="_blank"
                 rel="noopener"
+                title="Madame Tussauds"
               >
                 <g-image
                   alt="Madame Tussauds"
@@ -519,7 +542,8 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.egress.com" target="_blank" rel="noopener">
+              <a href="https://www.egress.com" target="_blank" rel="noopener"
+              title="Egress">
                 <g-image
                   alt="Egress"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -538,6 +562,7 @@
                 href="https://secure.railcard.co.uk/"
                 target="_blank"
                 rel="noopener"
+                title="Rail Delivery Group"
               >
                 <g-image
                   alt="Rail Delivery Group"
@@ -559,6 +584,7 @@
                 href="https://crimestoppers-uk.org/"
                 target="_blank"
                 rel="noopener"
+                title="Crimestoppers"
               >
                 <g-image
                   alt="Crimestoppers"
@@ -579,6 +605,7 @@
                 href="https://afaeducation.org/"
                 target="_blank"
                 rel="noopener"
+                 title="Achievement For All"
               >
                 <g-image
                   alt="Achievement For All"
@@ -594,7 +621,8 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
-              <a href="http://www.londoneye.com" target="_blank" rel="noopener">
+              <a href="http://www.londoneye.com" target="_blank" rel="noopener"
+              title="London Eye">
                 <g-image
                   alt="London Eye"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -615,6 +643,7 @@
                 href="https://www.nakedjuice.co.uk"
                 target="_blank"
                 rel="noopener"
+                title="Naked Juice"
               >
                 <g-image
                   alt="Naked Juice"
@@ -630,9 +659,11 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.spar.co.uk" target="_blank" rel="noopener">
+              <a href="https://www.spar.co.uk" target="_blank" rel="noopener"
+              title="SPAR"
+              >
                 <g-image
-                  alt="Spar"
+                  alt="SPAR"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
                   src="~/assets/images/spar.png"
                   fit="cover"
@@ -649,6 +680,7 @@
                 href="https://www.godolphin.com"
                 target="_blank"
                 rel="noopener"
+                title="Godolphin"
               >
                 <g-image
                   alt="Godolphin"
@@ -666,22 +698,23 @@
           </div>
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
-            <a
-                    rel="noopener"
-                    href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
-                    target="_blank"                   
-                    >
-              <g-image
-                alt="eFooters"
-                class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                src="~/assets/images/efooters.png"
-                fit="cover"
-                width="500"
-                height="300"
-                position="left top"
-                immediate="false"
-                quality="60"
-              />
+              <a
+                rel="noopener"
+                href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
+                target="_blank"
+                title="eFooters"
+              >
+                <g-image
+                  alt="eFooters"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/efooters.png"
+                  fit="cover"
+                  width="500"
+                  height="300"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
               </a>
             </div>
 
@@ -690,6 +723,7 @@
                 href="https://www.taylorroot.com"
                 target="_blank"
                 rel="noopener"
+                title="Taylor Root"
               >
                 <g-image
                   alt="Taylor Root"
@@ -709,6 +743,7 @@
                 href="http://www.littlefreddie.com"
                 target="_blank"
                 rel="noopener"
+                title="Little Freddie"
               >
                 <g-image
                   alt="littlefreddie"
@@ -725,18 +760,10 @@
             </div>
           </div>
 
-
-
-
-
-
-  <div class="flex flex-wrap w-full md:w-1/2">
+          <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full">
-              <a
-                href="https://www.port.ac.uk/"
-                target="_blank"
-                rel="noopener"
-              >
+              <a href="https://www.port.ac.uk/" target="_blank" rel="noopener"
+              title="University of Portsmouth">
                 <g-image
                   alt="University of Portsmouth"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -751,7 +778,12 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a href="https://www.srgtalent.com" target="_blank" rel="noopener">
+              <a
+                href="https://www.srgtalent.com"
+                target="_blank"
+                rel="noopener"
+                title="SRG"
+              >
                 <g-image
                   alt="srg"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -766,8 +798,12 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
-            <a href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/" target="_blank" rel="noopener">
-              
+              <a
+                href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/"
+                target="_blank"
+                rel="noopener"
+                title="Get Me Pleasure"
+              >
                 <g-image
                   alt="Get Me Pleasure"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -784,31 +820,30 @@
           </div>
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
-           <a
+              <a
                 href="https://www.snowandrock.com"
                 target="_blank"
                 rel="noopener"
+                title="Snow+Rock"
               >
-              <g-image
-                alt="snow+rock"
-                class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                src="~/assets/images/snowandrock.png"
-                fit="cover"
-                width="500"
-                height="300"
-                position="left top"
-                immediate="false"
-                quality="60"
-              />
+                <g-image
+                  alt="Snow+Rock"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/snowandrock.png"
+                  fit="cover"
+                  width="500"
+                  height="300"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
               </a>
             </div>
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a
-                href="https://www.ibm.com"
-                target="_blank"
-                rel="noopener"
-              >
+              <a href="https://www.ibm.com" target="_blank" rel="noopener"
+               title="IBM PC Europe">
+
                 <g-image
                   alt="IBM PC Europe"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -823,10 +858,11 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
-               <a
+              <a
                 href="https://www.visitsealife.com"
                 target="_blank"
                 rel="noopener"
+                title="Sea Life"
               >
                 <g-image
                   alt="Sea Life"
@@ -842,8 +878,6 @@
               </a>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
@@ -2187,20 +2221,26 @@
                     >West Country Fires</a
                   >
                 </li>
-                <li><a
+                <li>
+                  <a
                     rel="noopener"
                     href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
                     target="_blank"
                     title="eFooters"
                     class="text-white inline-flex items-center"
-                    >eFooters</a></li>
-                <li><a
+                    >eFooters</a
+                  >
+                </li>
+                <li>
+                  <a
                     rel="noopener"
                     href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/"
                     target="_blank"
                     title="Get Me Pleasure"
                     class="text-white inline-flex items-center"
-                    >Get Me Pleasure</a></li>
+                    >Get Me Pleasure</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -2215,18 +2255,20 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
-              <g-image
-                alt="TNT Magazine"
-                class="object-cover rounded-lg lg:rounded-l-lg flex"
-                src="~/assets/images/tnt.png"
-                fit="contain"
-                width="100"
-                height="100"
-                background="#0a465e"
-                position="center"
-                immediate="false"
-                quality="100"
-              />
+              <a href="https://tntmagazine.com/" target="_blank" rel="noopener">
+                <g-image
+                  alt="TNT Magazine"
+                  class="object-cover rounded-lg lg:rounded-l-lg flex"
+                  src="~/assets/images/tnt.png"
+                  fit="contain"
+                  width="100"
+                  height="100"
+                  background="#0a465e"
+                  position="center"
+                  immediate="false"
+                  quality="100"
+                />
+              </a>
             </div>
             <div
               class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"

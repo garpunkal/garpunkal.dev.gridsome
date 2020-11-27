@@ -14,7 +14,9 @@ module.exports = {
         debug: false
       }
     },
-
+    {
+      use: '@gridsome/plugin-sitemap'     
+    }
   ],
   css: {
     loaderOptions: {
@@ -26,4 +28,5 @@ module.exports = {
   chainWebpack: config => {
     config.resolve.alias.set('@images', '@/assets/images')
   },
+  
 }
