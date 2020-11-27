@@ -1,6 +1,5 @@
 <template>
-  <Layout>
-    <a id="top"></a>
+  <Layout>    
     <div
       class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto my-20 md:my-12 lg:my-18"
     >
@@ -261,12 +260,8 @@
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
           <a id="content"></a>
-          <h1
-            class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4"
-          >
-            Projects
-          </h1>
-          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+          
+          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center">
             I love working with clients throughout the longevity of a project,
             from initial conversations to delivery and further. They're part of
             the team that ultimately delivers great creative projects to help
@@ -463,23 +458,25 @@
             </div>
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
-              <a
-                href="https://www.visitsealife.com"
+
+
+            <a
+                href="http://www.tntmagazine.com/uk"
                 target="_blank"
                 rel="noopener"
               >
                 <g-image
-                  alt="Sea Life"
+                  alt="TNT Magazine"
                   class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
-                  src="~/assets/images/sealife.png"
+                  src="~/assets/images/tnt_site.png"
                   fit="cover"
                   width="501"
                   height="301"
-                  position="left top"
+                  position="top"
                   immediate="false"
                   quality="60"
                 />
-              </a>
+            </a>
             </div>
             <div class="md:p-2 p-1 w-full">
               <a
@@ -721,6 +718,125 @@
               </a>
             </div>
           </div>
+
+
+
+
+
+
+  <div class="flex flex-wrap w-full md:w-1/2">
+            <div class="md:p-2 p-1 w-full">
+              <a
+                href="https://www.uop.co.uk"
+                target="_blank"
+                rel="noopener"
+              >
+                <g-image
+                  alt="University of Portsmouth"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/uop.png"
+                  fit="cover"
+                  width="502"
+                  height="302"
+                  position="top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              <a href="https://www.srgtalent.com" target="_blank" rel="noopener">
+                <g-image
+                  alt="srg"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/srg.png"
+                  fit="cover"
+                  width="502"
+                  height="302"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              
+                <g-image
+                  alt="Get Me Pleasure"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/gmp.png"
+                  fit="cover"
+                  width="503"
+                  height="303"
+                  position="top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-wrap w-full md:w-1/2">
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+           <a
+                href="https://www.snowandrock.com"
+                target="_blank"
+                rel="noopener"
+              >
+              <g-image
+                alt="snow+rock"
+                class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                src="~/assets/images/snowandrock.png"
+                fit="cover"
+                width="500"
+                height="300"
+                position="left top"
+                immediate="false"
+                quality="60"
+              />
+              </a>
+            </div>
+
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              <a
+                href="https://www.ibm.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <g-image
+                  alt="IBM PC Europe"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/ibm_site.png"
+                  fit="cover"
+                  width="501"
+                  height="301"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+            <div class="md:p-2 p-1 w-full">
+               <a
+                href="https://www.visitsealife.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <g-image
+                  alt="Sea Life"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/sealife.png"
+                  fit="cover"
+                  width="600"
+                  height="360"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
@@ -2391,7 +2507,6 @@ export default {
     document.querySelectorAll('a[href^="#content"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
-
         document.querySelector(this.getAttribute("href")).scrollIntoView({
           behavior: "smooth",
         });
@@ -2401,10 +2516,7 @@ export default {
     document.querySelectorAll('a[href^="#top"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
-
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-          behavior: "smooth",
-        });
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
       });
     });
   },
