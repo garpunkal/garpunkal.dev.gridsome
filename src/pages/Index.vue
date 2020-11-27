@@ -16,7 +16,7 @@ import Projects from "@/components/projects.vue";
 import Profile from "@/components/profile.vue";
 
 export default {
-  name: "Home",
+  name: "Index",
   metaInfo: {
     title: "Gareth Wright - Development Manager - C# .net MVC Developer",
   },

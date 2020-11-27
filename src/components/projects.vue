@@ -649,6 +649,6 @@
 
 <script>
 export default {
-    name: 'projects'
+    name: 'Projects'
 }
 </script>

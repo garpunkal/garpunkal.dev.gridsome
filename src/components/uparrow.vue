@@ -17,6 +17,6 @@
 </template>
 <script>
 export default {
-  name: "uparrow",
+  name: "UpArrow",
 };
 </script>

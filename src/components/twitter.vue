@@ -15,6 +15,6 @@
 </template>
 <script>
 export default {
-    name: 'twitter'
+    name: 'Twitter'
 }
 </script>

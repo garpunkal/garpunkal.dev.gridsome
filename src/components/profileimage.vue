@@ -12,6 +12,6 @@
 </template>
 <script>
 export default {
-    name: 'profileimage'
+    name: 'ProfileImage'
 }
 </script>

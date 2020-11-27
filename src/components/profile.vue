@@ -87,7 +87,7 @@ import ProfileImage from "@/components/profileimage.vue";
 import ProfileImageSmall from "@/components/profileimagesmall.vue";
 
 export default {
-  name: "profile",
+  name: "Profile",
   components: {
     SocialLinks,
     DownArrow,

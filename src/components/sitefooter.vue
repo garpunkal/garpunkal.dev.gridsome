@@ -12,7 +12,7 @@
 import UpArrow from "@/components/uparrow.vue";
 
 export default {
-  name: "sitefooter",
+  name: "SiteFooter",
   components: {
     UpArrow,
   },

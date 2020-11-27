@@ -150,6 +150,6 @@
 </template>
 <script>
 export default {
-  name: "social",
+  name: "SocialLinks",
 };
 </script>
