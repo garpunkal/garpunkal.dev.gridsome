@@ -757,9 +757,9 @@
                   alt="Carbon Six Digital"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
                   src="~/assets/images/carbonsixdigital.png"
-                    fit="contain"
-                width="220"
-                height="90"
+                  fit="contain"
+                  width="100"
+                  height="100"
                   background="#ffffff"
                   position="top"
                   immediate="false"
@@ -805,26 +805,50 @@
               </p>
 
               <ul class="list-outside list-disc font-smaller text-sm pl-5">
+                <li>Team management &amp; project development.</li>
+                <li>C# .net MVC development, .net framework and .net core.</li>
+                <li>
+                  Project delivery using DevOps with Build and Release
+                  pipelines.
+                </li>
+                <li>Azure functions and logic apps development.</li>
+                <li>Umbraco 8 with Models-builder.</li>
+                <li>
+                  Utilising Vendr for Umbraco to produce an ecommerce site,
+                  including contributions.
+                </li>
+                <li>
+                  Integration of Shopify, including building a JavaScript
+                  shopping cart.
+                </li>
+                <li>
+                  Integration of MailChimp / SendInBlue for newsletter
+                  subscriptions.
+                </li>
+                <li>Using MaxMind / IPStack for geo location services.</li>
+                <li>
+                  Building a bespoke personalisation engine for Umbraco based on
+                  user's behaviour.
+                </li>
+                <li>nPoco code-first data layer solutions.</li>
+                <li>
+                  Hosting utilising Amazon Web Services, Umbraco Cloud and
+                  Azure.
+                </li>
+                <li>
+                  Azure hosting service management and integration:
+                  <ul class="list-outside list-disc font-smaller text-sm pl-5">
+                    <li>
+                      Virtual Machines, Traffic Manager, App services, SQL
+                      servers, Azure CDN, Blob Storage.
+                    </li>
+                  </ul>
+                </li>
 
-<li>Team management &amp; project development. </li>
-<li>C# .net MVC development, .net framework and .net core.</li>
-<li>Project delivery using DevOps with Build and Release pipelines.</li>
-<li>Azure functions and logic apps development.</li>
-<li>Umbraco 8 with Models-builder.</li>
-<li>Utilising Vendr for Umbraco to produce an ecommerce site, including contributions. </li>
-<li>Integration of Shopify, including building a JavaScript shopping cart. </li>
-<li>Integration of MailChimp / SendInBlue for newsletter subscriptions. </li>
-<li>Using MaxMind / IPStack for geo location services. </li>
-<li>Building a bespoke personalisation engine for Umbraco based on user's behaviour.</li>
-<li>nPoco code-first data layer solutions.</li>
-<li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li>
-<li>Azure hosting service management and integration:
-   <ul class="list-outside list-disc font-smaller text-sm pl-5">
-<li>Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.</li></ul>
-<li>JavaScript / JQuery / Node / Yarn / NPM / Gulp.</li>
-<li>HTML / SCSS / TailwindCSS / Nunjucks / Vue.js experience.</li>
-
-               
+                <li>JavaScript / JQuery / Node / Yarn / NPM / Gulp.</li>
+                <li>
+                  HTML / SCSS / TailwindCSS / Nunjucks / Vue.js experience.
+                </li>
               </ul>
             </div>
             <div class="sm:pl-6 mt-6 sm:mt-0">
@@ -926,10 +950,9 @@
                   alt="Jaywing"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
                   src="~/assets/images/jaywing.jpg"
-                    fit="contain"
-                width="220"
-                height="90"
-                 
+                  fit="contain"
+                  width="100"
+                  height="100"
                   position="top"
                   immediate="false"
                   quality="60"
@@ -974,18 +997,26 @@
               </p>
 
               <ul class="list-outside list-disc font-smaller text-sm pl-5">
-<li>C# .net MVC development.</li>
-<li>.net core experience.</li>
-<li>Experience with Umbraco, Sitecore and Sitefinity.</li>
-<li>UmbracoCMS Contributor.</li>
-<li>Extending Umbraco by creating C# and AngularJS packages.</li>
-<li>Sitecore 9 experience.</li>
-<li>Creating NuGet packages for internal &amp; external use. </li>
-<li>Test Driven Development with MS Test projects.</li>
-<li>Utilising nPoco and Entity Framework.</li>
-<li>Working with IdentityServer to connect WebAPI to mobile applications. </li>
-<li>Integration with Amazon S3 Buckets and Azure Blob Storage</li>
-
+                <li>C# .net MVC development.</li>
+                <li>.net core experience.</li>
+                <li>Experience with Umbraco, Sitecore and Sitefinity.</li>
+                <li>UmbracoCMS Contributor.</li>
+                <li>
+                  Extending Umbraco by creating C# and AngularJS packages.
+                </li>
+                <li>Sitecore 9 experience.</li>
+                <li>
+                  Creating NuGet packages for internal &amp; external use.
+                </li>
+                <li>Test Driven Development with MS Test projects.</li>
+                <li>Utilising nPoco and Entity Framework.</li>
+                <li>
+                  Working with IdentityServer to connect WebAPI to mobile
+                  applications.
+                </li>
+                <li>
+                  Integration with Amazon S3 Buckets and Azure Blob Storage
+                </li>
               </ul>
             </div>
             <div class="sm:pl-6 mt-6 sm:mt-0">
@@ -1075,9 +1106,9 @@
                   alt="Jaywing"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
                   src="~/assets/images/jaywing.jpg"
-                 fit="contain"
-                width="220"
-                height="90"
+                  fit="contain"
+                  width="100"
+                  height="100"
                   position="top"
                   immediate="false"
                   quality="60"
@@ -1388,9 +1419,8 @@
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
                   src="~/assets/images/jaywing.jpg"
                   fit="contain"
-                width="220"
-                height="90"
-                  
+                  width="100"
+                  height="100"
                   position="top"
                   immediate="false"
                   quality="60"
@@ -1676,10 +1706,8 @@
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
                   src="~/assets/images/jaywing.jpg"
                   fit="contain"
-                width="220"
-                height="90"
-                  
-                  
+                  width="100"
+                  height="100"
                   position="top"
                   immediate="false"
                   quality="60"
@@ -1835,11 +1863,11 @@
                 alt="Guava"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
                 src="~/assets/images/guava.png"
-             fit="contain"
-                width="220"
-                height="90"
+                fit="contain"
+                width="100"
+                height="100"
                 background="#88d52f"
-                position="top"
+                position="center"
                 immediate="false"
                 quality="60"
               />
@@ -1947,10 +1975,10 @@
                 alt="MAD Productions"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
                 src="~/assets/images/mad.png"
-           fit="contain"
-                width="220"
-                height="90"
-                 background="#ffffff"
+                fit="contain"
+                width="100"
+                height="100"
+                background="#ffffff"
                 position="top"
                 immediate="false"
                 quality="60"
@@ -2055,14 +2083,14 @@
               <g-image
                 alt="TNT Magazine"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
-                src="~/assets/images/tnt.jpg"
-               fit="contain"
-                width="220"
-                height="90"
-                background="#e20610"
-                position="top"
+                src="~/assets/images/tnt.png"
+                fit="contain"
+                width="100"
+                height="100"
+                background="#0a465e"
+                position="center"
                 immediate="false"
-                quality="60"
+                quality="100"
               />
             </div>
             <div
@@ -2151,10 +2179,10 @@
                 alt="IBM"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
                 src="~/assets/images/ibm.png"
-  fit="contain"
-                  width="220"
-                height="90"
-                background="#ffffff"
+                fit="contain"
+                width="100"
+                height="100"
+                background="#000000"
                 position="top"
                 immediate="false"
                 quality="60"
@@ -2248,10 +2276,10 @@
                 alt="IBM"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
                 src="~/assets/images/ibm.png"
-                 fit="contain"
-                width="220"
-                height="90"
-                  background="#ffffff"
+                fit="contain"
+                width="100"
+                height="100"
+                background="#000000"
                 position="top"
                 immediate="false"
                 quality="60"
@@ -2331,16 +2359,16 @@
         <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-0 mb-5">
           <a href="#top">
             <svg
-            class="animate-bounce w-6 h-6"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            stroke="white"
-          >
-            <path d="M12 19V5M5 12l7-7 7 7"></path>
-          </svg>
+              class="animate-bounce w-6 h-6"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="white"
+            >
+              <path d="M12 19V5M5 12l7-7 7 7"></path>
+            </svg>
           </a>
         </div>
 
