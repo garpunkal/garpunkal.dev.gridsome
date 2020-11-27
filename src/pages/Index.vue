@@ -481,7 +481,7 @@
             <div class="md:p-2 p-1 w-full">
               <a
                 rel="noopener"
-                href="https://www.3m.co.uk/3M/en_GB/post-it-notes/"
+                href="https://web.archive.org/web/20140929202405/http://makeithappen.post-it.co.uk/"
                 target="_blank"
               >
                 <g-image
@@ -666,6 +666,11 @@
           </div>
           <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full md:w-1/2">
+            <a
+                    rel="noopener"
+                    href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
+                    target="_blank"                   
+                    >
               <g-image
                 alt="eFooters"
                 class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
@@ -677,6 +682,7 @@
                 immediate="false"
                 quality="60"
               />
+              </a>
             </div>
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
@@ -727,7 +733,7 @@
   <div class="flex flex-wrap w-full md:w-1/2">
             <div class="md:p-2 p-1 w-full">
               <a
-                href="https://www.uop.co.uk"
+                href="https://www.port.ac.uk/"
                 target="_blank"
                 rel="noopener"
               >
@@ -760,6 +766,7 @@
               </a>
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
+            <a href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/" target="_blank" rel="noopener">
               
                 <g-image
                   alt="Get Me Pleasure"
@@ -1767,9 +1774,9 @@
                     <li>
                       <a
                         rel="noopener"
-                        href="https://www.3m.co.uk/3M/en_GB/post-it-notes/"
+                        href="https://web.archive.org/web/20140929202405/http://makeithappen.post-it.co.uk/"
                         target="_blank"
-                        title="Post-It"
+                        title="Post-It: Make It Happen"
                         class="text-white inline-flex items-center"
                         >Post-It Make It Happen</a
                       >
@@ -2180,8 +2187,20 @@
                     >West Country Fires</a
                   >
                 </li>
-                <li>eFooters</li>
-                <li>Get Me Pleasure</li>
+                <li><a
+                    rel="noopener"
+                    href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
+                    target="_blank"
+                    title="eFooters"
+                    class="text-white inline-flex items-center"
+                    >eFooters</a></li>
+                <li><a
+                    rel="noopener"
+                    href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/"
+                    target="_blank"
+                    title="Get Me Pleasure"
+                    class="text-white inline-flex items-center"
+                    >Get Me Pleasure</a></li>
               </ul>
             </div>
           </div>
