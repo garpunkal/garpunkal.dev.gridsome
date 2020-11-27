@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div
-      class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto my-20 md:my-12 lg:my-18"
+      class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-20 mb-10 md:my-12 lg:my-18"
     >
       <div
         id="profile"
@@ -250,7 +250,7 @@
         />
       </div>
 
-      <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-10 xl:pt-0">
+      <div class="flex justify-center w-full pt-10 md:pt-10 lg:pt-10 xl:pt-0">
         <a href="#content">
           <svg
             class="animate-bounce w-6 h-6"
@@ -2532,8 +2532,8 @@
     </section>
 
     <footer class="text-white body-font">
-      <div class="container px-10 py-10 mx-auto flex flex-wrap">
-        <div class="flex justify-center w-full pt-20 md:pt-10 lg:pt-0 mb-5">
+      <div class="container px-10 py-5 mx-auto flex flex-wrap">
+        <div class="flex justify-center w-full pt-10 md:pt-10 lg:pt-0 mb-5">
           <a href="#top">
             <svg
               class="animate-bounce w-6 h-6"
