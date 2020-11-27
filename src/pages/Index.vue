@@ -909,6 +909,7 @@
                 href="https://carbonsix.digital"
                 target="_blank"
                 rel="noopener"
+                title="Carbon Six Digital"
               >
                 <g-image
                   alt="Carbon Six Digital"
@@ -1102,7 +1103,7 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
-              <a href="https://jaywing.com" target="_blank" rel="noopener">
+              <a href="https://jaywing.com" target="_blank" rel="noopener" title="Jaywing">
                 <g-image
                   alt="Jaywing"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -1112,7 +1113,7 @@
                   height="100"
                   position="top"
                   immediate="false"
-                  quality="60"
+                  quality="60"                  
                 />
               </a>
             </div>
@@ -1258,7 +1259,7 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
-              <a href="https://jaywing.com" target="_blank" rel="noopener">
+              <a href="https://jaywing.com" target="_blank" rel="noopener" title="Jaywing">
                 <g-image
                   alt="Jaywing"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -1570,7 +1571,7 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
-              <a href="https://jaywing.com" target="_blank" rel="noopener">
+              <a href="https://jaywing.com" target="_blank" rel="noopener" title="Jaywing">
                 <g-image
                   alt="Jaywing"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -1857,7 +1858,7 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
-              <a href="https://jaywing.com" target="_blank" rel="noopener">
+              <a href="https://jaywing.com" target="_blank" rel="noopener" title="Jaywing">
                 <g-image
                   alt="Jaywing"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -2255,7 +2256,7 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
-              <a href="https://tntmagazine.com/" target="_blank" rel="noopener">
+              <a href="https://tntmagazine.com/" target="_blank" rel="noopener" title="TNT Magazine">
                 <g-image
                   alt="TNT Magazine"
                   class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -2352,6 +2353,10 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
+               <a
+                  href="https://www.ibm.com/"
+                  target="_blank"
+                  rel="noopener" title="IBM">
               <g-image
                 alt="IBM"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -2364,6 +2369,7 @@
                 immediate="false"
                 quality="60"
               />
+               </a>
             </div>
             <div
               class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
@@ -2449,6 +2455,10 @@
             <div
               class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
             >
+              <a
+                  href="https://www.ibm.com/"
+                  target="_blank"
+                  rel="noopener" title="IBM">
               <g-image
                 alt="IBM"
                 class="object-cover rounded-lg lg:rounded-l-lg flex"
@@ -2461,6 +2471,7 @@
                 immediate="false"
                 quality="60"
               />
+              </a>
             </div>
             <div
               class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
