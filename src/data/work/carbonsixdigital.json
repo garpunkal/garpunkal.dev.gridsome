@@ -1,0 +1,59 @@
+{
+    "items": [{
+        "id": 1,
+        "name": "Carbon Six Digital",
+        "location": "Remote Working",
+        "logo": "carbon.png",
+        "job": "Development Manager",
+        "url": "https://carbonsix.digital",
+        "from": "dec 2019",
+        "to": "current",
+        "description": ["Team management & project development.",
+            "C# .net MVC development, .net framework and .net core.",
+            "Project delivery using DevOps with Build and Release pipelines.",
+            "Azure functions and logic apps development.",
+            "Umbraco 8 with Models-builder.",
+            "Utilising Vendr for Umbraco to produce an ecommerce site, including contributions.",
+            "Integration of Shopify, including building a JavaScript shopping cart.",
+            "Integration of MailChimp / SendInBlue for newsletter subscriptions.",
+            "Using MaxMind / IPStack for geo location services.",
+            "Building a bespoke personalisation engine for Umbraco based on user's behaviour.",
+            "nPoco code-first data layer solutions.",
+            "Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.",
+            "Azure hosting service management and integration:",
+            " - Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.",
+            "JavaScript / JQuery / Node / Yarn / NPM / Gulp.",
+            "HTML / SCSS / TailwindCSS / Nunjucks / Vue.js experience."
+        ],
+        "projects": [{
+                "name": "Nextbase",
+                "url": "https://www.nextbase.com/"
+            },
+            {
+                "name": "Egress",
+                "url": "https://www.egress.com/"
+            },
+            {
+                "name": "Wright Hassall",
+                "url": "https://www.wrighthassall.co.uk/"
+            },
+            {
+                "name": "Little Freddie",
+                "url": "https://littlefreddie.com/"
+            }
+        ],
+        "contributions": [{
+                "name": "Personalisation",
+                "url": "https://github.com/CarbonSixDigital/Personalisation"
+            },
+            {
+                "name": "Vendr Checkout",
+                "url": "https://github.com/vendrhub/vendr-checkout"
+            },
+            {
+                "name": "Umbraco",
+                "url": "https://github.com/umbraco/Umbraco-CMS"
+            }
+        ]
+    }]
+}
