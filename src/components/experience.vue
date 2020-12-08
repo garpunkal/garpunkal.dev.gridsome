@@ -133,6 +133,16 @@
                 <li>
                   <a
                     rel="noopener"
+                    href="https://www.shareregistrars.uk.com/"
+                    target="_blank"
+                    title="Share Registrars"
+                    class="text-white inline-flex items-center"
+                    >Share Registrars</a
+                  >
+                </li>
+                <li>
+                  <a
+                    rel="noopener"
                     href="https://www.egress.com/"
                     target="_blank"
                     title="Egress"
@@ -486,7 +496,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="https://www.sunbites.com/"
+                    href="https://sunbites.co.uk/"
                     target="_blank"
                     class="text-white inline-flex items-center"
                     >Sunbites</a
@@ -546,13 +556,7 @@
                       >
                     </li>
                     <li>
-                      <a
-                        rel="noopener"
-                        href="https://www.skyacademy.com/"
-                        target="_blank"
-                        class="text-white inline-flex items-center"
-                        >Sky Academy</a
-                      >
+                      Sky Academy
                     </li>
                   </ul>
                 </li>
@@ -561,15 +565,18 @@
                   <ul class="list-outside list-disc font-smaller text-xs pl-5">
                     <li>Pepsi Max Football</li>
                     <li>
+                     Doritos Dust
+                      
+                    </li>
+                    <li>
                       <a
                         rel="noopener"
-                        href="https://win.doritos.co.uk/"
+                        href="https://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
                         target="_blank"
                         class="text-white inline-flex items-center"
-                        >Doritos Dust</a
-                      >
+                        > Perfect Match</a
+                      >                      
                     </li>
-                    <li>Perfect Match</li>
                     <li>
                       <a
                         rel="noopener"
@@ -591,7 +598,15 @@
                     >Achievement For All</a
                   >
                 </li>
-                <li>Snell Advanced Media</li>
+                <li>
+                  <a
+                    rel="noopener"
+                    href="https://web.archive.org/web/20151102090054/https://s-a-m.com/"
+                    target="_blank"
+                    class="text-white inline-flex items-center"
+                    > Snell Advanced Media</a
+                  >                 
+                 </li>
                 <li>
                   <a
                     rel="noopener"
@@ -653,15 +668,7 @@
                     >UmbracoProtectedTrueFalse</a
                   >
                 </li>
-                <li>
-                  <a
-                    rel="noopener"
-                    href="https://github.com/Jaywing/UmbracoSetup"
-                    target="_blank"
-                    class="text-white inline-flex items-center"
-                    >UmbracoSetup</a
-                  >
-                </li>
+               
               </ul>
             </div>
           </div>
@@ -833,7 +840,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="http://www.thesrgroup.com"
+                    href="https://www.thesrgroup.com"
                     target="_blank"
                     title="SR Group"
                     class="text-white inline-flex items-center"
@@ -843,7 +850,7 @@
                     <li>
                       <a
                         rel="noopener"
-                        href="http://www.taylorroot.com"
+                        href="https://www.taylorroot.com"
                         target="_blank"
                         title="Taylor Root"
                         class="text-white inline-flex items-center"
@@ -853,7 +860,7 @@
                     <li>
                       <a
                         rel="noopener"
-                        href="http://www.brewermorris.com"
+                        href="https://www.brewermorris.com"
                         target="_blank"
                         title="Brewer Morris"
                         class="text-white inline-flex items-center"
@@ -863,7 +870,7 @@
                     <li>
                       <a
                         rel="noopener"
-                        href="http://www.frazerjones.com"
+                        href="https://www.frazerjones.com"
                         target="_blank"
                         title="Frazer Jones"
                         class="text-white inline-flex items-center"
@@ -914,7 +921,7 @@
                     <li>
                       <a
                         rel="noopener"
-                        href="https://web.archive.org/web/20140929202405/http://makeithappen.post-it.co.uk/"
+                        href="https://web.archive.org/web/20140929202405/https://makeithappen.post-it.co.uk/"
                         target="_blank"
                         title="Post-It: Make It Happen"
                         class="text-white inline-flex items-center"
@@ -926,7 +933,14 @@
                 <li>
                   Merlin Entertainments
                   <ul class="list-outside list-disc font-smaller text-xs pl-5">
-                    <li>Orlando Eye</li>
+                    <li> <a
+                        rel="noopener"
+                        href="https://web.archive.org/web/20150205235636/https://www.officialorlandoeye.com/"
+                        target="_blank"
+                        title="The Orlando Eye"
+                        class="text-white inline-flex items-center"
+                        >The Orlando Eye</a
+                      ></li>
                     <li>
                       <a
                         rel="noopener"
@@ -1049,7 +1063,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="http://www.carlsberg.co.uk"
+                    href="https://www.carlsberg.co.uk"
                     target="_blank"
                     title="Carlsberg"
                     class="text-white inline-flex items-center"
@@ -1090,7 +1104,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="https://www.crosscountrytrains.co.uk"
+                    href="https://web.archive.org/web/20120630161828/https://www.crosscountrytrains.co.uk/"
                     target="_blank"
                     title="Cross Country Trains"
                     class="text-white inline-flex items-center"
@@ -1193,7 +1207,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="https://www.ramadajarvis.co.uk/"
+                    href="https://web.archive.org/web/20060831125923/https://www.ramadajarvis.co.uk/"
                     target="_blank"
                     title="Ramada Jarvis Hotels"
                     class="text-white inline-flex items-center"
@@ -1330,7 +1344,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
+                    href="https://web.archive.org/web/20060505124812/https://www.efooters.com/"
                     target="_blank"
                     title="eFooters"
                     class="text-white inline-flex items-center"
@@ -1340,7 +1354,7 @@
                 <li>
                   <a
                     rel="noopener"
-                    href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/"
+                    href="https://web.archive.org/web/20051026180849/https://www.getmepleasure.co.uk/"
                     target="_blank"
                     title="Get Me Pleasure"
                     class="text-white inline-flex items-center"

@@ -226,7 +226,7 @@
 
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a
-                href="http://www.tntmagazine.com/uk"
+                href="https://www.tntmagazine.com/uk"
                 target="_blank"
                 rel="noopener"
                 title="TNT Magazine"
@@ -247,7 +247,7 @@
             <div class="md:p-2 p-1 w-full">
               <a
                 rel="noopener"
-                href="https://web.archive.org/web/20140929202405/http://makeithappen.post-it.co.uk/"
+                href="https://web.archive.org/web/20140929202405/https://makeithappen.post-it.co.uk/"
                 target="_blank"
                 title="3M: Make It Happen"
               >
@@ -371,7 +371,7 @@
             </div>
             <div class="md:p-2 p-1 w-full">
               <a
-                href="http://www.londoneye.com"
+                href="https://www.londoneye.com"
                 target="_blank"
                 rel="noopener"
                 title="London Eye"
@@ -456,7 +456,7 @@
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a
                 rel="noopener"
-                href="https://web.archive.org/web/20060505124812/http://www.efooters.com/"
+                href="https://web.archive.org/web/20060505124812/https://www.efooters.com/"
                 target="_blank"
                 title="eFooters"
               >
@@ -496,7 +496,7 @@
             </div>
             <div class="md:p-2 p-1 w-full">
               <a
-                href="http://www.littlefreddie.com"
+                href="https://www.littlefreddie.com"
                 target="_blank"
                 rel="noopener"
                 title="Little Freddie"
@@ -559,7 +559,7 @@
             </div>
             <div class="md:p-2 p-1 w-full md:w-1/2">
               <a
-                href="https://web.archive.org/web/20051026180849/http://www.getmepleasure.co.uk/"
+                href="https://web.archive.org/web/20051026180849/https://www.getmepleasure.co.uk/"
                 target="_blank"
                 rel="noopener"
                 title="Get Me Pleasure"
@@ -641,6 +641,138 @@
               </a>
             </div>
           </div>
+
+
+
+
+
+ <div class="flex flex-wrap w-full md:w-1/2">
+            <div class="md:p-2 p-1 w-full">
+              <a
+                href="https://web.archive.org/web/20150205235636/https://www.officialorlandoeye.com/"
+                target="_blank"
+                rel="noopener"
+                title="The Orlando Eye"
+              >
+                <g-image
+                  alt="The Orlando Eye"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/orlando.png"
+                  fit="cover"
+                  width="502"
+                  height="302"
+                  position="top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              <a
+                href="https://www.shareregistrars.uk.com/"
+                target="_blank"
+                rel="noopener"
+                title="Share Registrars"
+              >
+                <g-image
+                  alt="srg"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/sharereg.png"
+                  fit="cover"
+                  width="502"
+                  height="302"
+                  position="top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              <a
+                href="http://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
+                target="_blank"
+                rel="noopener"
+                title="Pepsi Perfect Match"
+              >
+                <g-image
+                  alt="Pepsi Perfect Match"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/perfectmatch.png"
+                  fit="cover"
+                  width="503"
+                  height="303"
+                  position="top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-wrap w-full md:w-1/2">
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              <a
+                href="https://web.archive.org/web/20060831125923/https://www.ramadajarvis.co.uk/"
+                target="_blank"
+                rel="noopener"
+                title="Ramada Jarvis Hotels"
+              >
+                <g-image
+                  alt="Ramada Jarvis Hotels"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/ramadajarvis.png"
+                  fit="cover"
+                  width="500"
+                  height="300"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+
+            <div class="md:p-2 p-1 w-full md:w-1/2">
+              <a
+                href="https://web.archive.org/web/20120630161828/https://www.crosscountrytrains.co.uk/"
+                target="_blank"
+                rel="noopener"
+                title="Cross Country Trains"
+              >
+                <g-image
+                  alt="Cross Country Trains"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/cct.png"
+                  fit="cover"
+                  width="501"
+                  height="301"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+            <div class="md:p-2 p-1 w-full">
+              <a
+                href="https://web.archive.org/web/20151102090054/https://s-a-m.com/"
+                target="_blank"
+                rel="noopener"
+                title="Snell Advanced Media"
+              >
+                <g-image
+                  alt="Snell Advanced Media"
+                  class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+                  src="~/assets/images/sam.png"
+                  fit="cover"
+                  width="600"
+                  height="360"
+                  position="left top"
+                  immediate="false"
+                  quality="60"
+                />
+              </a>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
