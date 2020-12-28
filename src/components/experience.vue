@@ -48,7 +48,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://carbonsix.digital</a
+                >carbonsix.digital</a
               >
             </h6>
 
@@ -271,7 +271,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://jaywing.com</a
+                >jaywing.com</a
               >
             </h6>
 
@@ -426,7 +426,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://jaywing.com</a
+                >jaywing.com</a
               >
             </h6>
 
@@ -734,7 +734,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://jaywing.com</a
+                >jaywing.com</a
               >
             </h6>
 
@@ -1035,7 +1035,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://jaywing.com</a
+                >jaywing.com</a
               >
             </h6>
 
@@ -1438,7 +1438,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://tntmagazine.com</a
+                >tntmagazine.com</a
               >
             </h6>
 
@@ -1540,7 +1540,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://www.ibm.com/</a
+                >ibm.com</a
               >
             </h6>
 
@@ -1644,7 +1644,7 @@
                 target="_blank"
                 rel="noopener"
                 class="text-white inline-flex items-center"
-                >https://www.ibm.com/</a
+                >ibm.com</a
               >
             </h6>
 
