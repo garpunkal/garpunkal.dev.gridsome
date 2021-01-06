@@ -5,7 +5,7 @@
           class="twitter-timeline"
           href="https://twitter.com/garpunkal"
           data-tweet-limit="1"
-          data-theme="light"
+          data-theme="dark"
           data-width="800"
           data-height="200"
           data-chrome="noheader nofooter noborders"

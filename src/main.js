@@ -36,7 +36,7 @@ export default function(Vue, { router, head, isClient }) {
 	});
 
 	head.bodyAttrs = {
-		class: "bg-brand",
+		class: "bg-brand dark:bg-black",
 	};
 
 	Vue.component("Layout", DefaultLayout);

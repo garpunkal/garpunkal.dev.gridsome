@@ -4,7 +4,7 @@
   >
     <div
       id="profile"
-      class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg shadow-2xl bg-white mx-6 lg:mx-0"
+      class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg shadow-2xl bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0"
     >
       <div class="p-4 md:p-12 text-center lg:text-left">
         <ProfileImageSmall />
@@ -12,11 +12,11 @@
         <h1 class="text-3xl font-bold pt-2 lg:pt-0">Gareth Wright</h1>
 
         <div
-          class="mx-auto lg:mx-0 w-5/5 pt-3 border-b-2 brand-color opacity-25"
+          class="mx-auto lg:mx-0 w-5/5 pt-3 border-b-2 brand-color dark:border-gray-300 opacity-25"
         ></div>
 
         <p
-          class="pt-4 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-4 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <a
             class="inline-flex"
@@ -26,7 +26,7 @@
             rel="noopener"
           >
             <svg
-              class="h-4 fill-current text-brand pr-4"
+              class="h-4 fill-current text-brand dark:text-brand pr-4"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -41,10 +41,10 @@
         </p>
 
         <p
-          class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
-            class="h-4 fill-current text-brand pr-4"
+            class="h-4 fill-current text-brand dark:text-brand pr-4"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
           >
@@ -56,10 +56,10 @@
         </p>
 
         <p
-          class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
-            class="h-4 fill-current text-brand pr-4"
+            class="h-4 fill-current text-brand dark:text-brand pr-4"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -73,10 +73,10 @@
         </p>
 
         <p
-          class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
-            class="h-4 fill-current text-brand pr-4"
+            class="h-4 fill-current text-brand dark:text-brand pr-4"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
           >
