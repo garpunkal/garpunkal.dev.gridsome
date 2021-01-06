@@ -31,7 +31,7 @@
                   width="601"
                   height="361"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -51,7 +51,7 @@
                   width="502"
                   height="302"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -71,7 +71,7 @@
                   width="503"
                   height="303"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -93,7 +93,7 @@
                   width="500"
                   height="300"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -113,7 +113,7 @@
                   width="501"
                   height="301"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -133,7 +133,7 @@
                   width="600"
                   height="360"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -156,7 +156,7 @@
                   width="502"
                   height="302"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -176,7 +176,7 @@
                   width="502"
                   height="302"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -196,7 +196,7 @@
                   width="503"
                   height="303"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -218,7 +218,7 @@
                   width="500"
                   height="300"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -239,7 +239,7 @@
                   width="501"
                   height="301"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -259,7 +259,7 @@
                   width="600"
                   height="360"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -281,7 +281,7 @@
                   width="502"
                   height="302"
                   position="center top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -301,7 +301,7 @@
                   width="502"
                   height="302"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -321,7 +321,7 @@
                   width="503"
                   height="303"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -343,7 +343,7 @@
                   width="500"
                   height="300"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -364,7 +364,7 @@
                   width="501"
                   height="301"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -384,7 +384,7 @@
                   width="600"
                   height="360"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -406,7 +406,7 @@
                   width="502"
                   height="302"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -426,7 +426,7 @@
                   width="502"
                   height="302"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -446,7 +446,7 @@
                   width="503"
                   height="303"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -468,7 +468,7 @@
                   width="500"
                   height="300"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -489,7 +489,7 @@
                   width="501"
                   height="301"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -509,7 +509,7 @@
                   width="600"
                   height="360"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -532,7 +532,7 @@
                   width="502"
                   height="302"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -552,7 +552,7 @@
                   width="502"
                   height="302"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -572,7 +572,7 @@
                   width="503"
                   height="303"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -594,7 +594,7 @@
                   width="500"
                   height="300"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -615,7 +615,7 @@
                   width="501"
                   height="301"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -635,7 +635,7 @@
                   width="600"
                   height="360"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -662,7 +662,7 @@
                   width="502"
                   height="302"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -682,7 +682,7 @@
                   width="502"
                   height="302"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -702,7 +702,7 @@
                   width="503"
                   height="303"
                   position="top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -724,7 +724,7 @@
                   width="500"
                   height="300"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -745,7 +745,7 @@
                   width="501"
                   height="301"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>
@@ -765,7 +765,7 @@
                   width="600"
                   height="360"
                   position="left top"
-                  immediate="false"
+          blur="40"
                   quality="60"
                 />
               </a>

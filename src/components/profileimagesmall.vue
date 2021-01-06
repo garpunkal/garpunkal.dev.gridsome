@@ -8,7 +8,7 @@
             src="~/assets/images/profile.jpg"
             fit="cover"
             position="center top"
-            immediate="false"
+            blur="40"
             quality="60"
           />
         </div>

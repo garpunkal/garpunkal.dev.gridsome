@@ -5,7 +5,7 @@
           src="~/assets/images/profile.jpg"
           class="rounded-none lg:rounded-lg lg:rounded-l-none shadow-2xl hidden lg:block"
           alt="Gareth Wright"
-          immediate="true"
+  blur="40"
           quality="60"
         />
       </div>
