@@ -1,8 +1,7 @@
 <template>
       <section class="text-gray-500 bg-gray-900 dark:text-gray-300 dark:bg-gray-900 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex w-full mb-20 flex-wrap">
-          <a id="content"></a>
+        <div class="flex w-full mb-20 flex-wrap" id="content">          
 
           <p
             class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center"
