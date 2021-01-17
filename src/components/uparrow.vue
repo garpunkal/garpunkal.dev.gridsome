@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center w-full pt-10 md:pt-10 lg:pt-0 mb-5">
-    <a href="#top">
+    <a href="#top" title="top">
       <svg
         class="animate-bounce w-6 h-6"
         fill="none"

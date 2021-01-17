@@ -1,6 +1,6 @@
 
 <template>
-  <section class="text-gray-500 bg-gray-900 body-font">
+  <section class="text-white bg-gray-900 body-font">
     <div class="container px-5 py-5 md:py-24 mx-auto">
       <!-- carbon -->
 
@@ -47,7 +47,7 @@
                 href="https://carbonsix.digital"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="CarbonSix.Digital"
                 >carbonsix.digital</a
               >
@@ -120,9 +120,9 @@
             </ul>
           </div>
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -131,7 +131,7 @@
                   href="https://www.musicmagpie.co.uk/"
                   target="_blank"
                   title="Music Magpie"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Music Magpie</a
                 >
               </li>
@@ -141,7 +141,7 @@
                   href="https://www.nextbase.com/"
                   target="_blank"
                   title="Nextbase"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Nextbase</a
                 >
               </li>
@@ -151,7 +151,7 @@
                   href="https://www.shareregistrars.uk.com/"
                   target="_blank"
                   title="Share Registrars"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Share Registrars</a
                 >
               </li>
@@ -161,7 +161,7 @@
                   href="https://www.egress.com/"
                   target="_blank"
                   title="Egress"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Egress</a
                 >
               </li>
@@ -171,7 +171,7 @@
                   href="https://www.wrighthassall.co.uk"
                   target="_blank"
                   title="Wright Hassall"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Wright Hassall</a
                 >
               </li>
@@ -181,15 +181,15 @@
                   href="https://littlefreddie.com"
                   target="_blank"
                   title="Little Freddie"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Little Freddie</a
                 >
               </li>
             </ul>
 
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Contributions:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -197,7 +197,7 @@
                   rel="noopener"
                   href="https://github.com/CarbonSixDigital/Personalisation"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Personalisation"
                   >Personalisation</a
                 >
@@ -207,7 +207,7 @@
                   rel="noopener"
                   href="https://github.com/vendrhub/vendr-checkout"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Vendr Checkout"
                   >Vendr Checkout</a
                 >
@@ -217,7 +217,7 @@
                   rel="noopener"
                   href="https://github.com/umbraco/Umbraco-CMS"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Umbraco"
                   >Umbraco</a
                 >
@@ -275,7 +275,7 @@
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="Jaywing"
                 >jaywing.com</a
               >
@@ -311,9 +311,9 @@
             </ul>
           </div>
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -322,7 +322,7 @@
                   href="https://www.isio.com"
                   target="_blank"
                   title="Isio"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Isio</a
                 >
               </li>
@@ -332,7 +332,7 @@
                   href="https://secure.railcard.co.uk/"
                   target="_blank"
                   title="Rail Delivery Group"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Rail Delivery Group</a
                 >
               </li>
@@ -342,7 +342,7 @@
                   href="https://www.port.ac.uk"
                   target="_blank"
                   title="University of Portsmouth"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >University of Portsmouth</a
                 >
               </li>
@@ -352,7 +352,7 @@
                   href="https://www.hrp.org.uk"
                   target="_blank"
                   title="Historic Royal Palaces"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Historic Royal Palaces</a
                 >
               </li>
@@ -364,9 +364,9 @@
               </li>
             </ul>
 
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Contributions:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -374,7 +374,7 @@
                   rel="noopener"
                   href="https://github.com/umbraco/Umbraco-CMS"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Umbraco"
                   >Umbraco</a
                 >
@@ -432,7 +432,7 @@
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="Jaywing"
                 >jaywing.com</a
               >
@@ -510,9 +510,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>Scania</li>
@@ -521,7 +521,7 @@
                   rel="noopener"
                   href="https://sunbites.co.uk/"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Sunbites"
                   >Sunbites</a
                 >
@@ -534,7 +534,7 @@
                       rel="noopener"
                       href="https://www.madametussauds.com/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="Madame Tussauds"
                       >Madame Tussauds</a
                     >
@@ -544,7 +544,7 @@
                       rel="noopener"
                       href="https://www.londoneye.com/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="London Eye"
                       >London Eye</a
                     >
@@ -554,7 +554,7 @@
                       rel="noopener"
                       href="https://www.shreksadventure.com/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="Shrek's Adventure"
                       >Shrek's Adventure</a
                     >
@@ -564,7 +564,7 @@
                       rel="noopener"
                       href="https://www.merlinsmagicallondon.com/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="Merlin's Magical London"
                       >Merlin's Magical London</a
                     >
@@ -579,7 +579,7 @@
                       rel="noopener"
                       href="https://skyoceanrescue.com/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="Sky Ocean Rescue"
                       >Sky Ocean Rescue</a
                     >
@@ -597,7 +597,7 @@
                       rel="noopener"
                       href="https://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="Perfect Match"
                     >
                       Perfect Match</a
@@ -608,7 +608,7 @@
                       rel="noopener"
                       href="https://www.doritos.co.uk/"
                       target="_blank"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       title="Doritos UK"
                       >Doritos UK</a
                     >
@@ -621,7 +621,7 @@
                   rel="noopener"
                   href="https://afaeducation.org/"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Achievement For All"
                   >Achievement For All</a
                 >
@@ -631,7 +631,7 @@
                   rel="noopener"
                   href="https://web.archive.org/web/20151102090054/https://s-a-m.com/"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Snell Advanced Media"
                 >
                   Snell Advanced Media</a
@@ -642,16 +642,16 @@
                   rel="noopener"
                   href="https://jaywing.com/"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="Jaywing"
                   >Jaywing</a
                 >
               </li>
             </ul>
 
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Contributions:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -659,7 +659,7 @@
                   rel="noopener"
                   href="https://github.com/Jaywing/UmbracoMediaCopy"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="UmbracoMediaCopy"
                   >UmbracoMediaCopy</a
                 >
@@ -669,7 +669,7 @@
                   rel="noopener"
                   href="https://github.com/Jaywing/UmbracoGalleryListView"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="UmbracoGalleryListView"
                   >UmbracoGalleryListView</a
                 >
@@ -679,7 +679,7 @@
                   rel="noopener"
                   href="https://github.com/Jaywing/UmbracoThumbnailListView"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="UmbracoThumbnailListView"
                   >UmbracoThumbnailListView</a
                 >
@@ -689,7 +689,7 @@
                   rel="noopener"
                   href="https://github.com/Jaywing/UmbracoAzureMediaPlayer"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="UmbracoAzureMediaPlayer"
                   >UmbracoAzureMediaPlayer</a
                 >
@@ -699,7 +699,7 @@
                   rel="noopener"
                   href="https://github.com/Jaywing/UmbracoProtectedTrueFalse"
                   target="_blank"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   title="UmbracoProtectedTrueFalse"
                   >UmbracoProtectedTrueFalse</a
                 >
@@ -757,7 +757,7 @@
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="Jaywing"
                 >jaywing.com</a
               >
@@ -797,7 +797,7 @@
                   target="_blank"
                   title="w3 Gold Winner"
                   data-anchor="?search=jaywing&amp;event=29&amp;award=1"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >w3 Gold Winner</a
                 >
                 <ul class="list-outside list-disc font-smaller text-sm pl-5">
@@ -808,7 +808,7 @@
                       href="https://www.godolphin.com"
                       target="_blank"
                       title="Godolphin.com"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Godolphin.com</a
                     >, website features, user experience.
                   </li>
@@ -818,9 +818,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -832,7 +832,7 @@
                       href="https://www.tate.co.uk"
                       target="_blank"
                       title="Tate"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Tate</a
                     >
                   </li>
@@ -842,7 +842,7 @@
                       href="https://www.celsianeducation.co.uk"
                       target="_blank"
                       title="Celsian Education"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Celsian Education</a
                     >
                   </li>
@@ -852,7 +852,7 @@
                       href="https://www.srg.co.uk"
                       target="_blank"
                       title="SRG"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >SRG</a
                     >
                   </li>
@@ -862,7 +862,7 @@
                       href="https://www.onezeero.co.uk"
                       target="_blank"
                       title="onezeero"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >onezeero</a
                     >
                   </li>
@@ -872,7 +872,7 @@
                       href="https://www.chadwicknott.co.uk"
                       target="_blank"
                       title="Chadwick Nott"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Chadwick Nott</a
                     >
                   </li>
@@ -884,7 +884,7 @@
                   href="https://www.thesrgroup.com"
                   target="_blank"
                   title="SR Group"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >SR Group</a
                 >
                 <ul class="list-outside list-disc font-smaller text-xs pl-5">
@@ -894,7 +894,7 @@
                       href="https://www.taylorroot.com"
                       target="_blank"
                       title="Taylor Root"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Taylor Root</a
                     >
                   </li>
@@ -904,7 +904,7 @@
                       href="https://www.brewermorris.com"
                       target="_blank"
                       title="Brewer Morris"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Brewer Morris</a
                     >
                   </li>
@@ -914,7 +914,7 @@
                       href="https://www.frazerjones.com"
                       target="_blank"
                       title="Frazer Jones"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Frazer Jones</a
                     >
                   </li>
@@ -932,7 +932,7 @@
                   href="https://www.hrp.org.uk"
                   target="_blank"
                   title="Historic Royal Palaces"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Historic Royal Palaces</a
                 >
               </li>
@@ -942,7 +942,7 @@
                   href="https://www.godolphin.com"
                   target="_blank"
                   title="Godolphin"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Godolphin</a
                 >
               </li>
@@ -952,7 +952,7 @@
                   href="https://crimestoppers-uk.org"
                   target="_blank"
                   title="Crimestoppers"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Crimestoppers</a
                 >
               </li>
@@ -965,7 +965,7 @@
                       href="https://web.archive.org/web/20140929202405/https://makeithappen.post-it.co.uk/"
                       target="_blank"
                       title="Post-It: Make It Happen"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Post-It Make It Happen</a
                     >
                   </li>
@@ -980,7 +980,7 @@
                       href="https://web.archive.org/web/20150205235636/https://www.officialorlandoeye.com/"
                       target="_blank"
                       title="The Orlando Eye"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >The Orlando Eye</a
                     >
                   </li>
@@ -990,7 +990,7 @@
                       href="https://www.visitsealife.com"
                       target="_blank"
                       title="Sea Life"
-                      class="text-white dark:text-brand inline-flex items-center"
+                          class="text-gray-400 dark:text-brand inline-flex items-center"
                       >Sea Life</a
                     >
                   </li>
@@ -1002,7 +1002,7 @@
                   href="https://www.spar.co.uk"
                   target="_blank"
                   title="SPAR"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >SPAR</a
                 >
               </li>
@@ -1059,7 +1059,7 @@
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="Jaywing"
                 >jaywing.com</a
               >
@@ -1104,9 +1104,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -1115,7 +1115,7 @@
                   href="https://www.carlsberg.co.uk"
                   target="_blank"
                   title="Carlsberg"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Carlsberg</a
                 >
               </li>
@@ -1125,7 +1125,7 @@
                   href="https://www.bacardi.com/uk/en/"
                   target="_blank"
                   title="Bacardi"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Bacardi</a
                 >
               </li>
@@ -1135,7 +1135,7 @@
                   href="https://www.martini.com/"
                   target="_blank"
                   title="Bacardi"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Martini</a
                 >
               </li>
@@ -1145,7 +1145,7 @@
                   href="https://www.draytonmanor.co.uk"
                   target="_blank"
                   title="Drayton Manor"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Drayton Manor</a
                 >
               </li>
@@ -1156,7 +1156,7 @@
                   href="https://web.archive.org/web/20120630161828/https://www.crosscountrytrains.co.uk/"
                   target="_blank"
                   title="Cross Country Trains"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Cross Country Trains</a
                 >
               </li>
@@ -1167,7 +1167,7 @@
                   href="https://www.britvic.com"
                   target="_blank"
                   title="Britvic"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Britvic</a
                 >
               </li>
@@ -1248,9 +1248,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -1259,7 +1259,7 @@
                   href="https://web.archive.org/web/20060831125923/https://www.ramadajarvis.co.uk/"
                   target="_blank"
                   title="Ramada Jarvis Hotels"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Ramada Jarvis Hotels</a
                 >
               </li>
@@ -1269,7 +1269,7 @@
                   href="https://www.cityindex.co.uk/"
                   target="_blank"
                   title="cityindex"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >City Index</a
                 >
               </li>
@@ -1279,7 +1279,7 @@
                   href="https://www.ebookers.com"
                   target="_blank"
                   title="ebookers"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >ebookers</a
                 >
               </li>
@@ -1355,9 +1355,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -1366,7 +1366,7 @@
                   href="https://www.snowandrock.com"
                   target="_blank"
                   title="Snow+Rock"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Snow+Rock</a
                 >
               </li>
@@ -1376,7 +1376,7 @@
                   href="https://www.addict.co.uk"
                   target="_blank"
                   title="Addict"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Addict</a
                 >
               </li>
@@ -1386,7 +1386,7 @@
                   href="https://westcountryfires.co.uk"
                   target="_blank"
                   title="West Country Fires"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >West Country Fires</a
                 >
               </li>
@@ -1396,7 +1396,7 @@
                   href="https://web.archive.org/web/20060505124812/https://www.efooters.com/"
                   target="_blank"
                   title="eFooters"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >eFooters</a
                 >
               </li>
@@ -1406,7 +1406,7 @@
                   href="https://web.archive.org/web/20051026180849/https://www.getmepleasure.co.uk/"
                   target="_blank"
                   title="Get Me Pleasure"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >Get Me Pleasure</a
                 >
               </li>
@@ -1463,7 +1463,7 @@
                 href="https://tntmagazine.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="TNT Magazine"
                 >tntmagazine.com</a
               >
@@ -1497,9 +1497,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -1508,7 +1508,7 @@
                   href="https://www.tntmagazine.com"
                   target="_blank"
                   title="TNT Magazine"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >TNT Magazine</a
                 >
               </li>
@@ -1566,7 +1566,7 @@
                 href="https://www.ibm.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="IBM"
                 >ibm.com</a
               >
@@ -1603,9 +1603,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
 
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
@@ -1614,7 +1614,7 @@
                   href="https://www.ibm.com/"
                   target="_blank"
                   title="IBM UK"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >IBM UK</a
                 >
               </li>
@@ -1671,7 +1671,7 @@
                 href="https://www.ibm.com/"
                 target="_blank"
                 rel="noopener"
-                class="text-white dark:text-brand inline-flex items-center"
+                    class="text-gray-400 dark:text-brand inline-flex items-center"
                 title="IBM"
                 >ibm.com</a
               >
@@ -1699,9 +1699,9 @@
           </div>
 
           <div class="sm:pl-6 mt-6 sm:mt-0">
-            <h6 class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+            <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
               Projects:
-            </h6>
+            </div>
             <ul class="list-outside list-disc font-smaller text-xs pl-5">
               <li>
                 <a
@@ -1709,7 +1709,7 @@
                   href="https://www.ibm.com/"
                   target="_blank"
                   title="IBM UK"
-                  class="text-white dark:text-brand inline-flex items-center"
+                      class="text-gray-400 dark:text-brand inline-flex items-center"
                   >IBM UK</a
                 >
               </li>

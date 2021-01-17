@@ -4,7 +4,7 @@
         <div class="flex w-full mb-20 flex-wrap" id="content">          
 
           <p
-            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center"
+            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center text-white"
           >
             I love working with clients throughout the longevity of a project,
             from initial conversations to delivery and further. They're part of
