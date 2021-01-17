@@ -18,7 +18,7 @@ import Profile from "@/components/profile.vue";
 export default {
   name: "Index",
   metaInfo: {
-    title: "Gareth Wright - Development Manager - C# .net MVC Developer",
+    title: "Gareth Wright - Development Manager - Senior C# .net MVC Developer",
   },
   components: {
     Experience,
