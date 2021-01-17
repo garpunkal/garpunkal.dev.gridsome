@@ -24,7 +24,7 @@
                 height="100"
                 background="#ffffff"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
@@ -250,7 +250,7 @@
                 width="100"
                 height="100"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
@@ -407,7 +407,7 @@
                 width="100"
                 height="100"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
@@ -732,7 +732,7 @@
                 width="100"
                 height="100"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
@@ -1034,7 +1034,7 @@
                 width="100"
                 height="100"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
@@ -1194,7 +1194,7 @@
               height="100"
               background="#88d52f"
               position="center"
-      blur="40"
+      
               quality="60"
             />
           </div>
@@ -1306,7 +1306,7 @@
               height="100"
               background="#ffffff"
               position="top"
-      blur="40"
+      
               quality="60"
             />
           </div>
@@ -1439,7 +1439,7 @@
                 height="100"
                 background="#0a465e"
                 position="center"
-        blur="40"
+        
                 quality="100"
               />
             </a>
@@ -1542,7 +1542,7 @@
                 height="100"
                 background="#000000"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
@@ -1647,7 +1647,7 @@
                 height="100"
                 background="#000000"
                 position="top"
-        blur="40"
+        
                 quality="60"
               />
             </a>
