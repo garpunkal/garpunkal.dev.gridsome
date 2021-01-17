@@ -10,7 +10,7 @@
         viewBox="0 0 24 24"
         stroke="white"
         width="24px"
-        height="auto"
+        height="100%"
       >
         <path d="M12 19V5M5 12l7-7 7 7"></path>
       </svg>

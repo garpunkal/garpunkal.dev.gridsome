@@ -36,21 +36,22 @@
               Development Manager
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               Carbon Six Digital
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font mb-1 text-sm">Remote Working</h6>
+            <h4 class="font-smaller title-font mb-1 text-sm">Remote Working</h4>
 
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://carbonsix.digital"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="CarbonSix.Digital"
                 >carbonsix.digital</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -96,7 +97,8 @@
                   rel="noopener"
                   href="https://github.com/CarbonSixDigital/Personalisation"
                   target="_blank"
-                  class="text-white dark:text-brand">personalisation engine</a> for Umbraco based on
+                  class="text-white dark:text-brand"
+                  title="Personalisation Engine">personalisation engine</a> for Umbraco based on
                 user's behaviour.
               </li>
               <li>nPoco code-first data layer solutions.</li>
@@ -128,7 +130,7 @@
                   rel="noopener"
                   href="https://www.musicmagpie.co.uk/"
                   target="_blank"
-                  title="Nextbase"
+                  title="Music Magpie"
                   class="text-white dark:text-brand inline-flex items-center"
                   >Music Magpie</a
                 >
@@ -196,6 +198,7 @@
                   href="https://github.com/CarbonSixDigital/Personalisation"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Personalisation"
                   >Personalisation</a
                 >
               </li>
@@ -205,6 +208,7 @@
                   href="https://github.com/vendrhub/vendr-checkout"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Vendr Checkout"
                   >Vendr Checkout</a
                 >
               </li>
@@ -214,6 +218,7 @@
                   href="https://github.com/umbraco/Umbraco-CMS"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Umbraco"
                   >Umbraco</a
                 >
               </li>
@@ -257,23 +262,24 @@
               Senior Developer
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               Jaywing
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font mb-1 text-sm">
+            <h4 class="font-smaller title-font mb-1 text-sm">
               Newbury, Berkshire
-            </h6>
+            </h4>
 
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="Jaywing"
                 >jaywing.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -369,6 +375,7 @@
                   href="https://github.com/umbraco/Umbraco-CMS"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Umbraco"
                   >Umbraco</a
                 >
               </li>
@@ -412,23 +419,24 @@
               Technical Manager
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               Jaywing
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font mb-1 text-sm">
+            <h4 class="font-smaller title-font mb-1 text-sm">
               Newbury, Berkshire
-            </h6>
+            </h4>
 
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="Jaywing"
                 >jaywing.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -514,6 +522,7 @@
                   href="https://sunbites.co.uk/"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Sunbites"
                   >Sunbites</a
                 >
               </li>
@@ -526,6 +535,7 @@
                       href="https://www.madametussauds.com/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="Madame Tussauds"
                       >Madame Tussauds</a
                     >
                   </li>
@@ -535,6 +545,7 @@
                       href="https://www.londoneye.com/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="London Eye"
                       >London Eye</a
                     >
                   </li>
@@ -544,6 +555,7 @@
                       href="https://www.shreksadventure.com/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="Shrek's Adventure"
                       >Shrek's Adventure</a
                     >
                   </li>
@@ -553,6 +565,7 @@
                       href="https://www.merlinsmagicallondon.com/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="Merlin's Magical London"
                       >Merlin's Magical London</a
                     >
                   </li>
@@ -567,6 +580,7 @@
                       href="https://skyoceanrescue.com/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="Sky Ocean Rescue"
                       >Sky Ocean Rescue</a
                     >
                   </li>
@@ -584,6 +598,7 @@
                       href="https://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="Perfect Match"
                     >
                       Perfect Match</a
                     >
@@ -594,6 +609,7 @@
                       href="https://www.doritos.co.uk/"
                       target="_blank"
                       class="text-white dark:text-brand inline-flex items-center"
+                      title="Doritos UK"
                       >Doritos UK</a
                     >
                   </li>
@@ -606,6 +622,7 @@
                   href="https://afaeducation.org/"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Achievement For All"
                   >Achievement For All</a
                 >
               </li>
@@ -615,6 +632,7 @@
                   href="https://web.archive.org/web/20151102090054/https://s-a-m.com/"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Snell Advanced Media"
                 >
                   Snell Advanced Media</a
                 >
@@ -625,6 +643,7 @@
                   href="https://jaywing.com/"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="Jaywing"
                   >Jaywing</a
                 >
               </li>
@@ -641,6 +660,7 @@
                   href="https://github.com/Jaywing/UmbracoMediaCopy"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="UmbracoMediaCopy"
                   >UmbracoMediaCopy</a
                 >
               </li>
@@ -650,6 +670,7 @@
                   href="https://github.com/Jaywing/UmbracoGalleryListView"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="UmbracoGalleryListView"
                   >UmbracoGalleryListView</a
                 >
               </li>
@@ -659,6 +680,7 @@
                   href="https://github.com/Jaywing/UmbracoThumbnailListView"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="UmbracoThumbnailListView"
                   >UmbracoThumbnailListView</a
                 >
               </li>
@@ -668,6 +690,7 @@
                   href="https://github.com/Jaywing/UmbracoAzureMediaPlayer"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="UmbracoAzureMediaPlayer"
                   >UmbracoAzureMediaPlayer</a
                 >
               </li>
@@ -677,6 +700,7 @@
                   href="https://github.com/Jaywing/UmbracoProtectedTrueFalse"
                   target="_blank"
                   class="text-white dark:text-brand inline-flex items-center"
+                  title="UmbracoProtectedTrueFalse"
                   >UmbracoProtectedTrueFalse</a
                 >
               </li>
@@ -720,23 +744,24 @@
               Senior Web Application Developer
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               Jaywing
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font mb-1 text-sm">
+            <h4 class="font-smaller title-font mb-1 text-sm">
               Newbury, Berkshire
-            </h6>
+            </h4>
 
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="Jaywing"
                 >jaywing.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -1021,23 +1046,24 @@
               Web Application Developer
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               Jaywing
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font mb-1 text-sm">
+            <h4 class="font-smaller title-font mb-1 text-sm">
               Newbury, Berkshire
-            </h6>
+            </h4>
 
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://jaywing.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="Jaywing"
                 >jaywing.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -1179,13 +1205,13 @@
               Web Programmer
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               Guava
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font text-sm mb-5">
+            <h4 class="font-smaller title-font text-sm mb-5">
               Hurst, Berkshire
-            </h6>
+            </h4>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -1291,13 +1317,13 @@
               Web Developer
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               MAD Productions
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font text-sm mb-5">
+            <h4 class="font-smaller title-font text-sm mb-5">
               Colden Common, Winchester, Hampshire
-            </h6>
+            </h4>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -1425,22 +1451,23 @@
               Webmaster
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               TNT Magazine
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font text-sm mb-1">
+            <h4 class="font-smaller title-font text-sm mb-1">
               Romsey, Hampshire & Earl's Court, London
-            </h6>
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            </h4>
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://tntmagazine.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="TNT Magazine"
                 >tntmagazine.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -1527,22 +1554,23 @@
               Senior Webmaster & Deputy Team Leader
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               IBM UK Limited
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font text-sm mb-1">
+            <h4 class="font-smaller title-font text-sm mb-1">
               Basingstoke, Hampshire
-            </h6>
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            </h4>
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://www.ibm.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="IBM"
                 >ibm.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span
@@ -1631,22 +1659,23 @@
               Public Sector Sales Productivity Centre Professional
             </h2>
 
-            <h5 class="font-medium title-font text-gray-400 mb-1 text-l">
+            <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
               IBM UK Limited
-            </h5>
+            </h3>
 
-            <h6 class="font-smaller title-font text-sm mb-1">
+            <h4 class="font-smaller title-font text-sm mb-1">
               Basingstoke, Hampshire
-            </h6>
-            <h6 class="font-smaller title-font mb-5 text-sm">
+            </h4>
+            <h5 class="font-smaller title-font mb-5 text-sm">
               <a
                 href="https://www.ibm.com/"
                 target="_blank"
                 rel="noopener"
                 class="text-white dark:text-brand inline-flex items-center"
+                title="IBM"
                 >ibm.com</a
               >
-            </h6>
+            </h5>
 
             <p class="font-smaller title-font text-sm mb-5">
               <span

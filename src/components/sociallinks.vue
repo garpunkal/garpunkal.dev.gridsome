@@ -8,13 +8,14 @@
       data-tippy-content="@twitter_handle"
       target="_blank"
       rel="noopener"
+      title="Twitter"
       ><svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
          width="24px"
-        height="auto"
+        height="100%"
       >
         <title>Twitter</title>
         <path
@@ -33,7 +34,8 @@
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         width="24px"
-        height="auto"
+        height="100%"
+        title="GitHub"
       >
         <title>GitHub</title>
         <path
@@ -46,13 +48,15 @@
       data-tippy-content="@umbraco_handle"
       target="_blank"
       rel="noopener"
+      title="Umbraco"
       ><svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         width="24px"
-        height="auto"
+        height="100%"
+        
       >
         <title>Umbraco Certified Developer</title>
         <path
@@ -66,6 +70,7 @@
       data-tippy-content="@skrift_handle"
       target="_blank"
       rel="noopener"
+      title="Skrift"
     >
       <svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
@@ -73,7 +78,7 @@
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         width="24px"
-        height="auto"
+        height="100%"
       >
         <title>Skrift</title>
         <path
@@ -88,6 +93,7 @@
       data-tippy-content="@reddit_handle"
       target="_blank"
       rel="noopener"
+      title="LinkedIn"
     >
       <svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
@@ -95,7 +101,7 @@
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         width="24px"
-        height="auto"
+        height="100%"
       >
         <title>LinkedIn</title>
         <path
@@ -110,13 +116,14 @@
       data-tippy-content="@reddit_handle"
       target="_blank"
       rel="noopener"
+      title="Reddit"
       ><svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         width="24px"
-        height="auto"
+        height="100%"
       >
         <title>Reddit</title>
         <path
@@ -129,13 +136,14 @@
       data-tippy-content="@umbraco_handle"
       target="_blank"
       rel="noopener"
+      title="Stack Overflow"
       ><svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
          width="24px"
-        height="auto"
+        height="100%"
       >
         <title>Stack Overflow</title>
         <path
@@ -149,13 +157,14 @@
       data-tippy-content="@paypal_handle"
       target="_blank"
       rel="noopener"
+      title="PayPal"
       ><svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         width="24px"
-        height="auto"
+        height="100%"
       >
         <title>PayPal</title>
         <path
