@@ -5,7 +5,9 @@ import Vue from "vue";
 export default function(Vue, { router, head, isClient }) {
 	head.script.push({
 		src: "https://platform.twitter.com/widgets.js",
-		body: false,
+		async: true, 
+		defer: true,
+		body: false
 	});
 
 	head.meta.push({
