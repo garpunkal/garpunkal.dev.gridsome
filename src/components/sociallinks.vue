@@ -13,7 +13,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-         style="width:24px; height:auto"   
+         width="24px"
+        height="auto"
       >
         <title>Twitter</title>
         <path
@@ -31,7 +32,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+        width="24px"
+        height="auto"
       >
         <title>GitHub</title>
         <path
@@ -49,7 +51,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+        width="24px"
+        height="auto"
       >
         <title>Umbraco Certified Developer</title>
         <path
@@ -69,7 +72,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+        width="24px"
+        height="auto"
       >
         <title>Skrift</title>
         <path
@@ -90,7 +94,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+        width="24px"
+        height="auto"
       >
         <title>LinkedIn</title>
         <path
@@ -110,7 +115,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+        width="24px"
+        height="auto"
       >
         <title>Reddit</title>
         <path
@@ -128,7 +134,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+         width="24px"
+        height="auto"
       >
         <title>Stack Overflow</title>
         <path
@@ -147,7 +154,8 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        style="width:24px; height:auto" 
+        width="24px"
+        height="auto"
       >
         <title>PayPal</title>
         <path

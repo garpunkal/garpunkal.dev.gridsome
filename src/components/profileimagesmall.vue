@@ -10,6 +10,8 @@
             position="center top"
             blur="40"
             quality="60"
+            width="192"
+            height="192"
           />
         </div>
 </template>
