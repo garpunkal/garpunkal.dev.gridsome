@@ -1,0 +1,538 @@
+[
+	{
+		"id": 1,
+		"title": "Carbon Six Digital",
+		"location": "Remote Working",
+		"logo": {
+			"url": "carbonsixdigital.png",
+			"background": "ffffff",
+			"alt": "Carbon Six Digital"
+		},
+		"job": "Development Manager",
+		"url": "https://carbonsix.digital",
+		"shortUrl": "carbonsix.digital",
+		"from": "Dec 2019",
+		"to": "current",
+		"isCurrent": true,
+		"description": "<li>Team management &amp; project development.</li><li>C# .net MVC development, .net framework and .net core.</li><li>Project delivery using DevOps with build and release pipelines.</li><li>Azure functions and logic apps development.</li><li>Umbraco 8 with ModelsBuilder.</li><li>Migration from Umbraco Cloud to Microsoft Azure Hosting</li><li>Utilising Vendr for Umbraco to produce an ecommerce site,including contributions.</li><li>Creation of a product comparison tool, bundle builder andrecommendation tool.</li><li>Integration of Shopify, including building a JavaScript shoppingcart.</li><li>Integration of MailChimp / SendInBlue for newslettersubscriptions.</li><li>Using MaxMind / IPStack for geo location services.</li><li>Building a bespoke <a rel=\"noopener\" href=\"https://github.com/CarbonSixDigital/Personalisation\" target=\"_blank\" title=\"Personalisation Engine\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">personalisation engine</a> for Umbraco based onuser's behaviour.</li><li>nPoco code-first data layer solutions.</li><li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Virtual Machines, Traffic Manager, App services, SQLservers, Azure CDN, Blob Storage.</li></ul></li><li>JavaScript / JQuery / Node / Yarn / NPM / Gulp.</li><li>HTML / SCSS / TailwindCSS / Nunjucks / Vue.js</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Music Magpie",
+					"url": "https://www.musicmagpie.co.uk/"
+				},
+				{
+					"name": "Nextbase",
+					"url": "https://www.nextbase.com/"
+				},
+				{
+					"name": "Egress",
+					"url": "https://www.egress.com/"
+				},
+				{
+					"name": "Wright Hassall",
+					"url": "https://www.wrighthassall.co.uk/"
+				},
+				{
+					"name": "Little Freddie",
+					"url": "https://littlefreddie.com/"
+				}
+			]
+		},
+
+		"contributions": {
+			"title": "Contributions",
+			"items": [
+				{
+					"name": "Personalisation",
+					"url": "https://github.com/CarbonSixDigital/Personalisation"
+				},
+				{
+					"name": "Vendr Checkout",
+					"url": "https://github.com/vendrhub/vendr-checkout"
+				},
+				{
+					"name": "Umbraco",
+					"url": "https://github.com/umbraco/Umbraco-CMS"
+				}
+			]
+		}
+	},
+	{
+		"id": 2,
+		"title": "Jaywing",
+		"location": "Newbury, Berkshire",
+		"logo": {
+			"url": "jaywing.jpg",
+			"background": "000000",
+			"alt": "Jaywing"
+		},
+		"job": "Senior Developer",
+		"url": "https://jaywing.com",
+		"shortUrl": "jaywing.com",
+		"from": "May 2019",
+		"to": "Dec 2019",
+		"isCurrent": false,
+		"description": "<li>C# .net MVC development.</li><li>.net core experience.</li><li>Experience with Umbraco, Sitecore and Sitefinity.</li><li>UmbracoCMS Contributor.</li><li>Extending Umbraco by creating C# and AngularJS packages.</li><li>Sitecore 9 experience.</li><li>Creating NuGet packages for internal &amp; external use.</li><li>Test Driven Development with MS Test projects.</li><li>Utilising nPoco and Entity Framework.</li><li>Working with IdentityServer to connect WebAPI to mobileapplications.</li><li>Integration with Amazon S3 Buckets and Azure Blob Storage</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Isio",
+					"url": "https://www.isio.com/"
+				},
+				{
+					"name": "Rail Delivery Group",
+					"url": "https://secure.railcard.co.uk/"
+				},
+				{
+					"name": "University of Portsmouth",
+					"url": "https://www.port.ac.uk/"
+				},
+				{
+					"name": "Historic Royal Palaces",
+					"url": "https://www.hrp.org.uk/"
+				},
+				{
+					"name": "Walkers Sensations Global Travel"
+				}
+			]
+		},
+
+		"contributions": {
+			"title": "Contributions",
+			"items": [
+				{
+					"name": "Umbraco",
+					"url": "https://github.com/umbraco/Umbraco-CMS"
+				}
+			]
+		}
+	},
+	{
+		"id": 3,
+		"title": "Jaywing",
+		"location": "Newbury, Berkshire",
+		"logo": {
+			"url": "jaywing.jpg",
+			"background": "000000",
+			"alt": "Jaywing"
+		},
+		"job": "Technical Manager",
+		"url": "https://jaywing.com",
+		"shortUrl": "jaywing.com",
+		"from": "Jan 2016",
+		"to": "May 2019",
+		"isCurrent": false,
+		"description": "<li>Technical Manager for various projects and clients.</li><li>Providing direction for the development team in support ofbusiness operations.</li><li>Staff recruitment, training and resourcing.</li><li>Improving processes, security and efficiency on technicalprojects.</li><li>C# MVC development utilising Umbraco, Sitecore and Sitefinity.</li><li>Umbraco Gold Partner.</li><li>Certified Umbraco Expert.</li><li>Certified Sitecore XP8 Developer.</li><li>Extending Umbraco by creating C# and AngularJS packages.</li><li>SQL Server database administration and optimisation.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5 pt-2\"><li>Traffic Manager.</li><li>Azure DNS.</li><li>App services / App service plans.</li><li>SQL servers and databases.</li><li>Azure Content Delivery Network.</li><li>Blob Storage.</li><li>Vision API<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>AI Cognitive Services for analysing imagery.</li></ul></li><li>Media Services<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Encoding-on-demand and adaptive streaming.</li></ul></li><li>Application Insights<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Server monitoring and fault finding.</li></ul></li></ul></li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Scania"
+				},
+				{
+					"name": "Sunbites",
+					"url": "https://sunbites.co.uk/"
+				},
+				{
+					"name": "Madame Tussauds",
+					"url": "https://www.madametussauds.com/"
+				},
+				{
+					"name": "London Eye",
+					"url": "https://www.londoneye.com/"
+				},
+				{
+					"name": "Shrek's Adventure",
+					"url": "https://www.shreksadventure.com/"
+				},
+				{
+					"name": "Merlin's Magical London",
+					"url": "https://www.merlinsmagicallondon.com/"
+				},
+				{
+					"name": "Sky Ocean Rescue",
+					"url": "https://skyoceanrescue.com/"
+				},
+				{
+					"name": "Sky Academy"
+				},
+				{
+					"name": "Pepsi Max Football"
+				},
+				{
+					"name": "Doritos Dust"
+				},
+				{
+					"name": "Perfect Match",
+					"url": "https://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
+				},
+				{
+					"name": "Doritos",
+					"url": "https://www.doritos.co.uk/"
+				},
+				{
+					"name": "Tropicana Little Glass"
+				},
+				{
+					"name": "Achievement For All",
+					"url": "https://afaeducation.org/"
+				},
+				{
+					"name": "Snell Advanced Media",
+					"url": "https://web.archive.org/web/20151102090054/https://s-a-m.com/"
+				},
+				{
+					"name": "Jaywing",
+					"url": "https://jaywing.com/"
+				}
+			]
+		},
+
+		"contributions": {
+			"title": "Contributions",
+			"items": [
+				{
+					"name": "UmbracoMediaCopy",
+					"url": "https://github.com/Jaywing/UmbracoMediaCopy"
+				},
+				{
+					"name": "UmbracoGalleryListView",
+					"url": "https://github.com/Jaywing/UmbracoGalleryListView"
+				},
+				{
+					"name": "UmbracoThumbnailListView",
+					"url": "https://github.com/Jaywing/UmbracoThumbnailListView"
+				},
+				{
+					"name": "UmbracoAzureMediaPlayer",
+					"url": "https://github.com/Jaywing/UmbracoAzureMediaPlayer"
+				},
+				{
+					"name": "UmbracoProtectedTrueFalse",
+					"url": "https://github.com/Jaywing/UmbracoProtectedTrueFalse"
+				}
+			]
+		}
+	},
+	{
+		"id": 4,
+		"title": "Jaywing",
+		"location": "Newbury, Berkshire",
+		"logo": {
+			"url": "jaywing.jpg",
+			"background": "000000",
+			"alt": "Jaywing"
+		},
+		"job": "Senior Web Application Developer",
+		"url": "https://jaywing.com",
+		"shortUrl": "jaywing.com",
+		"from": "Jul 2008",
+		"to": "Jan 2016",
+		"isCurrent": false,
+		"description": "<li>Web development specialising in the Microsoft .net framework.</li><li>C# MVC and WebForms.</li><li>Umbraco 6 and 7 experience.</li><li>Sitecore 8 experience.</li><li>Lead developer on top brand projects with tight deadlines, whichincluded team leadership and client liaising.</li><li>3rd party integration with various API's.</li><li>Technical documentation and solution development.</li><li>Core developer of in-house content management system.</li><li>Pitching to potential new clients, with success.</li><li><a rel=\"noopener\" href=\"https://www.w3award.com/winners/list/view/?search=jaywing&amp;event=29&amp;award=1\" target=\"_blank\" title=\"w3 Gold Winner\" data-anchor=\"?search=jaywing&amp;event=29&amp;award=1\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">w3 Gold Winner</a><ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>JAYWING, <a rel=\"noopener\" href=\"https://www.godolphin.com\" target=\"_blank\" title=\"Godolphin.com\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">Godolphin.com</a>, website features, user experience.</li></ul></li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Tate",
+					"url": "https://www.tate.co.uk/"
+				},
+				{
+					"name": "Celsian Education",
+					"url": "https://www.celsianeducation.co.uk/"
+				},
+				
+				{
+					"name": "SRG",
+					"url": "https://www.srg.co.uk/"
+				},
+				
+				{
+					"name": "onezeero",
+					"url": "https://www.onezeero.co.uk/"
+				},
+				
+				{
+					"name": "Chadwick Nott",
+					"url": "https://www.chadwicknott.co.uk/"
+				},
+				{
+					"name": "SR Group",
+					"url": "https://www.thesrgroup.com/"
+				},
+				{
+					"name": "Taylor Root",
+					"url": "https://www.taylorroot.com/"
+				},
+				
+				{
+					"name": "Brewer Morris",
+					"url": "https://www.brewermorris.com/"
+				},
+				
+				{
+					"name": "Frazer Jones",
+					"url": "https://www.frazerjones.com/"
+				},
+				
+				{
+					"name": "Standard Bank Apply"				
+				},
+				
+				{
+					"name": "Historic Royal Palaces",
+					"url": "https://www.hrp.org.uk/"
+				},
+				{
+					"name": "Godolphin",
+					"url": "https://www.godolphin.com/"
+				},
+				
+				{
+					"name": "Crimestoppers",
+					"url": "https://crimestoppers-uk.org/"
+				},
+				
+				{
+					"name": "3M Post-It Make It Happen",
+					"url": "https://web.archive.org/web/20140929202405/https://makeithappen.post-it.co.uk/"
+				},
+				
+				{
+					"name": "The Orlando Eye",
+					"url": "https://web.archive.org/web/20150205235636/https://www.officialorlandoeye.com/"
+				},
+				
+				{
+					"name": "Sea Life",
+					"url": "https://www.visitsealife.com/"
+				},
+				
+				{
+					"name": "SPAR",
+					"url": "https://www.spar.co.uk/"
+				}			
+				
+			]
+		},
+		"contributions": {}
+	},
+	{
+		"id": 5,
+		"title": "Jaywing",
+		"location": "Newbury, Berkshire",
+		"logo": {
+			"url": "jaywing.jpg",
+			"background": "000000",
+			"alt": "Jaywing"
+		},
+		"job": "Web Application Developer",
+		"url": "https://jaywing.com",
+		"shortUrl": "jaywing.com",
+		"from": "Nov 2006",
+		"to": "Jul 2008",
+		"isCurrent": false,
+		"description": "<li>Web development specialising in the Microsoft .net framework.</li><li>C# WebForms.</li><li>SQL Server &amp; Management Studio.</li><li>Core developer on large FMCG websites.</li><li>Multilingual experience with Arabic sites, includingbidirectional layouts.</li><li>Building websites for high profile clients, under tightdeadlines alongside creative and client teams.&nbsp;</li><li>Creating bulk email notification systems including queuing andSMTP error handling.</li><li>Database optimisation and architecture for high load websites.</li><li>Lead on development of a dynamic survey builder.&nbsp;</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Carlsberg",
+					"url": "https://www.carlsberg.co.uk/"
+				},
+				{
+					"name": "Bacardi",
+					"url": "https://www.bacardi.com/uk/en/"
+				},
+				{
+					"name": "Martini",
+					"url": "https://www.martini.com/"
+				},
+				{
+					"name": "Drayton Manor",
+					"url": "https://www.draytonmanor.co.uk/"
+				},
+				{
+					"name": "First Great Weston"
+				},
+				{
+					"name": "Cross Country Trains",
+					"url": "https://web.archive.org/web/20120630161828/https://www.crosscountrytrains.co.uk/"
+				},
+				{
+					"name": "Kaupthing Bank"
+				},
+				{
+					"name": "Britvic",
+					"url": "https://www.britvic.com/"
+				}
+			]
+		},
+		"contributions": {}
+	},
+	{
+		"id": 6,
+		"title": "Guava",
+		"location": "Hurst, Berkshire",
+		"logo": {
+			"url": "guava.png",
+			"background": "88d52f",
+			"alt": "Guava"
+		},
+		"job": "Web Programmer",
+		"url": null,
+		"shortUrl": null,
+		"from": "Feb 2006",
+		"to": "Nov 2006",
+		"isCurrent": false,
+		"description": "<li>ASP VBScript OOP / ASP.net C# driven websites.</li><li>Utilising XML and SQL server for databases.</li><li>Working with bespoke CMS systems to create and maintain entirewebsites.</li><li>Following storyboards and functionality specs agreed by allparties.</li><li>Maintaining ASP websites, whilst developing my knowledge of thetechnology and C#.net.</li><li>Using XML and SOAP to connect to web services for online bookingengines.</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Ramada Jarvis Hotels",
+					"url": "https://web.archive.org/web/20060831125923/https://www.ramadajarvis.co.uk/"
+				},
+				{
+					"name": "City Index",
+					"url": "https://www.cityindex.co.uk/"
+				},
+				{
+					"name": "eBookers",
+					"url": "https://www.ebookers.com/"
+				}
+			]
+		},
+		"contributions": {}
+	},
+	{
+		"id": 7,
+		"title": "MAD Productions",
+		"location": "Colden Common, Winchester, Hampshire",
+		"logo": {
+			"url": "mad.png",
+			"background": "ffffff",
+			"alt": "MAD Productions"
+		},
+		"job": "Web Developer",
+		"url": null,
+		"shortUrl": null,
+		"from": "Apr 2005",
+		"to": "Feb 2006",
+		"isCurrent": false,
+		"description": "<li>ASP / ASP.net driven website builds.</li><li>VBScript</li><li>SQL Enterprise Manager / MS Access.</li><li>Full commercial e-commerce solutions, including ordering systemsand content management.</li><li>SEO awareness.</li><li>Working along side SEO team with proven practices.</li><li>Responsibilities for quality, security, performance and ease ofuse.</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "Snow+Rock",
+					"url": "https://www.snowandrock.com"
+				},
+				{
+					"name": "Addict",
+					"url": "https://www.addict.co.uk"
+				},
+				{
+					"name": "West Country Fires",
+					"url": "https://westcountryfires.co.uk"
+				},
+				{
+					"name": "eFooters",
+					"url": "https://web.archive.org/web/20060505124812/https://www.efooters.com/"
+				},
+				{
+					"name": "Get Me Pleasure",
+					"url": "https://web.archive.org/web/20051026180849/https://www.getmepleasure.co.uk/"
+				}
+			]
+		},
+		"contributions": {}
+	},
+	{
+		"id": 8,
+		"title": "TNT Magazine",
+		"location": "Romsey, Hampshire & Earl's Court, London",
+		"logo": {
+			"url": "tnt.png",
+			"background": "0a465e",
+			"alt": "TNT Magazine"
+		},
+		"job": "Webmaster",
+		"url": "https://tntmagazine.com",
+		"shortUrl": "tntmagazine.com",
+		"from": "Mar 2004",
+		"to": "Apr 2005",
+		"isCurrent": false,
+		"description": "<li>ASP (Visual Basic and JScript).</li><li>SQL Enterprise Manager.</li><li>Controlling the entire TNT Magazine website and development ofASP model.</li><li>Search Engine Optimisation.</li><li>Statistical analysis.</li><li>Invoicing.</li><li>Site monitoring.</li><li>Quality control.</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "TNT Magazine",
+					"url": "https://tntmagazine.com"
+				},
+				{
+					"name": "AdTrader Digital"
+				}			
+			]
+		},
+		"contributions": {}
+	},
+	{
+		"id": 9,
+		"title": "IBM UK Limited",
+		"location": "Basingstoke, Hampshire",
+		"logo": {
+			"url": "ibm.png",
+			"background": "000000",
+			"alt": "IBM UK Limited"
+		},
+		"job": "Senior Webmaster &amp; Deputy Team Leader",
+		"url": "https://www.ibm.com",
+		"shortUrl": "ibm.com",
+		"from": "Apr 2000",
+		"to": "Mar 2004",
+		"isCurrent": false,
+		"description": "<li>Prioritising workload for both team and myself and training new starters and country contacts.</li><li>Statistics analyst, including search optimisation and site accessibility.</li><li>Frequent collaboration and training with domestic and foreign contacts.</li><li>Development of EMEA Personal Computing websites.</li><li>Lead developer for rollout of ibm.com design updates.</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "IBM UK",
+					"url": "https://www.ibm.com"
+				}				
+			]
+		},
+		"contributions": {}
+	}, 
+	{
+		"id": 10,
+		"title": "IBM UK Limited",
+		"location": "Basingstoke, Hampshire",
+		"logo": {
+			"url": "ibm.png",
+			"background": "000000",
+			"alt": "IBM UK Limited"
+		},
+		"job": "Public Sector Sales Productivity Centre Professional",
+		"url": "https://www.ibm.com",
+		"shortUrl": "ibm.com",
+		"from": "Jul 1999",
+		"to": "Apr 2000",
+		"isCurrent": false,
+		"description": "<li>Working with large tender response documents.</li><li>Supporting the sales team on information gathering and preparation.</li>",
+		"projects": {
+			"title": "Projects",
+			"items": [
+				{
+					"name": "IBM UK",
+					"url": "https://www.ibm.com"
+				}				
+			]
+		},
+		"contributions": {}
+	}
+]
