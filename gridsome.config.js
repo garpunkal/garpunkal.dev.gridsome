@@ -3,8 +3,8 @@ const tailwind = require('tailwindcss')
 const postcssPlugins = [tailwind()]
 
 module.exports = {
-  siteName: 'garpunkal.uk',
-  siteUrl: 'https://garpunkal.uk',
+  siteName: 'garpunkal.dev',
+  siteUrl: 'https://garpunkal.dev',
   favicon: './src/images/profile.jpg',
   plugins: [{
       use: 'gridsome-plugin-gtm',
