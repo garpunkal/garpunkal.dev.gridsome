@@ -1,5 +1,5 @@
-const c1 = () => import(/* webpackChunkName: "page--src-pages-404-vue" */ "C:\\git\\github.com\\garpunkal\\garpunkal.github.io\\src\\pages\\404.vue")
-const c2 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\\git\\github.com\\garpunkal\\garpunkal.github.io\\src\\pages\\Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src-pages-404-vue" */ "J:\\git\\github.com\\garpunkal\\garpunkal.github.io\\src\\pages\\404.vue")
+const c2 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "J:\\git\\github.com\\garpunkal\\garpunkal.github.io\\src\\pages\\Index.vue")
 
 export default [
   {
