@@ -13,7 +13,7 @@ export default function(Vue, { router, head, isClient }) {
 	head.meta.push({
 		name: "keywords",
 		content:
-			"garpunkal, gareth, wright, gareth wright, garpunkal.uk, development manager, c# web developer, umbraco, umbraco certified developer, c# developer, developer, umbraco certified expert, andover, hampshire, csharp",
+			"garpunkal, gareth, wright, gareth wright, garpunkal.dev, development manager, c# web developer, umbraco, umbraco certified developer, c# developer, developer, umbraco certified expert, andover, hampshire, csharp",
 	});
 
 	head.meta.push({
