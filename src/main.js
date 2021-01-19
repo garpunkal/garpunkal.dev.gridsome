@@ -1,6 +1,7 @@
 require("~/main.css");
 import DefaultLayout from "~/layouts/Default.vue";
 import Vue from "vue";
+import _ from 'lodash';
 
 export default function(Vue, { router, head, isClient }) {
 	head.script.push({

@@ -132,11 +132,6 @@ export default {
       type: Object,
       required: true,
     },
-  },
-  data() {
-    return {
-      color: "#006699",
-    };
-  },
+  }
 };
 </script>
