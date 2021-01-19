@@ -1,4 +1,4 @@
-import plugin_gridsome_plugin_gtm_5 from "J:\\git\\github.com\\garpunkal\\garpunkal.github.io\\node_modules\\gridsome-plugin-gtm\\gridsome.client.js"
+import plugin_gridsome_plugin_gtm_5 from "C:\\git\\github.com\\garpunkal\\garpunkal.github.io\\node_modules\\gridsome-plugin-gtm\\gridsome.client.js"
 
 export default [
   {
