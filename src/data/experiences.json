@@ -13,8 +13,8 @@
 		"shortUrl": "carbonsix.digital",
 		"from": "Dec 2019",
 		"to": "current",
-		"isCurrent": true,
-		"description": "<li>Team management &amp; project development.</li><li>C# .net MVC development, .net framework and .net core.</li><li>Project delivery using DevOps with build and release pipelines.</li><li>Azure functions and logic apps development.</li><li>Umbraco 8 with ModelsBuilder.</li><li>Migration from Umbraco Cloud to Microsoft Azure Hosting</li><li>Utilising Vendr for Umbraco to produce an ecommerce site,including contributions.</li><li>Creation of a product comparison tool, bundle builder andrecommendation tool.</li><li>Nuget package for a bespoke HubSpot eCommerce Bridge client.</li><li>Integration of Shopify, including building a JavaScript shoppingcart.</li><li>Integration of MailChimp / SendInBlue for newslettersubscriptions.</li><li>Using MaxMind / IPStack for geo location services.</li><li>Building a bespoke <a rel=\"noopener\" href=\"https://github.com/CarbonSixDigital/Personalisation\" target=\"_blank\" title=\"Personalisation Engine\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">personalisation engine</a> for Umbraco based onuser's behaviour.</li><li>nPoco code-first data layer solutions.</li><li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.</li></ul></li><li>Gridsome, Vue.JS, GraphQL, JSON.</li><li>JavaScript, JQuery, NodeJs, Yarn, NPM, Gulp.</li><li>HTML, CSS, SCSS, TailwindCSS, Nunjucks</li>",
+		"isCurrent": true,	
+		"description": "<li>Team management &amp; project development.</li><li>C# .net MVC development, .net framework and .net core.</li><li>Project delivery using DevOps with build and release pipelines.</li><li>Azure functions and logic apps development.</li><li>Umbraco 8 with ModelsBuilder.</li><li>Migration from Umbraco Cloud to Microsoft Azure Hosting</li><li>Utilising Vendr for Umbraco to produce an ecommerce site, including contributions.</li><li>Creation of a product comparison tool, bundle builder and recommendation tool.</li><li>Nuget package for a bespoke HubSpot eCommerce Bridge client.</li><li>Integration of Shopify, including building a JavaScript shopping cart.</li><li>Integration of MailChimp / SendInBlue for newsletter subscriptions.</li><li>Using MaxMind / IPStack for geo location services.</li><li>Building a bespoke <a rel=\"noopener\" href=\"https://github.com/CarbonSixDigital/Personalisation\" target=\"_blank\" title=\"Personalisation Engine\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">personalisation engine</a> for Umbraco based on user's behaviour.</li><li>nPoco code-first data layer solutions.</li><li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.</li></ul></li><li>JavaScript, JQuery, NodeJs, Yarn, NPM, Gulp.</li><li>HTML, CSS, SCSS, TailwindCSS, Nunjucks</li><li>Gridsome, Vue.JS, GraphQL, JSON.</li>",
 		"projects": { 
 			"title": "Projects",
 			"items": [
@@ -74,7 +74,7 @@
 		"from": "May 2019",
 		"to": "Dec 2019",
 		"isCurrent": false,
-		"description": "<li>C# .net MVC development.</li><li>.net core experience.</li><li>Experience with Umbraco, Sitecore and Sitefinity.</li><li>UmbracoCMS Contributor.</li><li>Extending Umbraco by creating C# and AngularJS packages.</li><li>Sitecore 9 experience.</li><li>Creating NuGet packages for internal &amp; external use.</li><li>Test Driven Development with MS Test projects.</li><li>Utilising nPoco and Entity Framework.</li><li>Working with IdentityServer to connect WebAPI to mobileapplications.</li><li>Integration with Amazon S3 Buckets and Azure Blob Storage</li>",
+		"description": "<li>C# .net MVC development.</li><li>.net core experience.</li><li>Experience with Umbraco, Sitecore and Sitefinity.</li><li>Umbraco CMS Contributor.</li><li>Extending Umbraco by creating C# and AngularJS packages.</li><li>Sitecore 9 experience.</li><li>Creating NuGet packages for internal &amp; external use.</li><li>Test Driven Development with MS Test projects.</li><li>Utilising nPoco and Entity Framework.</li><li>Working with IdentityServer to connect WebAPI to mobile applications.</li><li>Integration with Amazon S3 Buckets and Azure Blob Storage</li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
@@ -125,7 +125,7 @@
 		"from": "Jan 2016",
 		"to": "May 2019",
 		"isCurrent": false,
-		"description": "<li>Technical Manager for various projects and clients.</li><li>Providing direction for the development team in support ofbusiness operations.</li><li>Staff recruitment, training and resourcing.</li><li>Improving processes, security and efficiency on technicalprojects.</li><li>C# MVC development utilising Umbraco, Sitecore and Sitefinity.</li><li>Umbraco Gold Partner.</li><li>Certified Umbraco Expert.</li><li>Certified Sitecore XP8 Developer.</li><li>Extending Umbraco by creating C# and AngularJS packages.</li><li>SQL Server database administration and optimisation.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5 pt-2\"><li>Traffic Manager.</li><li>Azure DNS.</li><li>App services / App service plans.</li><li>SQL servers and databases.</li><li>Azure Content Delivery Network.</li><li>Blob Storage.</li><li>Vision API<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>AI Cognitive Services for analysing imagery.</li></ul></li><li>Media Services<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Encoding-on-demand and adaptive streaming.</li></ul></li><li>Application Insights<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Server monitoring and fault finding.</li></ul></li></ul></li>",
+		"description": "<li>Technical Manager for various projects and clients.</li><li>Providing direction for the development team in support of business operations.</li><li>Staff recruitment, training and resourcing.</li><li>Improving processes, security and efficiency on technical projects.</li><li>C# MVC development utilising Umbraco, Sitecore and Sitefinity.</li><li>Umbraco Gold Partner.</li><li>Certified Umbraco Expert.</li><li>Certified Sitecore XP8 Developer.</li><li>Extending Umbraco by creating C# and AngularJS packages.</li><li>SQL Server database administration and optimisation.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5 pt-2\"><li>Traffic Manager.</li><li>Azure DNS.</li><li>App services / App service plans.</li><li>SQL servers and databases.</li><li>Azure Content Delivery Network.</li><li>Blob Storage.</li><li>Vision API<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>AI Cognitive Services for analysing imagery.</li></ul></li><li>Media Services<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Encoding-on-demand and adaptive streaming.</li></ul></li><li>Application Insights<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Server monitoring and fault finding.</li></ul></li></ul></li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
@@ -232,7 +232,7 @@
 		"from": "Jul 2008",
 		"to": "Jan 2016",
 		"isCurrent": false,
-		"description": "<li>Web development specialising in the Microsoft .net framework.</li><li>C# MVC and WebForms.</li><li>Umbraco 6 and 7 experience.</li><li>Sitecore 8 experience.</li><li>Lead developer on top brand projects with tight deadlines, whichincluded team leadership and client liaising.</li><li>3rd party integration with various API's.</li><li>Technical documentation and solution development.</li><li>Core developer of in-house content management system.</li><li>Pitching to potential new clients, with success.</li><li><a rel=\"noopener\" href=\"https://www.w3award.com/winners/list/view/?search=jaywing&amp;event=29&amp;award=1\" target=\"_blank\" title=\"w3 Gold Winner\" data-anchor=\"?search=jaywing&amp;event=29&amp;award=1\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">w3 Gold Winner</a><ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>JAYWING, <a rel=\"noopener\" href=\"https://www.godolphin.com\" target=\"_blank\" title=\"Godolphin.com\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">Godolphin.com</a>, website features, user experience.</li></ul></li>",
+		"description": "<li>Web development specialising in the Microsoft .net framework.</li><li>C# MVC and WebForms.</li><li>Umbraco 6 and 7 experience.</li><li>Sitecore 8 experience.</li><li>Lead developer on top brand projects with tight deadlines, which included team leadership and client liaising.</li><li>3rd party integration with various API's.</li><li>Technical documentation and solution development.</li><li>Core developer of in-house content management system.</li><li>Pitching to potential new clients, with success.</li><li><a rel=\"noopener\" href=\"https://www.w3award.com/winners/list/view/?search=jaywing&amp;event=29&amp;award=1\" target=\"_blank\" title=\"w3 Gold Winner\" data-anchor=\"?search=jaywing&amp;event=29&amp;award=1\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">w3 Gold Winner</a><ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>JAYWING, <a rel=\"noopener\" href=\"https://www.godolphin.com\" target=\"_blank\" title=\"Godolphin.com\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">Godolphin.com</a>, website features, user experience.</li></ul></li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
@@ -335,7 +335,7 @@
 		"from": "Nov 2006",
 		"to": "Jul 2008",
 		"isCurrent": false,
-		"description": "<li>Web development specialising in the Microsoft .net framework.</li><li>C# WebForms.</li><li>SQL Server &amp; Management Studio.</li><li>Core developer on large FMCG websites.</li><li>Multilingual experience with Arabic sites, includingbidirectional layouts.</li><li>Building websites for high profile clients, under tightdeadlines alongside creative and client teams.&nbsp;</li><li>Creating bulk email notification systems including queuing andSMTP error handling.</li><li>Database optimisation and architecture for high load websites.</li><li>Lead on development of a dynamic survey builder.&nbsp;</li>",
+		"description": "<li>Web development specialising in the Microsoft .net framework.</li><li>C# WebForms.</li><li>SQL Server &amp; Management Studio.</li><li>Core developer on large FMCG websites.</li><li>Multilingual experience with Arabic sites, including bidirectional layouts.</li><li>Building websites for high profile clients, under tight deadlines alongside creative and client teams.&nbsp;</li><li>Creating bulk email notification systems including queuing and SMTP error handling.</li><li>Database optimisation and architecture for high load websites.</li><li>Lead on development of a dynamic survey builder.&nbsp;</li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
@@ -388,7 +388,7 @@
 		"from": "Feb 2006",
 		"to": "Nov 2006",
 		"isCurrent": false,
-		"description": "<li>ASP VBScript OOP / ASP.net C# driven websites.</li><li>Utilising XML and SQL server for databases.</li><li>Working with bespoke CMS systems to create and maintain entirewebsites.</li><li>Following storyboards and functionality specs agreed by allparties.</li><li>Maintaining ASP websites, whilst developing my knowledge of thetechnology and C#.net.</li><li>Using XML and SOAP to connect to web services for online bookingengines.</li>",
+		"description": "<li>ASP VBScript OOP / ASP.net C# driven websites.</li><li>Utilising XML and SQL server for databases.</li><li>Working with bespoke CMS systems to create and maintain entire websites.</li><li>Following storyboards and functionality specs agreed by all parties.</li><li>Maintaining ASP websites, whilst developing my knowledge of the technology and C#.net.</li><li>Using XML and SOAP to connect to web services for online booking engines.</li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
@@ -423,7 +423,7 @@
 		"from": "Apr 2005",
 		"to": "Feb 2006",
 		"isCurrent": false,
-		"description": "<li>ASP / ASP.net driven website builds.</li><li>VBScript</li><li>SQL Enterprise Manager / MS Access.</li><li>Full commercial e-commerce solutions, including ordering systemsand content management.</li><li>SEO awareness.</li><li>Working along side SEO team with proven practices.</li><li>Responsibilities for quality, security, performance and ease ofuse.</li>",
+		"description": "<li>ASP / ASP.net driven website builds.</li><li>VBScript</li><li>SQL Enterprise Manager / MS Access.</li><li>Full commercial e-commerce solutions, including ordering systems and content management.</li><li>SEO awareness.</li><li>Working along side SEO team with proven practices.</li><li>Responsibilities for quality, security, performance and ease of use.</li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
@@ -466,7 +466,7 @@
 		"from": "Mar 2004",
 		"to": "Apr 2005",
 		"isCurrent": false,
-		"description": "<li>ASP (Visual Basic and JScript).</li><li>SQL Enterprise Manager.</li><li>Controlling the entire TNT Magazine website and development ofASP model.</li><li>Search Engine Optimisation.</li><li>Statistical analysis.</li><li>Invoicing.</li><li>Site monitoring.</li><li>Quality control.</li>",
+		"description": "<li>ASP (Visual Basic and JScript).</li><li>SQL Enterprise Manager.</li><li>Controlling the entire TNT Magazine website and development of ASP model.</li><li>Search Engine Optimisation.</li><li>Statistical analysis.</li><li>Invoicing.</li><li>Site monitoring.</li><li>Quality control.</li>",
 		"projects": {
 			"title": "Projects",
 			"items": [
