@@ -6,7 +6,8 @@
       alt="Gareth Wright"
       quality="60"
       width="960"
-      height="960"
+      height="960"     
+      blur="0" 
     />
   </div>
 </template>

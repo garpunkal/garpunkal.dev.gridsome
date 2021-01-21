@@ -12,7 +12,7 @@
       >
         <g-image
           :alt="item.logo.alt"
-          :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=60!@images/${item.logo.url}`)"
+          :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=60&blur=0!@images/${item.logo.url}`)"
           class="object-cover rounded-lg lg:rounded-l-lg flex"
           :style="{ backgroundColor: '#' + item.logo.background }"
         />
@@ -21,7 +21,7 @@
       <g-image
         v-if="!item.url"
         :alt="item.logo.alt"
-        :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=60!@images/${item.logo.url}`)"
+        :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=60&blur=0!@images/${item.logo.url}`)"
         class="object-cover rounded-lg lg:rounded-l-lg flex"
         :style="{ backgroundColor: '#' + item.logo.background }"
       />

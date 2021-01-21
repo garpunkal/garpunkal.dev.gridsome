@@ -11,6 +11,7 @@
             quality="60"
             width="192"
             height="192"
+            blur="0" 
           />
         </div>
 </template>
