@@ -7,7 +7,7 @@
       quality="60"
       width="960"
       height="960"     
-      blur="0" 
+      blur="60" 
     />
   </div>
 </template>
