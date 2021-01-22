@@ -12,6 +12,7 @@
             width="192"
             height="192"
             loading="lazy"
+            immediate="true"
             
           />
         </div>

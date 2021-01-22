@@ -11,7 +11,7 @@
         <g-image
           :alt="item.image.alt"
           :src="
-            require(`!!assets-loader?width=600&height=360&fit=cover&position=left%20top&quality=75!@images/${item.image.url}`)
+            require(`!!assets-loader?width=600&height=360&fit=cover&position=left%20top&quality=75&immediate=true!@images/${item.image.url}`)
           "
           class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
           loading="lazy"
@@ -22,7 +22,7 @@
         v-if="!item.url"
         :alt="item.image.alt"
         :src="
-          require(`!!assets-loader?width=600&height=360&fit=cover&position=left%20top&quality=75!@images/${item.image.url}`)
+          require(`!!assets-loader?width=600&height=360&fit=cover&position=left%20top&quality=75&immediate=true!@images/${item.image.url}`)
         "
         class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
         loading="lazy"
@@ -39,7 +39,7 @@
         <g-image
           :alt="item.image.alt"
           :src="
-            require(`!!assets-loader?width=600&height=360&fit=cover&position=top&quality=75!@images/${item.image.url}`)
+            require(`!!assets-loader?width=600&height=360&fit=cover&position=top&quality=75&immediate=true!@images/${item.image.url}`)
           "
           class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
           loading="lazy"
@@ -50,7 +50,7 @@
         v-if="!item.url"
         :alt="item.image.alt"
         :src="
-          require(`!!assets-loader?width=600&height=360&fit=cover&position=top&quality=75!@images/${item.image.url}`)
+          require(`!!assets-loader?width=600&height=360&fit=cover&position=top&quality=75&immediate=true!@images/${item.image.url}`)
         "
         class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
         loading="lazy"
