@@ -11,6 +11,7 @@
             quality="75"
             width="192"
             height="192"
+            loading="lazy"
             
           />
         </div>

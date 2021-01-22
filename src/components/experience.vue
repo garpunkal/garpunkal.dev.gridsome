@@ -15,6 +15,7 @@
           :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=75!@images/${item.logo.url}`)"
           class="object-cover rounded-lg lg:rounded-l-lg flex"
           :style="{ backgroundColor: '#' + item.logo.background }"
+          loading="lazy"
         />
       </a>
 
@@ -24,6 +25,7 @@
         :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=75!@images/${item.logo.url}`)"
         class="object-cover rounded-lg lg:rounded-l-lg flex"
         :style="{ backgroundColor: '#' + item.logo.background }"
+        loading="lazy"
       />
     </div>
     <div

@@ -14,6 +14,7 @@
             require(`!!assets-loader?width=600&height=360&fit=cover&position=left%20top&quality=75!@images/${item.image.url}`)
           "
           class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+          loading="lazy"
         />
       </a>
 
@@ -24,6 +25,7 @@
           require(`!!assets-loader?width=600&height=360&fit=cover&position=left%20top&quality=75!@images/${item.image.url}`)
         "
         class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+        loading="lazy"
       />
     </div>
     <div v-else-if="item.position === 'top'">
@@ -40,6 +42,7 @@
             require(`!!assets-loader?width=600&height=360&fit=cover&position=top&quality=75!@images/${item.image.url}`)
           "
           class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+          loading="lazy"
         />
       </a>
 
@@ -50,6 +53,7 @@
           require(`!!assets-loader?width=600&height=360&fit=cover&position=top&quality=75!@images/${item.image.url}`)
         "
         class="w-full object-cover h-full object-center block rounded-lg lg:rounded-l-lg"
+        loading="lazy"
       />
     </div>
 

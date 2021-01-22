@@ -7,7 +7,7 @@
       quality="75"
       width="960"
       height="960"     
-      
+      loading="lazy"      
     />
   </div>
 </template>
