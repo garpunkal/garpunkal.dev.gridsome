@@ -121,7 +121,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.shreksadventure.co.uk"
 			}
 		]
@@ -150,7 +150,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.tntmagazine.com/uk"
 			},
 			{
@@ -193,7 +193,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.egress.com"
 			},
 			{
@@ -205,7 +205,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://secure.railcard.co.uk/"
 			}
 		]
@@ -234,7 +234,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://afaeducation.org/"
 			},
 			{
@@ -246,7 +246,7 @@
 					"width": "615",
 					"height": "340"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.londoneye.com/",
 				"large": true
 			}
@@ -264,7 +264,7 @@
 					"width": "615",
 					"height": "340"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.nakedjuice.co.uk",
 				"large": true
 			},
@@ -289,7 +289,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.godolphin.com"
 			}
 		]
@@ -330,7 +330,7 @@
 					"width": "615",
 					"height": "340"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.littlefreddie.com",
 				"large": true
 			}
@@ -348,7 +348,7 @@
 					"width": "615",
 					"height": "340"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.port.ac.uk/",
 				"large": true
 			},
@@ -373,7 +373,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://web.archive.org/web/20051026180849/https://www.getmepleasure.co.uk/"
 			}
 		]
@@ -432,7 +432,7 @@
 					"width": "615",
 					"height": "340"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://web.archive.org/web/20150205235636/https://www.officialorlandoeye.com/",
 				"large": true
 			},
@@ -445,7 +445,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://www.shareregistrars.uk.com/"
 			},
 			{
@@ -457,7 +457,7 @@
 					"width": "300",
 					"height": "165"
 				},
-				"position": "top",
+				"position": "center top",
 				"url": "https://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
 			}
 		]
