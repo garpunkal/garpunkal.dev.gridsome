@@ -1,5 +1,5 @@
   <template>
-  <div>
+  <div class="center">
     <a
       v-if="item.url"
       :href="item.url"
@@ -15,7 +15,7 @@
         :width="item.image.width"
         :height="item.image.height"
         loading="lazy"
-        :style="{ width: item.image.width + 'px', height: item.image.height + 'px', }"
+        :style="{ width: '100%', height: '100%', }"
       />
 
       <img
@@ -26,7 +26,7 @@
         :width="item.image.width"
         :height="item.image.height"
         loading="lazy"
-        :style="{ width: item.image.width + 'px', height: item.image.height + 'px', }"
+        :style="{ width: '100%', height: '100%', }"
       />
     </a>
   </div>
