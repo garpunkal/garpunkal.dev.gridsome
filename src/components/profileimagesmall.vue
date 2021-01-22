@@ -8,10 +8,10 @@
             src="~/assets/images/profile.jpg"
             fit="cover"
             position="center top"            
-            quality="60"
+            quality="75"
             width="192"
             height="192"
-            blur="0" 
+            
           />
         </div>
 </template>
