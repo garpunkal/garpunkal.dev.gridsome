@@ -44,5 +44,5 @@ module.exports = {
 		layers: ["components", "pages", "layouts"],
 		content: ["./src/**/*.html", "./src/**/*.vue", './src/**/*.js'],
 	},
-	//darkMode: "media",
+	darkMode: "media"
 };
