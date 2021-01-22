@@ -137,6 +137,8 @@ query {
           image {
             url
             alt
+            width
+            height
           }
           url
           position

@@ -40,8 +40,9 @@ module.exports = {
 		},
 	},
 	purge: {
-		layers: ["components", "utilities", "pages", "layouts"],
-		content: ["./src/**/*.html", "./src/**/*.vue"],
+		enabled: true,
+		layers: ["components", "pages", "layouts"],
+		content: ["./src/**/*.html", "./src/**/*.vue", './src/**/*.js'],
 	},
 	//darkMode: "media",
 };

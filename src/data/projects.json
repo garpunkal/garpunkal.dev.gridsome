@@ -7,7 +7,9 @@
 				"title": "Nextbase",
 				"image": {
 					"url": "nextbase.png",
-					"alt": "Nextbase"
+					"alt": "Nextbase",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "center top",
 				"url": "https://carbonsix.digital",
@@ -18,7 +20,9 @@
 				"title": "OCC Strategy",
 				"image": {
 					"url": "occ.png",
-					"alt": "OCC Strategy"
+					"alt": "OCC Strategy",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.occstrategy.com/en/"
@@ -28,7 +32,9 @@
 				"title": "Sunbites",
 				"image": {
 					"url": "sunbites.png",
-					"alt": "Sunbites"
+					"alt": "Sunbites",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "center top",
 				"url": "https://www.sunbites.co.uk"
@@ -43,7 +49,9 @@
 				"title": "Wright Hassall",
 				"image": {
 					"url": "wrighthassall.png",
-					"alt": "Wright Hassall"
+					"alt": "Wright Hassall",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.wrighthassall.co.uk"
@@ -53,7 +61,9 @@
 				"title": "Historic Royal Palaces",
 				"image": {
 					"url": "hrp.png",
-					"alt": "Historic Royal Palaces"
+					"alt": "Historic Royal Palaces",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "center top",
 				"url": "https://www.hrp.org.uk"
@@ -63,7 +73,10 @@
 				"title": "Isio",
 				"image": {
 					"url": "isio.png",
-					"alt": "Isio"
+					"alt": "Isio",
+					"width": "615",
+					"height": "340"
+
 				},
 				"position": "center top",
 				"url": "https://www.isio.com",
@@ -79,7 +92,9 @@
 				"title": "Sky Ocean Rescue",
 				"image": {
 					"url": "sor.png",
-					"alt": "Sky Ocean Rescue"
+					"alt": "Sky Ocean Rescue",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "left top",
 				"url": "https://www.skyoceanrescue.com",
@@ -90,7 +105,9 @@
 				"title": "Addict",
 				"image": {
 					"url": "addict.png",
-					"alt": "Addict"
+					"alt": "Addict",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.addict.co.uk"
@@ -100,7 +117,9 @@
 				"title": "Shrek's Adventure",
 				"image": {
 					"url": "shrek.png",
-					"alt": "Shrek's Adventure"
+					"alt": "Shrek's Adventure",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://www.shreksadventure.co.uk"
@@ -115,7 +134,9 @@
 				"title": "Merlin's Magical London",
 				"image": {
 					"url": "mml.png",
-					"alt": "Merlin's Magical London"
+					"alt": "Merlin's Magical London",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "center top",
 				"url": "https://www.merlinsmagicallondon.com"
@@ -125,7 +146,9 @@
 				"title": "TNT Magazine",
 				"image": {
 					"url": "tnt_site.png",
-					"alt": "TNT Magazine"
+					"alt": "TNT Magazine",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://www.tntmagazine.com/uk"
@@ -135,7 +158,9 @@
 				"title": "3M: Make It Happen",
 				"image": {
 					"url": "makeithappen.png",
-					"alt": "3M: Make It Happen"
+					"alt": "3M: Make It Happen",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "center top",
 				"url": "https://web.archive.org/web/20140929202405/https://makeithappen.post-it.co.uk/",
@@ -151,7 +176,9 @@
 				"title": "Madame Tussauds",
 				"image": {
 					"url": "madametussauds.png",
-					"alt": "Madame Tussauds"
+					"alt": "Madame Tussauds",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "center top",
 				"url": "https://www.madametussauds.com",
@@ -162,7 +189,9 @@
 				"title": "Egress",
 				"image": {
 					"url": "egress.png",
-					"alt": "Egress"
+					"alt": "Egress",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://www.egress.com"
@@ -172,7 +201,9 @@
 				"title": "Rail Delivery Group",
 				"image": {
 					"url": "rdg.png",
-					"alt": "Rail Delivery Group"
+					"alt": "Rail Delivery Group",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://secure.railcard.co.uk/"
@@ -187,7 +218,9 @@
 				"title": "Crimestoppers",
 				"image": {
 					"url": "crimestoppers.png",
-					"alt": "Crimestoppers"
+					"alt": "Crimestoppers",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://crimestoppers-uk.org"
@@ -197,7 +230,9 @@
 				"title": "Achievement For All",
 				"image": {
 					"url": "afa.png",
-					"alt": "Achievement For All"
+					"alt": "Achievement For All",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://afaeducation.org/"
@@ -207,7 +242,9 @@
 				"title": "London Eye",
 				"image": {
 					"url": "londoneye.png",
-					"alt": "London Eye"
+					"alt": "London Eye",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "top",
 				"url": "https://www.londoneye.com/",
@@ -223,7 +260,9 @@
 				"title": "Naked Juice",
 				"image": {
 					"url": "nakedjuice.png",
-					"alt": "Naked Juice"
+					"alt": "Naked Juice",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "top",
 				"url": "https://www.nakedjuice.co.uk",
@@ -234,7 +273,9 @@
 				"title": "SPAR",
 				"image": {
 					"url": "spar.png",
-					"alt": "SPAR"
+					"alt": "SPAR",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.spar.co.uk"
@@ -244,7 +285,9 @@
 				"title": "Godolphin",
 				"image": {
 					"url": "godolphin.png",
-					"alt": "Godolphin"
+					"alt": "Godolphin",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://www.godolphin.com"
@@ -259,7 +302,9 @@
 				"title": "eFooters",
 				"image": {
 					"url": "efooters.png",
-					"alt": "eFooters"
+					"alt": "eFooters",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://web.archive.org/web/20060505124812/https://www.efooters.com/"
@@ -269,7 +314,9 @@
 				"title": "Taylor Root",
 				"image": {
 					"url": "taylorroot.png",
-					"alt": "Taylor Root"
+					"alt": "Taylor Root",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.taylorroot.com"
@@ -279,7 +326,9 @@
 				"title": "Little Freddie",
 				"image": {
 					"url": "littlefreddie.png",
-					"alt": "Little Freddie"
+					"alt": "Little Freddie",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "top",
 				"url": "https://www.littlefreddie.com",
@@ -295,7 +344,9 @@
 				"title": "University of Portsmouth",
 				"image": {
 					"url": "uop.png",
-					"alt": "University of Portsmouth"
+					"alt": "University of Portsmouth",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "top",
 				"url": "https://www.port.ac.uk/",
@@ -306,7 +357,9 @@
 				"title": "SRG",
 				"image": {
 					"url": "srg.png",
-					"alt": "SRG"
+					"alt": "SRG",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.srgtalent.com/"
@@ -316,7 +369,9 @@
 				"title": "Get Me Pleasure",
 				"image": {
 					"url": "gmp.png",
-					"alt": "Get Me Pleasure"
+					"alt": "Get Me Pleasure",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://web.archive.org/web/20051026180849/https://www.getmepleasure.co.uk/"
@@ -331,7 +386,9 @@
 				"title": "Snow+Rock",
 				"image": {
 					"url": "snowandrock.png",
-					"alt": "Snow+Rock"
+					"alt": "Snow+Rock",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.snowandrock.com"
@@ -341,7 +398,9 @@
 				"title": "IBM PC Europe",
 				"image": {
 					"url": "ibm_site.png",
-					"alt": "IBM PC Europe"
+					"alt": "IBM PC Europe",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://www.ibm.com"
@@ -351,7 +410,9 @@
 				"title": "Sea Life",
 				"image": {
 					"url": "sealife.png",
-					"alt": "Sea Life"
+					"alt": "Sea Life",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "left top",
 				"url": "https://www.visitsealife.com",
@@ -367,7 +428,9 @@
 				"title": "The Orlando Eye",
 				"image": {
 					"url": "orlando.png",
-					"alt": "The Orlando Eye"
+					"alt": "The Orlando Eye",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "top",
 				"url": "https://web.archive.org/web/20150205235636/https://www.officialorlandoeye.com/",
@@ -378,7 +441,9 @@
 				"title": "Share Registrars",
 				"image": {
 					"url": "sharereg.png",
-					"alt": "Share Registrars"
+					"alt": "Share Registrars",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://www.shareregistrars.uk.com/"
@@ -388,7 +453,9 @@
 				"title": "Pepsi Perfect Match",
 				"image": {
 					"url": "perfectmatch.png",
-					"alt": "Pepsi Perfect Match"
+					"alt": "Pepsi Perfect Match",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "top",
 				"url": "https://web.archive.org/web/20180706153628/https://perfectmatch.walkers.co.uk/"
@@ -403,7 +470,9 @@
 				"title": "Ramada Jarvis Hotels",
 				"image": {
 					"url": "ramadajarvis.png",
-					"alt": "Ramada Jarvis Hotels"
+					"alt": "Ramada Jarvis Hotels",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://web.archive.org/web/20060831125923/https://www.ramadajarvis.co.uk/"
@@ -413,7 +482,9 @@
 				"title": "Cross Country Trains",
 				"image": {
 					"url": "cct.png",
-					"alt": "Cross Country Trains"
+					"alt": "Cross Country Trains",
+					"width": "300",
+					"height": "165"
 				},
 				"position": "left top",
 				"url": "https://web.archive.org/web/20120630161828/https://www.crosscountrytrains.co.uk/"
@@ -423,7 +494,9 @@
 				"title": "Snell Advanced Media",
 				"image": {
 					"url": "sam.png",
-					"alt": "Snell Advanced Media"
+					"alt": "Snell Advanced Media",
+					"width": "615",
+					"height": "340"
 				},
 				"position": "left top",
 				"url": "https://web.archive.org/web/20151102090054/https://s-a-m.com/",

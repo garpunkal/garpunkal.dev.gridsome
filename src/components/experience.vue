@@ -10,22 +10,27 @@
         rel="noopener"
         :title="item.title"
       >
-        <g-image
+        <img
           :alt="item.logo.alt"
-          :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=75&immediate=true!@images/${item.logo.url}`)"
-          class="object-cover rounded-lg lg:rounded-l-lg flex"
+          :src="require(`~/assets/images/${item.logo.url}`)"
           :style="{ backgroundColor: '#' + item.logo.background }"
+          class="rounded-lg lg:rounded-l-lg flex object-contain"
+          width="100"
+          height="100"
           loading="lazy"
+          style="width: 100px; height: 100px"
         />
       </a>
-
-      <g-image
+      <img
         v-if="!item.url"
         :alt="item.logo.alt"
-        :src="require(`!!assets-loader?background=transparent&width=100&height=100&fit=contain&position=center&quality=75&immediate=true!@images/${item.logo.url}`)"
-        class="object-cover rounded-lg lg:rounded-l-lg flex"
+        :src="require(`~/assets/images/${item.logo.url}`)"
         :style="{ backgroundColor: '#' + item.logo.background }"
+        class="rounded-lg lg:rounded-l-lg flex object-contain"
+        width="100"
+        height="100"
         loading="lazy"
+        style="width: 100px; height: 100px"
       />
     </div>
     <div
@@ -134,6 +139,6 @@ export default {
       type: Object,
       required: true,
     },
-  }
+  },
 };
 </script>
