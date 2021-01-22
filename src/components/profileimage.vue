@@ -7,11 +7,11 @@
       width="960"
       height="960"
       loading="lazy"
-    />
+    />    
   </div>
 </template>
 <script>
 export default {
-  name: "ProfileImage",
+  name: "ProfileImage"
 };
 </script>

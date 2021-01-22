@@ -24,10 +24,10 @@
             data-tippy-content="@github_handle"
             target="_blank"
             rel="noopener"
-          title="GitHub"
+            title="GitHub"
           >
             <svg
-              class="h-4 fill-current text-brand dark:text-brand pr-2"
+              class="h-5 fill-current text-brand dark:text-brand pr-2"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -47,12 +47,11 @@
           class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
-            class="h-4 fill-current text-brand dark:text-brand pr-2"
+            class="h-5 fill-current text-brand dark:text-brand pr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             width="24px"
             height="100%"
-            
           >
             <path
               d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"
@@ -65,7 +64,7 @@
           class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
-            class="h-4 fill-current text-brand dark:text-brand pr-2"
+            class="h-5 fill-current text-brand dark:text-brand pr-2"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -84,10 +83,11 @@
           class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
-            class="h-4 fill-current text-brand dark:text-brand pr-2"
+            class="h-5 fill-current text-brand dark:text-brand pr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             width="24px"
+             role="img"
             height="100%"
           >
             <path
@@ -95,6 +95,30 @@
             />
           </svg>
           Andover, Hampshire, UK
+        </p>
+
+        <p
+          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+        >
+          <a
+            id="switchTheme"
+            class="inline-flex cursor-pointer">
+            <svg
+             class="h-5 fill-current text-brand hover:text-brand-dark dark:text-brand dark:hover:text-white pr-2"
+            
+              viewBox="0 0 24 24"
+              width="24px"
+               role="img"
+            height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Dark Mode</title>
+              <path
+                d="M12 0C5.373 0 0 5.37 0 12s5.373 12 12 12c6.63 0 12-5.37 12-12S18.63 0 12 0zm-.84 4.67h1.68v8.36h-1.68V4.67zM12 18.155c-3.24-.002-5.865-2.63-5.864-5.868 0-2.64 1.767-4.956 4.314-5.655v1.71c-1.628.64-2.698 2.21-2.695 3.96 0 2.345 1.903 4.244 4.248 4.243 2.344-.002 4.244-1.903 4.243-4.248 0-1.745-1.07-3.312-2.694-3.95V6.63c2.55.7 4.314 3.018 4.314 5.66 0 3.24-2.626 5.864-5.865 5.864z"
+              />
+            </svg>
+            Dark Mode
+          </a>
         </p>
 
         <p class="pt-8 text-sm">
@@ -107,6 +131,7 @@
           understanding, empathetic and passionate. This always delivers the
           best results.
         </p>
+
         <SocialLinks />
       </div>
     </div>
@@ -128,6 +153,30 @@ export default {
     DownArrow,
     ProfileImage,
     ProfileImageSmall,
+  },
+  mounted: function () {
+    document
+      .getElementById("switchTheme")
+      .addEventListener("click", function () {
+        let htmlClasses = document.querySelector("html").classList;
+        if (localStorage.theme == "dark") {
+          htmlClasses.remove("dark");
+          localStorage.removeItem("theme");
+        } else {
+          htmlClasses.add("dark");
+          localStorage.theme = "dark";
+        }
+      });
+
+    if (
+      localStorage.theme === "dark" ||
+      (!"theme" in localStorage &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.querySelector("html").classList.add("dark");
+    } else if (localStorage.theme === "dark") {
+      document.querySelector("html").classList.add("dark");
+    }
   },
 };
 </script>
