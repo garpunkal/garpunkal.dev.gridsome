@@ -3,7 +3,7 @@
     class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
   >
     <img
-      src="@/assets/images/profile.jpg"
+      src="@/assets/images/profiles/profile.jpg"
       class="w-full object-cover h-full object-center block rounded-full"
       alt="Gareth Wright"
       width="192"

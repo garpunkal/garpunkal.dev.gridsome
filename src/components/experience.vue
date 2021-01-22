@@ -12,7 +12,7 @@
       >
         <img
           :alt="item.logo.alt"
-          :src="require(`~/assets/images/${item.logo.url}`)"
+          :src="require(`~/assets/images/experiences/${item.logo.url}`)"
           :style="{ backgroundColor: '#' + item.logo.background }"
           class="rounded-lg lg:rounded-l-lg flex object-contain"
           width="100"
@@ -24,7 +24,7 @@
       <img
         v-if="!item.url"
         :alt="item.logo.alt"
-        :src="require(`~/assets/images/${item.logo.url}`)"
+        :src="require(`~/assets/images/experiences/${item.logo.url}`)"
         :style="{ backgroundColor: '#' + item.logo.background }"
         class="rounded-lg lg:rounded-l-lg flex object-contain"
         width="100"

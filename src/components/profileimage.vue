@@ -1,7 +1,7 @@
 <template>
   <div class="w-full lg:w-2/5">
     <img
-      src="@/assets/images/profile.jpg"
+      src="@/assets/images/profiles/profile.jpg"
       class="rounded-none lg:rounded-lg lg:rounded-l-none shadow-2xl hidden lg:block"
       alt="Gareth Wright"
       width="960"

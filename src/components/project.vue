@@ -10,7 +10,7 @@
       <img
         v-if="item.position === 'left top'"
         :alt="item.image.alt"
-        :src="require(`~/assets/images/${item.image.url}`)"
+        :src="require(`~/assets/images/projects/${item.image.url}`)"
         class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top"
         :width="item.image.width"
         :height="item.image.height"
@@ -21,7 +21,7 @@
       <img
         v-else
         :alt="item.image.alt"
-        :src="require(`~/assets/images/${item.image.url}`)"
+        :src="require(`~/assets/images/projects/${item.image.url}`)"
         class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top"
         :width="item.image.width"
         :height="item.image.height"
