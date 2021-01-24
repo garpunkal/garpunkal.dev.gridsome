@@ -66,17 +66,17 @@
 
       <p class="font-smaller title-font text-sm mb-5">
         <span
-          class="text-xs inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
+          class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
           >{{ item.from }}</span
         >
         -
         <span
-          class="text-xs inline-block py-1 px-2 rounded text-white bg-brand uppercase last:mr-0"
+          class="text-sm inline-block py-1 px-2 rounded text-white bg-brand uppercase last:mr-0"
           v-if="item.isCurrent"
           >{{ item.to }}</span
         >
         <span
-          class="text-xs inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
+          class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
           v-else
           >{{ item.to }}</span
         >
@@ -88,11 +88,11 @@
       ></ul>
     </div>
     <div class="sm:pl-6 mt-6 sm:mt-0">
-      <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+      <div class="font-smaller title-font mb-1 text-sm mt-5 font-bold">
         {{ item.projects.title }}
       </div>
 
-      <ul class="list-outside list-disc font-smaller text-xs pl-5">
+      <ul class="list-outside list-disc font-smaller text-sm pl-5">
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
             v-if="project.url"
@@ -107,11 +107,11 @@
         </li>
       </ul>
 
-      <div class="font-smaller title-font mb-1 text-xs mt-5 font-bold">
+      <div class="font-smaller title-font mb-1 text-sm mt-5 font-bold">
         {{ item.contributions.title }}
       </div>
 
-      <ul class="list-outside list-disc font-smaller text-xs pl-5">
+      <ul class="list-outside list-disc font-smaller text-sm pl-5">
         <li
           v-for="contribution in item.contributions.items"
           v-bind:key="contribution.name"

@@ -6,7 +6,7 @@
         <p class="mx-auto">&copy; 2021 Gareth Wright</p>
       </div>
       <div class="flex w-full flex-wrap">
-        <p class="mx-auto mt-5 mb-5 text-xs">
+        <p class="mx-auto mt-5 mb-5 text-sm">
           <a
             href="https://github.com/garpunkal/garpunkal.github.io"
             target="_blank"

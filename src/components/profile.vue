@@ -16,7 +16,7 @@
         ></div>
 
         <p
-          class="pt-4 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-4 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <a
             class="inline-flex"
@@ -44,7 +44,7 @@
         </p>
 
         <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
             class="h-4 fill-current text-brand dark:text-brand pr-2"
@@ -62,7 +62,7 @@
         </p>
 
         <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
             class="h-4 fill-current text-brand dark:text-brand pr-2"
@@ -81,7 +81,7 @@
         </p>
 
         <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
             class="h-4 fill-current text-brand dark:text-brand pr-2"
