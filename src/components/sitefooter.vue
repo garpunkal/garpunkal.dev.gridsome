@@ -14,7 +14,7 @@
             class="font-bold inline-flex"
             title="garpunkal.github.io"
             ><svg
-              class="h-4 fill-current text-white dark:text-white pr-2"
+              class="h-4 fill-current text-white dark:text-gray-400 pr-2"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
