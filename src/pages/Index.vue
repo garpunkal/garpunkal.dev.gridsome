@@ -1,14 +1,15 @@
 <template>
   <Layout>
+ 
     <Profile />
-
+   
     <section
       class="text-gray-500 bg-gray-900 dark:text-gray-300 dark:bg-gray-900 body-font"
     >
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap" id="content">
           <p
-            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center text-white"
+            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center text-white  dark:text-gray-400"
           >
             I love working with clients throughout the longevity of a project,
             from initial conversations to delivery and further. They're part of
@@ -67,6 +68,7 @@ export default {
     title: "Gareth Wright - Development Manager - Senior C# .net MVC Developer",
   },
   components: {
+   
     Experience,
     SiteFooter,
     Twitter,

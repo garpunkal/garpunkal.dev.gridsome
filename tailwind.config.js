@@ -36,7 +36,7 @@ module.exports = {
 				"screen/4": "calc(100vh / 4)",
 				"screen/5": "calc(100vh / 5)",
 				"screen/75": "75vh",
-			}),
+			})
 		},
 	},
 	purge: {
@@ -44,5 +44,6 @@ module.exports = {
 		layers: ["components", "pages", "layouts"],
 		content: ["./src/**/*.html", "./src/**/*.vue", './src/**/*.js'],
 	},
-	//darkMode: "media",
-};
+	darkMode: "class",
+	
+}

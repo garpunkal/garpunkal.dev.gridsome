@@ -11,7 +11,7 @@
         v-if="item.position === 'left top'"
         :alt="item.image.alt"
         :src="require(`~/assets/images/projects/${item.image.url}`)"
-        class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top"
+        class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100"
         :width="item.image.width"
         :height="item.image.height"
         loading="lazy"
@@ -22,7 +22,7 @@
         v-else
         :alt="item.image.alt"
         :src="require(`~/assets/images/projects/${item.image.url}`)"
-        class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top"
+        class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top dark:brightness-50 dark:hover:brightness-100"
         :width="item.image.width"
         :height="item.image.height"
         loading="lazy"
