@@ -14,13 +14,17 @@
 		"from": "Dec 2019",
 		"to": "current",
 		"isCurrent": true,	
-		"description": "<li>Team management &amp; project development.</li><li>C# .net MVC development, .net framework and .net core.</li><li>Project delivery using DevOps with build and release pipelines.</li><li>Azure functions and logic apps development.</li><li>Umbraco 8 with ModelsBuilder.</li><li>Migration from Umbraco Cloud to Microsoft Azure Hosting</li><li>Utilising Vendr for Umbraco to produce an ecommerce site, including contributions.</li><li>Creation of a product comparison tool, bundle builder and recommendation tool.</li><li>Integration of Shopify, including building a JavaScript shopping cart.</li><li>Integration of MailChimp / SendInBlue for newsletter subscriptions.</li><li>Using MaxMind / IPStack for geo location services.</li><li>Building a bespoke <a rel=\"noopener\" href=\"https://github.com/CarbonSixDigital/Personalisation\" target=\"_blank\" title=\"Personalisation Engine\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">personalisation engine</a> for Umbraco based on user's behaviour.</li><li>nPoco code-first data layer solutions.</li><li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.</li></ul></li><li>JavaScript, JQuery, NodeJs, Yarn, NPM, Gulp.</li><li>HTML, CSS, SCSS, TailwindCSS, Nunjucks</li><li>Gridsome, Vue.JS, GraphQL, JSON.</li>",
+		"description": "<li>Team management &amp; project development.</li><li>C# .net MVC development, .net framework and .net core.</li><li>Project delivery using DevOps with build and release pipelines.</li><li>Azure functions and logic apps development.</li><li>Umbraco 8 with ModelsBuilder.</li><li>Migration from Umbraco Cloud to Microsoft Azure Hosting</li><li>Utilising Vendr for Umbraco to produce an ecommerce site, including contributions.</li><li>Creation of a package to integrate with HubSpot eCommerce Bridge.</li><li>Creation of a package to integrate TaxJar with Vendr to show sales tax based on shipping.</li><li>Creation of a product comparison tool, bundle builder and recommendation tool.</li><li>Integration of Shopify, including building a JavaScript shopping cart.</li><li>Integration of MailChimp / SendInBlue for newsletter subscriptions.</li><li>Using MaxMind / IPStack for geo location services.</li><li>Building a bespoke <a rel=\"noopener\" href=\"https://github.com/CarbonSixDigital/Personalisation\" target=\"_blank\" title=\"Personalisation Engine\" class=\"text-gray-400 dark:text-brand inline-flex items-center\">personalisation engine</a> for Umbraco based on user's behaviour.</li><li>nPoco code-first data layer solutions.</li><li>Hosting utilising Amazon Web Services, Umbraco Cloud and Azure.</li><li>Azure hosting service management and integration:<ul class=\"list-outside list-disc font-smaller text-sm pl-5\"><li>Virtual Machines, Traffic Manager, App services, SQL servers, Azure CDN, Blob Storage.</li></ul></li><li>JavaScript, JQuery, NodeJs, Yarn, NPM, Gulp.</li><li>HTML, CSS, SCSS, TailwindCSS, Nunjucks</li><li>Gridsome, Vue.JS, GraphQL, JSON.</li>",
 		"projects": { 
 			"title": "Projects",
 			"items": [
 				{
 					"name": "Music Magpie",
 					"url": "https://www.musicmagpie.co.uk/"
+				},
+				{
+					"name": "Embedding Performance",
+					"url": "https://embeddingperformance.com/"
 				},
 				{
 					"name": "Nextbase",
@@ -42,8 +46,14 @@
 		},
 
 		"contributions": {
-			"title": "Contributions",
+			"title": "Packages & Contributions",
 			"items": [
+				{
+					"name": "HubSpot eCommerce Bridge Client"					
+				},
+				{
+					"name": "Vendr TaxJar Client"					
+				},
 				{
 					"name": "Personalisation",
 					"url": "https://github.com/CarbonSixDigital/Personalisation"
@@ -192,7 +202,7 @@
 		},
 
 		"contributions": {
-			"title": "Contributions",
+			"title": "Packages",
 			"items": [
 				{
 					"name": "UmbracoMediaCopy",
