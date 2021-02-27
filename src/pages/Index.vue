@@ -95,7 +95,7 @@ export default {
 </script>
 <page-query>
 query {
-   experiences: allExperiences(sortBy: "id", order: ASC) {
+   experiences: allExperiences(sortBy: "orderDate", order: DESC) {
     edges {
       node {
         id
@@ -127,6 +127,7 @@ query {
             url
           }
         }
+        orderDate
       }
     }
    }

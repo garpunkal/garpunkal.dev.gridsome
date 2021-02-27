@@ -12,8 +12,8 @@
       >
         <img
           :alt="item.logo.alt"
-          :src="require(`~/assets/images/experiences/${item.logo.url}`)"
-          :style="{ backgroundColor: '#' + item.logo.background }"
+          :src="item.logo.url"
+          :style="{ backgroundColor: item.logo.background }"
           class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100"
           width="100"
           height="100"
@@ -24,8 +24,8 @@
       <img
         v-if="!item.url"
         :alt="item.logo.alt"
-        :src="require(`~/assets/images/experiences/${item.logo.url}`)"
-        :style="{ backgroundColor: '#' + item.logo.background }"
+        :src="item.logo.url"
+        :style="{ backgroundColor: item.logo.background }"
         class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100"
         width="100"
         height="100"
@@ -73,7 +73,7 @@
         <span
           class="text-sm inline-block py-1 px-2 rounded text-white bg-brand uppercase last:mr-0"
           v-if="item.isCurrent"
-          >{{ item.to }}</span
+          >CURRENT</span
         >
         <span
           class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
