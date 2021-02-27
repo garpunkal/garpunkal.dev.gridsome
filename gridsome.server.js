@@ -7,13 +7,8 @@ module.exports = function (api) {
 
   api.loadSource(async actions => {
 
-    const Projects = require('./src/data/projects.json');
-    const proCollection = actions.addCollection({
-      typeName: 'Projects'
-    })
-    for (const pro of Projects)
-      proCollection.addNode(pro);
-
+    // config
+    const baseApiUrl = 'https://cloud.squidex.io/api/content/garpunkaldev/';
     const config = {
       headers: {
         "X-Flatten": true,
@@ -22,91 +17,95 @@ module.exports = function (api) {
       }
     };
 
-    const {
-      data: companyData
-    } = await axios.get('https://cloud.squidex.io/api/content/garpunkaldev/company/', config)
-      .then(function (response) {
-        return response;
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+    // gather data from api
+    const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
+    const { data: projectData } = await GetAsync(baseApiUrl + 'project', config);
+    const { data: experienceData } = await GetAsync(baseApiUrl + 'experience', config);
+    const { data: highlightData } = await GetAsync(baseApiUrl + 'highlight', config);
 
-    const {
-      data: experienceData
-    } = await axios.get('https://cloud.squidex.io/api/content/garpunkaldev/experience/', config)
-      .then(function (response) {
-        return response;
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-
-    const {
-      data: projectData
-    } = await axios.get('https://cloud.squidex.io/api/content/garpunkaldev/project/', config)
-      .then(function (response) {
-        return response;
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-
-    const expCollection = actions.addCollection({
-      typeName: 'Experiences'
-    })
-
-  
-
+    // experiences
+    const expCollection = actions.addCollection({ typeName: 'Experiences' })
     for (const item of experienceData.items) {
 
-      const company = companyData.items.find(function (x) {
-        return x.id === item.data.company[0]
-      });
-      const projects = projectData.items.filter(function (x) {
-        return item.data.projects.indexOf(x.id) !== -1
-      });
-      const contributions = projectData.items.filter(function (x) {
-        return item.data.contributions.indexOf(x.id) !== -1
-      });
+      // filter relations
+      const company = companyData.items.find(function (x) { return x.id === item.data.company[0] });
+      const projects = BuildList(item.data.projects, projectData.items);
+      const contribs = BuildList(item.data.contributions, projectData.items);
+      // map
+      expCollection.addNode(MapExperience(item, company, projects, contribs))
+    }
 
-      const projectMap = projects.map(p => ({
-        name: p.data.title,
-        url: p.data.url ?? null
-      }));
-      const contribMap = contributions.map(p => ({
-        name: p.data.title,
-        url: p.data.url ?? null
-      }));
-
-      expCollection.addNode({
-        "id": item.data.id,
-        "title": company.data.title,
-        "job": item.data.job,
-        "location": company.data.location,
-        "logo": {
-          "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0],
-          "background": company.data.logoBackgroundColour,
-          "alt": company.data.title
-        },
-        "url": company.data.url,
-        "shortUrl": company.data.shortUrl,
-        "from": GetMonthYear(item.data.from),
-        "to": GetMonthYear(item.data.to),
-        "isCurrent": item.data.isCurrent ?? false,
-        "description": item.data.description,
-        "projects": {
-          "title": item.data.projectsLabel,
-          "items": projectMap
-        },
-        "contributions": {
-          "title": item.data.contributionsLabel,
-          "items": contribMap
-        },
-        orderDate: item.data.from
-      })
+    // projects
+    const proCollection = actions.addCollection({ typeName: 'Projects' })
+    for (const item of highlightData.items) {
+    
+      // filter relations
+      const projects = BuildList(item.data.projects, projectData.items);
+      
+      // map
+      proCollection.addNode(MapProject(item, projects));
     }
   })
+
+  function BuildList(selection, source) {
+    var items = [];
+    selection.forEach(function (item) {
+      const found = source.find(x => x.id == item);
+      if (found != null)
+        items.push(found);
+    });
+
+    return items;
+  }
+
+  function MapProject(item, projects) {
+    return {
+      "id": item.data.id,
+      "orderNumber": item.data.orderNumber,
+      "projects": projects.map(p =>
+      ({
+        "title": p.data.title,
+        "position": p.data.position,
+        "url": p.data.url,
+        "large": p.data.large ?? false,
+        "image": {
+          "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + p.data.image[0],
+          "alt": p.data.title,
+          "width": p.data.large ? 615 : 300,
+          "height": p.data.large ? 340 : 165,
+        }
+      }))
+    }
+  }
+
+  function MapExperience(item, company, projects, contribs) {
+    return {
+      "id": item.data.id,
+      "title": company.data.title,
+      "job": item.data.job,
+      "location": company.data.location,
+      "logo": {
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0],
+        "background": company.data.logoBackgroundColour,
+        "alt": company.data.title
+      },
+      "url": company.data.url,
+      "shortUrl": company.data.shortUrl,
+      "from": GetMonthYear(item.data.from),
+      "to": GetMonthYear(item.data.to),
+      "isCurrent": item.data.isCurrent ?? false,
+      "description": item.data.description,
+      "projects": {
+        "title": item.data.projectsLabel,
+        "items": projects.map(p => ({ "name": p.data.title, "url": p.data.url }))
+      },
+      "contributions": {
+        "title": item.data.contributionsLabel,
+        "items": contribs.map(p => ({ "name": p.data.title, "url": p.data.url }))
+      },
+      "orderDate": item.data.from
+    }
+  }
 
   function GetMonthYear(date) {
     if (date === null || date === undefined) {
@@ -116,64 +115,10 @@ module.exports = function (api) {
       return dt.toLocaleString('default', { month: 'short' }) + " " + dt.getFullYear();
     }
   }
-}
 
-// <page-query>
-// query {
-//    experiences: allExperiences(sortBy: "id", order: ASC) {
-//    experiences: allExperiences(sortBy: "id", order: ASC) {
-//     edges {
-//       node {
-//         id
-//         title
-//         job
-//         location       
-//         logo {
-//           url			   
-// 			    background
-// 			    alt
-//         }
-//         url
-//         shortUrl
-//         from
-//         to
-//         isCurrent
-//         description
-//         projects {
-//           title
-//           items {
-//             name
-//             url
-//           }
-//         }       
-//         contributions {
-//            title
-//           items {
-//             name
-//             url
-//           }
-//         }
-//       }
-//     }
-//    }
-//   projects : allProjects(sortBy: "id", order: ASC) {
-//     edges {
-//       node {
-//         id 
-//         projects {
-//           title
-//           image {
-//             url
-//             alt
-//             width
-//             height
-//           }
-//           url
-//           position
-//           large
-//         }
-//       }
-//     }
-//   } 
-// }
-// </page-query>
+  async function GetAsync(url, config) {
+    return await axios.get(url, config)
+      .then(function (response) { return response; })
+      .catch(function (error) { console.log(error); });
+  }
+}

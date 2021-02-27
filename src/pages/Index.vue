@@ -131,10 +131,11 @@ query {
       }
     }
    }
-  projects : allProjects(sortBy: "id", order: ASC) {
+  projects : allProjects(sortBy: "orderNumber", order: ASC) {
     edges {
       node {
         id 
+        orderNumber
         projects {
           title
           image {
@@ -146,7 +147,7 @@ query {
           url
           position
           large
-        }
+        }       
       }
     }
   } 
