@@ -24,7 +24,7 @@
             "value": "microphone 'none'; camera 'none'; vibrate 'none'; payment 'none'; gyroscope 'none'; push 'none'"
           }, 
           {
-            "key": "Permission-Policy",
+            "key": "Permissions-policy",
             "value": "geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()"
           },
           {
