@@ -18,6 +18,14 @@
           {
             "key": "Content-Security-Policy",
             "value": "base-uri 'self'; connect-src 'self' https://www.google-analytics.com; default-src 'self'; font-src 'self'; frame-src 'self' https://platform.twitter.com; img-src 'self' data: https://abs.twimg.com https://platform.twitter.com https://syndication.twitter.com; manifest-src 'self'; media-src 'self'; object-src 'none'; report-uri https://604df714796fa5ef3e2ed001.endpoint.csper.io/; script-src 'report-sample' 'self' https://cdn.syndication.twimg.com/timeline/profile https://platform.twitter.com/js/timeline.4d8f2209bfca17ad1826ab582cf6da09.js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtm.js; style-src 'report-sample' 'self' https://platform.twitter.com; worker-src 'none';"
+          }, 
+          {
+              "key": "Referrer-Policy",
+              "value": "no-referrer-when-downgrade"
+          },
+          {
+            "key": "Feature-Policy",
+            "value": "microphone 'none'; camera 'none'; vibrate 'none'; payment 'none'; gyroscope 'none'; push 'none'"
           }
         ]
       }
