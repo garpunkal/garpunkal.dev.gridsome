@@ -95,7 +95,7 @@ export default {
 </script>
 <page-query>
 query {
-   experiences: allExperiences(sortBy: "id", order: ASC) {
+   experiences: allExperiences(sortBy: "orderDate", order: DESC) {
     edges {
       node {
         id
@@ -127,13 +127,15 @@ query {
             url
           }
         }
+        orderDate
       }
     }
    }
-  projects : allProjects(sortBy: "id", order: ASC) {
+  projects : allProjects(sortBy: "orderNumber", order: ASC) {
     edges {
       node {
         id 
+        orderNumber
         projects {
           title
           image {
@@ -145,7 +147,7 @@ query {
           url
           position
           large
-        }
+        }       
       }
     }
   } 
