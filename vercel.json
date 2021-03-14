@@ -26,11 +26,8 @@
           {
             "key": "Permissions-Policy",
             "value": "geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()"
-          },
-          {
-            "key":"Content-Security-Policy",
-            "value": "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self' data: fonts.gstatic.com; frame-src 'self' www.googletagmanager.com https://twitter.com platform.twitter.com syndication.twitter.com; img-src 'self' data: https://www.google-analytics.com www.googletagmanager.com ssl.gstatic.com www.gstatic.com abs.twimg.com https://pbs.twimg.com ton.twimg.com platform.twitter.com https://syndication.twitter.com stats.g.doubleclick.net/r/; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'unsafe-inline' 'self' https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtm.js tagmanager.google.com googletagmanager.com www.googletagmanager.com https://cdn.syndication.twimg.com api.twitter.com platform.twitter.com stats.g.doubleclick.net; style-src 'unsafe-inline' 'self' 'none' worker-src tagmanager.google.com fonts.googleapis.com https://ton.twimg.com platform.twitter.com;"
           }
+         
         ]
       }
     ],
