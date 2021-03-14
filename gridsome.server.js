@@ -66,7 +66,7 @@ module.exports = function (api) {
         "url": p.data.url,
         "large": p.data.large,
         "image": {
-          "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + p.data.image[0],
+          "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + p.data.image[0] + "?cache=2592000",
           "alt": p.data.title,
           "width": p.data.large ? 615 : 300,
           "height": p.data.large ? 340 : 165,
@@ -82,7 +82,7 @@ module.exports = function (api) {
       "job": item.data.job,
       "location": company.data.location,
       "logo": {
-        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0],
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0] + "?cache=2592000",
         "background": company.data.logoBackgroundColour,
         "alt": company.data.title
       },

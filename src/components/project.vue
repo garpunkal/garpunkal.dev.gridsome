@@ -10,7 +10,7 @@
       <img
         v-if="item.position === 'left top'"
         :alt="item.image.alt"
-        :src="item.image.url + '?cache=2592000'"
+        :src="item.image.url"
         class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100"
         :width="item.image.width"
         :height="item.image.height"
@@ -21,7 +21,7 @@
       <img
         v-else
         :alt="item.image.alt"
-        :src="item.image.url + '?cache=2592000'"
+        :src="item.image.url"
         class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top dark:brightness-50 dark:hover:brightness-100"
         :width="item.image.width"
         :height="item.image.height"
