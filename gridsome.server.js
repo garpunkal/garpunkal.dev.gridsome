@@ -64,7 +64,7 @@ module.exports = function (api) {
         "title": p.data.title,
         "position": p.data.position,
         "url": p.data.url,
-        "large": p.data.large ?? false,
+        "large": p.data.large,
         "image": {
           "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + p.data.image[0],
           "alt": p.data.title,
@@ -90,7 +90,7 @@ module.exports = function (api) {
       "shortUrl": company.data.shortUrl,
       "from": GetMonthYear(item.data.from),
       "to": GetMonthYear(item.data.to),
-      "isCurrent": item.data.isCurrent ?? false,
+      "isCurrent": item.data.isCurrent,
       "description": item.data.description,
       "projects": {
         "title": item.data.projectsLabel,
