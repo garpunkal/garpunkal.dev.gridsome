@@ -13,7 +13,7 @@ module.exports = function (api) {
         "X-Languages": "en"
       }
     };
-
+   
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
     const { data: projectData } = await GetAsync(baseApiUrl + 'project', config);
