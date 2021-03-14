@@ -3,7 +3,7 @@
     <div class="container px-10 py-5 mx-auto flex flex-wrap">
       <UpArrow />
       <div class="flex w-full flex-wrap">
-        <p class="mx-auto">&copy; 2021 Gareth Wright.</p>
+        <p class="mx-auto">&copy; 2021 Gareth Wright...</p>
       </div>
       <div class="flex w-full flex-wrap">
         <p class="mx-auto mt-5 mb-5 text-sm">
