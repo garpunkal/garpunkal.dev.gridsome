@@ -4,13 +4,7 @@ import Vue from "vue";
 import _ from "lodash";
 
 export default function(Vue, { router, head, isClient }) {
-	head.script.push({
-		src: "https://platform.twitter.com/widgets.js",
-		async: true,
-		defer: true,
-		body: false
-	});
-
+	
 	head.meta.push({
 		name: "keywords",
 		content:
