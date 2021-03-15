@@ -36,17 +36,7 @@ module.exports = {
 				"screen/4": "calc(100vh / 4)",
 				"screen/5": "calc(100vh / 5)",
 				"screen/75": "75vh",
-			}),
-			animation: {
-				wiggle: 'wiggle 1s ease-in-out infinite',
-				
-			},
-			keyframes: {
-				wiggle: {
-					'0%, 100%': { transform: 'rotate(-1deg)' },
-					'50%': { transform: 'rotate(1deg)' },
-				}
-			}
+			})
 		}
 	},
 	variants: {
