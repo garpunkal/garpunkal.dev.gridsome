@@ -108,7 +108,7 @@
             :href="project.url"
             target="_blank"
             :title="project.name"
-            class="text-gray-400 dark:text-brand inline-flex items-center"
+            class="text-gray-400 dark:text-brand inline-flex items-center  hover:text-brand"
             >{{ project.name }}</a
           >
           <span v-else class="dark:text-gray-400">{{ project.name }}</span>
@@ -132,7 +132,7 @@
             :href="contribution.url"
             target="_blank"
             :title="contribution.name"
-            class="text-gray-400 dark:text-brand inline-flex items-center"
+            class="text-gray-400 dark:text-brand inline-flex items-center hover:text-brand"
             >{{ contribution.name }}</a
           >
           <span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
