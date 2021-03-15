@@ -16,7 +16,7 @@
           Gareth Wright
         </h1>
         <h2
-          class="mb-5 text-2xl font-extrabold sm:text-3xl tracking-tighter lg:text-4xl text-brand-dark dark:text-gray-500"
+          class="mb-5 md:mb-8 text-2xl font-extrabold sm:text-3xl tracking-tighter lg:text-4xl text-brand-dark dark:text-gray-500"
         >
          <a
             href="https://github.com/garpunkal"
@@ -28,7 +28,7 @@
         </h2>
 
        <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
+          class="mt-5 pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
         >
           <svg
             class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
