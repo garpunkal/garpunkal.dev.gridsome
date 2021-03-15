@@ -12,7 +12,7 @@
       rel="noopener"
       title="Twitter"
       ><svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
       target="_blank"
       rel="noopener"
       ><svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
       rel="noopener"
       title="Umbraco"
       ><svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@
       title="Skrift"
     >
       <svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@
       title="LinkedIn"
     >
       <svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@
       rel="noopener"
       title="Reddit"
       ><svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +182,7 @@
       rel="noopener"
       title="PayPal"
       ><svg
-        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white"
+        class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"

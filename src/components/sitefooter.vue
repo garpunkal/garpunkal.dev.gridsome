@@ -3,7 +3,7 @@
     <div class="container px-10 py-5 mx-auto flex flex-wrap">
       <UpArrow />
       <div class="flex w-full flex-wrap">
-        <p class="mx-auto">&copy; 2021 Gareth Wright</p>
+        <p class="mx-auto dark:text-gray-300">&copy; 2021 Gareth Wright</p>
       </div>
       <div class="flex w-full flex-wrap">
         <p class="mx-auto mt-5 mb-5 text-sm">
@@ -11,7 +11,7 @@
             href="https://github.com/garpunkal/garpunkal.github.io"
             target="_blank"
             rel="noopener"
-            class="font-bold inline-flex"
+            class="font-bold inline-flex dark:text-gray-300"
             title="garpunkal.github.io"
             ><svg
               class="h-4 fill-current text-white dark:text-gray-400 pr-2"

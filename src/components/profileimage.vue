@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full lg:w-2/5">
+  <div class="w-full lg:w-2/5 ">
     <img
       src="@/assets/images/profiles/profile.jpg"
       class="rounded-none lg:rounded-lg lg:rounded-l-none shadow-2xl hidden lg:block dark:brightness-50 dark:hover:brightness-100"

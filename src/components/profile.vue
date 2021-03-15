@@ -9,7 +9,7 @@
       <div class="p-4 md:p-12 text-center lg:text-left">
         <ProfileImageSmall />
 
-        <h1 class="text-3xl font-bold pt-2 lg:pt-0">Gareth Wright</h1>
+        <h1 class="text-5xl font-extrabold sm:text-6xl tracking-tighter lg:text-7xl text-brand-dark dark:text-gray-300">Gareth <span class="text-brand">Wright</span></h1>
 
         <div
           class="mx-auto lg:mx-0 w-5/5 pt-3 border-b-2 brand-color dark:border-gray-300 opacity-25"

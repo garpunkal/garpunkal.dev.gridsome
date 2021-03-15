@@ -46,10 +46,16 @@
         {{ item.title }}
       </h3>
 
-      <h4 class="font-smaller title-font mb-1 text-sm dark:text-gray-400" v-if="item.url">
+      <h4
+        class="font-smaller title-font mb-1 text-sm dark:text-gray-400"
+        v-if="item.url"
+      >
         {{ item.location }}
       </h4>
-      <h4 class="font-smaller title-font mb-5 text-sm dark:text-gray-400" v-else>
+      <h4
+        class="font-smaller title-font mb-5 text-sm dark:text-gray-400"
+        v-else
+      >
         {{ item.location }}
       </h4>
 
@@ -88,11 +94,13 @@
       ></ul>
     </div>
     <div class="sm:pl-6 mt-6 sm:mt-0">
-      <div class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400">
+      <div
+        class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400"
+      v-if="item.projects.title">
         {{ item.projects.title }}
       </div>
 
-      <ul class="list-outside list-disc font-smaller text-sm pl-5">
+      <ul class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3">
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
             v-if="project.url"
@@ -103,15 +111,17 @@
             class="text-gray-400 dark:text-brand inline-flex items-center"
             >{{ project.name }}</a
           >
-          <span v-else class=" dark:text-gray-400">{{ project.name }}</span>
+          <span v-else class="dark:text-gray-400">{{ project.name }}</span>
         </li>
       </ul>
 
-      <div class="font-smaller title-font mb-1 text-sm mt-5 font-bold  dark:text-gray-400">
+      <div
+        class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400 "
+      v-if="item.contributions.title">
         {{ item.contributions.title }}
       </div>
 
-      <ul class="list-outside list-disc font-smaller text-sm pl-5">
+      <ul class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3">
         <li
           v-for="contribution in item.contributions.items"
           v-bind:key="contribution.name"
@@ -125,7 +135,7 @@
             class="text-gray-400 dark:text-brand inline-flex items-center"
             >{{ contribution.name }}</a
           >
-          <span v-else class=" dark:text-gray-400">{{ contribution.name }}</span>
+          <span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
         </li>
       </ul>
     </div>
