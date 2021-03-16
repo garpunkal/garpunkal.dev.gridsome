@@ -14,7 +14,7 @@
            <p
             class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-100 dark:text-brand text-2xl font-extrabold sm:text-3xl lg:text-5xl"
           > 
-           This always delivers <span class="animate-">better</span> results
+           That always delivers <span class="animate-">better</span> results
           </p>
         </div>
       </div>
