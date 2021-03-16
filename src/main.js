@@ -32,6 +32,11 @@ export default function(Vue, { router, head, isClient }) {
 		content: "Gareth Wright"
 	});
 
+	head.link.push({
+		name: 'canonical',
+		href: 'https://garpunkal.dev'
+	})
+
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
 	};
