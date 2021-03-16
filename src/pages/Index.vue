@@ -10,7 +10,7 @@
           <h3
             class="mb-10 text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full"
           >
-            Highlights
+            Projects
           </h3>
         </div>
 
