@@ -44,26 +44,6 @@
           </svg>
           Senior C# .net MVC Developer
         </p>
-
-        <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
-        >
-          <svg
-            class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24px"
-            height="100%"
-          >
-            <title>Umbraco </title>
-            <path
-              d="M0 11.982A12 12 0 1 1 12 24 12 12 0 0 1 0 11.982zm11.756 4.11a11.856 11.856 0 0 1-2.773-.25 2.12 2.12 0 0 1-1.514-1.218q-.41-.943-.396-2.895a18.419 18.419 0 0 1 .127-2.04q.118-.988.236-1.629l.082-.425a.201.201 0 0 0 0-.038.244.244 0 0 0-.201-.236l-1.544-.246H5.74a.243.243 0 0 0-.235.189 6.517 6.517 0 0 0-.089.409c-.088.455-.17.9-.26 1.548a19.99 19.99 0 0 0-.176 2.12 11.165 11.165 0 0 0 0 1.486q.05 1.977.675 3.155.626 1.179 2.106 1.695 1.482.517 4.135.506h.22q2.655.01 4.134-.506 1.478-.518 2.1-1.695.623-1.178.678-3.147a11.165 11.165 0 0 0 0-1.485 19.99 19.99 0 0 0-.176-2.121 30.014 30.014 0 0 0-.26-1.548 6.724 6.724 0 0 0-.088-.41.243.243 0 0 0-.236-.188h-.04l-1.548.242a.236.236 0 0 0-.203.236.201.201 0 0 0 0 .037l.081.426q.118.643.236 1.63a18.709 18.709 0 0 1 .126 2.039q.019 1.95-.396 2.892a2.12 2.12 0 0 1-1.502 1.22 11.82 11.82 0 0 1-2.769.247Z"
-            />
-          </svg>
-          Umbraco Expert, Contributor and Package Developer
-        </p>
-
         <p
           class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
@@ -84,6 +64,25 @@
         </p>
 
         <p
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
+        >
+          <svg
+            class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24px"
+            height="100%"
+          >
+            <title>Umbraco</title>
+            <path
+              d="M0 11.982A12 12 0 1 1 12 24 12 12 0 0 1 0 11.982zm11.756 4.11a11.856 11.856 0 0 1-2.773-.25 2.12 2.12 0 0 1-1.514-1.218q-.41-.943-.396-2.895a18.419 18.419 0 0 1 .127-2.04q.118-.988.236-1.629l.082-.425a.201.201 0 0 0 0-.038.244.244 0 0 0-.201-.236l-1.544-.246H5.74a.243.243 0 0 0-.235.189 6.517 6.517 0 0 0-.089.409c-.088.455-.17.9-.26 1.548a19.99 19.99 0 0 0-.176 2.12 11.165 11.165 0 0 0 0 1.486q.05 1.977.675 3.155.626 1.179 2.106 1.695 1.482.517 4.135.506h.22q2.655.01 4.134-.506 1.478-.518 2.1-1.695.623-1.178.678-3.147a11.165 11.165 0 0 0 0-1.485 19.99 19.99 0 0 0-.176-2.121 30.014 30.014 0 0 0-.26-1.548 6.724 6.724 0 0 0-.088-.41.243.243 0 0 0-.236-.188h-.04l-1.548.242a.236.236 0 0 0-.203.236.201.201 0 0 0 0 .037l.081.426q.118.643.236 1.63a18.709 18.709 0 0 1 .126 2.039q.019 1.95-.396 2.892a2.12 2.12 0 0 1-1.502 1.22 11.82 11.82 0 0 1-2.769.247Z"
+            />
+          </svg>
+          Umbraco CMS Expert, Contributor and Package Developer
+        </p>
+
+        <p
           class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
@@ -99,7 +98,7 @@
               d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"
             />
           </svg>
-          Vue, Tailwind, Gridsome, Squidex and Vercel Developer
+          Vue, Tailwind, Gridsome, Squidex CMS and Vercel Developer
         </p>
 
         <SocialLinks />
