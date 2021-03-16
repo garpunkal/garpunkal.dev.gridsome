@@ -42,11 +42,14 @@ module.exports = {
 	variants: {
 		animation: ['responsive', 'hover']
 	},
-	purge: [		
-		'./src/**/*.html',
-		'./src/**/*.vue',
-		'./src/**/*.jsx',
-	],
+	purge: {
+		content:
+			[
+				'./src/**/*.html',
+				'./src/**/*.vue',
+				'./src/**/*.jsx',
+			]
+	},
 	darkMode: "class",
 
 }
