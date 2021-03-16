@@ -1,18 +1,21 @@
 <template>
   <Layout>
- 
+
     <Profile />
-   
+
     <section
-      class="text-gray-500 bg-gray-900 dark:text-gray-300 dark:bg-gray-900 body-font"
+      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap" id="content">
-          <p
-            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-center text-white  dark:text-gray-400"
-          >
-            I love working with clients throughout the longevity of a project,
-            from initial conversations to delivery and further. They're part of
+           <p
+            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-500 dark:text-brand text-xl font-bold sm:text-xl lg:text-xl   tracking-tighter"
+          >  
+            I love working with clients throughout the longevity of a project,<br/>
+            from initial conversations to delivery and further. 
+            <p
+            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-500 dark:text-brand text-xl font-bold sm:text-xl lg:text-2xl mt-2  tracking-tighter"
+          > They're part of
             the team that ultimately delivers great creative projects to help
             businesses succeed.
           </p>
@@ -37,9 +40,9 @@
       </div>
     </section>
 
-    <Twitter />
+    <Statement />
 
-    <section class="text-white bg-gray-900 body-font">
+    <section class="text-white bg-brand-dark body-font">
       <div class="container px-5 py-5 md:py-24 mx-auto">
         <div
           class="pt-0 pb-10 sm:items-start mx-auto"
@@ -51,7 +54,10 @@
       </div>
     </section>
 
+    <Twitter />
+
     <SiteFooter />
+
   </Layout>
 </template>
 
@@ -61,6 +67,7 @@ import SiteFooter from "@/components/sitefooter.vue";
 import Twitter from "@/components/twitter.vue";
 import Project from "@/components/project.vue";
 import Profile from "@/components/profile.vue";
+import Statement from "@/components/statement.vue";
 
 export default {
   name: "Index",
@@ -68,12 +75,12 @@ export default {
     title: "Gareth Wright - Development Manager - Senior C# .net MVC Developer",
   },
   components: {
-   
     Experience,
     SiteFooter,
     Twitter,
     Project,
     Profile,
+    Statement,
   },
   mounted: function () {
     document.querySelectorAll('a[href^="#content"]').forEach((anchor) => {

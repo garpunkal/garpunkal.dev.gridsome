@@ -4,10 +4,9 @@
   >
     <div
       id="profile"
-      class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg shadow-2xl bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0"
+      class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg shadow-2xl bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0 lg:rounded-r-none"
     >
       <div class="p-4 md:p-12 text-center lg:text-left">
-     
         <ProfileImageSmall />
 
         <h1
@@ -18,19 +17,20 @@
         <h2
           class="mb-5 md:mb-8 text-2xl font-extrabold sm:text-3xl tracking-tighter lg:text-4xl text-brand-dark dark:text-gray-500"
         >
-         <a
+          <a
             href="https://github.com/garpunkal"
             target="_blank"
             rel="noopener"
             title="GitHub"
-          > @garpunkal
-         </a>
+          >
+            @garpunkal
+          </a>
         </h2>
 
-       <p
+        <p
           class="mt-5 pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
         >
-          <svg
+         <svg
             class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
@@ -45,22 +45,23 @@
           C# .net MVC developer and Umbraco Expert
         </p>
 
-           <p
+        <p
           class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
             class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            width="24px"
             role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+             width="24px"
             height="100%"
           >
+            <title>Visual Studio Code</title>
             <path
-              d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z"
+              d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"
             />
           </svg>
-          Andover, Hampshire, UK
+          Vue, Tailwind, Gridsome and Vercel Developer
         </p>
 
         <p
@@ -82,17 +83,6 @@
             </svg>
             Dark Mode
           </a>
-        </p>
-
-        <p class="pt-8 text-sm">
-          I have worked for digital agencies for 20 years and I love their fast
-          paced, highly creative and collaborative environments.
-          <br /><br />
-          I'm very much a team player who can't get enough of those tight
-          deadlines.
-          <br /><br />Development isn't just coding, it's about being
-          understanding, empathetic and passionate. This always delivers the
-          best results.
         </p>
 
         <SocialLinks />
