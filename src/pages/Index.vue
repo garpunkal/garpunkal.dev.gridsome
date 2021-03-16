@@ -1,24 +1,17 @@
 <template>
   <Layout>
-
     <Profile />
 
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex w-full mb-20 flex-wrap" id="content">
-            <p
-            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-500 dark:text-brand text-xl font-bold sm:text-xl lg:text-2xl mt-2  tracking-tighter"
-          > 
-            I love working with clients throughout the longevity of a project,<br/>
-            from initial conversations to delivery and further. 
-            <p
-            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-500 dark:text-brand text-xl font-bold sm:text-xl lg:text-2xl mt-2  tracking-tighter"
-          > They're part of
-            the team that ultimately delivers great creative projects to help
-            businesses succeed.
-          </p>
+        <div class="flex w-full flex-wrap mb-10" id="content">
+          <h3
+            class="mb-10 text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 text-center w-full"
+          >
+            Highlights
+          </h3>
         </div>
 
         <div class="flex flex-wrap md:-m-2 -m-1">
@@ -44,6 +37,14 @@
 
     <section class="text-white bg-brand-dark body-font">
       <div class="container px-5 py-5 md:py-24 mx-auto">
+        <div class="flex w-full flex-wrap mb-20">
+          <h3
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 text-center w-full"
+          >
+            Experience
+          </h3>
+        </div>
+
         <div
           class="pt-0 pb-10 sm:items-start mx-auto"
           v-for="edge in $page.experiences.edges"
@@ -54,10 +55,20 @@
       </div>
     </section>
 
-    <Twitter />
+    <section class="text-white bg-brand body-font">
+      <div class="container px-5 py-5 md:py-10 mx-auto">
+        <div class="flex w-full flex-wrap" id="content">
+          <h3
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-400 text-center w-full"
+          >
+            Twitter
+          </h3>
+        </div>
+        <Twitter />
+      </div>
+    </section>
 
     <SiteFooter />
-
   </Layout>
 </template>
 
