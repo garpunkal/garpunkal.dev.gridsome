@@ -1,6 +1,7 @@
 module.exports = {
 	future: {
-		removeDeprecatedGapUtilities: true,		
+		removeDeprecatedGapUtilities: true,
+		purgeLayersByDefault: true,
 	},
 	theme: {
 		screens: {
@@ -40,7 +41,12 @@ module.exports = {
 	},
 	variants: {
 		animation: ['responsive', 'hover']
-	},	
+	},
+	purge: [		
+		'./src/**/*.html',
+		'./src/**/*.vue',
+		'./src/**/*.jsx',
+	],
 	darkMode: "class",
 
 }
