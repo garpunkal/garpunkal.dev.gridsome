@@ -30,7 +30,7 @@
         <p
           class="mt-5 pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
         >
-         <svg
+          <svg
             class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,26 @@
               d="M17.583.063a1.5 1.5 0 00-1.032.392 1.5 1.5 0 00-.001 0A.88.88 0 0016.5.5L8.528 9.316 3.875 5.5l-.407-.35a1 1 0 00-1.024-.154 1 1 0 00-.012.005l-1.817.75a1 1 0 00-.077.036 1 1 0 00-.047.028 1 1 0 00-.038.022 1 1 0 00-.048.034 1 1 0 00-.03.024 1 1 0 00-.044.036 1 1 0 00-.036.033 1 1 0 00-.032.035 1 1 0 00-.033.038 1 1 0 00-.035.044 1 1 0 00-.024.034 1 1 0 00-.032.05 1 1 0 00-.02.035 1 1 0 00-.024.05 1 1 0 00-.02.045 1 1 0 00-.016.044 1 1 0 00-.016.047 1 1 0 00-.015.055 1 1 0 00-.01.04 1 1 0 00-.008.054 1 1 0 00-.006.05A1 1 0 000 6.668v10.666a1 1 0 00.615.917l1.817.764a1 1 0 001.035-.164l.408-.35 4.653-3.815 7.973 8.815a1.5 1.5 0 00.072.065 1.5 1.5 0 00.057.05 1.5 1.5 0 00.058.042 1.5 1.5 0 00.063.044 1.5 1.5 0 00.065.038 1.5 1.5 0 00.065.036 1.5 1.5 0 00.068.031 1.5 1.5 0 00.07.03 1.5 1.5 0 00.073.025 1.5 1.5 0 00.066.02 1.5 1.5 0 00.08.02 1.5 1.5 0 00.068.014 1.5 1.5 0 00.075.01 1.5 1.5 0 00.075.008 1.5 1.5 0 00.073.003 1.5 1.5 0 00.077 0 1.5 1.5 0 00.078-.005 1.5 1.5 0 00.067-.007 1.5 1.5 0 00.087-.015 1.5 1.5 0 00.06-.012 1.5 1.5 0 00.08-.022 1.5 1.5 0 00.068-.02 1.5 1.5 0 00.07-.028 1.5 1.5 0 00.09-.037l4.944-2.377a1.5 1.5 0 00.476-.362 1.5 1.5 0 00.09-.112 1.5 1.5 0 00.004-.007 1.5 1.5 0 00.08-.125 1.5 1.5 0 00.062-.12 1.5 1.5 0 00.009-.017 1.5 1.5 0 00.04-.108 1.5 1.5 0 00.015-.037 1.5 1.5 0 00.03-.107 1.5 1.5 0 00.009-.037 1.5 1.5 0 00.017-.1 1.5 1.5 0 00.008-.05 1.5 1.5 0 00.006-.09 1.5 1.5 0 00.004-.08V3.942a1.5 1.5 0 000-.003 1.5 1.5 0 000-.032 1.5 1.5 0 00-.01-.15 1.5 1.5 0 00-.84-1.17L18.206.21a1.5 1.5 0 00-.622-.146zM18 6.92v10.163l-6.198-5.08zM3 8.574l3.099 3.427-3.1 3.426z"
             />
           </svg>
-          Senior C# .net MVC developer and Umbraco Expert
+          Senior C# .net MVC Developer
+        </p>
+
+        <p
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
+        >
+          <svg
+            class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24px"
+            height="100%"
+          >
+            <title>Umbraco </title>
+            <path
+              d="M0 11.982A12 12 0 1 1 12 24 12 12 0 0 1 0 11.982zm11.756 4.11a11.856 11.856 0 0 1-2.773-.25 2.12 2.12 0 0 1-1.514-1.218q-.41-.943-.396-2.895a18.419 18.419 0 0 1 .127-2.04q.118-.988.236-1.629l.082-.425a.201.201 0 0 0 0-.038.244.244 0 0 0-.201-.236l-1.544-.246H5.74a.243.243 0 0 0-.235.189 6.517 6.517 0 0 0-.089.409c-.088.455-.17.9-.26 1.548a19.99 19.99 0 0 0-.176 2.12 11.165 11.165 0 0 0 0 1.486q.05 1.977.675 3.155.626 1.179 2.106 1.695 1.482.517 4.135.506h.22q2.655.01 4.134-.506 1.478-.518 2.1-1.695.623-1.178.678-3.147a11.165 11.165 0 0 0 0-1.485 19.99 19.99 0 0 0-.176-2.121 30.014 30.014 0 0 0-.26-1.548 6.724 6.724 0 0 0-.088-.41.243.243 0 0 0-.236-.188h-.04l-1.548.242a.236.236 0 0 0-.203.236.201.201 0 0 0 0 .037l.081.426q.118.643.236 1.63a18.709 18.709 0 0 1 .126 2.039q.019 1.95-.396 2.892a2.12 2.12 0 0 1-1.502 1.22 11.82 11.82 0 0 1-2.769.247Z"
+            />
+          </svg>
+          Umbraco Expert, Contributor and Package Developer
         </p>
 
         <p
@@ -53,7 +72,26 @@
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
-             width="24px"
+            width="24px"
+            height="100%"
+          >
+            <title>Microsoft Azure</title>
+            <path
+              d="M5.483 21.3H24L14.025 4.013l-3.038 8.347 5.836 6.938L5.483 21.3zM13.23 2.7L6.105 8.677 0 19.253h5.505v.014L13.23 2.7z"
+            />
+          </svg>
+          Azure and Azure DevOps Engineer
+        </p>
+
+        <p
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
+        >
+          <svg
+            class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24px"
             height="100%"
           >
             <title>Visual Studio Code</title>
@@ -62,27 +100,6 @@
             />
           </svg>
           Vue, Tailwind, Gridsome, Squidex and Vercel Developer
-        </p>
-
-        <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
-        >
-          <a id="switchTheme" class="inline-flex cursor-pointer text-sm">
-            <svg
-              class="hidden md:block h-5 fill-current text-brand hover:text-brand-dark dark:text-brand dark:hover:text-white pr-2"
-              viewBox="0 0 24 24"
-              width="24px"
-              role="img"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Dark Mode</title>
-              <path
-                d="M12 0C5.373 0 0 5.37 0 12s5.373 12 12 12c6.63 0 12-5.37 12-12S18.63 0 12 0zm-.84 4.67h1.68v8.36h-1.68V4.67zM12 18.155c-3.24-.002-5.865-2.63-5.864-5.868 0-2.64 1.767-4.956 4.314-5.655v1.71c-1.628.64-2.698 2.21-2.695 3.96 0 2.345 1.903 4.244 4.248 4.243 2.344-.002 4.244-1.903 4.243-4.248 0-1.745-1.07-3.312-2.694-3.95V6.63c2.55.7 4.314 3.018 4.314 5.66 0 3.24-2.626 5.864-5.865 5.864z"
-              />
-            </svg>
-            Dark Mode
-          </a>
         </p>
 
         <SocialLinks />
@@ -106,30 +123,6 @@ export default {
     DownArrow,
     ProfileImage,
     ProfileImageSmall,
-  },
-  mounted: function () {
-    document
-      .getElementById("switchTheme")
-      .addEventListener("click", function () {
-        let htmlClasses = document.querySelector("html").classList;
-        if (localStorage.theme == "dark") {
-          htmlClasses.remove("dark");
-          localStorage.removeItem("theme");
-        } else {
-          htmlClasses.add("dark");
-          localStorage.theme = "dark";
-        }
-      });
-
-    if (
-      localStorage.theme === "dark" ||
-      (!"theme" in localStorage &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.querySelector("html").classList.add("dark");
-    } else if (localStorage.theme === "dark") {
-      document.querySelector("html").classList.add("dark");
-    }
   },
 };
 </script>

@@ -8,9 +8,9 @@
     >
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap" id="content">
-           <p
-            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-500 dark:text-brand text-xl font-bold sm:text-xl lg:text-xl   tracking-tighter"
-          >  
+            <p
+            class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-500 dark:text-brand text-xl font-bold sm:text-xl lg:text-2xl mt-2  tracking-tighter"
+          > 
             I love working with clients throughout the longevity of a project,<br/>
             from initial conversations to delivery and further. 
             <p
