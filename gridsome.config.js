@@ -16,8 +16,28 @@ module.exports = {
 			},
 		},
 		{
-			use: "@gridsome/plugin-sitemap",
+			use: "@gridsome/plugin-sitemap"
 		},
+		{
+			use: 'gridsome-plugin-robots-txt',
+			options: {
+				host: 'https://garpunkal.dev',
+				sitemap: 'https://garpunkal.dev/sitemap.xml',
+				policy: [
+					{
+						userAgent: "Googlebot",
+						allow: "/",
+						disallow: "/search",
+						crawlDelay: 2
+					},
+					{
+						userAgent: "*",
+						allow: "/",						
+						crawlDelay: 10
+					}
+				]
+			}
+		}
 	],
 	css: {
 		loaderOptions: {
@@ -27,7 +47,7 @@ module.exports = {
 		},
 	},
 	chainWebpack: (config) => {
-		config.resolve.alias.set("@images", "@/assets/images");		
+		config.resolve.alias.set("@images", "@/assets/images");
 	},
 	images: {
 		defaultBlur: 0
