@@ -10,7 +10,7 @@
            <p
             class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-100 dark:text-brand text-1xl font-extrabold sm:text-2xl lg:text-3xl lg:mb-2"
           > 
-           It's being <em>understanding</em>, <span class="font-extralight">empathetic</span> and <u>passionate</u></p>
+           It's being <em>understanding</em>, <span class="font-extralight">empathetic</span> and <span class="underline">passionate</span></p>
            <p
             class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-100 dark:text-brand text-2xl font-extrabold sm:text-3xl lg:text-5xl"
           > 

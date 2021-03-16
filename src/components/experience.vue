@@ -36,30 +36,30 @@
     <div
       class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
     >
-      <h2
+      <h3
         class="font-medium title-font text-white dark:text-brand mb-1 text-xl"
       >
         {{ item.job }}
-      </h2>
-
-      <h3 class="font-medium title-font text-gray-400 mb-1 text-l">
-        {{ item.title }}
       </h3>
 
-      <h4
+      <h4 class="font-medium title-font text-gray-400 mb-1 text-l">
+        {{ item.title }}
+      </h4>
+
+      <h5
         class="font-smaller title-font mb-1 text-sm dark:text-gray-400"
         v-if="item.url"
       >
         {{ item.location }}
-      </h4>
-      <h4
+      </h5>
+      <h6
         class="font-smaller title-font mb-5 text-sm dark:text-gray-400"
         v-else
       >
         {{ item.location }}
-      </h4>
+      </h6>
 
-      <h5 class="font-smaller title-font mb-5 text-sm" v-if="item.url">
+      <p class="font-smaller title-font mb-5 text-sm" v-if="item.url">
         <a
           :href="item.url"
           target="_blank"
@@ -68,7 +68,7 @@
           :title="item.title"
           >{{ item.shortUrl }}</a
         >
-      </h5>
+      </p>
 
       <p class="font-smaller title-font text-sm mb-5">
         <span
