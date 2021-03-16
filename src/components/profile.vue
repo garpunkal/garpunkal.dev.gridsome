@@ -1,10 +1,10 @@
 <template>
   <div
-    class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-20 mb-10 md:my-12 lg:my-18"
+    class="max-w-6xl flex items-center h-auto lg:h-screen/2 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-20 mb-10 md:my-12 lg:my-18"
   >
     <div
       id="profile"
-      class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg shadow-2xl bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0 lg:rounded-r-none"
+      class="w-full lg:w-3/5 rounded-lg md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none shadow-2xl bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0 "
     >
       <div class="p-4 md:p-12 text-center lg:text-left">
         <ProfileImageSmall />

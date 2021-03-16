@@ -4,7 +4,7 @@
   >
     <img
       src="@/assets/images/profiles/profile.jpg"
-      class="w-full object-cover h-full object-center block rounded-full dark:brightness-50 dark:hover:brightness-100"
+      class="w-full object-cover h-full object-center block rounded-full dark:brightness-50 dark:hover:brightness-100 filter-grayscale"
       alt="Gareth Wright"
       width="192"
       height="192"
