@@ -26,8 +26,7 @@ module.exports = {
 				policy: [
 					{
 						userAgent: "Googlebot",
-						allow: "/",
-						disallow: "/search",
+						allow: "/",						
 						crawlDelay: 2
 					},
 					{
