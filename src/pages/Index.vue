@@ -5,10 +5,10 @@
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="container px-5 py-20 mx-auto flex flex-wrap">
         <div class="flex w-full flex-wrap mb-10" id="content">
           <h3
-            class="mb-10 text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 text-center w-full"
+            class="mb-10 text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full"
           >
             Highlights
           </h3>
@@ -39,7 +39,7 @@
       <div class="container px-5 py-5 md:py-24 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 text-center w-full"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full"
           >
             Experience
           </h3>
@@ -55,17 +55,18 @@
       </div>
     </section>
 
-    <section class="text-white bg-brand body-font">
-      <div class="container px-5 py-5 md:py-10 mx-auto">
-        <div class="flex w-full flex-wrap" id="content">
+    <section class="text-white bg-brand dark:bg-black body-font">
+      <div class="container px-5 py-8 mx-auto flex flex-wrap">
+        <div class="flex w-full flex-wrap">
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-400 text-center w-full"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10"
           >
             Twitter
           </h3>
         </div>
-        <Twitter />
       </div>
+
+      <Twitter />
     </section>
 
     <SiteFooter />
