@@ -37,6 +37,28 @@ export default function(Vue, { router, head, isClient }) {
 		href: 'https://garpunkal.dev'
 	})
 
+	head.meta.push(
+			// OpenGraph data (Most widely used)
+		{property: 'og:title', content: 'Gareth Wright - Senior C# .net MVC Developer & Dev Manager - garpunkal.dev'},
+		{property: 'og:site_name', content: 'garpunkal.dev'},
+		// The list of types is available here: http://ogp.me/#types
+		{property: 'og:type', content: 'website'},
+		// Should the the same as your canonical link, see below.
+		{property: 'og:url', content: 'https://garpunkal.dev'},
+		{property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/9044a645bbb9f1b063a66ddefb7cfc5a.jpeg?size=400'},
+		// Often the same as your meta description, but not always.
+		{property: 'og:description', content: 'Senior C# .net MVC Developer & Dev Manager. Umbraco Certified Expert.'},
+	
+		// Twitter card
+		{name: 'twitter:card', content: 'summary'},
+		{name: 'twitter:site', content: 'https://garpunkal.dev'},
+		{name: 'twitter:title', content: 'Gareth Wright - Senior C# .net MVC Developer & Dev Manager - garpunkal.dev'},
+		{name: 'twitter:description', content: 'Senior C# .net MVC Developer & Dev Manager. Umbraco Certified Expert.'},
+		// Your twitter handle, if you have one.
+		{name: 'twitter:creator', content: '@garpunkal'},
+		{name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/9044a645bbb9f1b063a66ddefb7cfc5a.jpeg?size=400'},
+	);
+
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
 	};
