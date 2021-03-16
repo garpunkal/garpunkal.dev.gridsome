@@ -2,17 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
-  @variants dark, hover {   
-    .brightness-50 {
-      filter: brightness(0.5);
-    }
+	@variants dark, hover {
+		.brightness-50 {
+			filter: brightness(0.5);
+		}
 
-    .brightness-100 {
-        filter: brightness(1);
-      }
-    }
-
-    
+		.brightness-100 {
+			filter: brightness(1);
+		}
+		.filter-none {
+			filter: none;
+		}
+		.filter-grayscale {
+			filter: grayscale(100%);
+		}
+	}
 }
