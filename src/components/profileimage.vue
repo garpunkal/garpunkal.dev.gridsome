@@ -7,6 +7,7 @@
       width="960"
       height="960"
       loading="lazy"
+      title="Gareth Wright"
     />    
   </div>
 </template>

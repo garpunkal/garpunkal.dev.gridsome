@@ -10,6 +10,7 @@
       <img
         v-if="item.position === 'left top'"
         :alt="item.image.alt"
+        :title="item.image.alt"
         :src="item.image.url"
         class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:transform-none"
         :width="item.image.width"
@@ -21,6 +22,7 @@
       <img
         v-else
         :alt="item.image.alt"
+        :title="item.image.alt"
         :src="item.image.url"
         class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top dark:brightness-50 dark:hover:brightness-100 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:transform-none"
         :width="item.image.width"

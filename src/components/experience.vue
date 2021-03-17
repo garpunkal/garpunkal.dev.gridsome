@@ -19,6 +19,7 @@
           height="100"
           loading="lazy"
           style="width: 100px; height: 100px"
+          :title="item.logo.alt"
         />
       </a>
       <img
@@ -31,6 +32,7 @@
         height="100"
         loading="lazy"
         style="width: 100px; height: 100px"
+        :title="item.logo.alt"
       />
     </div>
     <div
