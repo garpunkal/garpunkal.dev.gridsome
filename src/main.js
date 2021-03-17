@@ -1,20 +1,19 @@
 require("~/main.css");
 import DefaultLayout from "~/layouts/Default.vue";
 import Vue from "vue";
-import _ from "lodash";
 
 export default function(Vue, { router, head, isClient }) {
 	
 	head.meta.push({
 		name: "keywords",
 		content:
-			"garpunkal, gareth, wright, gareth wright, garpunkal.dev, development manager, c# web developer, umbraco, umbraco certified developer, c# developer, developer, umbraco certified expert, andover, hampshire, csharp"
+			"garpunkal, gareth, wright, gareth wright, garpunkal.dev, development manager, c# web developer, umbraco, umbraco certified developer, c# developer, developer, umbraco certified expert, andover, hampshire, csharp, vue, tailwind, front end"
 	});
 
 	head.meta.push({
 		name: "description",
 		content:
-			"Personal website for Gareth Wright. Development Manager. c# .net MVC Developer. Umbraco Certified Expert."
+			"Gareth Wright - Development Manager - C# .net MVC Developer - Umbraco Certified Expert - Vue, Tailwind and Front End Developer"
 	});
 
 	head.meta.push({

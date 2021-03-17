@@ -74,7 +74,7 @@ import Statement from "@/components/statement.vue";
 export default {
   name: "Index",
   metaInfo: {
-    title: "Gareth Wright, C# .net MVC Developer",
+    title: "Gareth Wright - C# .net MVC Developer",
   },
   components: {
     Experience,
