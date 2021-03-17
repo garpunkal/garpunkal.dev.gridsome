@@ -55,18 +55,8 @@
       </div>
     </section>
 
-    <section class="text-white bg-brand dark:bg-black body-font">
-      <div class="container px-5 py-8 mx-auto flex flex-wrap">
-        <div class="flex w-full flex-wrap">
-          <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10"
-          >
-            Twitter
-          </h3>
-        </div>
-      </div>
-
-      <Twitter />
+    <section class="text-white bg-brand dark:bg-black">
+       <Twitter />
     </section>
 
     <SiteFooter />
@@ -84,7 +74,7 @@ import Statement from "@/components/statement.vue";
 export default {
   name: "Index",
   metaInfo: {
-    title: "Gareth Wright, C# .net MVC Developer, Dev Manager",
+    title: "Gareth Wright, C# .net MVC Developer",
   },
   components: {
     Experience,

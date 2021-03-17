@@ -19,7 +19,7 @@ export default function(Vue, { router, head, isClient }) {
 
 	head.meta.push({
 		name: "author",
-		content: "gareth wright"
+		content: "Gareth Wright"
 	});
 
 	head.meta.push({
@@ -39,7 +39,7 @@ export default function(Vue, { router, head, isClient }) {
 
 	head.meta.push(
 			// OpenGraph data (Most widely used)
-		{property: 'og:title', content: 'Gareth Wright - Senior C# .net MVC Developer  - garpunkal.dev'},
+		{property: 'og:title', content: 'Gareth Wright - Senior C# .net MVC Developer'},
 		{property: 'og:site_name', content: 'garpunkal.dev'},
 		// The list of types is available here: http://ogp.me/#types
 		{property: 'og:type', content: 'website'},
@@ -52,7 +52,7 @@ export default function(Vue, { router, head, isClient }) {
 		// Twitter card
 		{name: 'twitter:card', content: 'summary'},
 		{name: 'twitter:site', content: 'https://garpunkal.dev'},
-		{name: 'twitter:title', content: 'Gareth Wright - Senior C# .net MVC Developer - garpunkal.dev'},
+		{name: 'twitter:title', content: 'Gareth Wright - Senior C# .net MVC Developer'},
 		{name: 'twitter:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert'},
 		// Your twitter handle, if you have one.
 		{name: 'twitter:creator', content: '@garpunkal'},

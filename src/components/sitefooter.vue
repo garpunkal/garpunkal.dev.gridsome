@@ -1,10 +1,10 @@
 <template>
   <footer class="bg-brand-dark text-white body-font">
-    <div class="container px-10 py-20 mx-auto flex flex-wrap">
+    <div class="container px-10 py-8 md:py-20 mx-auto flex flex-wrap">
       <UpArrow />
       <div class="flex w-full flex-wrap">
          <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mx-auto"
+            class="text-2xl font-extrabold sm:text-65xl tracking-tighter lg:text-3xl text-gray-300 dark:text-gray-500 text-center w-full mx-auto"
           >
             &copy; 2021 Gareth Wright
           </h3>
