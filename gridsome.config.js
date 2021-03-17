@@ -4,8 +4,7 @@ const postcssPlugins = [tailwind()];
 
 module.exports = {
 	siteName: "garpunkal.dev",
-	siteUrl: "https://garpunkal.dev",
-	favicon: "./src/images/profile.jpg",
+	siteUrl: "https://garpunkal.dev",	
 	plugins: [
 		{
 			use: "gridsome-plugin-gtm",
