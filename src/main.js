@@ -32,7 +32,7 @@ export default function(Vue, { router, head, isClient }) {
 	});
 
 	head.link.push({
-		ref: 'canonical',
+		rel: 'canonical',
 		href: 'https://garpunkal.dev'
 	})
 
