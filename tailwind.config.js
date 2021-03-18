@@ -41,7 +41,7 @@ module.exports = {
 		}
 	},
 	variants: {
-		animation: ['responsive', 'hover']
+		animation: ['responsive', 'hover']	
 	},
 	purge: {
 		content:
