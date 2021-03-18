@@ -17,7 +17,7 @@
 
         <div class="flex flex-wrap md:-m-2 -m-1">
           <div
-            class="flex flex-wrap w-full md:w-1/2"
+            class="flex flex-wrap w-1/2 md:w-1/2"
             v-for="edge in $page.projects.edges"
             :key="edge.node.id"
           >
