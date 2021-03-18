@@ -56,10 +56,11 @@
     </section>
 
     <section class="text-white bg-brand dark:bg-black">
-       <Twitter />
+      <Twitter />
     </section>
 
     <SiteFooter />
+    
   </Layout>
 </template>
 
