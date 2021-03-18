@@ -1,9 +1,10 @@
 <template>
   <Layout>
+  
     <Profile />
 
     <section
-      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font "
     >
       <div class="container px-5 py-20 mx-auto flex flex-wrap">
         <div class="flex w-full flex-wrap mb-10" id="content">

@@ -1,5 +1,5 @@
 <template>
-  <div
+  <section
     class="max-w-6xl flex items-center h-auto lg:h-screen/75 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-20 mb-10 md:my-12 lg:my-18"
   >
     <div
@@ -106,7 +106,7 @@
     </div>
     <ProfileImage />
     <DownArrow />
-  </div>
+  </section>
 </template>
 
 <script>
