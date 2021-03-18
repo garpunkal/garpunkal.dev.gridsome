@@ -13,7 +13,7 @@
             :alt="item.image.alt"
             :title="item.image.alt"
             :src="item.image.url"
-            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-brand border-2 md:border-3"
+            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-brand dark:border-brand-dark border-2 md:border-3"
             :width="item.image.width"
             :height="item.image.height"
             loading="lazy"
@@ -24,13 +24,13 @@
             :alt="item.image.alt"
             :title="item.image.alt"
             :src="item.image.url"
-            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top dark:brightness-50 dark:hover:brightness-100 border-brand border-2 md:border-3"
+            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-top dark:brightness-50 dark:hover:brightness-100 border-brand dark:border-brand-dark  border-2 md:border-3"
             :width="item.image.width"
             :height="item.image.height"
             loading="lazy"
             :style="{ width: '100%', height: '100%' }"
           />
-          <figcaption class="absolute left-0 bottom-0 px-4 text-xs p-1 bg-brand text-gray-200 dark:text-gray-500 rounded-bl-lg rounded-tr-lg">
+          <figcaption class="absolute left-0 bottom-0 px-4 text-xs p-1 bg-brand dark:bg-brand-dark text-gray-200 dark:text-gray-400 rounded-bl-lg rounded-tr-lg">
             <div>
               <span>{{ item.title }}</span>
             </div>

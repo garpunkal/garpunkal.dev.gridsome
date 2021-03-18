@@ -74,17 +74,17 @@
 
       <p class="font-smaller title-font text-sm mb-5">
         <span
-          class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
+          class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 dark:text-gray-500 dark:bg-gray-800 uppercase last:mr-0"
           >{{ item.from }}</span
         >
         -
         <span
-          class="text-sm inline-block py-1 px-2 rounded text-white bg-brand uppercase last:mr-0"
+          class="text-sm inline-block py-1 px-2 rounded text-white bg-brand dark:text-gray-300 dark:bg-brand uppercase last:mr-0"
           v-if="item.isCurrent"
           >CURRENT</span
         >
         <span
-          class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 uppercase last:mr-0"
+          class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 dark:text-gray-500 dark:bg-gray-800 uppercase last:mr-0"
           v-else
           >{{ item.to }}</span
         >
