@@ -42,12 +42,12 @@ export default function(Vue, { router, head, isClient }) {
 		{property: 'og:type', content: 'website'},
 		{property: 'og:url', content: 'https://garpunkal.dev'},
 		{property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/9044a645bbb9f1b063a66ddefb7cfc5a.jpeg?size=400'},
-		{property: 'og:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert'},
+		{property: 'og:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert.'},
 	
 		{name: 'twitter:card', content: 'summary'},
 		{name: 'twitter:site', content: 'https://garpunkal.dev'},
 		{name: 'twitter:title', content: 'Gareth Wright - Senior C# .net MVC Developer'},
-		{name: 'twitter:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert'},
+		{name: 'twitter:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert.'},
 		{name: 'twitter:creator', content: '@garpunkal'},
 		{name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/9044a645bbb9f1b063a66ddefb7cfc5a.jpeg?size=400'},
 	);
