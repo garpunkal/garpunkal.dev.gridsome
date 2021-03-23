@@ -2,6 +2,34 @@
   <Layout>
     <Profile />
 
+ <section
+      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+    >
+      <div class="container px-5 py-5 md:py-14 mx-auto">
+        <div class="flex w-full flex-wrap mb-20">
+          <h3
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+          >
+            Articles
+          </h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div
+            v-for="edge in $page.devToArticles.edges"
+            :key="edge.node.id"
+          >
+            <div
+              class="rounded-lg shadow-lg border-2 border-brand dark:border-brand"
+            >
+              <Article :item="edge.node" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
@@ -33,33 +61,7 @@
       </div>
     </section>
 
-<section
-     class="bg-brand text-white body-font dark:bg-black"
-    >
-      <div class="container px-5 py-5 md:py-14 mx-auto">
-        <div class="flex w-full flex-wrap mb-20">
-          <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl  text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
-          >
-            Articles
-          </h3>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div
-            class=" "
-            v-for="edge in $page.devToArticles.edges"
-            :key="edge.node.id"
-          >
-            <div
-              class="rounded-lg shadow-lg border-2 border-white dark:border-brand"
-            >
-              <Article :item="edge.node" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <section class="text-white bg-brand-dark body-font">
       <div class="container px-5 py-5 md:py-14 mx-auto">
