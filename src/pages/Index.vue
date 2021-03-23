@@ -4,7 +4,7 @@
 
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
-      id="content"
+      id="articles"
     >
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
@@ -29,6 +29,7 @@
 
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+      id="projects"
     >
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
@@ -58,7 +59,10 @@
       </div>
     </section>
 
-    <section class="text-white bg-brand-dark body-font">
+    <section
+      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+      id="experience"
+    >
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
           <h3
@@ -67,7 +71,6 @@
             Experience
           </h3>
         </div>
-
         <div
           class="pt-0 pb-10 sm:items-start mx-auto"
           v-for="edge in $page.experiences.edges"
@@ -82,18 +85,19 @@
 
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+      id="tweets"
     >
       <div class="container px-5 py-5 md:py-14 mx-auto">
-        <div class="flex w-full flex-wrap ">
+        <div class="flex w-full flex-wrap mb-20">
           <h3
             class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
             Tweets
           </h3>
         </div>
-      </div>
-      <div class="flex w-full flex-wrap justify-center px-10 mt-10 md:mt-0">
-        <Twitter />
+        <div class="flex w-full flex-wrap justify-center px-10 mt-10 md:mt-0">
+          <Twitter />
+        </div>
       </div>
     </section>
 
