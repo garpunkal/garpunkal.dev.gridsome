@@ -9,7 +9,7 @@
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10"
           >
             Articles
           </h3>
