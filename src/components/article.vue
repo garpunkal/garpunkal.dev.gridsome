@@ -13,7 +13,7 @@
             :src="item.cover_image"
             :alt="item.title"
             :title="item.alt"
-            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-brand dark:border-brand-dark border-2 md:border-3"
+            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100"
             loading="lazy"
             :style="{ width: '100%', height: '100%' }"
           />

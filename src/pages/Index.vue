@@ -5,10 +5,10 @@
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
-      <div class="container px-5 py-14 mx-auto flex flex-wrap">
-        <div class="flex w-full flex-wrap mb-10" id="content">
+       <div class="container px-5 py-5 md:py-14 mx-auto">
+        <div class="flex w-full flex-wrap mb-20">
           <h3
-            class="mb-10 text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
             Projects
           </h3>
@@ -33,25 +33,29 @@
       </div>
     </section>
 
-    <section class="text-white bg-brand dark:bg-black body-font">
+<section
+     class="bg-brand text-white body-font dark:bg-black"
+    >
       <div class="container px-5 py-5 md:py-14 mx-auto">
-        <div class="flex w-full flex-wrap">
+        <div class="flex w-full flex-wrap mb-20">
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl  text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
             Articles
           </h3>
         </div>
-      </div>
-
-      <div class="flex flex-wrap justify-center mb-10">
-        <div
-          class="flex flex-wrap mb-4 mx-1 w-full md:w-1/4"
-          v-for="edge in $page.devToArticles.edges"
-          :key="edge.node.id"
-        >
-          <div class="flex-1 rounded-lg shadow-lg border-2 border-white dark:border-brand">
-            <Article :item="edge.node" />
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div
+            class=" "
+            v-for="edge in $page.devToArticles.edges"
+            :key="edge.node.id"
+          >
+            <div
+              class="rounded-lg shadow-lg border-2 border-white dark:border-brand"
+            >
+              <Article :item="edge.node" />
+            </div>
           </div>
         </div>
       </div>
@@ -79,13 +83,15 @@
 
     <Statement />
 
-    <section class="text-white bg-brand-dark body-font">
+<section
+      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+    >
       <div class="container px-5 py-5 md:py-14 mx-auto">
-        <div class="flex w-full flex-wrap">
+        <div class="flex w-full flex-wrap mb-10">
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
-            Twitter
+            Tweets
           </h3>
         </div>
       </div>
@@ -144,7 +150,7 @@ export default {
 
 
 query {
-   devToArticles: allDevToArticles(sortBy: "published_at", order: DESC) {
+    devToArticles: allDevToArticles(page:0, perPage: 4, sortBy: "published_at", order: DESC) {
       edges {
         node {
         id
