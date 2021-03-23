@@ -90,7 +90,7 @@
 
     <a
       class="link"
-      href="https://dev.to/garpunkal/"
+      href="https://dev.to/garpunkal"
       data-tippy-content="@dev_handle"
       target="_blank"
       rel="noopener"
