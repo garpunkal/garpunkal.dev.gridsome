@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6">
+  <div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6 text-gray-300">
     <div
       class="sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5"
     >
@@ -44,18 +44,18 @@
         {{ item.job }}
       </h3>
 
-      <h4 class="font-medium title-font text-gray-400 mb-1 text-l">
+      <h4 class="font-medium title-font text-gray-300 mb-1 text-l">
         {{ item.title }}
       </h4>
 
       <h5
-        class="font-smaller title-font mb-1 text-sm dark:text-gray-400"
+        class="font-smaller title-font mb-1 text-sm dark:text-gray-300"
         v-if="item.url"
       >
         {{ item.location }}
       </h5>
       <h6
-        class="font-smaller title-font mb-5 text-sm dark:text-gray-400"
+        class="font-smaller title-font mb-5 text-sm dark:text-gray-300"
         v-else
       >
         {{ item.location }}
@@ -91,7 +91,7 @@
       </p>
 
       <ul
-        class="list-outside list-disc font-smaller text-sm pl-5 dark:text-gray-400"
+        class="list-outside list-disc font-smaller text-sm pl-5 dark:text-gray-300"
         v-html="item.description"
       ></ul>
     </div>
