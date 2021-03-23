@@ -33,7 +33,29 @@
       </div>
     </section>
 
-    <Statement />
+    <section class="text-white bg-brand dark:bg-black body-font">
+      <div class="container px-5 py-5 md:py-14 mx-auto">
+        <div class="flex w-full flex-wrap">
+          <h3
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+          >
+            Articles
+          </h3>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center mb-10">
+        <div
+          class="flex flex-wrap mb-4 mx-1 w-full md:w-1/4"
+          v-for="edge in $page.devToArticles.edges"
+          :key="edge.node.id"
+        >
+          <div class="flex-1 rounded-lg shadow-lg border-2 border-white dark:border-brand">
+            <Article :item="edge.node" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="text-white bg-brand-dark body-font">
       <div class="container px-5 py-5 md:py-14 mx-auto">
@@ -55,41 +77,19 @@
       </div>
     </section>
 
-    <section class="text-white bg-brand body-font">
+    <Statement />
+
+    <section class="text-white bg-brand-dark body-font">
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap">
           <h3
             class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
-            Articles
-          </h3>
-        </div>
-      </div>
-
-      <div class="flex flex-wrap justify-center mb-10">
-        <div
-          class="flex flex-wrap mb-4 mx-2 w-full md:w-5/12"
-          v-for="edge in $page.devToArticles.edges"
-          :key="edge.node.id"
-        >
-          <div class="flex-1 rounded-lg shadow-lg border-2 border-white">
-            <Article :item="edge.node" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="text-white bg-brand-dark body-font">
-       <div class="container px-5 py-5 md:py-14 mx-auto">
-        <div class="flex w-full flex-wrap">
-          <h3
-         class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
-          >
             Twitter
           </h3>
         </div>
       </div>
-     <div class="flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center">
         <Twitter />
       </div>
     </section>
