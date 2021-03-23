@@ -4,7 +4,7 @@ const postcssPlugins = [tailwind()];
 
 module.exports = {
 	siteName: "garpunkal.dev",
-	siteUrl: "https://garpunkal.dev",	
+	siteUrl: "https://garpunkal.dev",
 	plugins: [
 		{
 			use: "gridsome-plugin-gtm",
@@ -25,18 +25,28 @@ module.exports = {
 				policy: [
 					{
 						userAgent: "Googlebot",
-						allow: "/",						
+						allow: "/",
 						crawlDelay: 2
 					},
 					{
 						userAgent: "*",
-						allow: "/",						
+						allow: "/",
 						crawlDelay: 10
 					}
 				]
 			}
+		},
+		{
+			use: '@chiubaca/gridsome-source-devto',
+			options: {
+				typeName: 'DevToArticles',
+				devtoAPIKey: process.env.DEVTO_API_KEY, //get your API key from https://dev.to/settings/account
+			}
 		}
 	],
+	templates: {
+		DevToArticles: '/:title'
+	},
 	css: {
 		loaderOptions: {
 			postcss: {

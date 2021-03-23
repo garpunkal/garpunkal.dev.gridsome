@@ -1,12 +1,11 @@
 <template>
   <Layout>
-  
     <Profile />
 
     <section
-      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font "
+      class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
-      <div class="container px-5 py-20 mx-auto flex flex-wrap">
+      <div class="container px-5 py-14 mx-auto flex flex-wrap">
         <div class="flex w-full flex-wrap mb-10" id="content">
           <h3
             class="mb-10 text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full"
@@ -37,7 +36,7 @@
     <Statement />
 
     <section class="text-white bg-brand-dark body-font">
-      <div class="container px-5 py-5 md:py-24 mx-auto">
+      <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
           <h3
             class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
@@ -56,12 +55,46 @@
       </div>
     </section>
 
-    <section class="text-white bg-brand dark:bg-black">
-      <Twitter />
+    <section class="text-white bg-brand body-font">
+      <div class="container px-5 py-5 md:py-14 mx-auto">
+        <div class="flex w-full flex-wrap">
+          <h3
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+          >
+            Articles
+          </h3>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center mb-10">
+        <div
+          class="flex flex-wrap mb-4 mx-2 w-full md:w-5/12"
+          v-for="edge in $page.devToArticles.edges"
+          :key="edge.node.id"
+        >
+          <div class="flex-1 rounded-lg shadow-lg border-2 border-white">
+            <Article :item="edge.node" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-white bg-brand-dark body-font">
+       <div class="container px-5 py-5 md:py-14 mx-auto">
+        <div class="flex w-full flex-wrap">
+          <h3
+         class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-300 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+          >
+            Twitter
+          </h3>
+        </div>
+      </div>
+     <div class="flex flex-wrap justify-center">
+        <Twitter />
+      </div>
     </section>
 
     <SiteFooter />
-    
   </Layout>
 </template>
 
@@ -72,6 +105,7 @@ import Twitter from "@/components/twitter.vue";
 import Project from "@/components/project.vue";
 import Profile from "@/components/profile.vue";
 import Statement from "@/components/statement.vue";
+import Article from "@/components/article.vue";
 
 export default {
   name: "Index",
@@ -85,6 +119,7 @@ export default {
     Project,
     Profile,
     Statement,
+    Article,
   },
   mounted: function () {
     document.querySelectorAll('a[href^="#content"]').forEach((anchor) => {
@@ -105,7 +140,28 @@ export default {
 };
 </script>
 <page-query>
+
+
+
 query {
+   devToArticles: allDevToArticles(sortBy: "published_at", order: DESC) {
+      edges {
+        node {
+        id
+        title
+        published_at
+        readable_publish_date
+        description
+        tag_list
+        canonical_url
+        cover_image
+        comments_count
+        page_views_count
+        time_to_read
+        type_of
+        }
+      }
+    }  
    experiences: allExperiences(sortBy: "orderDate", order: DESC) {
     edges {
       node {

@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@chiubaca/gridsome-source-devto": "^0.4.0",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "autoprefixer": "^10.0.3",
     "axios": "^0.21.1",

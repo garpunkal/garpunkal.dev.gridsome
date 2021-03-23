@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-brand-dark text-white body-font">
+  <footer class="bg-brand text-white body-font dark:bg-black">
     <div class="container px-10 py-8 md:py-20 mx-auto flex flex-wrap">
       <UpArrow />
       <div class="flex w-full flex-wrap">
