@@ -1,6 +1,6 @@
 <template>
   
-    <div class="w-100 mx-auto rounded-lg p-5 text-gray-800">
+    <div class="w-100 mx-auto rounded-lg mb-14 text-gray-800">
       <a
         class="twitter-timeline"
         href="https://twitter.com/garpunkal"

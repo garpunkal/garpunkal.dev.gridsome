@@ -2,8 +2,9 @@
   <Layout>
     <Profile />
 
- <section
+    <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+      id="content"
     >
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
@@ -13,12 +14,9 @@
             Articles
           </h3>
         </div>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div
-            v-for="edge in $page.devToArticles.edges"
-            :key="edge.node.id"
-          >
+          <div v-for="edge in $page.devToArticles.edges" :key="edge.node.id">
             <div
               class="rounded-lg shadow-lg border-2 border-brand dark:border-brand"
             >
@@ -29,11 +27,10 @@
       </div>
     </section>
 
-
     <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
-       <div class="container px-5 py-5 md:py-14 mx-auto">
+      <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
           <h3
             class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
@@ -61,8 +58,6 @@
       </div>
     </section>
 
-
-
     <section class="text-white bg-brand-dark body-font">
       <div class="container px-5 py-5 md:py-14 mx-auto">
         <div class="flex w-full flex-wrap mb-20">
@@ -85,11 +80,11 @@
 
     <Statement />
 
-<section
+    <section
       class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     >
       <div class="container px-5 py-5 md:py-14 mx-auto">
-        <div class="flex w-full flex-wrap mb-10">
+        <div class="flex w-full flex-wrap ">
           <h3
             class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
@@ -97,7 +92,7 @@
           </h3>
         </div>
       </div>
-      <div class="flex flex-wrap justify-center">
+      <div class="flex w-full flex-wrap justify-center px-10 mt-10 md:mt-0">
         <Twitter />
       </div>
     </section>

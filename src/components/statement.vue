@@ -1,7 +1,7 @@
 <template>
     <section class="text-white bg-brand dark:bg-black body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex w-full flex-wrap" id="content">
+        <div class="flex w-full flex-wrap">
           <p
             class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center text-gray-100 dark:text-brand text-xl font-extrabold sm:text-4xl lg:text-5xl lg:mb-5"
           >          
