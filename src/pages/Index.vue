@@ -15,7 +15,7 @@
           </h3>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div v-for="edge in $page.devToArticles.edges" :key="edge.node.id">
             <div
               class="rounded-lg shadow-lg border-2 border-brand dark:border-brand"
@@ -151,7 +151,7 @@ export default {
 
 
 query {
-    devToArticles: allDevToArticles(page:0, perPage: 2, sortBy: "published_at", order: DESC) {
+    devToArticles: allDevToArticles(page:0, perPage: 3, sortBy: "published_at", order: DESC) {
       edges {
         node {
         id
