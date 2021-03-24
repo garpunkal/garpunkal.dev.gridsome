@@ -19,8 +19,7 @@ import Profile from "@/components/profile.vue";
 import Statement from "@/components/statement.vue";
 import Articles from "@/components/articles.vue";
 
-export default {
-  name: "Index",
+export default {  
   metaInfo: {
     title: "Gareth Wright - C# .net MVC Developer",
   },
