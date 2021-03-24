@@ -13,7 +13,7 @@ module.exports = function (api) {
         "X-Languages": "en"
       }
     };
-   
+
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
     const { data: projectData } = await GetAsync(baseApiUrl + 'project', config);
@@ -35,10 +35,10 @@ module.exports = function (api) {
     // projects
     const proCollection = actions.addCollection({ typeName: 'Projects' })
     for (const item of highlightData.items) {
-    
+
       // filter relations
       const projects = BuildList(item.data.projects, projectData.items);
-      
+
       // map
       proCollection.addNode(MapProject(item, projects));
     }
