@@ -5,11 +5,19 @@
   >
     <div class="container px-5 py-5 md:py-14 mx-auto">
       <div class="flex w-full flex-wrap mb-20">
-        <h3
-          class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10"
+        <a
+          class="w-full"
+          href="https://dev.to/garpunkal"
+          target="_blank"
+          rel="noopener"
+          title="dev.to"
         >
-          Articles
-        </h3>
+          <h3
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10"
+          >
+            Articles
+          </h3>
+        </a>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">

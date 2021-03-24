@@ -7,7 +7,6 @@
     <a
       class="link"
       href="https://twitter.com/garpunkal"
-      data-tippy-content="@twitter_handle"
       target="_blank"
       rel="noopener"
       title="Twitter"
@@ -27,7 +26,6 @@
     <a
       class="link"
       href="https://github.com/garpunkal"
-      data-tippy-content="@github_handle"
       target="_blank"
       rel="noopener"
       ><svg
@@ -47,7 +45,6 @@
     <a
       class="link"
       href="https://umbraco.com/training/certified-developers/developer/?id=e0ad657a-e715-4852-8063-f11e398d686a"
-      data-tippy-content="@umbraco_handle"
       target="_blank"
       rel="noopener"
       title="Umbraco"
@@ -68,7 +65,6 @@
     <a
       href="https://skrift.io/authors/gareth-wright"
       class="link"
-      data-tippy-content="@skrift_handle"
       target="_blank"
       rel="noopener"
       title="Skrift"
@@ -91,10 +87,9 @@
     <a
       class="link"
       href="https://dev.to/garpunkal"
-      data-tippy-content="@dev_handle"
       target="_blank"
       rel="noopener"
-      title="Dev"
+      title="dev.to"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +107,6 @@
     <a
       class="link"
       href="https://www.linkedin.com/in/garpunkal/"
-      data-tippy-content="@reddit_handle"
       target="_blank"
       rel="noopener"
       title="LinkedIn"
@@ -135,7 +129,6 @@
     <a
       class="link"
       href="https://www.reddit.com/user/garpunkal"
-      data-tippy-content="@reddit_handle"
       target="_blank"
       rel="noopener"
       title="Reddit"
@@ -156,7 +149,6 @@
     <a
       class="link"
       href="https://www.paypal.me/garpunkal"
-      data-tippy-content="@paypal_handle"
       target="_blank"
       rel="noopener"
       title="PayPal"
