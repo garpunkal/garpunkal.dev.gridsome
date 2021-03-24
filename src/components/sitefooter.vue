@@ -6,7 +6,7 @@
         <h3
           class="text-2xl font-extrabold sm:text-65xl tracking-tighter lg:text-3xl text-gray-300 dark:text-gray-500 text-center w-full mx-auto"
         >
-          &copy; 2021 Gareth Wright
+         Gareth Wright
         </h3>
       </div>
       <div class="flex w-full flex-wrap">
