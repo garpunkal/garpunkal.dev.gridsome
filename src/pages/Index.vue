@@ -151,7 +151,7 @@ export default {
 
 
 query {
-    devToArticles: allDevToArticles(page:0, perPage: 4, sortBy: "published_at", order: DESC) {
+    devToArticles: allDevToArticles(page:0, perPage: 2, sortBy: "published_at", order: DESC) {
       edges {
         node {
         id
