@@ -1,27 +1,38 @@
 {
-  "name": "garpunkal.github.io",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "start": "gridsome develop",
-    "explore": "gridsome explore",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "@chiubaca/gridsome-source-devto": "^0.4.0",
-    "@gridsome/plugin-sitemap": "^0.4.0",
-    "autoprefixer": "^10.0.3",
-    "axios": "^0.21.1",
-    "gh-pages": "^3.1.0",
-    "gridsome": "^0.7.23",
-    "gridsome-plugin-gtm": "^0.1.1",
-    "gridsome-plugin-robots-txt": "^1.0.2",
-    "postcss": "^8.1.10",
-    "tailwindcss": "^2.0.1",
-    "vue-meta": "^2.4.0"
-  },
-  "devDependencies": {}
+	"name": "garpunkal.github.io",
+	"version": "1.0.0",
+	"private": false,
+	"homepage": "https://garpunkal.dev",
+	"description": "Personal website for Gareth Wright",
+	"keywords": [
+		"vuejs",
+		"axios",
+		"tailwindcss",
+		"csharp",
+		"vue",
+		"tailwind",
+		"gridsome"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/garpunkal/garpunkal.github.io"
+	},
+	"scripts": {
+		"build": "gridsome build",
+		"start": "gridsome develop",
+		"explore": "gridsome explore"
+	},
+	"dependencies": {
+		"@chiubaca/gridsome-source-devto": "^0.4.0",
+		"@gridsome/plugin-sitemap": "^0.4.0",
+		"autoprefixer": "^10.0.3",
+		"axios": "^0.21.1",
+		"gridsome": "^0.7.23",
+		"gridsome-plugin-gtm": "^0.1.1",
+		"gridsome-plugin-robots-txt": "^1.0.2",
+		"postcss": "^8.1.10",
+		"tailwindcss": "^2.0.1"
+	},
+	"devDependencies": {}
 }

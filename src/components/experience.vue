@@ -98,11 +98,14 @@
     <div class="sm:pl-6 mt-6 sm:mt-0">
       <div
         class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400"
-      v-if="item.projects.title">
+        v-if="item.projects.title"
+      >
         {{ item.projects.title }}
       </div>
 
-      <ul class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3">
+      <ul
+        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3"
+      >
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
             v-if="project.url"
@@ -110,7 +113,7 @@
             :href="project.url"
             target="_blank"
             :title="project.name"
-            class="text-gray-400 dark:text-brand inline-flex items-center  hover:text-brand"
+            class="text-gray-400 dark:text-brand inline-flex items-center hover:text-brand"
             >{{ project.name }}</a
           >
           <span v-else class="dark:text-gray-400">{{ project.name }}</span>
@@ -118,12 +121,15 @@
       </ul>
 
       <div
-        class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400 "
-      v-if="item.contributions.title">
+        class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400"
+        v-if="item.contributions.title"
+      >
         {{ item.contributions.title }}
       </div>
 
-      <ul class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3">
+      <ul
+        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3"
+      >
         <li
           v-for="contribution in item.contributions.items"
           v-bind:key="contribution.name"

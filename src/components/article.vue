@@ -29,7 +29,9 @@
         rel="noopener"
         :title="item.title"
       >
-        <h2 class="title-font text-lg font-medium text-white dark:text-gray-200 mb-3">
+        <h2
+          class="title-font text-lg font-medium text-white dark:text-gray-200 mb-3"
+        >
           {{ item.title }}
         </h2>
       </a>
@@ -52,8 +54,8 @@
           <circle cx="12" cy="12" r="3"></circle></svg
         >{{ item.page_views_count }}
       </span>
-       <span
-        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1  dark:text-gray-500"
+      <span
+        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 dark:text-gray-500"
       >
         <svg
           class="w-4 h-4 mr-1"

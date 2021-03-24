@@ -40,13 +40,14 @@ module.exports = {
 			use: '@chiubaca/gridsome-source-devto',
 			options: {
 				typeName: 'DevToArticles',
-				devtoAPIKey: process.env.DEVTO_API_KEY, //get your API key from https://dev.to/settings/account
+				devtoAPIKey: process.env.DEVTO_API_KEY, 
+				//get your API key from https://dev.to/settings/account
 			}
 		}
 	],
-	templates: {
-		DevToArticles: '/:title'
-	},
+	// templates: {
+	// 	DevToArticles: '/:title'
+	// },
 	css: {
 		loaderOptions: {
 			postcss: {
