@@ -57,16 +57,11 @@ query {
         node {
         id
         title
-        published_at
-        readable_publish_date
+        published_at        
         description
         tag_list
         canonical_url
-        cover_image
-        comments_count
-        page_views_count
-        time_to_read
-        type_of
+        cover_image      
         }
       }
     }  
