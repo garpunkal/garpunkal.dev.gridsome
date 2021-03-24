@@ -1,18 +1,19 @@
 <template>
   <footer class="bg-brand text-white body-font dark:bg-black">
-    <div class="container px-10 py-8 md:py-20 mx-auto flex flex-wrap">
+    <div class="container px-10 py-8 mx-auto flex flex-wrap">
+  
       <UpArrow />
       
       <div class="flex w-full flex-wrap">
-        <p class="mx-auto mt-10 mb-5 text-sm">
+        <p class="mx-auto mb-5 text-sm">
           <a
             href="https://github.com/garpunkal/garpunkal.github.io"
             target="_blank"
             rel="noopener"
-            class="font-bold inline-flex text-gray-300 dark:text-gray-500"
+            class="font-bold inline-flex text-white dark:text-gray-500 items-center"
             title="garpunkal.github.io"
             ><svg
-              class="h-4 fill-current text-gray-300 dark:text-gray-500 pr-2"
+              class="h-4 fill-current text-white dark:text-gray-500 pr-2"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
