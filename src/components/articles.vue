@@ -21,12 +21,24 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div v-for="edge in items.edges" :key="edge.node.id">
+        <div v-for="edge in items.edges.slice(0,3)" :key="edge.node.id">
           <div
             class="rounded-lg shadow-lg border-2 border-brand dark:border-brand"
           >
             <Article :item="edge.node" />
           </div>
+        </div>
+      </div>
+
+      <div class="lg:mx-14">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+        <div v-for="edge in items.edges.slice(3,5)" :key="edge.node.id">
+          <div
+           
+          >
+            <ArticleStub :item="edge.node" />
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -35,9 +47,11 @@
 
 <script>
 import Article from "@/components/article.vue";
+import ArticleStub from "@/components/articlestub.vue";
 export default {
   components: {
     Article,
+    ArticleStub,
   },
   props: {
     items: {
