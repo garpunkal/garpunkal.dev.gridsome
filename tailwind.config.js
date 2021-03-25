@@ -49,7 +49,9 @@ module.exports = {
 			[
 				'./src/**/*.html',
 				'./src/**/*.vue',
+				'./src/**/*.js',
 				'./src/**/*.jsx',
+				'./src/**/*.tsx'
 			]
 	},
 	darkMode: "class",
