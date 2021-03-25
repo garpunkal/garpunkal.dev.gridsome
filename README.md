@@ -4,5 +4,12 @@ Personal website that uses SquidexCMS, Vue.js, TailwindCSS, GraphQL, and Gridsom
 
 https://garpunkal.dev
 
-## .env file
+
+
+# Articles
+
+[SquidexCMS to Gridsome using Content API](https://dev.to/garpunkal/squidexcms-to-gridsome-1p40)
+
+
+# .env file
 DEVTO_API_KEY=XXXXXXXXXXXXX (key from dev.to)
