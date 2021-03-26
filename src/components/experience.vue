@@ -52,12 +52,12 @@
       >
         {{ item.location }}
       </h5>
-      <h6
+      <h5
         class="font-smaller title-font mb-5 text-sm dark:text-gray-300"
         v-else
       >
         {{ item.location }}
-      </h6>
+      </h5>
 
       <p class="font-smaller title-font mb-5 text-sm" v-if="item.url">
         <a
@@ -88,10 +88,10 @@
         >
       </p>
 
-      <ul
-        class="list-outside list-disc font-smaller text-sm pl-5 dark:text-gray-300"
+      <div
+        class="font-smaller text-sm pl-5 dark:text-gray-300"
         v-html="item.description"
-      ></ul>
+      ></div>
     </div>
     <div class="sm:pl-6 mt-6 sm:mt-0">
       <div
