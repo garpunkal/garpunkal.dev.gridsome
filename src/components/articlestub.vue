@@ -14,9 +14,9 @@
             :src="item.cover_image"
             :alt="item.title"
             :title="item.alt"
-            class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-2 border-brand"
+            class="w-full h-auto block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-2 border-brand"
             loading="lazy"
-            :style="{ width: '100%', height: 'auto' }"
+          
           />
         </figure>
       </a>

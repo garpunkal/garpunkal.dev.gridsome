@@ -17,7 +17,6 @@
           :width="item.image.width"
           :height="item.image.height"
           loading="lazy"
-          :style="{ width: '100%', height: '100%' }"
         />
         <img
           v-else
@@ -28,7 +27,6 @@
           :width="item.image.width"
           :height="item.image.height"
           loading="lazy"
-          :style="{ width: '100%', height: '100%' }"
         />
         <figcaption
           class="absolute left-0 bottom-0 px-4 py-1 bg-brand dark:bg-brand-dark text-xs text-gray-200 dark:text-gray-400 rounded-bl-lg rounded-tr-lg"

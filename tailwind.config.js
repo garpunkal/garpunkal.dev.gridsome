@@ -30,12 +30,16 @@ module.exports = {
 				"96": "24rem",
 				"128": "32rem",
 			},
+			width: (theme) => ({
+				"100pixel": "100px"
+			}),
 			height: (theme) => ({
 				"screen/2": "50vh",
 				"screen/3": "calc(100vh / 3)",
 				"screen/4": "calc(100vh / 4)",
 				"screen/5": "calc(100vh / 5)",
 				"screen/75": "75vh",
+				"100pixel": "100px"
 			})
 
 		}

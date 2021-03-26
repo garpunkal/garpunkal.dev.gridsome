@@ -14,11 +14,10 @@
           :alt="item.logo.alt"
           :src="item.logo.url"
           :style="{ backgroundColor: item.logo.background }"
-          class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100"
+          class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel"
           width="100"
           height="100"
-          loading="lazy"
-          style="width: 100px; height: 100px"
+          loading="lazy"      
           :title="item.logo.alt"
         />
       </a>
@@ -27,11 +26,10 @@
         :alt="item.logo.alt"
         :src="item.logo.url"
         :style="{ backgroundColor: item.logo.background }"
-        class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100"
+        class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel"
         width="100"
         height="100"
         loading="lazy"
-        style="width: 100px; height: 100px"
         :title="item.logo.alt"
       />
     </div>
