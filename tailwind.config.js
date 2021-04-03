@@ -56,7 +56,10 @@ module.exports = {
 				'./src/**/*.js',
 				'./src/**/*.jsx',
 				'./src/**/*.tsx'
-			]
+			],
+		options: {
+			safelist: ["list-outside", "list-disc"]
+		}
 	},
 	darkMode: "class",
 
