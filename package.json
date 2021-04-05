@@ -1,5 +1,5 @@
 {
-	"name": "garpunkal.github.io",
+	"name": "garpunkal.dev",
 	"version": "1.0.0",
 	"private": false,
 	"homepage": "https://garpunkal.dev",
@@ -16,7 +16,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/garpunkal/garpunkal.github.io"
+		"url": "https://github.com/garpunkal/garpunkal.dev"
 	},
 	"scripts": {
 		"build": "gridsome build",
