@@ -61,6 +61,5 @@ module.exports = {
 			safelist: ["list-outside", "list-disc"]
 		}
 	},
-	darkMode: "class",
-
+	darkMode: "class"
 }
