@@ -90,7 +90,7 @@ module.exports = function (api) {
       "shortUrl": company.data.shortUrl,
       "from": GetMonthYear(item.data.from),
       "to": GetMonthYear(item.data.to),
-      "isCurrent": item.data.isCurrent,
+      "isCurrent": item.data.isCurrent ?? false,
       "description": item.data.description,
       "projects": {
         "title": item.data.projectsLabel,
