@@ -90,7 +90,7 @@ module.exports = function (api) {
       "shortUrl": company.data.shortUrl,
       "from": GetMonthYear(item.data.from),
       "to": GetMonthYear(item.data.to),
-      "isCurrent": item.data.isCurrent,
+      "isCurrent": GetBool(item.data.isCurrent),
       "description": item.data.description,
       "projects": {
         "title": item.data.projectsLabel,
@@ -111,6 +111,10 @@ module.exports = function (api) {
       var dt = new Date(date);
       return dt.toLocaleString('default', { month: 'short' }) + " " + dt.getFullYear();
     }
+  }
+
+  function GetBool(value) {
+    return (value === null || value === undefined) ? false : value;
   }
 
   async function GetAsync(url, config) {
