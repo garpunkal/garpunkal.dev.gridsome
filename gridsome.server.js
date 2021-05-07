@@ -102,7 +102,7 @@ module.exports = function (api) {
       },
       "orderDate": item.data.from
     }
-  }
+  } 
 
   function GetMonthYear(date) {
     if (date === null || date === undefined) {

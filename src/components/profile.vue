@@ -12,7 +12,7 @@
         <h1
           class="mt-3 text-4xl font-extrabold sm:text-6xl tracking-tighter lg:text-6xl text-brand dark:text-gray-300"
         >
-          Gareth Wright
+          Gareth Wright 
         </h1>
         <h2
           class="mb-5 md:mb-8 text-2xl font-extrabold sm:text-3xl tracking-tighter lg:text-4xl text-brand-dark dark:text-gray-500"
