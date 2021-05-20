@@ -102,7 +102,7 @@ module.exports = function (api) {
       },
       "orderDate": item.data.from
     }
-  } 
+  }
 
   function GetMonthYear(date) {
     if (date === null || date === undefined) {
@@ -118,8 +118,27 @@ module.exports = function (api) {
   }
 
   async function GetAsync(url, config) {
-    return await axios.get(url, config)
+
+    retryWrapper(axios, { retry_time: 3 })
+    const result = await axios.get(url, config)
       .then(function (response) { return response; })
       .catch(function (error) { console.log(error); });
+
+    return result;
+  }
+
+  const retryWrapper = (axios, options) => {
+    const max_time = options.retry_time;
+    let counter = 0;
+    axios.interceptors.response.use(null, (error) => {
+      const config = error.config
+      if (counter < max_time) {
+        counter++
+        return new Promise((resolve) => {
+          resolve(axios(config))
+        })
+      }
+      return Promise.reject(error)
+    })
   }
 }
