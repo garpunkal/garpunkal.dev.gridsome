@@ -103,6 +103,7 @@
 
       <ul
         class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3"
+        
       >
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
