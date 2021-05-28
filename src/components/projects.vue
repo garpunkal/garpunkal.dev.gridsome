@@ -1,7 +1,10 @@
 <template>
+
+
   <section
     class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
     id="projects"
+    
   >
     <div class="container px-5 py-5 md:py-14 mx-auto">
       <div class="flex w-full flex-wrap mb-20">

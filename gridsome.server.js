@@ -46,11 +46,13 @@ module.exports = function (api) {
 
   function BuildList(selection, source) {
     var items = [];
-    selection.forEach(function (item) {
-      const found = source.find(x => x.id == item);
-      if (found != null)
-        items.push(found);
-    });
+
+    if (selection)
+      selection.forEach(function (item) {
+        const found = source.find(x => x.id == item);
+        if (found != null)
+          items.push(found);
+      });
 
     return items;
   }
