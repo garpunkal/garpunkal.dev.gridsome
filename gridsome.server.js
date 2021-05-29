@@ -129,18 +129,24 @@ module.exports = function (api) {
     return result;
   }
 
+  const axios = require("axios")
   const retryWrapper = (axios, options) => {
-    const max_time = options.retry_time;
-    let counter = 0;
-    axios.interceptors.response.use(null, (error) => {
-      const config = error.config
-      if (counter < max_time) {
-        counter++
-        return new Promise((resolve) => {
-          resolve(axios(config))
-        })
-      }
-      return Promise.reject(error)
-    })
+      const max_time = options.retry_time;
+      let counter = 0;
+      axios.interceptors.response.use(null, (error) => {
+          console.log("==================");
+          console.log(`Counter: ${counter}`);
+          console.log("Error: ", error.response.statusText);
+          console.log("==================");
+           
+          const config = error.config
+          if (counter < max_time) {
+              counter++
+              return new Promise((resolve) => {
+                  resolve(axios(config))
+              })
+          }        
+          return Promise.reject(error)
+      })
   }
 }

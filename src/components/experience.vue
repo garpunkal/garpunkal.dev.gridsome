@@ -17,7 +17,7 @@
           class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel border-brand dark:border-brand-dark border-2 md:border-3"
           width="100"
           height="100"
-          loading="lazy"      
+          loading="lazy"
           :title="item.logo.alt"
         />
       </a>
@@ -91,6 +91,7 @@
       <div
         class="font-smaller text-sm pl-5 dark:text-gray-300"
         v-html="item.description"
+        v-if="item.description!== '<p>-</p>'"
       ></div>
     </div>
     <div class="sm:pl-6 mt-6 sm:mt-0">
@@ -103,7 +104,6 @@
 
       <ul
         class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3"
-        
       >
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
@@ -156,6 +156,6 @@ export default {
       type: Object,
       required: true,
     },
-  },
+  } 
 };
 </script>
