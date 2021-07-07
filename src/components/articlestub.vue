@@ -18,7 +18,7 @@
             loading="lazy"
           
           />
-        </figure>
+        </figure> 
       </a>
     </div>
     <div class="col-span-8 flex items-center pr-4">
