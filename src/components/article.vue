@@ -45,7 +45,7 @@
           :key="tag"
         >
           {{ tag }}
-        </div>
+        </div>   
       </div>
     </div>
   </div>
