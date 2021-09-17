@@ -179,7 +179,7 @@ export default {
           localStorage.theme = "dark";
         }
       });
-
+   
     if (
       localStorage.theme === "dark" ||
       (!"theme" in localStorage &&
