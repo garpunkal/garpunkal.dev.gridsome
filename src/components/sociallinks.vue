@@ -162,7 +162,7 @@
       </svg>
     </a>
   </div>
-</template>
+</template>   
 <script>
 export default {
   name: "SocialLinks",
@@ -193,3 +193,4 @@ export default {
 };
 </script>
 
+  
