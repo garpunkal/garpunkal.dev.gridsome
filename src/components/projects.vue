@@ -1,33 +1,51 @@
 <template>
-
-
   <section
-    class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+    class="
+      text-gray-500
+      bg-brand-dark
+      dark:text-gray-300
+      dark:bg-gray-900
+      body-font
+    "
     id="projects"
-    
   >
     <div class="container px-5 py-5 md:py-14 mx-auto">
       <div class="flex w-full flex-wrap mb-20">
         <h3
-          class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+          class="
+            text-3xl
+            font-extrabold
+            sm:text-65xl
+            tracking-tighter
+            lg:text-4xl
+            text-gray-600
+            dark:text-gray-500
+            text-center
+            w-full
+            mt-10
+            lg:mt-0
+          "
         >
           Projects
         </h3>
       </div>
 
+
       <div class="flex flex-wrap md:-m-2 -m-1">
         <div
           class="flex flex-wrap w-1/2 md:w-1/2"
-          v-for="edge in items.edges"
-          :key="edge.node.id"
+          v-for="(chunk, index) in chunked"
+          :key="index"
         >
-          <div
+        <div
             class="md:p-2 p-1 w-full"
-            :class="{ 'md:w-1/2': project.large !== true }"
-            v-for="project in edge.node.projects"
-            :key="project.id"
+            v-for="project in chunk"
+            :key="project.node.id"
+            
+            :class="{ 'md:w-1/2': project.node.large !== true }"
           >
-            <Project :item="project" />
+   
+            <Project :item="project.node" />
           </div>
         </div>
       </div>
@@ -37,6 +55,8 @@
 
 <script>
 import Project from "@/components/project.vue";
+import lodash from "lodash";
+
 export default {
   components: {
     Project,
@@ -45,6 +65,11 @@ export default {
     items: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    chunked() {
+      return lodash.chunk(this.items.edges, 3);
     },
   },
 };

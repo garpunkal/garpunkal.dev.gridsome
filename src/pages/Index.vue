@@ -2,7 +2,7 @@
   <Layout>
     <Profile />
     <Articles :items="$page.articles" />
-    <Projects :items="$page.projects" />
+    <Projects :items="$page.highlights" />
     <Experiences :items="$page.experiences" />
     <Statement />
     <Tweets />
@@ -19,7 +19,7 @@ import Profile from "@/components/profile.vue";
 import Statement from "@/components/statement.vue";
 import Articles from "@/components/articles.vue";
 
-export default {  
+export default {
   metaInfo: {
     title: "Gareth Wright - C# .net MVC Developer",
   },
@@ -101,23 +101,22 @@ query {
       }
     }
    }
-  projects : allProjects(sortBy: "orderNumber", order: ASC) {
+  highlights : allHighlights(sortBy: "sortOrder", order: ASC) {
     edges {
       node {
-        id 
-        orderNumber
-        projects {
-          title
-          image {
-            url
-            alt
-            width
-            height
-          }
+        id        
+        title
+        image {
           url
-          position
-          large
-        }       
+          alt
+          width
+          height
+        }
+        url
+        position
+        large
+        sortOrder
+        isHighlight   
       }
     }
   } 

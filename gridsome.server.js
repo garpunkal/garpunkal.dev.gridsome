@@ -18,7 +18,6 @@ module.exports = function (api) {
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
     const { data: projectData } = await GetAsync(baseApiUrl + 'project', config);
     const { data: experienceData } = await GetAsync(baseApiUrl + 'experience', config);
-    const { data: highlightData } = await GetAsync(baseApiUrl + 'highlight', config);
 
     // experiences
     const expCollection = actions.addCollection({ typeName: 'Experiences' })
@@ -32,15 +31,13 @@ module.exports = function (api) {
       expCollection.addNode(MapExperience(item, company, projects, contribs))
     }
 
-    // projects
-    const proCollection = actions.addCollection({ typeName: 'Projects' })
-    for (const item of highlightData.items) {
-
-      // filter relations
-      const projects = BuildList(item.data.projects, projectData.items);
-
+    // highlights
+    const highCollection = actions.addCollection({ typeName: 'Highlights' })
+    for (const item of projectData.items) {
       // map
-      proCollection.addNode(MapProject(item, projects));
+      if (item.data.IsHighlight === true) {
+        highCollection.addNode(MapProject(item));
+      }
     }
   })
 
@@ -57,23 +54,21 @@ module.exports = function (api) {
     return items;
   }
 
-  function MapProject(item, projects) {
+  function MapProject(item) {
     return {
       "id": item.data.id,
-      "orderNumber": item.data.orderNumber,
-      "projects": projects.map(p =>
-      ({
-        "title": p.data.title,
-        "position": p.data.position,
-        "url": p.data.url,
-        "large": GetBool(p.data.large),
-        "image": {
-          "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + p.data.image[0] + "?cache=2592000",
-          "alt": p.data.title,
-          "width": p.data.large ? 615 : 300,
-          "height": p.data.large ? 340 : 165,
-        }
-      }))
+      "title": item.data.title,
+      "position": item.data.position,
+      "url": item.data.url,
+      "large": GetBool(item.data.large),
+      "image": {
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image[0] + "?cache=2592000",
+        "alt": item.data.title,
+        "width": item.data.large ? 615 : 300,
+        "height": item.data.large ? 340 : 165,
+      },
+      "sortOrder": item.data.SortOrder,
+      "isHighlight": GetBool(item.data.IsHighlight)
     }
   }
 
@@ -131,22 +126,22 @@ module.exports = function (api) {
 
   const axios = require("axios")
   const retryWrapper = (axios, options) => {
-      const max_time = options.retry_time;
-      let counter = 0;
-      axios.interceptors.response.use(null, (error) => {
-          console.log("==================");
-          console.log(`Counter: ${counter}`);
-          console.log("Error: ", error.response.statusText);
-          console.log("==================");
-           
-          const config = error.config
-          if (counter < max_time) {
-              counter++
-              return new Promise((resolve) => {
-                  resolve(axios(config))
-              })
-          }        
-          return Promise.reject(error)
-      })
+    const max_time = options.retry_time;
+    let counter = 0;
+    axios.interceptors.response.use(null, (error) => {
+      console.log("==================");
+      console.log(`Counter: ${counter}`);
+      console.log("Error: ", error.response.statusText);
+      console.log("==================");
+
+      const config = error.config
+      if (counter < max_time) {
+        counter++
+        return new Promise((resolve) => {
+          resolve(axios(config))
+        })
+      }
+      return Promise.reject(error)
+    })
   }
 }
