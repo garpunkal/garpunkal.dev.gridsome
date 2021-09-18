@@ -20,6 +20,14 @@ module.exports = {
 			"2": "2px",
 			"4": "4px",
 		},
+		minHeight: {
+			'0': '0',
+			'1/4': '25%',
+			'1/2': '50%',
+			'3/4': '75%',
+			'full': '100%',
+			'56': "56px"
+		},
 		extend: {
 			colors: {
 				cyan: "#9cdbff",

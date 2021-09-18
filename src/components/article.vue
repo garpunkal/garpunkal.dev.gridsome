@@ -29,7 +29,7 @@
         :title="item.title"
       >
         <h2
-          class="title-font text-lg font-medium text-white dark:text-gray-200 mb-3"
+          class="title-font text-lg font-medium text-white dark:text-gray-200 mb-3 min-h-56"
         >
           {{ item.title }}
         </h2>
