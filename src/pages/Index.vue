@@ -5,7 +5,6 @@
     <Projects :items="$page.highlights" />
     <Experiences :items="$page.experiences" />
     <Statement />
-    <Tweets />
     <SiteFooter />
   </Layout>
 </template>
@@ -13,7 +12,6 @@
 <script>
 import Experiences from "@/components/experiences.vue";
 import SiteFooter from "@/components/sitefooter.vue";
-import Tweets from "@/components/tweets.vue";
 import Projects from "@/components/projects.vue";
 import Profile from "@/components/profile.vue";
 import Statement from "@/components/statement.vue";
