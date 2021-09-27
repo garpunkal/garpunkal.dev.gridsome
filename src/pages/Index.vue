@@ -5,6 +5,7 @@
     <Projects :items="$page.highlights" />
     <Experiences :items="$page.experiences" />
     <Statement />
+    <Tweets />
     <SiteFooter />
   </Layout>  
 </template>
@@ -16,6 +17,7 @@ import Projects from "@/components/projects.vue";
 import Profile from "@/components/profile.vue";
 import Statement from "@/components/statement.vue";
 import Articles from "@/components/articles.vue";
+import Tweets from "@/components/tweets.vue";
 
 export default {
   metaInfo: {
@@ -28,6 +30,7 @@ export default {
     Profile,
     Statement,
     Articles,
+    Tweets
   },
   mounted: function () {
     document.querySelectorAll('a[href^="#content"]').forEach((anchor) => {
