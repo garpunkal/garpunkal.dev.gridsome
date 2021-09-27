@@ -23,8 +23,7 @@ export default {
   },
   components: {
     Experiences,
-    SiteFooter,
-    Tweets,
+    SiteFooter,    
     Projects,
     Profile,
     Statement,
