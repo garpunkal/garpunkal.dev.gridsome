@@ -6,7 +6,7 @@
     <Experiences :items="$page.experiences" />
     <Statement />
     <SiteFooter />
-  </Layout>
+  </Layout>  
 </template>
 
 <script>
