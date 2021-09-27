@@ -23,7 +23,7 @@
       },
       {
         "key": "Content-Security-Policy",
-        "value": "base-uri 'self'; connect-src 'self'; default-src 'self'; font-src 'self'; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com; img-src 'self' data: https://cloud.squidex.io https://pbs.twimg.com https://platform.twitter.com https://res.cloudinary.com https://syndication.twitter.com; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'self' https://cdn.syndication.twimg.com/timeline/profile https://platform.twitter.com/widgets.js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtm.js; style-src 'self' https://platform.twitter.com; worker-src 'none';"
+        "value": "base-uri 'self'; connect-src 'self'; default-src 'self'; font-src 'self'; frame-src 'self' https://twitter.com https://platform.twitter.com https://syndication.twitter.com; img-src 'self' data: https://cloud.squidex.io https://pbs.twimg.com https://platform.twitter.com https://res.cloudinary.com https://pbs.twimg.com ton.twimg.com platform.twitter.com https://syndication.twitter.com; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'self' https://cdn.syndication.twimg.com platform.twitter.com https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtm.js; style-src 'self' https://ton.twimg.com platform.twitter.com; worker-src 'none'; require-trusted-types-for 'script'"
       }
     ]
   }],
