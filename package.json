@@ -27,7 +27,7 @@
 		"@chiubaca/gridsome-source-devto": "^0.4.0",
 		"@gridsome/plugin-sitemap": "^0.4.0",
 		"autoprefixer": "^10.0.3",
-		"axios": "^0.21.1",
+		"axios": "^0.21.2",
 		"gridsome": "^0.7.23",
 		"gridsome-plugin-gtm": "^0.1.1",
 		"gridsome-plugin-robots-txt": "^1.0.2",
