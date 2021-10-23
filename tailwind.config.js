@@ -50,7 +50,7 @@ module.exports = {
 				"100pixel": "100px"
 			}),
 			boxShadow: { 
-				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 5)',
+				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 0.9)',
 			}
 
 		}
