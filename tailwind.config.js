@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
@@ -5,14 +7,14 @@ module.exports = {
 	},
 	theme: {
 		screens: {
-			sm: "640px",
+			sm: "375px",
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
 		},
 		fontFamily: {
-			display: ["sans-serif"],
-			body: ["sans-serif"],
+			display: ["Open Sans", "sans-serif"],
+			body: ["Open Sans", "sans-serif"],
 		},
 		borderWidth: {
 			default: "1px",
@@ -29,6 +31,9 @@ module.exports = {
 			'56': "56px"
 		},
 		extend: {
+			fontFamily: {
+				sans: ["Open Sans", ...defaultTheme.fontFamily.sans]
+			},
 			colors: {
 				cyan: "#9cdbff",
 				brand: "#077da0",
@@ -57,17 +62,30 @@ module.exports = {
 		visibility: ['hover', 'focus']
 	},
 	purge: {
-		content:
-			[
-				'./src/**/*.html',
-				'./src/**/*.vue',
-				'./src/**/*.js',
-				'./src/**/*.jsx',
-				'./src/**/*.tsx'
-			],
+		enabled: process.env.NODE_ENV = "production",
+		content: ['./src/**/*.{html,md,vue,njk}'],
 		options: {
-			safelist: ["list-outside", "list-disc"]
+			safelist: [
+				'w-1/8',
+				'w-2/8',
+				'w-3/8',
+				'w-4/8',
+				'w-5/8',
+				'w-6/8',
+				'w-7/8',
+				'list-inside',
+				'list-outside',
+				'list-disc',
+				'items-center',
+				'mr-2',
+				'flex-row'				
+			]						
 		}
 	},
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/aspect-ratio'),
+		require('@tailwindcss/forms')
+	],
 	darkMode: "class"
 }  

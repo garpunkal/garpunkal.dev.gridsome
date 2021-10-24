@@ -24,6 +24,9 @@
 		"explore": "gridsome explore"
 	},
 	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.2.1",
+		"@tailwindcss/forms": "^0.3.3",
+		"@tailwindcss/typography": "^0.4.1",
 		"@chiubaca/gridsome-source-devto": "^0.4.0",
 		"@gridsome/plugin-sitemap": "^0.4.0",
 		"autoprefixer": "^10.0.3",
@@ -35,5 +38,8 @@
 		"postcss": "^8.2.10",
 		"tailwindcss": "^2.0.1"
 	},
-	"devDependencies": {}
+	"devDependencies": {
+		"sass": "^1.43.3",
+		"sass-loader": "^10.1.1"
+	}
 }
