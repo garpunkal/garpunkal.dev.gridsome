@@ -64,7 +64,7 @@
           :href="item.url"
           target="_blank"
           rel="noopener"
-          class="text-gray-400 dark:text-brand inline-flex items-center"
+          class="inline-flex items-center"
           :title="item.title"
           >{{ item.shortUrl }}</a
         >
@@ -103,7 +103,7 @@
       </div>
 
       <ul
-        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3"
+        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words"
       >
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
@@ -112,7 +112,7 @@
             :href="project.url"
             target="_blank"
             :title="project.name"
-            class="text-gray-400 dark:text-brand inline-flex items-center hover:text-brand"
+            class="inline-flex items-center "
             >{{ project.name }}</a
           >
           <span v-else class="dark:text-gray-400">{{ project.name }}</span>
@@ -127,7 +127,7 @@
       </div>
 
       <ul
-        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3"
+        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words"
       >
         <li
           v-for="contribution in item.contributions.items"
@@ -139,7 +139,7 @@
             :href="contribution.url"
             target="_blank"
             :title="contribution.name"
-            class="text-gray-400 dark:text-brand inline-flex items-center hover:text-brand"
+            class="inline-flex items-center "
             >{{ contribution.name }}</a
           >
           <span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
