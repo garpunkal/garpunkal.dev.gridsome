@@ -1,4 +1,4 @@
-import '~/scss/app.scss'
+require("~/main.css");
 import DefaultLayout from "~/layouts/Default.vue";
 import Vue from "vue";
 
