@@ -19,7 +19,7 @@
         <Experience :item="edge.node" />
       </div>
     </div>
-  </section>   
+  </section>
 </template>
 <script>
 import Experience from "@/components/experience.vue";

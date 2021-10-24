@@ -48,10 +48,7 @@ module.exports = {
 				"screen/5": "calc(100vh / 5)",
 				"screen/75": "75vh",
 				"100pixel": "100px"
-			}),
-			boxShadow: { 
-				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 0.9)',
-			}
+			})
 
 		}
 	},
