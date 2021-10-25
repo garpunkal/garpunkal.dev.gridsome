@@ -101,7 +101,7 @@ module.exports = function (api) {
     }
   }
 
-  function GetMonthYear(date) {
+  function GetMonthYear(date) { 
     if (date === null || date === undefined) {
       return "";
     } else {
