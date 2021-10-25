@@ -1,5 +1,4 @@
 const tailwind = require("tailwindcss");
-
 const postcssPlugins = [tailwind()];
 
 module.exports = {
@@ -56,7 +55,7 @@ module.exports = {
 		},
 	},
 	chainWebpack: (config) => {
-		config.resolve.alias.set("@images", "@/assets/images");
+		config.resolve.alias.set("@images", "@/assets/images");		
 	},
 	images: {
 		defaultBlur: 0
