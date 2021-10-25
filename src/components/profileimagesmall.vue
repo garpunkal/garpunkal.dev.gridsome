@@ -10,7 +10,6 @@
       alt="Gareth Wright"
       width="192"
       height="192"
-      loading="lazy"
       title="Gareth Wright"
       />
     </picture>  
