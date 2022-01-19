@@ -107,7 +107,7 @@
       class="link"
       href="https://www.reddit.com/user/garpunkal"
       target="_blank"
-      rel="noopener"
+      rel="noopener"   
       title="Reddit"
       ><svg
         class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse"
