@@ -77,7 +77,7 @@ module.exports = function (api) {
       "id": item.data.id,
       "title": company.data.title,
       "job": item.data.job,
-      "location": company.data.location,
+      "location": item.data.location,
       "logo": {
         "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0] + "?cache=5184000",
         "background": company.data.logoBackgroundColour,
