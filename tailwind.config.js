@@ -27,7 +27,7 @@ module.exports = {
 			'3/4': '75%',
 			'full': '100%',
 			'56': "56px"
-		},
+		},  
 		extend: {
 			colors: {
 				cyan: "#9cdbff",
