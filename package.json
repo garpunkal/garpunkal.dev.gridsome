@@ -32,7 +32,7 @@
 		"gridsome-plugin-gtm": "^0.1.1",
 		"gridsome-plugin-robots-txt": "^1.0.2",
 		"lodash": "^4.17.21",
-		"postcss": "^8.2.10",
+		"postcss": "^8.2.13",
 		"tailwindcss": "^2.0.1"
 	},
 	"devDependencies": {}
