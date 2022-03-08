@@ -8,7 +8,7 @@
     >
       <div class="p-4 md:p-12 text-center lg:text-left">
         <ProfileImageSmall />
-
+    
         <h1
           class="mt-3 text-4xl font-extrabold sm:text-6xl tracking-tighter lg:text-6xl text-brand dark:text-gray-300"
         >
