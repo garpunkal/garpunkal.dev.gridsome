@@ -19,7 +19,7 @@
           </h3>
         </a>
       </div>
-
+   
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div v-for="edge in items.edges.slice(0,3)" :key="edge.node.id">
           <div
