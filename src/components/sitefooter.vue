@@ -14,6 +14,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="garpunkal.github.io"
@@ -46,6 +47,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="github"
@@ -60,6 +62,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="SquidexCMS"
@@ -74,6 +77,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="Gridsome"
@@ -88,6 +92,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="Vue.js"
@@ -102,6 +107,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="TailwindCSS"
@@ -116,6 +122,7 @@
               inline-flex
               text-white
               dark:text-gray-500
+              hover:text-brand-dark
               items-center
             "
             title="Vercel"

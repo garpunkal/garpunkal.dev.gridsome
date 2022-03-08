@@ -5,7 +5,7 @@ module.exports = {
 	},
 	theme: {
 		screens: {
-			sm: "640px",
+			sm: "375px",
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
@@ -27,7 +27,7 @@ module.exports = {
 			'3/4': '75%',
 			'full': '100%',
 			'56': "56px"
-		},
+		},  
 		extend: {
 			colors: {
 				cyan: "#9cdbff",
@@ -47,10 +47,11 @@ module.exports = {
 				"screen/4": "calc(100vh / 4)",
 				"screen/5": "calc(100vh / 5)",
 				"screen/75": "75vh",
+				"screen/55": "55vh",
 				"100pixel": "100px"
 			}),
 			boxShadow: { 
-				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 0.9)',
+				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 5)',
 			}
 
 		}
@@ -64,9 +65,7 @@ module.exports = {
 			[
 				'./src/**/*.html',
 				'./src/**/*.vue',
-				'./src/**/*.js',
-				'./src/**/*.jsx',
-				'./src/**/*.tsx'
+				'./src/**/*.js'			
 			],
 		options: {
 			safelist: ["list-outside", "list-disc"]

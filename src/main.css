@@ -1,9 +1,25 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer base {
+	h1 {
+		@apply text-brand dark:text-gray-300;
+	}
+
+	h2 {
+		@apply text-brand-dark dark:text-gray-500;
+	}
+
+	h3 {
+		@apply text-gray-600 dark:text-gray-500;
+	}
+
+	a {
+		@apply text-gray-400 dark:text-brand hover:text-brand;
+	}
+}
 
 @layer utilities {
-	@variants dark, hover {
+	@variants dark,
+	hover {
 		.brightness-50 {
 			filter: brightness(0.5);
 		}
@@ -12,4 +28,7 @@
 			filter: brightness(1);
 		}
 	}
-} 
+}
+
+@tailwind components;
+@tailwind utilities;

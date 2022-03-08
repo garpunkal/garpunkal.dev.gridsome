@@ -13,7 +13,7 @@
           title="dev.to"
         >
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-center w-full mt-10"
           >
             Articles
           </h3>
@@ -33,9 +33,7 @@
       <div class="lg:mx-14">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
         <div v-for="edge in items.edges.slice(3,5)" :key="edge.node.id">
-          <div
-           
-          >
+          <div >
             <ArticleStub :item="edge.node" />
           </div>
         </div>
