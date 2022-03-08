@@ -4,7 +4,6 @@
     <Articles :items="$page.articles" />
     <Projects :items="$page.highlights" />
     <Experiences :items="$page.experiences" />
-    <Statement />
     <Tweets />
     <SiteFooter />
   </Layout>  
@@ -15,7 +14,6 @@ import Experiences from "@/components/experiences.vue";
 import SiteFooter from "@/components/sitefooter.vue";
 import Projects from "@/components/projects.vue";
 import Profile from "@/components/profile.vue";
-import Statement from "@/components/statement.vue";
 import Articles from "@/components/articles.vue";
 import Tweets from "@/components/tweets.vue";
 
@@ -28,7 +26,6 @@ export default {
     SiteFooter,    
     Projects,
     Profile,
-    Statement,
     Articles,
     Tweets
   },

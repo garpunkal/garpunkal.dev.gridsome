@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
+    class="text-white bg-brand dark:bg-black body-font"
     id="tweets"
   >
     <div class="container px-5 py-5 md:py-14 mx-auto">
@@ -13,7 +13,7 @@
           title="Twitter"
         >
           <h3
-            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-gray-600 dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
+            class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-white dark:text-gray-500 text-center w-full mt-10 lg:mt-0"
           >
             Tweets
           </h3>
