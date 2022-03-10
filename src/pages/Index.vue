@@ -49,7 +49,7 @@ export default {
 </script>
 <page-query>
 query {
-    articles: allDevToArticles(page:0, perPage: 5, sortBy: "published_at", order: DESC) {
+    articles: allDevToArticles(page:0, perPage: 7, sortBy: "published_at", order: DESC) {
       edges {
         node {
         id

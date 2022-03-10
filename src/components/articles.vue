@@ -32,7 +32,7 @@
 
       <div class="lg:mx-14">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
-        <div v-for="edge in items.edges.slice(3,5)" :key="edge.node.id">
+        <div v-for="edge in items.edges.slice(3,7)" :key="edge.node.id">
           <div >
             <ArticleStub :item="edge.node" />
           </div>
