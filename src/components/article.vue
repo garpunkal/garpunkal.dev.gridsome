@@ -43,7 +43,7 @@
           class="inline-flex items-center px-2 py-0.5 mr-1 rounded text-xs font-medium bg-brand text-gray-200 dark:bg-brand dark:text-gray-200"
           v-for="tag in item.tag_list"
           :key="tag"
-        >
+        >   
           {{ tag }}
         </div>   
       </div>
