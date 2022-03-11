@@ -11,7 +11,7 @@ module.exports = function (api) {
         "X-Flatten": true,
         "X-NoResolveLanguages": 1,
         "X-Languages": "en"
-      }
+      }   
     };  
 
     // gather data from api
