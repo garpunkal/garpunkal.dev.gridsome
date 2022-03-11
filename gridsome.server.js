@@ -12,7 +12,7 @@ module.exports = function (api) {
         "X-NoResolveLanguages": 1,
         "X-Languages": "en"
       }
-    };
+    };  
 
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
