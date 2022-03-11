@@ -29,7 +29,7 @@ module.exports = function (api) {
       const contribs = BuildList(item.data.contributions, projectData.items);
       // map
       expCollection.addNode(MapExperience(item, company, projects, contribs))
-    }
+    } 
 
     // highlights
     const highCollection = actions.addCollection({ typeName: 'Highlights' })
