@@ -79,6 +79,7 @@ query {
         from
         to
         isCurrent
+        hideDescription
         description
         projects {
           title

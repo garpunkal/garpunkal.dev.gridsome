@@ -12,7 +12,7 @@
         </h3>
       </div>
       <div
-        class="pt-0 pb-10 sm:items-start mx-auto"
+        class="pt-0 pb-0 sm:items-start mx-auto"
         v-for="edge in items.edges"
         :key="edge.node.id"
       >

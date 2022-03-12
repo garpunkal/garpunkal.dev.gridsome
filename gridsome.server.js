@@ -89,6 +89,7 @@ module.exports = function (api) {
       "to": GetMonthYear(item.data.to),
       "isCurrent": GetBool(item.data.isCurrent),
       "description": item.data.description,
+      "hideDescription": GetBool(item.data.hideDescription),
       "projects": {
         "title": item.data.projectsLabel,
         "items": projects.map(p => ({ "name": p.data.title, "url": p.data.url }))

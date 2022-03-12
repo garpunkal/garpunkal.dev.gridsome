@@ -34,7 +34,7 @@
       />
     </div>
     <div
-      class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25"
+      class="col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25 pb-14"
     >
       <h3
         class="font-medium title-font text-white dark:text-brand mb-1 text-xl"
@@ -92,18 +92,19 @@
         class="font-smaller text-sm pl-5 dark:text-gray-300"
         v-html="item.description"
         v-if="item.description!== '<p>-</p>'"
+        v-show="!item.hideDescription"
       ></div>
     </div>
-    <div class="sm:pl-6 mt-6 sm:mt-0">
+    <div class="sm:pl-6 mt-0 sm:mt-0 pb-10">
       <div
-        class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400"
+        class="font-smaller title-font mb-1 text-sm  font-bold dark:text-gray-400"
         v-if="item.projects.title"
       >
         {{ item.projects.title }}
       </div>
 
       <ul
-        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words"
+        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6"
       >
         <li v-for="project in item.projects.items" v-bind:key="project.name">
           <a
@@ -120,14 +121,14 @@
       </ul>
 
       <div
-        class="font-smaller title-font mb-1 text-sm mt-5 font-bold dark:text-gray-400"
+        class="font-smaller title-font mb-1 text-sm  font-bold dark:text-gray-400"
         v-if="item.contributions.title"
       >
         {{ item.contributions.title }}
       </div>
 
       <ul
-        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words"
+        class="list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words  mb-6"
       >
         <li
           v-for="contribution in item.contributions.items"
