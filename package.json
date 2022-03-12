@@ -1,6 +1,6 @@
 {
 	"name": "garpunkal.dev",
-	"version": "1.0.0", 
+	"version": "1.0.0",
 	"private": false,
 	"homepage": "https://garpunkal.dev",
 	"description": "Personal website for Gareth Wright",
@@ -27,13 +27,13 @@
 		"@chiubaca/gridsome-source-devto": "^0.4.1",
 		"@gridsome/plugin-sitemap": "^0.4.0",
 		"autoprefixer": "^10.4.2",
-		"axios": "^0.25.0",
+		"axios": "^0.26.1",
 		"gridsome": "^0.7.23",
 		"gridsome-plugin-gtm": "^0.1.1",
 		"gridsome-plugin-robots-txt": "^1.0.2",
 		"lodash": "^4.17.21",
-		"postcss": "^8.4.6",
-		"tailwindcss": "^3.0.18"
+		"postcss": "^8.4.8",
+		"tailwindcss": "^3.0.23"
 	},
 	"devDependencies": {}
 }
