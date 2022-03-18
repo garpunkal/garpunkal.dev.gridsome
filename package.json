@@ -26,13 +26,13 @@
 	"dependencies": {
 		"@chiubaca/gridsome-source-devto": "^0.4.1",
 		"@gridsome/plugin-sitemap": "^0.4.0",
-		"autoprefixer": "^10.4.2",
+		"autoprefixer": "^10.4.4",
 		"axios": "^0.26.1",
 		"gridsome": "^0.7.23",
 		"gridsome-plugin-gtm": "^0.1.1",
 		"gridsome-plugin-robots-txt": "^1.0.2",
 		"lodash": "^4.17.21",
-		"postcss": "^8.4.8",
+		"postcss": "^8.4.12",
 		"tailwindcss": "^3.0.23"
 	},
 	"devDependencies": {}
