@@ -18,6 +18,7 @@
 }
 
 @layer utilities {
+	@variants dark,
 	hover {
 		.brightness-50 {
 			filter: brightness(0.5);
