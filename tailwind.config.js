@@ -63,7 +63,6 @@ module.exports = {
 		visibility: ['hover', 'focus']
 	},
 	purge: {
-		enabled:false,
 		content:
 			[
 				'./src/**/*.html',
