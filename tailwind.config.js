@@ -1,3 +1,5 @@
+const { findLastIndex } = require("lodash");
+
 module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
@@ -61,6 +63,7 @@ module.exports = {
 		visibility: ['hover', 'focus']
 	},
 	purge: {
+		enabled:false,
 		content:
 			[
 				'./src/**/*.html',

@@ -11,8 +11,8 @@ module.exports = function (api) {
         "X-Flatten": true,
         "X-NoResolveLanguages": 1,
         "X-Languages": "en"
-      }   
-    };  
+      }
+    };
 
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
@@ -29,7 +29,7 @@ module.exports = function (api) {
       const contribs = BuildList(item.data.contributions, projectData.items);
       // map
       expCollection.addNode(MapExperience(item, company, projects, contribs))
-    } 
+    }
 
     // highlights
     const highCollection = actions.addCollection({ typeName: 'Highlights' })
@@ -85,8 +85,8 @@ module.exports = function (api) {
       },
       "url": company.data.url,
       "shortUrl": company.data.shortUrl,
-      "from": GetMonthYear(item.data.from),
-      "to": GetMonthYear(item.data.to),
+      "from": GetDate(item.data.from),
+      "to": GetDate(item.data.to),
       "isCurrent": GetBool(item.data.isCurrent),
       "description": item.data.description,
       "hideDescription": GetBool(item.data.hideDescription),
@@ -102,12 +102,11 @@ module.exports = function (api) {
     }
   }
 
-  function GetMonthYear(date) { 
+  function GetDate(date) {
     if (date === null || date === undefined) {
-      return "";
+      return null;
     } else {
-      var dt = new Date(date);
-      return dt.toLocaleString('default', { month: 'short' }) + " " + dt.getFullYear();
+      return new Date(date);
     }
   }
 
@@ -126,23 +125,23 @@ module.exports = function (api) {
   }
 
   const axios = require("axios")
-  const retryWrapper = (axios, options) => {
-    const max_time = options.retry_time;
-    let counter = 0;
-    axios.interceptors.response.use(null, (error) => {
-      console.log("==================");
-      console.log(`Counter: ${counter}`);
-      console.log("Error: ", error.response.statusText);
-      console.log("==================");
+  const retryWrapper = (axios, options) => {    
+      const max_time = options.retry_time;
+      let counter = 0;
+      axios.interceptors.response.use(null, (error) => {
+        console.log("==================");
+        console.log(`Counter: ${counter}`);
+        console.log("Error: ", error.response.statusText);
+        console.log("==================");
 
-      const config = error.config
-      if (counter < max_time) {
-        counter++
-        return new Promise((resolve) => {
-          resolve(axios(config))
-        })
-      }
-      return Promise.reject(error)
-    })
+        const config = error.config
+        if (counter < max_time) {
+          counter++
+          return new Promise((resolve) => {
+            resolve(axios(config))
+          })
+        }
+        return Promise.reject(error)
+      })  
   }
 }
