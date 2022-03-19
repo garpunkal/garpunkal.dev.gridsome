@@ -1,5 +1,8 @@
-const tailwind = require("tailwindcss");
-const postcssPlugins = [tailwind()];
+const tailwindcss = require("tailwindcss");
+const autoprefixer = require("autoprefixer");
+const tailwindcssnesting = require("tailwindcss/nesting");
+
+const postcssPlugins = [tailwindcssnesting(),tailwindcss(),autoprefixer()];
 
 module.exports = {
 	siteName: "garpunkal.dev",

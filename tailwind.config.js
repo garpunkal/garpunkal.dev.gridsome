@@ -29,7 +29,7 @@ module.exports = {
 			'3/4': '75%',
 			'full': '100%',
 			'56': "56px"
-		},  
+		},
 		extend: {
 			colors: {
 				cyan: "#9cdbff",
@@ -52,26 +52,20 @@ module.exports = {
 				"screen/55": "55vh",
 				"100pixel": "100px"
 			}),
-			boxShadow: { 
+			boxShadow: {
 				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 5)',
 			}
 
 		}
 	},
-	variants: {
-		animation: ['responsive', 'hover'],
-		visibility: ['hover', 'focus']
-	},
-	purge: {
-		content:
-			[
-				'./src/**/*.html',
-				'./src/**/*.vue',
-				'./src/**/*.js'			
-			],
-		options: {
-			safelist: ["list-outside", "list-disc"]
-		}
-	},
-	darkMode: "class"
+
+	content:
+		[
+			'./src/**/*.html',
+			'./src/**/*.vue',
+			'./src/**/*.js'
+		],
+
+	safelist: ["list-outside", "list-disc"],
+		darkMode: "class"
 }  
