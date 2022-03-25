@@ -12,7 +12,7 @@
   </div>
 </template>
 <script>
-export default {
+export default {   
   name: "Twitter",
   mounted() {
     let twitterWidgetsScript = document.createElement("script");
