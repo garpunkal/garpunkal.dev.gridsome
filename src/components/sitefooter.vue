@@ -47,7 +47,7 @@
               inline-flex
               text-white
               dark:text-gray-500
-              hover:text-brand-dark
+              hover:text-brand
               items-center
             "
             title="github"
@@ -62,7 +62,7 @@
               inline-flex
               text-white
               dark:text-gray-500
-              hover:text-brand-dark
+              hover:text-brand
               items-center
             "
             title="SquidexCMS"
@@ -77,7 +77,7 @@
               inline-flex
               text-white
               dark:text-gray-500
-              hover:text-brand-dark
+              hover:text-brand
               items-center
             "
             title="Gridsome"
@@ -92,7 +92,7 @@
               inline-flex
               text-white
               dark:text-gray-500
-              hover:text-brand-dark
+              hover:text-brand
               items-center
             "
             title="Vue.js"
@@ -107,7 +107,7 @@
               inline-flex
               text-white
               dark:text-gray-500
-              hover:text-brand-dark
+              hover:text-brand
               items-center
             "
             title="TailwindCSS"
@@ -122,7 +122,7 @@
               inline-flex
               text-white
               dark:text-gray-500
-              hover:text-brand-dark
+              hover:text-brand
               items-center
             "
             title="Vercel"
