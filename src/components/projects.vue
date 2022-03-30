@@ -31,7 +31,7 @@
 
       <div class="flex flex-wrap md:-m-2 -m-1">
         <div
-          class="flex flex-wrap w-1/2 md:w-1/2"
+          class="flex flex-wrap w-1/2 "
           v-for="(chunk, chunkindex) in chunked"
           :key="chunkindex"
         >
@@ -40,10 +40,10 @@
             v-for="(project, index) in chunk"
             :key="project.node.id"
             :class="{
-              'md:w-1/2':isLarge(chunkindex, index),
+              'md:w-1/2':isNotLarge(chunkindex, index),
             }"
           >
-            <Project :item="project.node" :large="!isLarge(chunkindex, index)" />
+            <Project :item="project.node" :large="!isNotLarge(chunkindex, index)" />
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ export default {
     },
   },
   methods: {
-    isLarge: function (chunkindex, index) {
+    isNotLarge: function (chunkindex, index) {
       return (
         ((chunkindex + 1) % 2 !== 0 && index !== 0) ||
         ((chunkindex + 1) % 2 === 0 && index !== 2)
