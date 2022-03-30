@@ -106,9 +106,7 @@ query {
         title
         image {
           url
-          alt
-          width
-          height
+          alt         
         }
         url
         position        

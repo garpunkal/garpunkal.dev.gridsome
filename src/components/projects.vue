@@ -40,12 +40,10 @@
             v-for="(project, index) in chunk"
             :key="project.node.id"
             :class="{
-              'md:w-1/2':
-                ((chunkindex + 1) % 2 !== 0 && index !== 0) ||
-                ((chunkindex + 1) % 2 === 0 && index !== 2),
+              'md:w-1/2':isLarge(chunkindex, index),
             }"
           >
-            <Project :item="project.node" />
+            <Project :item="project.node" :large="!isLarge(chunkindex, index)" />
           </div>
         </div>
       </div>
@@ -70,6 +68,14 @@ export default {
   computed: {
     chunked() {
       return lodash.chunk(this.items.edges, 3);
+    },
+  },
+  methods: {
+    isLarge: function (chunkindex, index) {
+      return (
+        ((chunkindex + 1) % 2 !== 0 && index !== 0) ||
+        ((chunkindex + 1) % 2 === 0 && index !== 2)
+      );
     },
   },
 };
