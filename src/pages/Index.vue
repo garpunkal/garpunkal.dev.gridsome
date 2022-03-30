@@ -111,8 +111,7 @@ query {
           height
         }
         url
-        position
-        large
+        position        
         sortOrder
         isHighlight   
       }

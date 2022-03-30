@@ -15,7 +15,7 @@
           :src="item.image.url"
           class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-brand dark:border-brand-dark border-2 md:border-3"
           :width="item.image.width"
-          :height="item.image.height"
+          :height="item.image.height";
           loading="lazy"
         />
         <img

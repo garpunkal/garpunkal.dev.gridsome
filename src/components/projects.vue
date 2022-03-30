@@ -3,8 +3,7 @@
     class="
       text-gray-500
       bg-brand-dark
-      dark:text-gray-300
-      dark:bg-gray-900
+      dark:text-gray-300 dark:bg-gray-900
       body-font
     "
     id="projects"
@@ -30,21 +29,22 @@
         </h3>
       </div>
 
-
       <div class="flex flex-wrap md:-m-2 -m-1">
         <div
           class="flex flex-wrap w-1/2 md:w-1/2"
-          v-for="(chunk, index) in chunked"
-          :key="index"
+          v-for="(chunk, chunkindex) in chunked"
+          :key="chunkindex"
         >
-        <div
+          <div
             class="md:p-2 p-1 w-full"
-            v-for="project in chunk"
+            v-for="(project, index) in chunk"
             :key="project.node.id"
-            
-            :class="{ 'md:w-1/2': project.node.large !== true }"
+            :class="{
+              'md:w-1/2':
+                ((chunkindex + 1) % 2 !== 0 && index !== 0) ||
+                ((chunkindex + 1) % 2 === 0 && index !== 2),
+            }"
           >
-   
             <Project :item="project.node" />
           </div>
         </div>

@@ -59,8 +59,7 @@ module.exports = function (api) {
       "id": item.data.id,
       "title": item.data.title,
       "position": item.data.position,
-      "url": item.data.url,
-      "large": GetBool(item.data.large),
+      "url": item.data.url,     
       "image": {
         "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image[0] + "?cache=5184000",
         "alt": item.data.title,
