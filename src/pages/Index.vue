@@ -75,7 +75,7 @@ query {
 			    alt
         }
         url
-        shortUrl
+        shortUrl  
         from
         to
         isCurrent
