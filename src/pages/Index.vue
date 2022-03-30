@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <Profile />
-    <Articles :items="$page.articles" />
+    <Profile />   
     <Projects :items="$page.highlights" />
+    <Articles :items="$page.articles" />
     <Experiences :items="$page.experiences" />
     <Tweets />
     <SiteFooter />
