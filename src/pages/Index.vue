@@ -99,7 +99,7 @@ query {
       }
     }
    }
-  highlights : allHighlights(sortBy: "sortOrder", order: ASC) {
+  highlights : allHighlights(sortBy: "sortOrder", order: DESC) {
     edges {
       node {
         id        
