@@ -23,9 +23,9 @@
             w-full
             mt-10
             lg:mt-0
-          "
+          "        
         >
-          Projects
+        {{ title }}
         </h3>
       </div>
 
@@ -60,6 +60,10 @@ export default {
     Project,
   },
   props: {
+    title: { 
+      type: String, 
+      required: true
+    },
     items: {
       type: Object,
       required: true,

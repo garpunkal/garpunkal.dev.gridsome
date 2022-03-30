@@ -31,12 +31,7 @@ export default {
       type: Boolean,
       required: true,
     },
-  },
-  methods: {
-    isLarge: function () {
-      return this.large;
-    },
-  },
+  }  
 };
 </script>
          
