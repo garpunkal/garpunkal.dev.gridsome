@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center w-full pt-10 md:pt-10 lg:pt-10 xl:pt-0">
-    <a href="#content" title="down">
+    <a :href="'#' + id" title="down">
       <svg
         class="animate-bounce w-6 h-6"
         fill="none"
@@ -19,6 +19,12 @@
 </template>
 <script>
 export default { 
-  name: "DownArrow",
+  name: "DownArrow",  
+  props: {
+    id: {
+      type: String,
+      required: true,
+    }
+  }
 };
 </script>

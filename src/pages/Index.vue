@@ -30,7 +30,7 @@ export default {
     Tweets
   },
   mounted: function () {
-    document.querySelectorAll('a[href^="#content"]').forEach((anchor) => {
+    document.querySelectorAll('a[href^="#projects"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
         document.querySelector(this.getAttribute("href")).scrollIntoView({

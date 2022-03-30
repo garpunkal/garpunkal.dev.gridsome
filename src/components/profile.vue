@@ -106,7 +106,7 @@
       </div>
     </div>
     <ProfileImage />
-    <DownArrow />
+    <DownArrow id="projects" />
   </section>
 </template>
 
