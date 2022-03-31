@@ -10,7 +10,7 @@
 						href="https://github.com/garpunkal/garpunkal.dev"
 						target="_blank"
 						rel="noopener"
-						class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand-dark items-center "
+						class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center "
 						title="garpunkal.github.io"
 						><svg
 							class="h-4 fill-current text-white dark:text-gray-500 pr-2"
