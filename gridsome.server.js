@@ -59,10 +59,10 @@ module.exports = function (api) {
       "id": item.data.id,
       "title": item.data.title,
       "position": item.data.position,
-      "url": item.data.url,     
+      "url": item.data.url,
       "image": {
         "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image[0] + "?cache=5184000",
-        "alt": item.data.title        
+        "alt": item.data.title
       },
       "sortOrder": item.data.SortOrder,
       "isHighlight": GetBool(item.data.IsHighlight)
@@ -122,23 +122,23 @@ module.exports = function (api) {
   }
 
   const axios = require("axios")
-  const retryWrapper = (axios, options) => {    
-      const max_time = options.retry_time;
-      let counter = 0;
-      axios.interceptors.response.use(null, (error) => {
-        console.log("==================");
-        console.log(`Counter: ${counter}`);
-        console.log("Error: ", error.response.statusText);
-        console.log("==================");
+  const retryWrapper = (axios, options) => {
+    const max_time = options.retry_time;
+    let counter = 0;
+    axios.interceptors.response.use(null, (error) => {
+      console.log("==================");
+      console.log(`Counter: ${counter}`);
+      console.log("Error: ", error.response.statusText);
+      console.log("==================");
 
-        const config = error.config
-        if (counter < max_time) {
-          counter++
-          return new Promise((resolve) => {
-            resolve(axios(config))
-          })
-        }
-        return Promise.reject(error)
-      })  
+      const config = error.config
+      if (counter < max_time) {
+        counter++
+        return new Promise((resolve) => {
+          resolve(axios(config))
+        })
+      }
+      return Promise.reject(error)
+    })
   }
 }
