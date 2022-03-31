@@ -45,25 +45,7 @@
           </svg>
           Senior C# .net MVC Developer
         </p>
-        <p
-          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
-        >
-          <svg
-            class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24px"
-            height="100%"
-          >
-            <title>Microsoft Azure</title>
-            <path
-              d="M5.483 21.3H24L14.025 4.013l-3.038 8.347 5.836 6.938L5.483 21.3zM13.23 2.7L6.105 8.677 0 19.253h5.505v.014L13.23 2.7z"
-            />
-          </svg>
-          Azure Cloud and DevOps Developer
-        </p>
-
+       
         <p
           class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start"
         >
@@ -81,6 +63,25 @@
             />
           </svg>
           Umbraco CMS Expert, Contributor and Package Developer
+        </p>
+
+ <p
+          class="pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-center justify-center lg:justify-start"
+        >
+          <svg
+            class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24px"
+            height="100%"
+          >
+            <title>Microsoft Azure</title>
+            <path
+              d="M5.483 21.3H24L14.025 4.013l-3.038 8.347 5.836 6.938L5.483 21.3zM13.23 2.7L6.105 8.677 0 19.253h5.505v.014L13.23 2.7z"
+            />
+          </svg>
+          Azure Cloud and DevOps Developer
         </p>
 
         <p
