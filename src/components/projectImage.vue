@@ -20,9 +20,7 @@
 			:height="isLarge() ? 340 : 165"
 			loading="lazy"
 		/>
-		<figcaption
-			class="absolute left-0 bottom-0 px-4 py-1 bg-brand dark:bg-brand-dark text-xs text-gray-200 dark:text-gray-400 rounded-bl-lg rounded-tr-lg "
-		>
+		<figcaption class="absolute left-0 bottom-0 px-4 py-1 bg-brand dark:bg-brand-dark text-xs text-gray-200 dark:text-gray-400 rounded-bl-lg rounded-tr-lg ">
 			{{ item.title }}
 		</figcaption>
 	</figure>

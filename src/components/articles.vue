@@ -1,29 +1,16 @@
 <template>
-	<section
-		class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font"
-		id="content"
-	>
+	<section class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font" id="content">
 		<div class="container px-5 py-5 md:py-14 mx-auto">
 			<div class="flex w-full flex-wrap mb-20">
-				<a
-					class="w-full"
-					href="https://dev.to/garpunkal"
-					target="_blank"
-					rel="noopener"
-					title="dev.to"
-				>
-					<h3
-						class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-center w-full mt-10"
-					>
+				<a class="w-full" href="https://dev.to/garpunkal" target="_blank" rel="noopener" title="dev.to">
+					<h3 class="text-3xl font-extrabold sm:text-65xl tracking-tighter lg:text-4xl text-center w-full mt-10">
 						Articles
 					</h3>
 				</a>
 			</div>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 				<div v-for="edge in items.edges.slice(0, 3)" :key="edge.node.id">
-					<div
-						class="rounded-lg shadow-lg border-2 border-brand dark:border-brand h-full"
-					>
+					<div class="rounded-lg shadow-lg border-2 border-brand dark:border-brand h-full">
 						<Article :item="edge.node" />
 					</div>
 				</div>

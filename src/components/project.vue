@@ -1,12 +1,6 @@
 <template>
 	<div class="center">
-		<a
-			v-if="item.url"
-			:href="item.url"
-			:title="item.title"
-			target="_blank"
-			rel="noopener"
-		>
+		<a v-if="item.url" :href="item.url" :title="item.title" target="_blank" rel="noopener">
 			<ProjectImage :item="item" :large="large" />
 		</a>
 		<div v-if="!item.url"><ProjectImage :item="item" :large="large" /></div>
