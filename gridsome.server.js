@@ -112,37 +112,12 @@ module.exports = function (api) {
   }
 
   async function GetAsync(url, config) {
-
-    try {
-      retryWrapper(axios, { retry_time: 2 })
-      const result = await axios.get(url, config)
-        .then(function (response) { return response; })
-        .catch(function (error) { console.log(error); });
-        return result;
-    } catch (error) {
+    try { 
+    return await axios.get(url, config)
+      .then(function (response) { return response; })
+      .catch(function (error) { console.log(error); });
+    } catch (error) { 
       console.log(error);
     }
-   
-  }
-
-  const axios = require("axios")
-  const retryWrapper = (axios, options) => {
-    const max_time = options.retry_time;
-    let counter = 0;
-    axios.interceptors.response.use(null, (error) => {
-      console.log("==================");
-      console.log(`Counter: ${counter}`);
-      console.log("Error: ", error.response.statusText);
-      console.log("==================");
-
-      const config = error.config
-      if (counter < max_time) {
-        counter++
-        return new Promise((resolve) => {
-          resolve(axios(config))
-        })
-      }
-      return Promise.reject(error)
-    })
   }
 }
