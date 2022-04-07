@@ -112,11 +112,11 @@ module.exports = function (api) {
   }
 
   async function GetAsync(url, config) {
-    try { 
-    return await axios.get(url, config)
-      .then(function (response) { return response; })
-      .catch(function (error) { console.log(error); });
-    } catch (error) { 
+    try {
+      return await axios.get(url, config)
+        .then(function (response) { return response; })
+        .catch(function (error) { console.log(error); });
+    } catch (error) {
       console.log(error);
     }
   }

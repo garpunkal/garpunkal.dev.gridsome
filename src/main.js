@@ -7,7 +7,7 @@ export default function (Vue, { router, head, isClient }) {
 	head.meta.push({
 		name: "keywords",
 		content:
-			"garpunkal, gareth wright, garpunkal.dev, senior backend developer, umbraco, umbraco certified developer, vendr, c# developer, developer, umbraco certified expert, andover, hampshire, csharp, vue, tailwind, front end"
+			"garpunkal, gareth wright, garpunkal.dev, senior backend developer, umbraco, umbraco certified developer, vendr, c# developer, dotnet, dotnet core, developer, umbraco certified expert, andover, hampshire, csharp, vue, tailwind, front end"
 	}); 
 
 	head.meta.push({

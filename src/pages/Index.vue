@@ -1,12 +1,12 @@
 <template>
-  <Layout>
-    <Profile />   
-    <Projects :items="$page.highlights" title="Projects" />
-    <Articles :items="$page.articles" />
-    <Experiences :items="$page.experiences" />
-    <Tweets />
-    <SiteFooter />
-  </Layout>  
+	<Layout>
+		<Profile />
+		<Projects :items="$page.highlights" title="Projects" />
+		<Articles :items="$page.articles" />
+		<Experiences :items="$page.experiences" />
+		<Tweets />
+		<SiteFooter />
+	</Layout>
 </template>
 
 <script>
@@ -18,33 +18,33 @@ import Articles from "@/components/articles.vue";
 import Tweets from "@/components/tweets.vue";
 
 export default {
-  metaInfo: {
-    title: "Gareth Wright - C# .net MVC Developer",
-  },
-  components: {
-    Experiences,
-    SiteFooter,    
-    Projects,
-    Profile,
-    Articles,
-    Tweets
-  },
-  mounted: function () {
-    document.querySelectorAll('a[href^="#projects"]').forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-          behavior: "smooth",
-        });
-      });
-    });
-    document.querySelectorAll('a[href^="#top"]').forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-      });
-    });
-  },
+	metaInfo: {
+		title: "Gareth Wright - C# .net MVC Developer",
+	},
+	components: {
+		Experiences,
+		SiteFooter,
+		Projects,
+		Profile,
+		Articles,
+		Tweets,
+	},
+	mounted: function() {
+		document.querySelectorAll('a[href^="#projects"]').forEach((anchor) => {
+			anchor.addEventListener("click", function(e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute("href")).scrollIntoView({
+					behavior: "smooth",
+				});
+			});
+		});
+		document.querySelectorAll('a[href^="#top"]').forEach((anchor) => {
+			anchor.addEventListener("click", function(e) {
+				e.preventDefault();
+				window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+			});
+		});
+	},
 };
 </script>
 <page-query>
