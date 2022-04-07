@@ -113,12 +113,16 @@ module.exports = function (api) {
 
   async function GetAsync(url, config) {
 
-    retryWrapper(axios, { retry_time: 2 })
-    const result = await axios.get(url, config)
-      .then(function (response) { return response; })
-      .catch(function (error) { console.log(error); });
-
-    return result;
+    try {
+      retryWrapper(axios, { retry_time: 2 })
+      const result = await axios.get(url, config)
+        .then(function (response) { return response; })
+        .catch(function (error) { console.log(error); });
+        return result;
+    } catch (error) {
+      console.log(error);
+    }
+   
   }
 
   const axios = require("axios")
