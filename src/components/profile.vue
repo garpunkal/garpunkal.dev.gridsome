@@ -8,9 +8,9 @@
 				</h1>
 				<h2 class="mb-5 md:mb-8 text-2xl font-extrabold sm:text-3xl tracking-tighter lg:text-4xl ">
 					<a class="text-black dark:text-gray-500 hover:text-black" href="https://github.com/garpunkal" target="_blank" rel="noopener" title="GitHub">
-						@garpunkal
+						@garpunkal  
 					</a>
-				</h2>
+				</h2>  
 				<p class="mt-5 pt-2 text-gray-600 dark:text-gray-300 text-sm lg:text-sm flex items-start justify-center lg:justify-start">
 					<svg class="hidden md:block h-5 fill-current text-brand dark:text-brand pr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="100%">
 						<path
