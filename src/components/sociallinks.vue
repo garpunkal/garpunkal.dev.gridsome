@@ -9,14 +9,6 @@
 				/></svg
 		></a>
 		
-		<a class="link" href="https://dev.to/garpunkal" target="_blank" rel="noopener" title="dev.to">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse">
-				<title>dev.to</title>
-				<path
-					d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45.56-.02c.41 0 .63-.07.83-.26.24-.24.26-.36.26-2.2 0-1.91-.02-1.96-.29-2.18zM0 4.94v14.12h24V4.94H0zM8.56 15.3c-.44.58-1.06.77-2.53.77H4.71V8.53h1.4c1.67 0 2.16.18 2.6.9.27.43.29.6.32 2.57.05 2.23-.02 2.73-.47 3.3zm5.09-5.47h-2.47v1.77h1.52v1.28l-.72.04-.75.03v1.77l1.22.03 1.2.04v1.28h-1.6c-1.53 0-1.6-.01-1.87-.3l-.3-.28v-3.16c0-3.02.01-3.18.25-3.48.23-.31.25-.31 1.88-.31h1.64v1.3zm4.68 5.45c-.17.43-.64.79-1 .79-.18 0-.45-.15-.67-.39-.32-.32-.45-.63-.82-2.08l-.9-3.39-.45-1.67h.76c.4 0 .75.02.75.05 0 .06 1.16 4.54 1.26 4.83.04.15.32-.7.73-2.3l.66-2.52.74-.04c.4-.02.73 0 .73.04 0 .14-1.67 6.38-1.8 6.68z"
-				/>
-			</svg>
-		</a>
 		<a class="link" href="https://twitter.com/garpunkal" target="_blank" rel="noopener" title="Twitter"
 			><svg class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px" height="100%">
 				<title>Twitter</title>
@@ -24,6 +16,14 @@
 					d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"
 				/></svg
 		></a>
+			<a class="link" href="https://dev.to/garpunkal" target="_blank" rel="noopener" title="dev.to">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse">
+				<title>dev.to</title>
+				<path
+					d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45.56-.02c.41 0 .63-.07.83-.26.24-.24.26-.36.26-2.2 0-1.91-.02-1.96-.29-2.18zM0 4.94v14.12h24V4.94H0zM8.56 15.3c-.44.58-1.06.77-2.53.77H4.71V8.53h1.4c1.67 0 2.16.18 2.6.9.27.43.29.6.32 2.57.05 2.23-.02 2.73-.47 3.3zm5.09-5.47h-2.47v1.77h1.52v1.28l-.72.04-.75.03v1.77l1.22.03 1.2.04v1.28h-1.6c-1.53 0-1.6-.01-1.87-.3l-.3-.28v-3.16c0-3.02.01-3.18.25-3.48.23-.31.25-.31 1.88-.31h1.64v1.3zm4.68 5.45c-.17.43-.64.79-1 .79-.18 0-.45-.15-.67-.39-.32-.32-.45-.63-.82-2.08l-.9-3.39-.45-1.67h.76c.4 0 .75.02.75.05 0 .06 1.16 4.54 1.26 4.83.04.15.32-.7.73-2.3l.66-2.52.74-.04c.4-.02.73 0 .73.04 0 .14-1.67 6.38-1.8 6.68z"
+				/>
+			</svg>
+		</a>
 		<a class="link" href="https://umbraco.com/training/certified-developers/developer/?id=e0ad657a-e715-4852-8063-f11e398d686a" target="_blank" rel="noopener" title="Umbraco"
 			><svg class="h-6 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px" height="100%">
 				<title>Umbraco Certified Developer</title>
