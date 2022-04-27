@@ -15,7 +15,7 @@ module.exports = {
 				enabled: true,
 				debug: false,
 			},
-		},
+		},   
 		{
 			use: "@gridsome/plugin-sitemap"
 		},
