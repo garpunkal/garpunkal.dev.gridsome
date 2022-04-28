@@ -1,4 +1,5 @@
 const axios = require('axios');
+const axiosRetry = require('axios-retry');
 
 module.exports = function (api) {
 
@@ -10,9 +11,24 @@ module.exports = function (api) {
       headers: {
         "X-Flatten": true,
         "X-NoResolveLanguages": 1,
-        "X-Languages": "en"
+        "X-Languages": "en",
+        "timeout": 1000,
+        "retry": 3,
+        "retryDelay": 4000
       }
     };
+
+    axiosRetry(axios, {
+      retries: 3,
+      retryDelay: (retryCount) => {
+        console.log(`retry attempt: ${retryCount}`);
+        return retryCount * 2000; 
+      },
+      retryCondition: (error) => {
+        return error.response.status === 503;
+      },
+    });
+  
 
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
@@ -29,7 +45,7 @@ module.exports = function (api) {
       const contribs = BuildList(item.data.contributions, projectData.items);
       // map
       expCollection.addNode(MapExperience(item, company, projects, contribs))
-    }  
+    }
 
     // highlights
     const highCollection = actions.addCollection({ typeName: 'Highlights' })
@@ -111,13 +127,11 @@ module.exports = function (api) {
     return (value === null || value === undefined) ? false : value;
   }
 
-  async function GetAsync(url, config) {
-    try {
-      return await axios.get(url, config)
-        .then(function (response) { return response; })
-        .catch(function (error) { console.log(error); });
-    } catch (error) {
-      console.log(error);
-    }
+  async function GetAsync(url, config) {    
+
+    return await axios
+      .get(url, config)
+      .then(response => { return response; })
+      .catch(err => { console.log(err); });
   }
 }
