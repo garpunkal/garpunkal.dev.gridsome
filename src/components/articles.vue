@@ -17,8 +17,11 @@
 			</div>
 			<div class="lg:mx-14">
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
-					<div v-for="edge in items.edges.slice(3, 11)" :key="edge.node.id">
+					<div v-for="edge in items.edges.slice(3, 7)" :key="edge.node.id">
 						<div><ArticleStub :item="edge.node" /></div>
+					</div>				
+					<div v-for="edge in items.edges.slice(7, 11)" :key="edge.node.id">
+						<div><ArticleNano :item="edge.node" /></div>
 					</div>
 				</div>
 			</div>
@@ -28,8 +31,9 @@
 <script>
 import Article from "@/components/article.vue";
 import ArticleStub from "@/components/articlestub.vue";
+import ArticleNano from "@/components/articlenano.vue";
 export default {
-	components: { Article, ArticleStub },
+	components: { Article, ArticleStub, ArticleNano },
 	props: { items: { type: Object, required: true } },
 };
 </script>
