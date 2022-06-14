@@ -6,7 +6,7 @@
 					<img :src="item.cover_image" :alt="item.title" :title="item.alt" class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100" loading="lazy" />
 				</figure>
 			</a>
-		</div>
+		</div>   
 		<div class="p-6">
 			<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title">
 				<h2 class="title-font text-lg font-medium text-white dark:text-gray-200 mb-3 min-h-56">
