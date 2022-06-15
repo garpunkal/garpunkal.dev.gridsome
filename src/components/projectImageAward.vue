@@ -21,7 +21,7 @@
 			loading="lazy"
 		/>
 		<figcaption class="absolute left-0 bottom-0 px-4 py-1 bg-brand-gold dark:bg-brand-dark text-xs text-black dark:text-gray-400 rounded-bl-lg rounded-tr-lg ">
-			<strong class="hidden lg:inline-block">Award Winner</strong>: {{ item.title }}
+			<span class="hidden lg:inline-block"><strong>Award Winner</strong>:</span> {{ item.title }}
 		</figcaption>
 	</figure>
 </template>
