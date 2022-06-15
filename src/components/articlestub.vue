@@ -3,7 +3,7 @@
 		<div class="col-span-4">
 			<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title" class="w-full h-full">
 				<figure class="relative">
-					<img :src="item.cover_image" :alt="item.title" :title="item.alt" class="w-full h-auto block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100 border-2 border-brand" loading="lazy" />
+					<img :src="item.cover_image" :alt="item.title" :title="item.alt" class="w-full h-auto block rounded-lg lg:rounded-l-lg object-fit object-left-top dark:brightness-50 dark:hover:brightness-100 border-2 border-brand" loading="lazy" />
 				</figure>
 			</a>
 		</div>
