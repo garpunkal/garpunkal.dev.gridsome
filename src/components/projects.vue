@@ -10,6 +10,8 @@
 				<div class="flex flex-wrap w-1/2 " v-for="(chunk, chunkindex) in chunked" :key="chunkindex">
 					<div class="md:p-2 p-1 w-full" v-for="(project, index) in chunk" :key="project.node.id" :class="{ 'md:w-1/2': isNotLarge(chunkindex, index) }">
 						<Project :item="project.node" :large="!isNotLarge(chunkindex, index)" />
+
+					
 					</div>
 				</div>
 			</div>

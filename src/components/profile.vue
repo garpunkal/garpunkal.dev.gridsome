@@ -44,6 +44,10 @@
 					</svg>
 					Vue, TailwindCSS and Front End Developer
 				</p>
+			
+
+
+				
 				<SocialLinks />
 			</div>
 		</div>

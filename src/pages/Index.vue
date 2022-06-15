@@ -111,7 +111,8 @@ query {
         url
         position        
         sortOrder
-        isHighlight   
+        isHighlight
+        isWinner
       }
     }
   } 

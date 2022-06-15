@@ -81,7 +81,8 @@ module.exports = function (api) {
         "alt": item.data.title
       },
       "sortOrder": item.data.SortOrder,
-      "isHighlight": GetBool(item.data.IsHighlight)
+      "isHighlight": GetBool(item.data.IsHighlight),
+      "isWinner":GetBool(item.data.IsWinner)
     }
   }
 
