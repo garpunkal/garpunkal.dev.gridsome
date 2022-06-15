@@ -75,7 +75,10 @@ module.exports = {
 				'./src/**/*.js'
 			],
 		options: {
-			safelist: ["list-outside", "list-disc"]
+			safelist: [
+				"list-outside",
+				"list-disc",
+				"text-brand-gold"]
 		}
 	},
 	darkMode: "class"
