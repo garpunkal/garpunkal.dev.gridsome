@@ -3,8 +3,9 @@
 		<div class="center">
 			<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title">
 				<figure class="relative">
-					<img :src="item.cover_image" :alt="item.title" :title="item.alt" class="w-full h-full block rounded-lg lg:rounded-l-lg object-cover object-left-top dark:brightness-50 dark:hover:brightness-100" loading="lazy" />
-				</figure>
+					<img :src="item.cover_image" :alt="item.title" :title="item.alt"
+					 class="rounded-lg lg:rounded-l-lg dark:brightness-50 dark:hover:brightness-100" loading="lazy" />
+				</figure>   
 			</a>
 		</div>   
 		<div class="p-6">
@@ -18,7 +19,7 @@
 			</p>
 			<div class="my-3">
 				<div class="inline-flex items-center px-2 py-0.5 mr-1 rounded text-xs font-medium bg-brand text-gray-200 dark:bg-brand dark:text-gray-200" v-for="tag in item.tag_list" :key="tag">
-					{{ tag }}
+					<a :href="`https://dev.to/t/`+tag" target="_blank" rel="noopener" :title="tag" class="text-white dark:text-gray-300 hover:text-brand-dark dark:hover:text-white">{{ tag }}</a>
 				</div>
 			</div>
 		</div>
