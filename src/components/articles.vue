@@ -28,10 +28,9 @@
 </template>
 <script>
 import Article from "@/components/article.vue";
-import ArticleStub from "@/components/articlestub.vue";
 import ArticleNano from "@/components/articlenano.vue";
 export default {
-	components: { Article, ArticleStub, ArticleNano },
+	components: { Article, ArticleNano },
 	props: { items: { type: Object, required: true } },
 };
 </script>
