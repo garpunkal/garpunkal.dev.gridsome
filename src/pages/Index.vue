@@ -52,13 +52,16 @@ query {
     articles: allDevToArticles(page:0, perPage: 11, sortBy: "published_at", order: DESC) {
       edges {
         node {
-        id
-        title
-        published_at        
-        description
-        tag_list
-        canonical_url
-        cover_image      
+          id
+          title
+          published_at        
+          description
+          tag_list
+          canonical_url
+          cover_image
+          positive_reactions_count
+          comments_count    
+          readable_publish_date   
         }
       }
     }  
