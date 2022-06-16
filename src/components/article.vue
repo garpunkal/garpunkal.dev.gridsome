@@ -4,7 +4,7 @@
 			<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title">
 				<figure class="relative">
 					<img :src="item.cover_image" :alt="item.title" :title="item.alt"
-					 class="rounded-lg lg:rounded-l-lg dark:brightness-50 dark:hover:brightness-100" loading="lazy" />
+					 class="dark:brightness-50 dark:hover:brightness-100 rounded-t" loading="lazy" />
 				</figure>   
 			</a>
 		</div>   
