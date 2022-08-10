@@ -80,7 +80,7 @@ module.exports = function (api) {
         "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image[0] + "?cache=5184000",
         "alt": item.data.title
       },
-      "sortOrder": item.data.SortOrder,
+      "sortOrder": item.data.SortOrder ?? 1000,
       "isHighlight": GetBool(item.data.IsHighlight),
       "isWinner":GetBool(item.data.IsWinner)
     }

@@ -102,7 +102,7 @@ query {
       }
     }
    }
-  highlights : allHighlights(sortBy: "sortOrder", order: DESC) {
+  highlights : allHighlights(sortBy: "sortOrder", order: ASC) {
     edges {
       node {
         id        

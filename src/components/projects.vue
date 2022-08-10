@@ -6,12 +6,26 @@
 					{{ title }}
 				</h3>
 			</div>
-			<div class="flex flex-wrap md:-m-2 -m-1">
+			<!-- <div class="flex flex-wrap md:-m-2 -m-1">
 				<div class="flex flex-wrap w-1/2 " v-for="(chunk, chunkindex) in chunked" :key="chunkindex">
 					<div class="md:p-2 p-1 w-full" v-for="(project, index) in chunk" :key="project.node.id" :class="{ 'md:w-1/2': isNotLarge(chunkindex, index) }">
 						<Project :item="project.node" :large="!isNotLarge(chunkindex, index)" />
 
 					
+					</div>
+				</div>
+			</div> -->
+
+			<div class="flex flex-wrap md:-m-2 -m-1">
+				<div class="flex flex-wrap lg:flex-grow w-full md:w-1/2 lg:w-1/3" div v-for="project in items.edges.slice(0, 6)" :key="project.node.id">
+					<div class="md:p-2 p-1 w-full">
+						<Project :item="project.node" :large="true" />
+					</div>
+				</div>
+
+				<div class="flex flex-wrap w-1/2 md:w-1/4 lg:w-1/5" div v-for="project in shuffle(items.edges.slice(6, items.edges.length))" :key="project.node.id">
+					<div class="md:p-2 p-1 w-full">
+						<Project :item="project.node" :large="false" />
 					</div>
 				</div>
 			</div>
@@ -27,15 +41,18 @@ export default {
 		title: { type: String, required: true },
 		items: { type: Object, required: true },
 	},
-	computed: {
-		chunked() {
-			return lodash.chunk(this.items.edges, 3);
-		},
-	},
+	// computed: {
+	// 	chunked() {
+	// 		return lodash.chunk(this.items.edges, 3);
+	// 	},
+	// },
 	methods: {
-		isNotLarge: function(chunkindex, index) {
-			return ((chunkindex + 1) % 2 !== 0 && index !== 0) || ((chunkindex + 1) % 2 === 0 && index !== 2);
-		},
-	},
+		// isNotLarge: function(chunkindex, index) {
+		// 	return ((chunkindex + 1) % 2 !== 0 && index !== 0) || ((chunkindex + 1) % 2 === 0 && index !== 2);
+		// },
+		shuffle: function(items) { 
+			return lodash.shuffle(items);
+		}
+	 },
 };
 </script>
