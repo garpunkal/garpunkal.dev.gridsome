@@ -102,7 +102,7 @@ query {
       }
     }
    }
-  highlights : allHighlights(sortBy: "sortOrder", order: ASC) {
+  highlights : allHighlights(sort: [{ by: "sortOrder", order: ASC }, { by: "title", order: ASC }]) {
     edges {
       node {
         id        
@@ -115,7 +115,7 @@ query {
         position        
         sortOrder
         isHighlight
-        isWinner
+        isWinner       
       }
     }
   } 

@@ -82,7 +82,7 @@ module.exports = function (api) {
       },
       "sortOrder": item.data.SortOrder ?? 1000,
       "isHighlight": GetBool(item.data.IsHighlight),
-      "isWinner":GetBool(item.data.IsWinner)
+      "isWinner":GetBool(item.data.IsWinner)     
     }
   }
 
