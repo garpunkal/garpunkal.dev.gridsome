@@ -102,7 +102,7 @@ query {
       }
     }
    }
-  highlights : allHighlights(sort: [{ by: "sortOrder", order: ASC }, { by: "title", order: ASC }]) {
+  highlights : allHighlights(sort: [{ by: "sortOrder", order: DESC }, { by: "title", order: ASC }]) {
     edges {
       node {
         id        
