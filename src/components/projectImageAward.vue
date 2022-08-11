@@ -1,5 +1,5 @@
 <template>
-	<figure class="relative">	
+	<figure class="relative hover:scale-150 ease-out duration-500 transform-gpu hover:z-50">
 		<img
 			v-if="item.position === 'left top'"
 			:alt="item.image.alt"
