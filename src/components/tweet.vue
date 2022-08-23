@@ -1,6 +1,6 @@
 <template>
 	<div class="w-100 mx-auto rounded-lg mb-14 text-gray-800">		
-		<a class="twitter-timeline"  data-tweet-limit="1" data-lang="en" data-width="220" data-height="800" data-theme="dark" href="https://twitter.com/garpunkal?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter noborders"></a>		
+		<a class="twitter-timeline"  data-tweet-limit="1" data-lang="en" data-width="800" data-height="220" data-theme="dark" href="https://twitter.com/garpunkal?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter noborders"></a>		
 	</div>
 </template>
 <script>
