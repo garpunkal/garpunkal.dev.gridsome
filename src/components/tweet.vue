@@ -6,7 +6,7 @@
 		 data-theme="dark" 
 		 show-replies="false"
 		 href="https://twitter.com/garpunkal?ref_src=twsrc%5Etfw" 
-		 data-chrome="noheader nofooter noborders transparent"
+		 data-chrome="noheader nofooter noborders"
 		 dnt="true"
 		 ></a>		
 	</div>
