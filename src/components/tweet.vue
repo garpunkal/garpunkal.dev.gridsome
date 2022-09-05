@@ -9,7 +9,7 @@
 		 data-chrome="noheader nofooter noborders"
 		 dnt="true"
 		 ></a>		
-	</div>
+	</div>   
 </template>
 <script>
 export default {
