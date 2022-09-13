@@ -21,11 +21,9 @@
 					<a :href="`https://dev.to/t/` + tag" target="_blank" rel="noopener" :title="tag" class="text-white dark:text-gray-300 hover:text-brand-dark dark:hover:text-white">{{ tag }}</a>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 </template>
 <script>
 export default { props: { item: { type: Object, required: true } } };
 </script>
-  
