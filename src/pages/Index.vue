@@ -73,6 +73,7 @@ query {
         job
         location       
         logo {
+          webp
           url			   
 			    background
 			    alt
@@ -108,6 +109,7 @@ query {
         id        
         title
         image {
+          webp
           url
           alt         
         }
