@@ -15,7 +15,7 @@ module.exports = {
 		},
 		fontFamily: {
 			sans: [		
-				'Open Sans',	
+				'Poppins',				
 				...defaultTheme.fontFamily.sans
 			],
 		},
