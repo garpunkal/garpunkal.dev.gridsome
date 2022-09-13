@@ -43,7 +43,7 @@
 			svgPath="M1.998.342a1.997 1.997 0 1 0 0 3.995 1.997 1.997 0 0 0 0-3.995zm9.18 4.34a6.156 6.156 0 0 0-6.153 6.155v6.667c0 3.4 2.756 6.154 6.154 6.154h6.667c3.4 0 6.154-2.755 6.154-6.154v-6.667a6.154 6.154 0 0 0-6.154-6.155zm-1.477 2.8a2.496 2.496 0 1 1 0 4.993 2.496 2.496 0 0 1 0-4.993zm7.968 6.16a3.996 3.996 0 1 1-.002 7.992 3.996 3.996 0 0 1 .002-7.992z"
 		/>
 
-		<a id="switchTheme" class="inline-flex cursor-pointer text-sm">
+		<a id="switchTheme" class="inline-flex cursor-pointer text-sm" rel="nofollow" >
 			<svg class="h-6 w-6 md:h-7 md:w-7 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse" viewBox="0 0 24 24" width="24px" role="img" height="100%" xmlns="http://www.w3.org/2000/svg">
 				<title>Dark Mode</title>
 				<path
