@@ -19,7 +19,7 @@ import Tweets from "@/components/tweets.vue";
 
 export default {
 	metaInfo: {
-		title: "Gareth Wright - C# .net MVC Developer",
+		title: "Gareth Wright - Technical Development Lead - C# .net MVC Developer",
 	},
 	components: {
 		Experiences,

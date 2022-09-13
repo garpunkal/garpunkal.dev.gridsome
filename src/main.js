@@ -7,13 +7,13 @@ export default function (Vue, { router, head, isClient }) {
 	head.meta.push({
 		name: "keywords",
 		content:
-			"garpunkal, gareth wright, garpunkal.dev, senior backend developer, umbraco, umbraco certified developer, vendr, c# developer, dotnet, dotnet core, developer, umbraco certified expert, andover, hampshire, csharp, vue, tailwind, front end"
+			"garpunkal, gareth wright, garpunkal.dev, technical development lead, senior backend developer, umbraco, umbraco certified developer, vendr, c# developer, dotnet, dotnet core, developer, umbraco certified expert, andover, hampshire, csharp, vue, tailwind, front end"
 	}); 
 
 	head.meta.push({
 		name: "description",
 		content:
-			"Gareth Wright - C# .net MVC Developer - Umbraco Certified Expert - Vue, Tailwind and Front End Developer - Umbraco Vendr Contributor"
+			"Gareth Wright - Technical Development Lead - C# .net MVC Developer - Umbraco Certified Expert - Vue, Tailwind and Front End Developer - Umbraco Vendr Contributor"
 	});
 
 	head.meta.push({
@@ -37,19 +37,19 @@ export default function (Vue, { router, head, isClient }) {
 	})
 
 	head.meta.push(
-		{ property: 'og:title', content: 'Gareth Wright - Senior C# .net MVC Developer' },
+		{ property: 'og:title', content: 'Gareth Wright - Technical Development Lead - Senior C# .net MVC Developer' },
 		{ property: 'og:site_name', content: 'garpunkal.dev' },
 		{ property: 'og:type', content: 'website' },
 		{ property: 'og:url', content: 'https://garpunkal.dev' },
-		{ property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/9044a645bbb9f1b063a66ddefb7cfc5a.jpeg?size=400' },
-		{ property: 'og:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert.' },
+		{ property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/7a04387a8dd8f32161e728bc09686344.jpeg?size=400' },
+		{ property: 'og:description', content: 'Technical Development Lead, Senior C# .net MVC Developer & Umbraco Certified Expert.' },
 
 		{ name: 'twitter:card', content: 'summary' },
 		{ name: 'twitter:site', content: 'https://garpunkal.dev' },
-		{ name: 'twitter:title', content: 'Gareth Wright - Senior C# .net MVC Developer' },
-		{ name: 'twitter:description', content: 'Senior C# .net MVC Developer & Umbraco Certified Expert.' },
+		{ name: 'twitter:title', content: 'Gareth Wright - Technical Development Lead - Senior C# .net MVC Developer' },
+		{ name: 'twitter:description', content: 'Technical Development Lead, Senior C# .net MVC Developer & Umbraco Certified Expert.' },
 		{ name: 'twitter:creator', content: '@garpunkal' },
-		{ name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/9044a645bbb9f1b063a66ddefb7cfc5a.jpeg?size=400' },
+		{ name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/7a04387a8dd8f32161e728bc09686344.jpeg?size=400' },
 	);
 
 	head.bodyAttrs = {
