@@ -43,14 +43,14 @@
 			svgPath="M1.998.342a1.997 1.997 0 1 0 0 3.995 1.997 1.997 0 0 0 0-3.995zm9.18 4.34a6.156 6.156 0 0 0-6.153 6.155v6.667c0 3.4 2.756 6.154 6.154 6.154h6.667c3.4 0 6.154-2.755 6.154-6.154v-6.667a6.154 6.154 0 0 0-6.154-6.155zm-1.477 2.8a2.496 2.496 0 1 1 0 4.993 2.496 2.496 0 0 1 0-4.993zm7.968 6.16a3.996 3.996 0 1 1-.002 7.992 3.996 3.996 0 0 1 .002-7.992z"
 		/>
 
-		<a id="switchTheme" class="inline-flex cursor-pointer text-sm" rel="nofollow" >
+		<button id="switchTheme" class="inline-flex cursor-pointer text-sm" >
 			<svg class="h-6 w-6 md:h-7 md:w-7 fill-current text-gray-600 hover:text-brand dark:text-brand dark:hover:text-white hover:animate-pulse" viewBox="0 0 24 24" width="24px" role="img" height="100%" xmlns="http://www.w3.org/2000/svg">
 				<title>Dark Mode</title>
 				<path
 					d="M12 0C5.373 0 0 5.37 0 12s5.373 12 12 12c6.63 0 12-5.37 12-12S18.63 0 12 0zm-.84 4.67h1.68v8.36h-1.68V4.67zM12 18.155c-3.24-.002-5.865-2.63-5.864-5.868 0-2.64 1.767-4.956 4.314-5.655v1.71c-1.628.64-2.698 2.21-2.695 3.96 0 2.345 1.903 4.244 4.248 4.243 2.344-.002 4.244-1.903 4.243-4.248 0-1.745-1.07-3.312-2.694-3.95V6.63c2.55.7 4.314 3.018 4.314 5.66 0 3.24-2.626 5.864-5.865 5.864z"
 				/>
 			</svg>
-		</a>
+		</button>
 	</div>
 </template>
 <script>
