@@ -2,7 +2,7 @@
 	<footer class="text-gray-400 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font">
 		<div class="container px-10 py-8 mx-auto flex flex-wrap">
 			<UpArrow />
-			<div class="flex w-full flex-wrap">
+			<div class="flex w-full flex-wrap  justify-center">
 				<p class="mx-auto mb-5 text-sm">
 					<a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="garpunkal.github.io"
 						><svg class="h-4 fill-current text-white dark:text-gray-500 pr-2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px" height="100%">
@@ -15,7 +15,7 @@
 					>
 				</p>
 			</div>
-			<div class="flex w-full flex-wrap">
+			<div class="flex w-full flex-wrap  justify-center">
 				<p class="mx-auto mb-5 text-sm text-center">
 					Open-sourced at
 					<a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="github">GitHub</a><br />Built with
