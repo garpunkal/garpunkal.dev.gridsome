@@ -2,28 +2,25 @@
 	<div class="lg:grid lg:grid-cols-5 md:pl-8 pl-6 text-gray-300">
 		<div class=" sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5 ">
 			<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title">
-				<img
-					:alt="item.logo.alt"
-					:src="item.logo.url"
-					:style="{ backgroundColor: item.logo.background }"
-					class=" rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel ring-brand dark:ring-brand-dark ring-4"
-					width="100"
-					height="100"
-					loading="lazy"
-					:title="item.logo.alt"
-				/>
+				<picture>
+					<source type="image/webp" :srcset="item.logo.webp" />
+					<img
+						:alt="item.logo.alt"
+						:src="item.logo.url"
+						:style="{ backgroundColor: item.logo.background }"
+						class=" rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel ring-brand dark:ring-brand-dark ring-4"
+						width="100"
+						height="100"
+						loading="lazy"
+						:title="item.logo.alt"
+					/>
+				</picture>
 			</a>
-			<img
-				v-if="!item.url"
-				:alt="item.logo.alt"
-				:src="item.logo.url"
-				:style="{ backgroundColor: item.logo.background }"
-				class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel ring-brand dark:ring-brand-dark ring-4"
-				width="100"
-				height="100"
-				loading="lazy"
-				:title="item.logo.alt"
-			/>
+
+			<picture v-if="!item.url">
+				<source type="image/webp" :srcset="item.logo.webp" />
+				<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel ring-brand dark:ring-brand-dark ring-4" height="100" loading="lazy" :title="item.logo.alt" />
+			</picture>
 		</div>
 		<div class=" col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25 pb-10 ">
 			<h3 class="font-medium title-font text-white dark:text-brand mb-1 text-2xl">
