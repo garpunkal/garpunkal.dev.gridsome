@@ -52,6 +52,17 @@ export default function (Vue, { router, head, isClient }) {
 		{ name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/7a04387a8dd8f32161e728bc09686344.jpeg?size=400' },
 	);
 
+	head.link.push({
+		rel: 'preconnect',
+		href: 'https://www.googletagmanager.com'
+	})
+
+	
+	head.link.push({
+		rel: 'preconnect',
+		href: 'https://www.google-analytics.com'
+	})
+
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
 	};
