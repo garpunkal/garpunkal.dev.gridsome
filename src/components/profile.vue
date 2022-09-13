@@ -6,7 +6,7 @@
 				<ProfileImageSmall />
 
 				<div class="flex flex-col w-full items-center lg:items-start">
-					<h1 class="mt-6 lg:mt-3 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter ">
+					<h1 class="mt-6 lg:mt-3 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter">
 						Gareth Wright
 					</h1>
 					<h2 class="mb-5 md:mb-8 text-2xl md:text-3xl lg:text-4xl font-extrabold sm:text-3xl tracking-tighter">

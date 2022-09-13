@@ -1,5 +1,5 @@
 const { findLastIndex } = require("lodash");
-const { fontFamily } = require('tailwindcss/defaultTheme')
+const  defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
 	future: {
@@ -14,8 +14,9 @@ module.exports = {
 			xl: "1280px",
 		},
 		fontFamily: {
-			sans: [				
-				...fontFamily.sans
+			sans: [		
+				'Open Sans',	
+				...defaultTheme.fontFamily.sans
 			],
 		},
 		borderWidth: {
