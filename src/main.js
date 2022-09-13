@@ -8,7 +8,7 @@ export default function (Vue, { router, head, isClient }) {
 		name: "keywords",
 		content:
 			"garpunkal, gareth wright, garpunkal.dev, technical development lead, senior backend developer, umbraco, umbraco certified developer, vendr, c# developer, dotnet, dotnet core, developer, umbraco certified expert, andover, hampshire, csharp, vue, tailwind, front end"
-	}); 
+	});
 
 	head.meta.push({
 		name: "description",
@@ -19,7 +19,7 @@ export default function (Vue, { router, head, isClient }) {
 	head.meta.push({
 		name: "author",
 		content: "Gareth Wright"
-	}); 
+	});
 
 	head.meta.push({
 		name: "theme-color",
@@ -57,7 +57,17 @@ export default function (Vue, { router, head, isClient }) {
 		href: 'https://www.googletagmanager.com'
 	})
 
-	
+	head.link.push({
+		rel: 'preconnect',
+		href: 'https://fonts.gstatic.com',
+		crossOrigin: 'crossOrigin'		
+	})
+
+	head.link.push({
+		rel: 'preconnect',
+		href: 'https://fonts.googleapis.com'
+	})
+
 	head.link.push({
 		rel: 'preconnect',
 		href: 'https://www.google-analytics.com'
