@@ -23,22 +23,22 @@
 			</picture>
 		</div>
 		<div class=" col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25 pb-10 ">
-			<h3 class="font-medium title-font text-white dark:text-brand mb-1 text-xl md:text-2xl">
+			<h3 class=" text-white dark:text-brand mb-1 text-xl md:text-2xl font-bold">
 				{{ item.job }}
 			</h3>
-			<h4 class="font-medium title-font text-gray-300 mb-1 text-lg md:text-xl">
+			<h4 class="font-medium  text-gray-300 mb-1 text-lg md:text-xl">
 				{{ item.title }}
 			</h4>
-			<h5 class="font-smaller title-font mb-1 text-sm dark:text-gray-300" v-if="item.url">
+			<h5 class="font-smaller  mb-1 text-sm dark:text-gray-300" v-if="item.url">
 				{{ item.location }}
 			</h5>
-			<h5 class="font-smaller title-font mb-5 text-sm dark:text-gray-300" v-else>
+			<h5 class="font-smaller  mb-5 text-sm dark:text-gray-300" v-else>
 				{{ item.location }}
 			</h5>
-			<p class="font-smaller title-font mb-5 text-sm" v-if="item.url">
+			<p class="font-smaller  mb-5 text-sm" v-if="item.url">
 				<a :href="item.url" target="_blank" rel="noopener" class="inline-flex items-center" :title="item.title">{{ item.shortUrl }}</a>
 			</p>
-			<p class="font-smaller title-font text-sm mb-5">
+			<p class="font-smaller  text-sm mb-5">
 				<span class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 dark:text-gray-500 dark:bg-gray-800 uppercase last:mr-0">{{ GetMonthYear(item.from) }}</span>
 				-
 				<span class=" text-sm inline-block py-1 px-2 rounded text-white bg-brand dark:text-gray-300 dark:bg-brand uppercase last:mr-0" v-if="item.isCurrent">CURRENT</span>
@@ -48,7 +48,7 @@
 			<div class="font-smaller text-sm md:pl-5 dark:text-gray-300" v-html="item.description" v-if="item.description !== '<p>-</p>'" v-show="!item.hideDescription"></div>
 		</div>
 		<div class="sm:pl-6 mt-0 sm:mt-0 pb-10">
-			<div class=" font-smaller title-font mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title" v-show="!item.hideDescription">
+			<div class=" font-smaller  mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title" v-show="!item.hideDescription">
 				{{ item.projects.title }}
 			</div>
 			<ul v-show="!item.hideDescription" class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
@@ -57,7 +57,7 @@
 					<span v-else class="dark:text-gray-400">{{ project.name }}</span>
 				</li>
 			</ul>
-			<div v-show="!item.hideDescription" class=" font-smaller title-font mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.contributions.title">
+			<div v-show="!item.hideDescription" class=" font-smaller  mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.contributions.title">
 				{{ item.contributions.title }}
 			</div>
 			<ul v-show="!item.hideDescription" class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">

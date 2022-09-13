@@ -9,7 +9,7 @@
 		</div>
 		<div class="col-span-8 flex items-center pr-4">
 			<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title" class="w-full">
-				<h2 class="title-font text-sm font-medium text-white dark:text-gray-200">
+				<h2 class=" text-sm font-medium text-white dark:text-gray-200">
 					{{ item.title }}
 				</h2>				
 			</a>
