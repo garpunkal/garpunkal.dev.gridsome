@@ -13,7 +13,7 @@ module.exports = {
 			xl: "1280px",
 		},
 		fontFamily: {
-			sans: [		
+			sans: [		   
 				'Poppins',				
 				...defaultTheme.fontFamily.sans
 			],
