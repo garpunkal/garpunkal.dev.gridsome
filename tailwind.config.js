@@ -1,4 +1,3 @@
-const { findLastIndex } = require("lodash");
 const  defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {

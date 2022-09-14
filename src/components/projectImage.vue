@@ -25,7 +25,7 @@
 				loading="lazy"
 			/>
 		</picture>
-		<figcaption class="absolute left-0 bottom-0 md:-left-1 md:-bottom-1 px-2 md:px-4 py-1 md:py-2 bg-brand dark:bg-brand-dark text-xs text-gray-200 dark:text-gray-400 rounded-bl-lg rounded-tr-lg ">
+		<figcaption class="absolute left-0 bottom-0 md:-left-1 md:-bottom-1 px-2 md:px-4 py-1 md:py-2 bg-brand dark:bg-brand-dark text-xs text-white dark:text-gray-400 rounded-bl-lg rounded-tr-lg ">
 			{{ item.title }}
 		</figcaption>
 	</figure>
