@@ -1,6 +1,6 @@
 <template>
 	<div class="lg:grid lg:grid-cols-5 pl-0 md:pl-8  text-gray-300">
-		<div class=" sm:pl-6 mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5 ">
+		<div class="mt-6 sm:mt-0 flex items-start justify-start lg:justify-end mb-5 ">
 			<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title">
 				<picture>
 					<source type="image/webp" :srcset="item.logo.webp" />
@@ -22,7 +22,7 @@
 				<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel ring-brand dark:ring-brand-dark ring-4" height="100" loading="lazy" :title="item.logo.alt" />
 			</picture>
 		</div>
-		<div class=" col-span-3 sm:pl-6 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25 pb-10 ">
+		<div class="col-span-3 mt-6 sm:mt-0 md:pr-5 lg:border-r-2 lg:border-brand lg:border-opacity-25 pb-10 ">
 			<h3 class=" text-white dark:text-brand mb-1 text-xl md:text-2xl font-bold">
 				{{ item.job }}
 			</h3>
@@ -47,7 +47,7 @@
 			</p>
 			<div class="font-smaller text-sm md:pl-5 dark:text-gray-300" v-html="item.description" v-if="item.description !== '<p>-</p>'" v-show="!item.hideDescription"></div>
 		</div>
-		<div class="sm:pl-6 mt-0 sm:mt-0 pb-10">
+		<div class="mt-0 sm:mt-0 pb-10">
 			<div class=" font-smaller  mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title" v-show="!item.hideDescription">
 				{{ item.projects.title }}
 			</div>
