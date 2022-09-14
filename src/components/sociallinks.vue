@@ -50,7 +50,7 @@
 		/>
 	
 		
-		<button id="switchTheme" class="inline-flex cursor-pointer text-sm">
+		<button id="switchTheme" class="inline-flex cursor-pointer text-sm" aria-label="dark mode" title="dark mode">
 			<svg class="h-6 w-6 md:h-7 md:w-7 fill-current text-gray-600 hover:text-brand-dark dark:text-brand dark:hover:text-brand-gold hover:animate-pulse" 
 			fill="none" 
 			viewBox="0 0 24 24"
