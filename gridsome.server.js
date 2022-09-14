@@ -35,11 +35,11 @@ module.exports = function (api) {
     const { data: projectData } = await GetAsync(baseApiUrl + 'project', config);
     const { data: experienceData } = await GetAsync(baseApiUrl + 'experience', config);
 
-    // experiences
+    // experiences    
     const expCollection = actions.addCollection({ typeName: 'Experiences' })
     for (const item of experienceData.items) {
 
-      // filter relations
+      // filter relations   
       const company = companyData.items.find(function (x) { return x.id === item.data.company[0] });
       const projects = BuildList(item.data.projects, projectData.items);
       const contribs = BuildList(item.data.contributions, projectData.items);
