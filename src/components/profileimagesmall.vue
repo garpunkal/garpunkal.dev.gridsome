@@ -5,7 +5,7 @@
 			<img src="@/assets/images/profiles/profile.jpg"
 			 class="w-full object-cover h-full object-center block rounded-full dark:brightness-50 dark:hover:brightness-100 filter-grayscale
 			 shadow-xl-black 
-			 ring-brand dark:ring-brand-dark ring-4"
+			 ring-brand-dark dark:ring-brand ring-4"
 			  alt="Gareth Wright" width="192" height="192" title="Gareth Wright" />
 		</picture>
 	</div>
