@@ -26,7 +26,7 @@
 			<h3 class=" text-white dark:text-brand mb-1 text-xl md:text-2xl font-bold">
 				{{ item.job }}
 			</h3>
-			<h4 class="font-medium  text-gray-300 mb-1 text-lg md:text-xl">
+			<h4 class="font-medium text-gray-300 mb-1 text-lg md:text-lg">
 				{{ item.title }}
 			</h4>
 			<h5 class="font-smaller  mb-1 text-sm dark:text-gray-300" v-if="item.url">
@@ -38,13 +38,13 @@
 			<p class="font-smaller  mb-5 text-sm" v-if="item.url">
 				<a :href="item.url" target="_blank" rel="noopener" class="inline-flex items-center" :title="item.title">{{ item.shortUrl }}</a>
 			</p>
-			<p class="font-smaller text-sm mb-5">
+			<p class="font-smaller text-sm ">
 				<span class="text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 dark:text-gray-500 dark:bg-gray-800 uppercase last:mr-0">{{ GetMonthYear(item.from) }}</span>
 				-
 				<span class=" text-sm inline-block py-1 px-2 rounded text-white bg-brand dark:text-gray-300 dark:bg-brand uppercase last:mr-0" v-if="item.isCurrent">CURRENT</span>
 				<span class=" text-sm inline-block py-1 px-2 rounded text-white bg-gray-800 dark:text-gray-500 dark:bg-gray-800 uppercase last:mr-0 " v-else>{{ GetMonthYear(item.to) }}</span>
 			</p>
-			<div class="inline-block py-1 px-1 text-gray-400 dark:text-gray-500 text-xs" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>
+			<div class="mt-2 inline-block py-1 px-1 text-gray-400 dark:text-gray-500 text-xs" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>
 			<div class="mt-5 font-smaller text-sm md:pl-5 dark:text-gray-300" v-html="item.description" v-if="item.description !== '<p>-</p>'" v-show="!item.hideDescription"></div>
 		</div>
 		<div class="md:pl-2 mt-0 sm:mt-0 pb-10 w-full flex flex-wrap justify-evenly" v-if="item.projects.title || item.contributions.title">
