@@ -47,10 +47,9 @@
 			<div class="mt-2 inline-block py-1 px-1 text-gray-400 dark:text-gray-500 text-xs" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>
 			<div class="mt-5 font-smaller text-sm md:pl-5 dark:text-gray-300" v-html="item.description" v-if="item.description !== '<p>-</p>'" v-show="!item.hideDescription"></div>
 		</div>
-		<div class="md:pl-2 mt-0 sm:mt-0 pb-10 w-full flex flex-wrap justify-evenly" v-if="item.projects.title || item.contributions.title">
-						
+		<div class="md:pl-2 mt-0 sm:mt-0 pb-10 w-full flex flex-wrap content-start" v-if="item.projects.title || item.contributions.title">
 			<div class="w-full md:w-1/2 xl:w-full md:px-4">
-				<div class=" font-smaller  mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title" v-show="!item.hideDescription">
+				<div class="font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title" v-show="!item.hideDescription">
 					{{ item.projects.title }}
 				</div>
 				<ul v-show="!item.hideDescription" class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
@@ -61,10 +60,8 @@
 				</ul>
 			</div>
 
-			<div 
-			:class="item.contributions.title ? `w-full md:w-1/2 xl:w-full md:px-4 md:border-l-2 md:border-brand md:border-opacity-25 xl:border-none` : `w-full md:w-1/2 xl:w-full md:px-4 `"
-			>
-				<div v-show="!item.hideDescription" class=" font-smaller  mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.contributions.title">
+			<div :class="item.contributions.title ? `w-full md:w-1/2 xl:w-full md:px-4 md:border-l-2 md:border-brand md:border-opacity-25 xl:border-none` : `w-full md:w-1/2 xl:w-full md:px-4 `">
+				<div v-show="!item.hideDescription" class=" font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.contributions.title">
 					{{ item.contributions.title }}
 				</div>
 				<ul v-show="!item.hideDescription" class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
