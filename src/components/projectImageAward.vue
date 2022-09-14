@@ -26,7 +26,7 @@
 			/>
 		</picture>
 		<figcaption class="absolute left-0 bottom-0 md:-left-1 md:-bottom-1 px-2 md:px-4 py-1 md:py-2 bg-brand-gold dark:bg-brand-dark text-xs text-black dark:text-gray-400 rounded-bl-lg rounded-tr-lg ">
-			<span class="hidden lg:inline-block"><strong>Award Winner</strong>:</span> {{ item.title }}
+			<span class="hidden lg:inline-block font-bold">Award Winner:</span> {{ item.title }}
 		</figcaption>
 	</figure>
 </template>
