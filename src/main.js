@@ -1,5 +1,5 @@
 require("~/main.css");
-import DefaultLayout from "~/layouts/Default.vue";
+import DefaultLayout from "~/layouts/default.vue";
 import Vue from "vue";
 
 export default function (Vue, { router, head, isClient }) {
@@ -72,6 +72,31 @@ export default function (Vue, { router, head, isClient }) {
 		rel: 'preconnect',
 		href: 'https://www.google-analytics.com'
 	})
+
+	head.link.push({
+		rel: 'preload',
+		as:"image", 
+		href: 'https://cloud.squidex.io/api/assets/garpunkaldev/dff63e1a-c889-4178-8ef3-1cee6efa814b/profile.jpg?width=960&amp;height=960&amp;cache=5184000'
+	})
+
+	head.link.push({
+		rel: 'preload',
+		as:"image", 
+		href: 'https://cloud.squidex.io/api/assets/garpunkaldev/dff63e1a-c889-4178-8ef3-1cee6efa814b/profile.jpg?width=192&amp;height=192&amp;cache=5184000'
+	})
+
+	head.link.push({
+		rel: 'preload',
+		as:"image", 
+		href: 'https://cloud.squidex.io/api/assets/garpunkaldev/dff63e1a-c889-4178-8ef3-1cee6efa814b/profile.jpg?width=960&amp;height=960&amp;cache=5184000&amp;format=WEBP'
+	})
+
+	head.link.push({
+		rel: 'preload',
+		as:"image", 
+		href: 'https://cloud.squidex.io/api/assets/garpunkaldev/dff63e1a-c889-4178-8ef3-1cee6efa814b/profile.jpg?width=192&amp;height=192&amp;cache=5184000&amp;format=WEBP'
+	})
+
 
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
