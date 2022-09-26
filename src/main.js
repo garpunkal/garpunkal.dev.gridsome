@@ -1,5 +1,5 @@
 require("~/main.css");
-import DefaultLayout from "~/layouts/default.vue";
+import DefaultLayout from "~/layouts/Default.vue";
 import Vue from "vue";
 
 export default function (Vue, { router, head, isClient }) {
@@ -96,7 +96,6 @@ export default function (Vue, { router, head, isClient }) {
 		as:"image", 
 		href: 'https://cloud.squidex.io/api/assets/garpunkaldev/dff63e1a-c889-4178-8ef3-1cee6efa814b/profile.jpg?width=192&amp;height=192&amp;cache=5184000&amp;format=WEBP'
 	})
-
 
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
