@@ -940,10 +940,10 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@garpunkal/gridsome-source-devto@^0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@garpunkal/gridsome-source-devto/-/gridsome-source-devto-0.4.3.tgz#0bd3961e173da2b8d40c399a5323759f97bb0b42"
-  integrity sha512-IU3uQKgbs5yNVwkILDOfeUlFZSU4NrInELxEmQUVXnS/RbVmxrDLwQddvvdr2SlJxbMRjBJFWoKiAPwBWNZqHA==
+"@garpunkal/gridsome-source-devto@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@garpunkal/gridsome-source-devto/-/gridsome-source-devto-0.6.1.tgz#a000b81d8f6074f4d536c09a9528b53df46cc466"
+  integrity sha512-zH8XWb33ru8KhylziDYSIM3DPShz7FLXB94mhqor4QBDYWoaZ/11zGiaeVdibIu06QGTBd/LjTxef8+sArs87Q==
   dependencies:
     axios "^0.21.1"
     gray-matter "^4.0.2"
