@@ -15,13 +15,16 @@
 export default {
 	name: "Twitter",
 	mounted() {
-		let twitterWidgetsScript = document.createElement("script");
-		twitterWidgetsScript.setAttribute("src", "https://platform.twitter.com/widgets.js");
-		twitterWidgetsScript.setAttribute("async", "true");
-		twitterWidgetsScript.setAttribute("defer", "true");
-		twitterWidgetsScript.setAttribute("charset", "utf-8");
-		document.head.appendChild(twitterWidgetsScript);
+		try {
+			let twitterWidgetsScript = document.createElement("script");
+			twitterWidgetsScript.setAttribute("src", "https://platform.twitter.com/widgets.js");
+			twitterWidgetsScript.setAttribute("async", "true");
+			twitterWidgetsScript.setAttribute("defer", "true");
+			twitterWidgetsScript.setAttribute("charset", "utf-8");
+			document.head.appendChild(twitterWidgetsScript);
+		} catch {
+			console.log("twitter head issue.");
+		} 
 	},
 };
 </script>
-    
