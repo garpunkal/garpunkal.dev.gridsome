@@ -1,10 +1,6 @@
 require("~/main.css");
 import DefaultLayout from "~/layouts/Default.vue";
 import Vue from "vue";
-import Alpine from 'alpinejs'
-
-window.Alpine = Alpine
-Alpine.start()
 
 export default function (Vue, { router, head, isClient }) {
 
@@ -80,6 +76,6 @@ export default function (Vue, { router, head, isClient }) {
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
 	};
-
+ 
 	Vue.component("Layout", DefaultLayout);
 }
