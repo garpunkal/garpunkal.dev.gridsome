@@ -8,7 +8,7 @@
 				alt="Gareth Wright"
 				width="960"
 				height="960"
-				title="Gareth Wright"
+				title="Gareth Wright"				
 			/>
 		</picture>	
 	</div>
@@ -16,3 +16,4 @@
 <script>
 export default { name: "ProfileImage" };
 </script>
+

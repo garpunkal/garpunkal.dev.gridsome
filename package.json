@@ -18,7 +18,7 @@
 		"type": "git",
 		"url": "https://github.com/garpunkal/garpunkal.dev"
 	},
- 	"scripts": {
+	"scripts": {
 		"build": "gridsome build",
 		"start": "gridsome develop",
 		"explore": "gridsome explore"
@@ -27,6 +27,7 @@
 		"@garpunkal/gridsome-source-devto": "^0.6.1",
 		"@gridsome/plugin-sitemap": "^0.4.0",
 		"@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+		"alpinejs": "^3.10.3",
 		"autoprefixer": "^9.8.8",
 		"axios": "^0.26.1",
 		"axios-retry": "^3.2.4",
