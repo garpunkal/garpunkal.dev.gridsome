@@ -49,10 +49,10 @@
 		</div>
 		<div class="md:pl-2 mt-0 sm:mt-0 pb-10 w-full flex flex-wrap content-start" v-if="item.projects.title || item.contributions.title">
 			<div class="w-full md:w-1/2 xl:w-full md:px-4">
-				<div class="font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title" v-show="!item.hideDescription">
+				<div class="font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title">
 					{{ item.projects.title }}
 				</div>
-				<ul v-show="!item.hideDescription" class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
+				<ul class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
 					<li v-for="project in item.projects.items" v-bind:key="project.name">
 						<a v-if="project.url" rel="noopener" :href="project.url" target="_blank" :title="project.name" class="inline-flex items-center">{{ project.name }}</a>
 						<span v-else class="dark:text-gray-400">{{ project.name }}</span>
@@ -61,10 +61,10 @@
 			</div>
 
 			<div :class="item.contributions.title ? `w-full md:w-1/2 xl:w-full md:px-4 md:border-l-2 md:border-brand md:border-opacity-25 xl:border-none` : `w-full md:w-1/2 xl:w-full md:px-4 `">
-				<div v-show="!item.hideDescription" class=" font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.contributions.title">
+				<div  class=" font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.contributions.title">
 					{{ item.contributions.title }}
 				</div>
-				<ul v-show="!item.hideDescription" class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
+				<ul  class=" list-outside font-smaller text-sm pl-5 list-none space-y-1 mt-3 break-words mb-6 ">
 					<li v-for="contribution in item.contributions.items" v-bind:key="contribution.name">
 						<a v-if="contribution.url" rel="noopener" :href="contribution.url" target="_blank" :title="contribution.name" class="inline-flex items-center">{{ contribution.name }}</a>
 						<span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
