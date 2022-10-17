@@ -1,6 +1,6 @@
 <template>
-	<div class="md:pl-6 xl:grid xl:grid-cols-5 pl-0 text-gray-300">
-		<div class="md:pl-6 sm:mt-0 flex items-start justify-start xl:justify-end mb-5">
+	<div class="flex flex-wrap flex-row w-full md:pl-6 pl-0 text-gray-300">
+		<div class="flex flex-col align-start flex-wrap md:pl-6 sm:mt-0 items-start mb-5">
 			<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title">
 				<picture>
 					<source type="image/webp" :srcset="item.logo.webp" />
@@ -22,7 +22,7 @@
 				<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="rounded-lg lg:rounded-l-lg flex object-contain dark:brightness-50 dark:hover:brightness-100 w-100pixel h-100pixel ring-brand dark:ring-brand-dark ring-4" height="100" loading="lazy" :title="item.logo.alt" />
 			</picture>
 		</div>
-		<div class="md:pl-6 col-span-3 mt-6 sm:mt-0 md:pr-5 pb-10 ">
+		<div class="flex flex-col flex-wrap w-full xl:w-10/12 md:pl-6 mt-6 sm:mt-0 md:pr-5 pb-10">
 			<h3 class=" text-white dark:text-brand mb-1 text-xl md:text-2xl font-bold">
 				{{ item.job }}
 			</h3>
@@ -46,28 +46,27 @@
 			</p>
 			<div class="mt-2 inline-block py-1 px-1 text-gray-400 dark:text-gray-500 text-xs" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>
 			<div class="mt-5 font-smaller text-sm md:pl-5 dark:text-gray-300" v-html="item.description" v-if="item.description !== '<p>-</p>'" v-show="!item.hideDescription"></div>
-		
-		
-			
-			<div class="mt-10 md:pl-2 pb-10 w-full flex flex-wrap content-start" v-if="item.projects.title || item.contributions.title">
-			<div class="w-full md:w-1/2 ">
-				<div class="font-smaller mb-1 text-sm font-bold dark:text-gray-400 " v-if="item.projects.title">
-					{{ item.projects.title }}
+
+			<div class="mt-10 md:pl-2 pb-10 w-full flex flex-wrap content-start flex-row" v-if="item.projects.title || item.contributions.title">
+				<div class="w-full">
+					<div class="font-smaller text-sm font-bold mb-4 " v-if="item.projects.title">
+						{{ item.projects.title }}
+					</div>
+					<div class="font-smaller border-b-2 border-brand opacity-25 text-sm font-bold mb-4 " v-if="item.projects.title"></div>
+					<div class="w-full font-smaller text-sm grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">
+						<div v-for="project in item.projects.items" v-bind:key="project.name">
+							
+							<a v-if="project.url" rel="noopener" :href="project.url" target="_blank" :title="project.name" class="inline-flex items-center">{{ project.name }}</a>
+							<span v-else class="dark:text-gray-400">{{ project.name }}</span>
+						</div>
+						<div v-for="contribution in item.contributions.items" v-bind:key="contribution.name">
+							<a v-if="contribution.url" rel="noopener" :href="contribution.url" target="_blank" :title="contribution.name" class="inline-flex items-center">{{ contribution.name }}</a>
+							<span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
+						</div>
+					</div>
 				</div>
-				<ul class=" list-outside font-smaller text-sm list-none space-y-1 mt-3 break-words mb-6 md:columns-2 xl:columns-3 px-3 ">
-					<li v-for="project in item.projects.items" v-bind:key="project.name">
-						<a v-if="project.url" rel="noopener" :href="project.url" target="_blank" :title="project.name" class="inline-flex items-center">{{ project.name }}</a>
-						<span v-else class="dark:text-gray-400">{{ project.name }}</span>
-					</li>
-					<li v-for="contribution in item.contributions.items" v-bind:key="contribution.name">
-						<a v-if="contribution.url" rel="noopener" :href="contribution.url" target="_blank" :title="contribution.name" class="inline-flex items-center">{{ contribution.name }}</a>
-						<span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
-					</li>
-					</ul>
 			</div>
 		</div>
-		</div>
-	
 	</div>
 </template>
 <script>
