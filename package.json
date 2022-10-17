@@ -24,9 +24,9 @@
 		"explore": "gridsome explore"
 	},
 	"dependencies": {
-		"@garpunkal/gridsome-source-devto": "^0.4.3",
+		"@garpunkal/gridsome-source-devto": "^0.6.1",
 		"@gridsome/plugin-sitemap": "^0.4.0",
-		"@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+		"@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.2.17",	
 		"autoprefixer": "^9.8.8",
 		"axios": "^0.26.1",
 		"axios-retry": "^3.2.4",

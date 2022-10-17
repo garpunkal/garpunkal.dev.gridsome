@@ -60,7 +60,7 @@ export default function (Vue, { router, head, isClient }) {
 	head.link.push({
 		rel: 'preconnect',
 		href: 'https://fonts.gstatic.com',
-		crossOrigin: 'crossOrigin'		
+		crossOrigin: 'crossOrigin'
 	})
 
 	head.link.push({
@@ -72,10 +72,10 @@ export default function (Vue, { router, head, isClient }) {
 		rel: 'preconnect',
 		href: 'https://www.google-analytics.com'
 	})
-
+	
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
 	};
-
+ 
 	Vue.component("Layout", DefaultLayout);
 }

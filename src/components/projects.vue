@@ -6,26 +6,18 @@
 					{{ title }}
 				</h3>
 			</div>
-			<!-- <div class="flex flex-wrap md:-m-2 -m-1">
-				<div class="flex flex-wrap w-1/2 " v-for="(chunk, chunkindex) in chunked" :key="chunkindex">
-					<div class="md:p-2 p-1 w-full" v-for="(project, index) in chunk" :key="project.node.id" :class="{ 'md:w-1/2': isNotLarge(chunkindex, index) }">
-						<Project :item="project.node" :large="!isNotLarge(chunkindex, index)" />
-
-					
-					</div>
-				</div>
-			</div> -->
+	
 
 			<div class="flex flex-wrap md:-m-2 -m-1">
-				<div class="flex flex-wrap lg:flex-grow w-full md:w-1/3 lg:w-1/3" div v-for="project in items.edges.slice(0, 9)" :key="project.node.id">
+				<div class="flex flex-wrap lg:flex-grow w-full md:w-1/3 lg:w-1/3" v-for="project in items.edges.slice(0, 9)" :key="project.node.id">
 					<div class="md:p-2 p-1 w-full">
 						<Project :item="project.node" :large="true" />						
 					</div>
 				</div>
 
-				<div class="flex flex-wrap w-1/2 md:w-1/4 lg:w-1/4" div v-for="project in items.edges.slice(9, items.edges.length)" :key="project.node.id">
+				<div class="flex flex-wrap w-1/2 md:w-1/4 lg:w-1/4" v-for="project in this.orderedProjects(items.edges.slice(9, items.edges.length))" :key="project.node.id">
 					<div class="md:p-2 p-1 w-full">
-						<Project :item="project.node" :large="false" />
+						<Project :item="project.node" :large="false" />												
 					</div>
 				</div>
 			</div>
@@ -34,25 +26,18 @@
 </template>
 <script>
 import Project from "@/components/project.vue";
-//import lodash from "lodash";
+import _ from "lodash";
+
 export default {
 	components: { Project },
 	props: {
 		title: { type: String, required: true },
 		items: { type: Object, required: true },
 	},
-	// computed: {
-	// 	chunked() {
-	// 		return lodash.chunk(this.items.edges, 3);
-	// 	},
-	// },
-	// methods: {
-	// 	// isNotLarge: function(chunkindex, index) {
-	// 	// 	return ((chunkindex + 1) % 2 !== 0 && index !== 0) || ((chunkindex + 1) % 2 === 0 && index !== 2);
-	// 	// },
-	// 	shuffle: function(items) { 
-	// 		return lodash.shuffle(items);
-	// 	}
-	//  },
+	methods: {  
+		orderedProjects: function(itemsSliced) { 
+			return _.orderBy(itemsSliced, 'node.title');			
+		} 
+	}
 };
 </script>
