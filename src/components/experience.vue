@@ -47,18 +47,28 @@
 			<div class="mt-2 inline-block py-1 px-1 text-gray-400 dark:text-gray-500 text-xs" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>
 			<div class="mt-5 font-smaller text-sm md:pl-5 dark:text-gray-300" v-html="item.description" v-if="item.description !== '<p>-</p>'" v-show="!item.hideDescription"></div>
 
-			<div class="mt-10 md:pl-2 pb-10 w-full flex flex-wrap content-start flex-row" v-if="item.projects.title || item.contributions.title">
-				<div class="w-full">
-					<div class="font-smaller text-sm font-bold mb-4 " v-if="item.projects.title">
+			<div class="mt-10 pb-10 w-full flex flex-wrap content-start flex-row"  v-if="item.projects.title || item.contributions.title">
+				<div class="w-full"  v-if="item.projects.title">
+					<div class="font-smaller text-sm font-bold mb-2 " v-if="item.projects.title">
 						{{ item.projects.title }}
 					</div>
-					<div class="font-smaller border-b-2 border-brand opacity-25 text-sm font-bold mb-4 " v-if="item.projects.title"></div>
+					<div class="font-smaller border-b-2 border-brand opacity-25 text-sm font-bold mb-2	 " v-if="item.projects.title"></div>
 					<div class="w-full font-smaller text-sm grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">
 						<div v-for="project in item.projects.items" v-bind:key="project.name">
 							
 							<a v-if="project.url" rel="noopener" :href="project.url" target="_blank" :title="project.name" class="inline-flex items-center">{{ project.name }}</a>
 							<span v-else class="dark:text-gray-400">{{ project.name }}</span>
 						</div>
+						
+					</div>
+				</div>
+		
+				<div class="w-full mt-8" v-if="item.contributions.title">
+					<div class="font-smaller text-sm font-bold mb-2	 " v-if="item.contributions.title">
+						{{ item.contributions.title }}
+					</div>
+					<div class="font-smaller border-b-2 border-brand opacity-25 text-sm font-bold mb-2 " v-if="item.contributions.title"></div>
+					<div class="w-full font-smaller text-sm grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">					
 						<div v-for="contribution in item.contributions.items" v-bind:key="contribution.name">
 							<a v-if="contribution.url" rel="noopener" :href="contribution.url" target="_blank" :title="contribution.name" class="inline-flex items-center">{{ contribution.name }}</a>
 							<span v-else class="dark:text-gray-400">{{ contribution.name }}</span>
