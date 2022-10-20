@@ -1,8 +1,7 @@
 <template>
-	<div class="w-full md:pl-6 pl-0 text-gray-300">
-	
-		<div class="w-full justify-center flex flex-row flex-wrap">
-			<div class="flex flex-row flex-wrap w-full md:w-auto md:pl-6 sm:mt-0 b-5">
+	<div class="w-full text-gray-300 flex flex-row flex-wrap justify-center mb-14">	
+		<div class="flex flex-row flex-wrap w-full justify-center md:w-8/12 lg:w-6/12 gap-5">			
+			<div class="flex flex-row flex-wrap w-auto justify-start mt-2">
 				<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title">
 					<picture>
 						<source type="image/webp" :srcset="item.logo.webp" />
@@ -31,7 +30,7 @@
 					/>
 				</picture>
 			</div>
-			<div class="flex flex-col flex-wrap w-full md:w-8/12 lg:w-5/12 md:pl-6 mt-6 md:mt-0 md:pr-5 pb-10">
+			<div class="flex flex-col flex-wrap w-full md:w-9/12 lg:w-9/12 text-center md:text-left">
 				<h3 class=" text-white dark:text-brand mb-1 text-xl md:text-2xl font-bold">
 					{{ item.job }}
 				</h3>
