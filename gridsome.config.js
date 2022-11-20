@@ -7,15 +7,7 @@ const postcssPlugins = [tailwindcssnesting(),tailwindcss(),autoprefixer()];
 module.exports = {
 	siteName: "garpunkal.dev",
 	siteUrl: "https://garpunkal.dev",
-	plugins: [
-		{
-			use: "gridsome-plugin-gtm",
-			options: {
-				id: "GTM-54WJV5",
-				enabled: true,
-				debug: false,
-			},
-		},   
+	plugins: [		
 		{
 			use: "@gridsome/plugin-sitemap"
 		},

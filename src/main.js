@@ -54,11 +54,6 @@ export default function (Vue, { router, head, isClient }) {
 
 	head.link.push({
 		rel: 'preconnect',
-		href: 'https://www.googletagmanager.com'
-	})
-
-	head.link.push({
-		rel: 'preconnect',
 		href: 'https://fonts.gstatic.com',
 		crossOrigin: 'crossOrigin'
 	})
@@ -68,14 +63,21 @@ export default function (Vue, { router, head, isClient }) {
 		href: 'https://fonts.googleapis.com'
 	})
 
-	head.link.push({
-		rel: 'preconnect',
-		href: 'https://www.google-analytics.com'
-	})
-	
 	head.bodyAttrs = {
 		class: "bg-brand dark:bg-black"
 	};
- 
+
+	head.script.push({
+		src: '<https://www.googletagmanager.com/gtag/jsid=3TJPB46KB1>',
+		async: true
+	})
+
+	if (process.isClient) {
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-3TJPB46KB1');
+	}
+
 	Vue.component("Layout", DefaultLayout);
 }
