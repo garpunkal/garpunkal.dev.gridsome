@@ -1,5 +1,5 @@
 <template>
-	<figure :class="!isLarge() ? `relative hover:scale-150 ease-out duration-500 transform-gpu hover:z-50` : `relative`">
+	<figure class="relative">
 		<picture v-if="item.position === 'left top'">
 			<source type="image/webp" :srcset="item.image.webp" />
 			<img
