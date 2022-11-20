@@ -26,7 +26,7 @@
 </template>
 <script>
 import Project from "@/components/project.vue";
-import { orderBy } from 'lodash';
+var orderBy = require('lodash.orderby');
 
 export default {
 	components: { Project },
