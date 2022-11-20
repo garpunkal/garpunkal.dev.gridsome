@@ -72,12 +72,12 @@ export default function (Vue, { router, head, isClient }) {
 		async: true
 	})
 
-	if (process.isClient) {
+
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 		gtag('config', 'G-3TJPB46KB1');
-	}
+
 
 	Vue.component("Layout", DefaultLayout);
 }
