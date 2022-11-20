@@ -1,7 +1,7 @@
 <template>
-	<div class="flex flex-row flex-wrap justify-center w-full text-gray-300 mb-14">	
-		<div class="flex flex-row flex-wrap justify-center w-full gap-5">			
-			<div class="flex flex-row flex-wrap justify-start w-auto mt-2">
+	<div class="flex flex-row flex-wrap justify-center w-full text-gray-300 mb-14 ring-brand">	
+		<div class="flex flex-row flex-wrap justify-center w-full gap-5 ">			
+			<div class="flex flex-row flex-wrap justify-start w-auto mt-2 ">
 				<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title">
 					<picture>
 						<source type="image/webp" :srcset="item.logo.webp" />
