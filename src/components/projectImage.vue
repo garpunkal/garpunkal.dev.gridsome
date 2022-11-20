@@ -1,12 +1,12 @@
 <template>
-	<figure :class="!isLarge() ? `relative hover:scale-150 ease-out duration-500 transform-gpu hover:z-50` : `relative`">
+	<figure :class="!isLarge() ? `relative` : `relative`">
 		<picture v-if="item.position === 'left top'">
-			<source type="image/webp" :srcset="item.image.webp" />
+			<source type="image/webp" :srcset="isLarge() ? `${item.image.webp}&width=615&height=340` : `${item.image.webp}&width=300&height=165`" />
 			<img				
 				:alt="item.image.alt"
 				:title="item.image.alt"
-				:src="item.image.url"
-				class="w-full h-full block rounded-lg lg:rounded-l-lg object-fit object-left-top dark:brightness-50 dark:hover:brightness-100 ring-brand dark:ring-brand-dark ring-2 md:ring-4"
+				:src="isLarge() ? `${item.image.url}&width=615&height=340` : `${item.image.url}&width=300&height=165`"
+				class="block object-left-top w-full h-full rounded-lg lg:rounded-l-lg object-fit dark:brightness-50 dark:hover:brightness-100 ring-brand dark:ring-brand-dark ring-2 md:ring-4"
 				:width="isLarge() ? 615 : 300"
 				:height="isLarge() ? 340 : 165"
 				loading="lazy"
@@ -14,18 +14,18 @@
 		</picture>
 
 		<picture v-else>
-			<source type="image/webp" :srcset="item.image.webp" />
+			<source type="image/webp" :srcset="isLarge() ? `${item.image.webp}&width=615&height=340` : `${item.image.webp}&width=300&height=165`" />
 			<img
 				:alt="item.image.alt"
 				:title="item.image.alt"
-				:src="item.image.url"
-				class="w-full h-full block rounded-lg lg:rounded-l-lg object-fit object-top dark:brightness-50 dark:hover:brightness-100 ring-brand dark:ring-brand-dark ring-2 md:ring-4"
+				:src="isLarge() ? `${item.image.url}&width=615&height=340` : `${item.image.url}&width=300&height=165`"
+				class="block object-top w-full h-full rounded-lg lg:rounded-l-lg object-fit dark:brightness-50 dark:hover:brightness-100 ring-brand dark:ring-brand-dark ring-2 md:ring-4"
 				:width="isLarge() ? 615 : 300"
 				:height="isLarge() ? 340 : 165"
 				loading="lazy"
 			/>
 		</picture>
-		<figcaption class="absolute left-0 bottom-0 md:-left-1 md:-bottom-1 px-2 md:px-4 py-1 md:py-2 bg-brand dark:bg-brand-dark text-xs text-white dark:text-gray-400 rounded-bl-lg rounded-tr-lg ">
+		<figcaption class="absolute bottom-0 left-0 px-2 py-1 text-xs text-white rounded-tr-lg rounded-bl-lg md:-left-1 md:-bottom-1 md:px-4 md:py-2 bg-brand dark:bg-brand-dark dark:text-gray-400 ">
 			{{ item.title }}
 		</figcaption>
 	</figure>
