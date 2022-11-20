@@ -9,7 +9,6 @@
 				width="690"
 				height="690"
 				title="Gareth Wright"		
-				loading="lazy"
 
 			/>
 		</picture>	
