@@ -8,7 +8,9 @@
 				alt="Gareth Wright"
 				width="690"
 				height="690"
-				title="Gareth Wright"				
+				title="Gareth Wright"		
+				loading="lazy"
+
 			/>
 		</picture>	
 	</div>
