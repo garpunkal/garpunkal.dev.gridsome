@@ -68,7 +68,7 @@ export default function (Vue, { router, head, isClient }) {
 	};
 
 	head.script.push({
-		src: 'https://www.googletagmanager.com/gtag/jsid=3TJPB46KB1',
+		src: 'https://www.googletagmanager.com/gtag/js?id=G-3TJPB46KB1',
 		async: true
 	})
 
