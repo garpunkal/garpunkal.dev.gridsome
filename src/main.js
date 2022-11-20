@@ -68,11 +68,11 @@ export default function (Vue, { router, head, isClient }) {
 	};
 
 	head.script.push({
-		src: '<https://www.googletagmanager.com/gtag/jsid=3TJPB46KB1>',
+		src: 'https://www.googletagmanager.com/gtag/jsid=3TJPB46KB1',
 		async: true
 	})
 
-	if (process.isClient) {
+	if (isClient) {
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
