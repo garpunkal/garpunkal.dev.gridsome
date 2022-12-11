@@ -31,12 +31,10 @@ module.exports = {
 			}
 		},
 		{
-			use: '@perlatsp/gridsome-source-devto',
+			use: '@garpunkal/gridsome-source-devto-2022',
 			options: {
 			  typeName: 'DevToArticles',
-			  username:'garpunkal', //change username
 			  apiKey: process.env.DEVTO_API_KEY, //get your API key from https://dev.to/settings/account
-			  route: '/:slug',
 			}
 		  }
 	],
