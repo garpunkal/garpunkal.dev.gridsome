@@ -31,7 +31,7 @@ module.exports = {
 			}
 		},
 		{
-			use: '@garpunkal/gridsome-source-devto-2022',
+			use: '@garpunkal/gridsome-source-devto',
 			options: {
 			  typeName: 'DevToArticles',
 			  apiKey: process.env.DEVTO_API_KEY, //get your API key from https://dev.to/settings/account
