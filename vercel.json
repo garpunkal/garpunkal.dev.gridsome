@@ -26,11 +26,7 @@
 				{
 					"key": "Access-Control-Allow-Origin",
 					"value": "https://garpunkal.dev"
-				}//,
-				// {
-				// 	"key": "Content-Security-Policy",
-				// 	"value": "base-uri 'self'; connect-src 'self' https://region1.google-analytics.com; default-src 'self'; font-src 'self' https://fonts.gstatic.com; frame-src 'self'; img-src 'self' data: https://cloud.squidex.io https://res.cloudinary.com; manifest-src 'self'; media-src 'self'; object-src 'none'; report-uri https://63974b45020ab56f33fc1c48.endpoint.csper.io/; script-src 'report-sample' 'self' https://www.googletagmanager.com/gtag/js; style-src 'report-sample' 'self' https://fonts.googleapis.com; worker-src 'none';"
-				// }
+				}
 			]
 		}
 	],
