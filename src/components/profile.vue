@@ -1,12 +1,14 @@
 <template>
-	<section class="max-w-6xl flex items-center h-auto lg:h-144 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-20 mb-10 md:my-12 lg:my-18">
-		<div id="profile" class="w-full lg:w-3/5 rounded-lg md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none shadow-2xl-black bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0">
+	<section class="max-w-6xl flex items-center h-auto lg:h-144 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-24 mb-10 my-8 lg:my-18 xl:my-12">
+		<div
+			id="profile"
+			class="w-full lg:w-3/5 rounded-lg md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0 order-2 lg:order-1			
+			-mt-36 pt-32 md:-mt-40 md:pt-28 lg:-mt-0 lg:pt-0		
+			shadow-2xl-black	
+			">
 			<div class="p-4 md:p-12">
-			
-				<ProfileImageSmall />
-
 				<div class="flex flex-col w-full items-center lg:items-start">
-					<h1 class="mt-6 lg:mt-3 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter">
+					<h1 class="mt-6 lg:mt-3 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter">
 						Gareth Wright
 					</h1>
 					<h2 class="mb-5 md:mb-8 text-2xl md:text-3xl lg:text-4xl font-extrabold sm:text-3xl tracking-tighter">
@@ -29,15 +31,18 @@
 						<Bullet
 							title="Front End Developer"
 							svgPath="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"
-						/>						
+						/>
 					</div>
 				</div>
-
 				<SocialLinks />
 			</div>
 		</div>
-		<ProfileImage />
-		<DownArrow id="projects" />
+		<div class="w-full lg:w-2/5 order-1 lg:order-2 z-10 -mt-16 lg:mt-0 lg:shadow-2xl-black">
+			<ProfileImage />
+		</div>
+		<div class="flex justify-center w-full pt-10 md:pt-10 lg:pt-6 order-3">
+			<DownArrow id="projects" />
+		</div>
 	</section>
 </template>
 <script>
@@ -45,9 +50,9 @@ import Bullet from "@/components/bullet.vue";
 import SocialLinks from "@/components/sociallinks.vue";
 import DownArrow from "@/components/downarrow.vue";
 import ProfileImage from "@/components/profileimage.vue";
-import ProfileImageSmall from "@/components/profileimagesmall.vue";
+
 export default {
 	name: "Profile",
-	components: { Bullet, SocialLinks, DownArrow, ProfileImage, ProfileImageSmall },
+	components: { Bullet, SocialLinks, DownArrow, ProfileImage },
 };
 </script>
