@@ -34,8 +34,8 @@ export default {
 		
 		var options = {
 			chrome: "noheader nofooter noborder",
-			height: 600,
-			width: "100%",
+			height: "auto",
+			width: "auto",
 			dnt: true,
 			theme: "dark",
 			lang: "en",
