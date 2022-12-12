@@ -22,6 +22,7 @@ export default {
 			twitterWidgetsScript.setAttribute("defer", "true");
 			twitterWidgetsScript.setAttribute("charset", "utf-8");
 			document.head.appendChild(twitterWidgetsScript);
+			twttr.widgets.load();
 		} catch {
 			console.log("twitter head issue.");
 		} 
