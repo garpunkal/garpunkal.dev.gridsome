@@ -16,7 +16,7 @@
 				</p>
 			</div>
 			<div class="flex w-full flex-wrap  justify-center">
-				<p class="mx-auto mb-5 text-sm text-center">
+				<p class="mx-auto mb-5 md:text-sm text-center">
 					Open-sourced at
 					<a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="github">GitHub</a><br />Built with
 					<a href="https://squidex.io/" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="SquidexCMS">SquidexCMS</a>,
