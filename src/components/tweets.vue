@@ -16,6 +16,7 @@
 </template>
 <script>
 import Tweet from "@/components/tweet.vue";
-export default { components: { Tweet } };
+export default {
+	 components: { Tweet } };
 </script>
     

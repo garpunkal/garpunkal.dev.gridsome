@@ -1,31 +1,54 @@
 <template>
-	<div class="w-full mx-auto rounded-lg mb-14 text-gray-800">		
-		<a class="twitter-timeline" 
-		 data-tweet-limit="3"
-		 data-lang="en" 		
-		 data-theme="dark" 
-		 show-replies="false"
-		 href="https://twitter.com/garpunkal?ref_src=twsrc%5Etfw" 
-		 data-chrome="noheader nofooter noborders"
-		 dnt="true"
-		 ></a>		
-	</div>   
+	<div class="w-full mx-auto rounded-lg mb-14 text-gray-800">
+		<div id="twitter-timeline"></div>
+	</div>
 </template>
 <script>
 export default {
 	name: "Twitter",
 	mounted() {
-		try {
-			let twitterWidgetsScript = document.createElement("script");
-			twitterWidgetsScript.setAttribute("src", "https://platform.twitter.com/widgets.js");
-			twitterWidgetsScript.setAttribute("async", "true");
-			twitterWidgetsScript.setAttribute("defer", "true");
-			twitterWidgetsScript.setAttribute("charset", "utf-8");
-			document.head.appendChild(twitterWidgetsScript);
-			twttr.widgets.load();
-		} catch {
-			console.log("twitter head issue.");
-		} 
+		window.twttr = (function(d, s, id) {
+			var js,
+				fjs = d.getElementsByTagName(s)[0],
+				t = window.twttr || {};
+			if (d.getElementById(id)) return t;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js, fjs);
+
+			t._e = [];
+			t.ready = function(f) {
+				t._e.push(f);
+			};
+
+			return t;
+		})(document, "script", "twitter-wjs");
+
+		// See https://dev.twitter.com/web/javascript/creating-widgets#create-timeline
+		var dataSource = {
+			sourceType: "profile",
+			screenName: "garpunkal",
+		};
+
+		// Your HTML element's ID
+		var target = document.getElementById("twitter-timeline");
+
+		// See https://dev.twitter.com/web/embedded-timelines/parameters
+		var options = {
+			chrome: "noheader nofooter noborder",
+			height: 600,
+			width: "100%",
+			dnt: true,
+			theme: "dark",
+			lang: "en",
+			tweetLimit: 3,
+			ariaPolite: "polite",
+		};
+
+		twttr.ready(function(twttr) {
+			twttr.widgets.createTimeline(dataSource, target, options);
+		});
 	},
 };
 </script>
