@@ -22,7 +22,7 @@
 		"build": "gridsome build",
 		"start": "gridsome develop",
 		"explore": "gridsome explore"
-	},
+	},   
 	"dependencies": {
 		"gridsome": "^0.7.23",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"

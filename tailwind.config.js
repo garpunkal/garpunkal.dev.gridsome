@@ -4,7 +4,7 @@ module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
 		purgeLayersByDefault: true,
-	},
+	}, 
 	theme: {
 		screens: {
 			sm: "375px",
