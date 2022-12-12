@@ -16,19 +16,18 @@
 				</p>
 			</div>
 			<div class="flex w-full flex-wrap  justify-center">
-				<p class="mx-auto mb-5 md:text-sm text-center">
-					Open-sourced at
-					<a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="github">GitHub</a><br />Built with
-					<a href="https://squidex.io/" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="SquidexCMS">SquidexCMS</a>,
-					<a href="https://gridsome.org/" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="Gridsome">Gridsome</a>,
-					<a href="https://vuejs.org/" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="Vue.js">Vue.js</a>,
-					<a href="https://tailwindcss.com/" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="TailwindCSS">TailwindCSS</a>.<br />Hosted with
-					<a href="https://vercel.com/" target="_blank" rel="noopener" class=" font-bold inline-flex text-white dark:text-gray-500 hover:text-brand items-center " title="Vercel">Vercel</a>.
-				</p>
+				<ul class="mx-auto mb-5 md:text-sm text-center">
+					<li><a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="github">GitHub</a></li>
+					<li><a href="https://squidex.io/" target="_blank" rel="noopener" class=" font-bold inline-flex text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="SquidexCMS">SquidexCMS</a></li>
+					<li><a href="https://gridsome.org/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="Gridsome">Gridsome</a></li>
+					<li><a href="https://vuejs.org/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="Vue.js">Vue.js</a></li>
+					<li><a href="https://tailwindcss.com/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="TailwindCSS">TailwindCSS</a></li>
+					<li><a href="https://vercel.com/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="Vercel">Vercel</a></li>
+				</ul>
 			</div>
 		</div>
 	</footer>
-</template>   
+</template>
 <script>
 import UpArrow from "@/components/uparrow.vue";
 export default { name: "SiteFooter", components: { UpArrow } };
