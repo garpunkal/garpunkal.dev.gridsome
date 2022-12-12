@@ -1,15 +1,15 @@
 <template>
 	<div class="flex flex-row flex-wrap w-full">
-		<div class="flex justify-center w-full mb-2 rounded-lg ring-brand dark:ring-brand-dark ring-4 dark:brightness-50 dark:hover:brightness-100  " :style="`background-color:` + item.logo.background + `;background-size:auto;`">		
+		<div class="flex justify-center w-full mb-2 rounded-lg ring-brand dark:ring-brand-dark ring-4 dark:brightness-50 dark:hover:brightness-100" :style="`background-color:` + item.logo.background + `;background-size:auto;`">		
 			<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title" class="w-full h-full flex justify-center">
 				<picture>
 					<source type="image/webp" :srcset="item.logo.webp" />
-					<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="flex object-contain rounded-lg lg:rounded-l-lg w-[100px] h-[100px]" width="100" height="100" loading="lazy" :title="item.logo.alt" />
+					<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="flex object-contain rounded-lg lg:rounded-l-lg w-100pixel h-100pixel" width="100" height="100" loading="lazy" :title="item.logo.alt" />
 				</picture>
 			</a>
 			<picture v-if="!item.url">
 				<source type="image/webp" :srcset="item.logo.webp" />
-				<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="flex object-contain rounded-lg lg:rounded-l-lg  w-[100px] h-[100px] " width="100" height="100" loading="lazy" :title="item.logo.alt" />
+				<img :alt="item.logo.alt" :src="item.logo.url" :style="{ backgroundColor: item.logo.background }" class="flex object-contain rounded-lg lg:rounded-l-lg w-100pixel h-100pixel " width="100" height="100" loading="lazy" :title="item.logo.alt" />
 			</picture>		
 		</div>
 		<div class=" h-full w-full mt-2">
