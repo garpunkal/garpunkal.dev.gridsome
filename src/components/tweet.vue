@@ -24,17 +24,14 @@ export default {
 
 			return t;
 		})(document, "script", "twitter-wjs");
-
-		// See https://dev.twitter.com/web/javascript/creating-widgets#create-timeline
+		
 		var dataSource = {
 			sourceType: "profile",
 			screenName: "garpunkal",
 		};
 
-		// Your HTML element's ID
 		var target = document.getElementById("twitter-timeline");
-
-		// See https://dev.twitter.com/web/embedded-timelines/parameters
+		
 		var options = {
 			chrome: "noheader nofooter noborder",
 			height: 600,
