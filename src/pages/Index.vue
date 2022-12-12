@@ -61,7 +61,7 @@ query {
           cover_image
           positive_reactions_count
           comments_count    
-          readable_publish_date   
+     
         }
       }
     }  
