@@ -15,15 +15,13 @@
 					>
 				</p>
 			</div>
-			<div class="flex w-full flex-wrap  justify-center">
-				<ul class="mx-auto mb-5 md:text-sm text-center">
-					<li><a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="github">GitHub</a></li>
-					<li><a href="https://squidex.io/" target="_blank" rel="noopener" class=" font-bold inline-flex text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="SquidexCMS">SquidexCMS</a></li>
-					<li><a href="https://gridsome.org/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="Gridsome">Gridsome</a></li>
-					<li><a href="https://vuejs.org/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="Vue.js">Vue.js</a></li>
-					<li><a href="https://tailwindcss.com/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="TailwindCSS">TailwindCSS</a></li>
-					<li><a href="https://vercel.com/" target="_blank" rel="noopener" class=" font-bold inline-flex  text-gray-300 dark:text-gray-500 hover:text-brand items-center " title="Vercel">Vercel</a></li>
-				</ul>
+			<div class="m-auto w-full lg:w-2/3 mt-4 grid grid-cols-1 gap-2 md:grid-cols-6 text-center md:text-sm">
+				<div><a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class=" text-gray-300 dark:text-gray-500 hover:text-brand" title="github">GitHub</a></div>
+				<div><a href="https://squidex.io/" target="_blank" rel="noopener" class=" text-gray-300 dark:text-gray-500 hover:text-brand" title="SquidexCMS">SquidexCMS</a></div>
+				<div><a href="https://gridsome.org/" target="_blank" rel="noopener" class=" text-gray-300 dark:text-gray-500 hover:text-brand" title="Gridsome">Gridsome</a></div>
+				<div><a href="https://vuejs.org/" target="_blank" rel="noopener" class=" text-gray-300 dark:text-gray-500 hover:text-brand" title="Vue.js">Vue.js</a></div>
+				<div><a href="https://tailwindcss.com/" target="_blank" rel="noopener" class=" text-gray-300 dark:text-gray-500 hover:text-brand" title="TailwindCSS">TailwindCSS</a></div>
+				<div><a href="https://vercel.com/" target="_blank" rel="noopener" class=" text-gray-300 dark:text-gray-500 hover:text-brand" title="Vercel">Vercel</a></div>
 			</div>
 		</div>
 	</footer>
