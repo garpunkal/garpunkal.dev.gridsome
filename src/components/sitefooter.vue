@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</footer>
-</template>
+</template>   
 <script>
 import UpArrow from "@/components/uparrow.vue";
 export default { name: "SiteFooter", components: { UpArrow } };
