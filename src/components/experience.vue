@@ -17,7 +17,7 @@
 				<h3 class="mb-1 text-xl font-bold text-white dark:text-gray-400">
 					{{ item.job }}
 				</h3>
-				<h4 class="mb-1 text-lg text-gray-500 dark:text-gray-500">
+				<h4 class="mb-1 text-lg text-gray-300 dark:text-gray-400">
 					{{ item.title }}
 				</h4>
 			</div>
