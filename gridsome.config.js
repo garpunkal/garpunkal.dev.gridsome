@@ -40,14 +40,14 @@ module.exports = {
 		{
 			use: "gridsome-plugin-manifest",
 			options: {
-			  background_color: "#111827",
-			  icon_path: "./src/favicon.png",
-			  name: "garpunkal.dev",
-			  short_name: "App",
-			  theme_color: "#077da0",
-			  lang: "en",
+				background_color: "#111827",
+				icon_path: "./src/favicon.png",
+				name: "garpunkal.dev",
+				short_name: "App",
+				theme_color: "#077da0",
+				lang: "en",
 			},
-		  },
+		},
 	],
 	css: {
 		loaderOptions: {
@@ -68,7 +68,7 @@ module.exports = {
 			sizes: [16, 32, 96]
 		},
 		touchicon: {
-			src: './src/my-favicon.png',
+			src: './src/favicon.png',
 			sizes: [76, 152, 120, 167],
 			precomposed: true
 		}
