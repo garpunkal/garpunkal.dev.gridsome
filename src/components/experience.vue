@@ -19,10 +19,8 @@
 				</h3>
 				<h4 class="mb-1 text-lg text-gray-300 dark:text-gray-400">
 					{{ item.title }}
-				</h4>
-			</div> 
-			<div class="w-full">	
-				<p class="text-sm text-white font-smaller ">
+				</h4>			
+				<p class="mt-4 text-sm text-white font-smaller">
 					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase rounded bg-brand dark:text-gray-300 dark:bg-brand last:mr-0" v-if="item.isCurrent">CURRENT</span>
 					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-gray-500 dark:bg-gray-800 last:mr-0" v-else>{{ GetMonthYear(item.to) }}</span>
 					-

@@ -1,6 +1,4 @@
 <template>
-	<!-- icons from: https://simpleicons.org/ -->
-
 	<div class="grid w-full grid-cols-5 gap-6 m-auto mt-12 mb-3 text-center md:grid-cols-5 lg:grid-cols-10 ">
 		<SocialLink
 			href="https://github.com/garpunkal"

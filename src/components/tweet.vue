@@ -1,7 +1,5 @@
 <template>
-	<div class="w-full mx-auto text-gray-800 rounded-lg mb-14">
-		<div id="twitter-timeline"></div>
-	</div>
+	<div class="w-full mx-auto text-gray-800 rounded-lg mb-14" id="twitter-timeline"></div>
 </template>
 <script>
 export default {
@@ -20,18 +18,18 @@ export default {
 			t._e = [];
 			t.ready = function(f) {
 				t._e.push(f);
-			}; 
+			};
 
 			return t;
 		})(document, "script", "twitter-wjs");
-		
+
 		var dataSource = {
 			sourceType: "profile",
 			screenName: "garpunkal",
 		};
 
 		var target = document.getElementById("twitter-timeline");
-		
+
 		var options = {
 			chrome: "noheader nofooter noborder",
 			height: "auto",
