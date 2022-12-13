@@ -67,7 +67,7 @@ module.exports = {
 	variants: {
 		animation: ['responsive', 'hover'],
 		visibility: ['hover', 'focus'],
-		boxShadow: ['dark'],
+		boxShadow: ['responsive','dark'],
 		zIndex: ['hover']
 	},
 	purge: {

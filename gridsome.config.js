@@ -2,12 +2,12 @@ const tailwindcss = require("tailwindcss");
 const autoprefixer = require("autoprefixer");
 const tailwindcssnesting = require("tailwindcss/nesting");
 
-const postcssPlugins = [tailwindcssnesting(),tailwindcss(),autoprefixer()];
+const postcssPlugins = [tailwindcssnesting(), tailwindcss(), autoprefixer()];
 
 module.exports = {
 	siteName: "garpunkal.dev",
 	siteUrl: "https://garpunkal.dev",
-	plugins: [		
+	plugins: [
 		{
 			use: "@gridsome/plugin-sitemap"
 		},
@@ -33,11 +33,11 @@ module.exports = {
 		{
 			use: '@garpunkal/gridsome-source-devto',
 			options: {
-			  typeName: 'DevToArticles',
-			  apiKey: process.env.DEVTO_API_KEY, 
+				typeName: 'DevToArticles',
+				apiKey: process.env.DEVTO_API_KEY,
 			}
-		  }
-	],	
+		}
+	],
 	css: {
 		loaderOptions: {
 			postcss: {
@@ -46,9 +46,16 @@ module.exports = {
 		},
 	},
 	chainWebpack: (config) => {
-		config.resolve.alias.set("@images", "@/assets/images");		
+		config.resolve.alias.set("@images", "@/assets/images");
 	},
 	images: {
 		defaultBlur: 0
 	},
+	icon: {
+		favicon: {
+			src: './src/favicon.png',
+			sizes: [16, 32, 96]
+		}
+	}
+
 };
