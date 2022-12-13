@@ -69,7 +69,7 @@ module.exports = {
 		},
 		touchicon: {
 			src: './src/favicon.png',
-			sizes: [76, 152, 120, 167],
+			sizes: [76, 152, 120, 167, 180],
 			precomposed: true
 		}
 	}

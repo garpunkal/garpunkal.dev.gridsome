@@ -19,7 +19,7 @@
 		"url": "https://github.com/garpunkal/garpunkal.dev"
 	},
 	"scripts": {
-		"build": "gridsome build",
+		"build": "npx rimraf dist && gridsome build",
 		"start": "gridsome develop",
 		"explore": "gridsome explore"
 	},

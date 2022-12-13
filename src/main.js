@@ -70,7 +70,27 @@ export default function (Vue, { router, head, isClient }) {
 	head.script.push({
 		src: 'https://www.googletagmanager.com/gtag/js?id=G-3TJPB46KB1',
 		async: true
-	})	
+	})
+
+	head.link.push({
+		rel: 'icon',
+		type: 'image/svg+xml',
+		href: "/favicon.svg"
+	});
+
+	head.link.push({
+		rel: 'alternate icon',
+		href: '/favicon.ico',
+	});
+
+	var emptyIcon = head.link.find(x => x.rel === 'icon' && x.href === 'data:,');
+	if (emptyIcon) {
+		const index = head.link.indexOf(emptyIcon);
+		head.link.splice(index, 1);
+	}
+
+	const gIndex = head.meta.findIndex(e => e.name === 'generator')
+	if (gIndex !== -1) head.meta.splice(gIndex, 1)
 
 	if (isClient) {
 		window.dataLayer = window.dataLayer || [];
