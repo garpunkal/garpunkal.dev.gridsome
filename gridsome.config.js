@@ -36,7 +36,18 @@ module.exports = {
 				typeName: 'DevToArticles',
 				apiKey: process.env.DEVTO_API_KEY,
 			}
-		}
+		},
+		{
+			use: "gridsome-plugin-manifest",
+			options: {
+			  background_color: "#111827",
+			  icon_path: "./src/favicon.png",
+			  name: "garpunkal.dev",
+			  short_name: "App",
+			  theme_color: "#077da0",
+			  lang: "en",
+			},
+		  },
 	],
 	css: {
 		loaderOptions: {

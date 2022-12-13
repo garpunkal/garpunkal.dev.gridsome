@@ -22,7 +22,7 @@
 		"build": "gridsome build",
 		"start": "gridsome develop",
 		"explore": "gridsome explore"
-	},   
+	},
 	"dependencies": {
 		"gridsome": "^0.7.23",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
@@ -34,6 +34,7 @@
 		"autoprefixer": "^9.8.8",
 		"axios": "^0.26.1",
 		"axios-retry": "^3.2.4",
+		"gridsome-plugin-manifest": "^0.3.5",
 		"gridsome-plugin-robots-txt": "^1.0.2",
 		"humanize-duration": "^3.27.1",
 		"lodash.orderby": "^4.6.0",
