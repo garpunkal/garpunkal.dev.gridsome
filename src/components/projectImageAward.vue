@@ -12,7 +12,7 @@
 				loading="lazy"
 			/>
 		</picture>
-
+ 
 		<picture v-else>
 			<source type="image/webp" :srcset="item.image.webp" />
 			<img

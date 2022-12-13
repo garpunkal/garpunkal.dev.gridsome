@@ -1,11 +1,11 @@
 <template>
 	<section class="text-gray-500 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 body-font" id="projects">
 		<div class="container px-5 py-5 mx-auto md:py-14">
-			<h3 class="w-full mt-10 text-3xl font-extrabold tracking-tighter text-center text-gray-400 sm:text-65xl lg:text-4xl dark:text-gray-500 lg:mt-0 mb-20">
+			<h3 class="w-full mt-10 mb-20 text-3xl font-extrabold tracking-tighter text-center text-gray-400 sm:text-65xl lg:text-4xl dark:text-gray-500 lg:mt-0">
 				{{ title }}
 			</h3>
 			<div class="flex flex-wrap -m-1 md:-m-2">
-				<div class="flex flex-wrap w-full lg:flex-grow md:w-1/3 lg:w-1/3  p-1 md:p-2" v-for="project in items.edges.slice(0, 9)" :key="project.node.id">
+				<div class="flex flex-wrap w-full p-1 lg:flex-grow md:w-1/3 lg:w-1/3 md:p-2" v-for="project in items.edges.slice(0, 9)" :key="project.node.id">
 					<Project :item="project.node" :large="true" />
 				</div>
 				<div class="flex flex-wrap w-1/2 md:w-1/4 lg:w-1/4 -1 md:p-2" v-for="project in this.orderedProjects(items.edges.slice(9, items.edges.length))" :key="project.node.id">
@@ -32,3 +32,4 @@ export default {
 	},
 };
 </script>
+ 

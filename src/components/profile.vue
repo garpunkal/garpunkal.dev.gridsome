@@ -1,26 +1,23 @@
 <template>
-	<section class="max-w-6xl flex items-center h-auto lg:h-144 flex-wrap mx-auto lg:mx-10 xl:mx-auto mt-24 mb-10 my-8 lg:my-18 xl:my-12">
+	<section class="flex flex-wrap items-center h-auto max-w-6xl mx-auto my-8 mt-24 mb-10 lg:h-144 lg:mx-10 xl:mx-auto lg:my-18 xl:my-12">
 		<div
 			id="profile"
-			class="w-full lg:w-3/5 rounded-lg md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none bg-white dark:bg-brand-dark dark:text-gray-300 mx-6 lg:mx-0 order-2 lg:order-1			
-			-mt-36 pt-32 md:-mt-40 md:pt-28 lg:-mt-0 lg:pt-0		
-			shadow-2xl-black	
-			">
+			class="order-2 w-full pt-32 mx-6 bg-white rounded-lg lg:w-3/5 md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none dark:bg-brand-dark dark:text-gray-300 lg:mx-0 lg:order-1 -mt-36 md:-mt-40 md:pt-28 lg:-mt-0 lg:pt-0 shadow-2xl-black ">
 			<div class="p-4 md:p-12">
-				<div class="flex flex-col w-full items-center lg:items-start">
-					<h1 class="mt-6 lg:mt-3 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter">
+				<div class="flex flex-col items-center w-full lg:items-start">
+					<h1 class="mt-6 text-3xl font-extrabold tracking-tighter lg:mt-3 sm:text-4xl md:text-5xl lg:text-6xl">
 						Gareth Wright
 					</h1>
-					<h2 class="mb-5 md:mb-8 text-2xl md:text-3xl lg:text-4xl font-extrabold sm:text-3xl tracking-tighter">
+					<h2 class="mb-5 text-2xl font-extrabold tracking-tighter md:mb-8 md:text-3xl lg:text-4xl sm:text-3xl">
 						<a class="text-black dark:text-gray-500 hover:text-black" href="https://github.com/garpunkal" target="_blank" rel="noopener" title="GitHub">
 							@garpunkal
 						</a>
 					</h2>
 
-					<div class="flex flex-col gap-1 w-full text-gray-600 dark:text-gray-300 text-sm lg:text-sm">
+					<div class="flex flex-col w-full gap-1 text-sm text-gray-600 dark:text-gray-300 lg:text-sm">
 						<Bullet title="Technical Development Lead" svgPath="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" stroke="currentColor" strokeWidth="2.5" fill="none" strokeLineCap="round" strokeLineJoin="round" cssclass="h-6 w-6 text-brand dark:text-brand p-1" />
 						<Bullet
-							title="Senior C# .net MVC Developer"
+							title="Senior C# .net MVC Developer" 
 							svgPath="M17.583.063a1.5 1.5 0 00-1.032.392 1.5 1.5 0 00-.001 0A.88.88 0 0016.5.5L8.528 9.316 3.875 5.5l-.407-.35a1 1 0 00-1.024-.154 1 1 0 00-.012.005l-1.817.75a1 1 0 00-.077.036 1 1 0 00-.047.028 1 1 0 00-.038.022 1 1 0 00-.048.034 1 1 0 00-.03.024 1 1 0 00-.044.036 1 1 0 00-.036.033 1 1 0 00-.032.035 1 1 0 00-.033.038 1 1 0 00-.035.044 1 1 0 00-.024.034 1 1 0 00-.032.05 1 1 0 00-.02.035 1 1 0 00-.024.05 1 1 0 00-.02.045 1 1 0 00-.016.044 1 1 0 00-.016.047 1 1 0 00-.015.055 1 1 0 00-.01.04 1 1 0 00-.008.054 1 1 0 00-.006.05A1 1 0 000 6.668v10.666a1 1 0 00.615.917l1.817.764a1 1 0 001.035-.164l.408-.35 4.653-3.815 7.973 8.815a1.5 1.5 0 00.072.065 1.5 1.5 0 00.057.05 1.5 1.5 0 00.058.042 1.5 1.5 0 00.063.044 1.5 1.5 0 00.065.038 1.5 1.5 0 00.065.036 1.5 1.5 0 00.068.031 1.5 1.5 0 00.07.03 1.5 1.5 0 00.073.025 1.5 1.5 0 00.066.02 1.5 1.5 0 00.08.02 1.5 1.5 0 00.068.014 1.5 1.5 0 00.075.01 1.5 1.5 0 00.075.008 1.5 1.5 0 00.073.003 1.5 1.5 0 00.077 0 1.5 1.5 0 00.078-.005 1.5 1.5 0 00.067-.007 1.5 1.5 0 00.087-.015 1.5 1.5 0 00.06-.012 1.5 1.5 0 00.08-.022 1.5 1.5 0 00.068-.02 1.5 1.5 0 00.07-.028 1.5 1.5 0 00.09-.037l4.944-2.377a1.5 1.5 0 00.476-.362 1.5 1.5 0 00.09-.112 1.5 1.5 0 00.004-.007 1.5 1.5 0 00.08-.125 1.5 1.5 0 00.062-.12 1.5 1.5 0 00.009-.017 1.5 1.5 0 00.04-.108 1.5 1.5 0 00.015-.037 1.5 1.5 0 00.03-.107 1.5 1.5 0 00.009-.037 1.5 1.5 0 00.017-.1 1.5 1.5 0 00.008-.05 1.5 1.5 0 00.006-.09 1.5 1.5 0 00.004-.08V3.942a1.5 1.5 0 000-.003 1.5 1.5 0 000-.032 1.5 1.5 0 00-.01-.15 1.5 1.5 0 00-.84-1.17L18.206.21a1.5 1.5 0 00-.622-.146zM18 6.92v10.163l-6.198-5.08zM3 8.574l3.099 3.427-3.1 3.426z"
 						/>
 						<Bullet
@@ -37,10 +34,10 @@
 				<SocialLinks />
 			</div>
 		</div>
-		<div class="w-full lg:w-2/5 order-1 lg:order-2 z-10 -mt-16 lg:mt-0 lg:shadow-2xl-black">
+		<div class="z-10 order-1 w-full -mt-16 lg:w-2/5 lg:order-2 lg:mt-0 lg:shadow-2xl-black">
 			<ProfileImage />
 		</div>
-		<div class="flex justify-center w-full pt-10 md:pt-10 lg:pt-6 order-3">
+		<div class="flex justify-center order-3 w-full pt-10 md:pt-10 lg:pt-6">
 			<DownArrow id="projects" />
 		</div>
 	</section>

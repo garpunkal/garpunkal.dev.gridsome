@@ -22,13 +22,13 @@
 				class="block object-top w-full h-full rounded-lg lg:rounded-l-lg object-fit dark:brightness-50 dark:hover:brightness-100 ring-brand dark:ring-brand-dark ring-2 md:ring-4"
 				:width="isLarge() ? 615 : 300"
 				:height="isLarge() ? 340 : 165"
-				loading="lazy"
+				loading="lazy" 
 			/>
 		</picture>
 		<figcaption class="absolute bottom-0 left-0 px-2 py-1 text-xs text-white rounded-tr-lg rounded-bl-lg md:-left-1 md:-bottom-1 md:px-4 md:py-2 bg-brand dark:bg-brand-dark dark:text-gray-400 ">
 			{{ item.title }}
 		</figcaption>
-	</figure>
+	</figure> 
 </template>
 <script>
 export default {

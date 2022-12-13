@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full mx-auto rounded-lg mb-14 text-gray-800">
+	<div class="w-full mx-auto text-gray-800 rounded-lg mb-14">
 		<div id="twitter-timeline"></div>
 	</div>
 </template>
@@ -20,7 +20,7 @@ export default {
 			t._e = [];
 			t.ready = function(f) {
 				t._e.push(f);
-			};
+			}; 
 
 			return t;
 		})(document, "script", "twitter-wjs");
