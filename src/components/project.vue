@@ -1,17 +1,16 @@
-<template>
+<template>	
 	<div class="center" v-if="item.isWinner">		
 		<a v-if="item.url" :href="item.url" :title="item.title" target="_blank" rel="noopener">
 			<ProjectImageAward :item="item" :large="large" />
 		</a>
-		<div v-if="!item.url"><ProjectImage :item="item" :large="large" /></div>	
+		<div v-if="!item.url"><ProjectImageAward :item="item" :large="large" /></div>	
 	</div>
 	<div class="center" v-else>		
 		<a v-if="item.url" :href="item.url" :title="item.title" target="_blank" rel="noopener">
 			<ProjectImage :item="item" :large="large" />
 		</a>
 		<div v-if="!item.url"><ProjectImage :item="item" :large="large" /></div>	
-	</div>
-	
+	</div>	
 </template>
 <script>
 import ProjectImage from "@/components/projectImage.vue";
