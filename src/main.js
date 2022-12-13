@@ -71,13 +71,7 @@ export default function (Vue, { router, head, isClient }) {
 		src: 'https://www.googletagmanager.com/gtag/js?id=G-3TJPB46KB1',
 		async: true
 	})
-
-	head.link.push({
-		rel: 'icon',
-		type: 'image/svg+xml',
-		href: "/favicon.svg"
-	});
-
+		
 	const gIndex = head.meta.findIndex(e => e.name === 'generator')
 	if (gIndex !== -1) head.meta.splice(gIndex, 1)
 
