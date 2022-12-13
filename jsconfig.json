@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "include": [
+        "./src/**/*"
+    ],
+    "typingOptions": {
+        "enableAutoDiscovery": true
+    },
+    "vueCompilerOptions": {
+        "target": 2.7
+    }
+}
