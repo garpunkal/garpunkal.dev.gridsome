@@ -1,5 +1,5 @@
 <template>
-	<a class="link" :href="href" target="_blank" rel="noopener">
+	<a class="link inline-flex justify-center" :href="href" target="_blank" rel="noopener">
 		<svg xmlns="http://www.w3.org/2000/svg" :class="cssclass" :stroke-width="strokeWidth" :stroke="stroke" :fill="fill" role="img" viewBox="0 0 24 24">
 				<title>{{title}}</title>
             <path :d="svgPath" :stroke-linecap="strokeLineCap" :stroke-linejoin="strokeLineJoin" :title="title" />
