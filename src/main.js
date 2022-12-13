@@ -78,17 +78,6 @@ export default function (Vue, { router, head, isClient }) {
 		href: "/favicon.svg"
 	});
 
-	head.link.push({
-		rel: 'alternate icon',
-		href: '/favicon.ico',
-	});
-
-	var emptyIcon = head.link.find(x => x.rel === 'icon' && x.href === 'data:,');
-	if (emptyIcon) {
-		const index = head.link.indexOf(emptyIcon);
-		head.link.splice(index, 1);
-	}
-
 	const gIndex = head.meta.findIndex(e => e.name === 'generator')
 	if (gIndex !== -1) head.meta.splice(gIndex, 1)
 
