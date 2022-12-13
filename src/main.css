@@ -1,7 +1,9 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
 
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
 	h1 {
 		@apply text-brand dark:text-gray-300;
@@ -14,7 +16,7 @@
 	h3 {
 		@apply text-gray-600 dark:text-gray-500;
 	}
-  
+
 	a {
 		@apply text-gray-400 dark:text-brand hover:text-brand;
 	}
@@ -33,5 +35,11 @@
 	}
 }
 
-@tailwind components;
-@tailwind utilities;
+
+@layer components { 
+	.shadow-award {
+		@apply shadow-2xl-gold dark:shadow-2xl-brand;
+	}	
+}
+
+

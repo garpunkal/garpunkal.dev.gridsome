@@ -1,10 +1,10 @@
-const  defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
-module.exports = {	
+module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
 		purgeLayersByDefault: true,
-	}, 
+	},
 	theme: {
 		screens: {
 			sm: "375px",
@@ -13,8 +13,8 @@ module.exports = {
 			xl: "1280px",
 		},
 		fontFamily: {
-			sans: [		   
-				'Poppins',				
+			sans: [
+				'Poppins',
 				...defaultTheme.fontFamily.sans
 			],
 		},
@@ -62,7 +62,6 @@ module.exports = {
 				"2xl-gold": '10px 10px 50px -20px rgba(231, 166, 26, 1)',
 				"2xl-brand": '10px 10px 50px -20px rgba(7, 125, 160, 1)',
 			}
-
 		}
 	},
 	variants: {
