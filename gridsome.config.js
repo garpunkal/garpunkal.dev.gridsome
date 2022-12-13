@@ -55,7 +55,11 @@ module.exports = {
 		favicon: {
 			src: './src/favicon.png',
 			sizes: [16, 32, 96]
+		},
+		touchicon: {
+			src: './src/my-favicon.png',
+			sizes: [76, 152, 120, 167],
+			precomposed: true
 		}
 	}
-
 };
