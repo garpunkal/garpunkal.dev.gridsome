@@ -13,7 +13,7 @@ export default function (Vue, { router, head, isClient }) {
 	head.meta.push({
 		name: "description",
 		content:
-			"Gareth Wright - Technical Development Lead - C# .net MVC Developer - Umbraco Certified Expert - Vue, Tailwind and Front End Developer - Umbraco Vendr Contributor"
+			"Gareth Wright - Technical Development Lead - C# .net MVC Developer - Umbraco Certified Expert - Vue, Tailwind and Front End Developer"
 	});
 
 	head.meta.push({
@@ -37,7 +37,7 @@ export default function (Vue, { router, head, isClient }) {
 	})
 
 	head.meta.push(
-		{ property: 'og:title', content: 'Gareth Wright - Technical Development Lead - Senior C# .net MVC Developer' },
+		{ property: 'og:title', content: 'Gareth Wright - Technical Development Lead' },
 		{ property: 'og:site_name', content: 'garpunkal.dev' },
 		{ property: 'og:type', content: 'website' },
 		{ property: 'og:url', content: 'https://garpunkal.dev' },
@@ -46,7 +46,7 @@ export default function (Vue, { router, head, isClient }) {
 
 		{ name: 'twitter:card', content: 'summary' },
 		{ name: 'twitter:site', content: 'https://garpunkal.dev' },
-		{ name: 'twitter:title', content: 'Gareth Wright - Technical Development Lead - Senior C# .net MVC Developer' },
+		{ name: 'twitter:title', content: 'Gareth Wright - Technical Development Lead' },
 		{ name: 'twitter:description', content: 'Technical Development Lead, Senior C# .net MVC Developer & Umbraco Certified Expert.' },
 		{ name: 'twitter:creator', content: '@garpunkal' },
 		{ name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/7a04387a8dd8f32161e728bc09686344.jpeg?size=400' },
