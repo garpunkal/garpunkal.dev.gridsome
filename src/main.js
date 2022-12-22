@@ -41,7 +41,7 @@ export default function (Vue, { router, head, isClient }) {
 		{ property: 'og:site_name', content: 'garpunkal.dev' },
 		{ property: 'og:type', content: 'website' },
 		{ property: 'og:url', content: 'https://garpunkal.dev' },
-		{ property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/7a04387a8dd8f32161e728bc09686344.jpeg?size=400' },
+		{ property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/1f60f14a9a99398eefe01621f2c73860.png?size=400' },
 		{ property: 'og:description', content: 'Technical Development Lead, Senior C# .net MVC Developer & Umbraco Certified Expert.' },
 
 		{ name: 'twitter:card', content: 'summary' },
@@ -49,7 +49,7 @@ export default function (Vue, { router, head, isClient }) {
 		{ name: 'twitter:title', content: 'Gareth Wright - Technical Development Lead' },
 		{ name: 'twitter:description', content: 'Technical Development Lead, Senior C# .net MVC Developer & Umbraco Certified Expert.' },
 		{ name: 'twitter:creator', content: '@garpunkal' },
-		{ name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/7a04387a8dd8f32161e728bc09686344.jpeg?size=400' },
+		{ name: 'twitter:image:src', content: 'https://en.gravatar.com/userimage/11972664/1f60f14a9a99398eefe01621f2c73860.png?size=400' },
 	);
 
 	head.link.push({
