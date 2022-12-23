@@ -7,7 +7,6 @@
 	</a>
 </template>
 <script>
-
 export default {
 	props: {
         href: {type:String, required:true },

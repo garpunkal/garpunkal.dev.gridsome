@@ -27,8 +27,7 @@ module.exports = function (api) {
       retryCondition: (error) => {
         return error.response.status === 503;
       },
-    });
-  
+    });  
 
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
@@ -131,7 +130,6 @@ module.exports = function (api) {
   }
 
   async function GetAsync(url, config) {    
-
     return await axios
       .get(url, config)
       .then(response => { return response; })

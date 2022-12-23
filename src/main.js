@@ -43,7 +43,6 @@ export default function (Vue, { router, head, isClient }) {
 		{ property: 'og:url', content: 'https://garpunkal.dev' },
 		{ property: 'og:image', content: 'https://en.gravatar.com/userimage/11972664/1f60f14a9a99398eefe01621f2c73860.png?size=400' },
 		{ property: 'og:description', content: 'Technical Development Lead, Senior C# .net MVC Developer & Umbraco Certified Expert.' },
-
 		{ name: 'twitter:card', content: 'summary' },
 		{ name: 'twitter:site', content: 'https://garpunkal.dev' },
 		{ name: 'twitter:title', content: 'Gareth Wright - Technical Development Lead' },
@@ -58,7 +57,7 @@ export default function (Vue, { router, head, isClient }) {
 		crossOrigin: 'crossOrigin'
 	})
 
-	head.link.push({
+	head.link.push({ 
 		rel: 'preconnect',
 		href: 'https://fonts.googleapis.com'
 	})
