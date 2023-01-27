@@ -1,5 +1,5 @@
 <template>
-	<section class=" bg-brand-dark dark:bg-gray-900 body-font" id="content">
+	<section class=" bg-mirage dark:bg-gray-900 body-font" id="content">
 		<div class="container px-5 py-5 mx-auto md:py-14">
 			<a class="w-full" href="https://dev.to/garpunkal" target="_blank" rel="noopener" title="dev.to">
 				<h3 class="w-full mt-10 mb-20 text-3xl font-extrabold tracking-tighter text-center text-gray-400 sm:text-65xl lg:text-4xl dark:text-gray-500">
@@ -8,7 +8,7 @@
 			</a>
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 				<div v-for="edge in items.edges.slice(0, 3)" :key="edge.node.id">
-					<div class="h-full rounded-lg shadow-lg ring-4 ring-brand dark:ring-brand">
+					<div class="h-full rounded-lg shadow-lg ring-4 ring-ocean dark:ring-ocean">
 						<Article :item="edge.node" />
 					</div>
 				</div>

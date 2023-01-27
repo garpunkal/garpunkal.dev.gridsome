@@ -33,11 +33,10 @@ module.exports = {
 			'56': "56px"
 		},
 		extend: {
-			colors: {
-				cyan: "#9cdbff",
-				brand: "#077da0",
-				"brand-dark": "#111827",
-				"brand-gold": "#e3b440",
+			colors: {			
+				ocean: "#077da0",
+				mirage: "#111827",
+				"tulip-tree": "#e3b440",
 			},
 			spacing: {
 				"96": "24rem",
@@ -59,8 +58,8 @@ module.exports = {
 			boxShadow: {
 				"xl-black": '0 10px 10px -12px rgba(0, 0, 0, 5)',
 				"2xl-black": '0 25px 50px -12px rgba(0, 0, 0, 5)',
-				"2xl-gold": '10px 10px 50px -20px rgba(231, 166, 26, 1)',
-				"2xl-brand": '10px 10px 50px -20px rgba(7, 125, 160, 1)',
+				"2xl-tulip-tree": '10px 10px 50px -20px rgba(231, 166, 26, 1)',
+				"2xl-ocean": '10px 10px 50px -20px rgba(7, 125, 160, 1)',
 			}
 		}
 	},
@@ -81,7 +80,7 @@ module.exports = {
 			safelist: [
 				"list-outside",
 				"list-disc",
-				"text-brand-gold"]
+				"text-tulip-tree"]
 		}
 	},
 	darkMode: "class"

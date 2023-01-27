@@ -1,9 +1,9 @@
 <template>
-	<footer class="text-gray-400 bg-brand-dark dark:text-gray-300 dark:bg-gray-900 ">
+	<footer class="text-gray-400 bg-mirage dark:text-gray-300 dark:bg-gray-900 ">
 		<div class="container flex flex-wrap px-10 py-8 mx-auto">
 			<UpArrow />
 			<div class="flex flex-wrap justify-center w-full">
-				<a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class="inline-flex items-center font-bold text-white dark:text-gray-500 hover:text-brand" title="garpunkal.github.io"
+				<a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class="inline-flex items-center font-bold text-white dark:text-gray-500 hover:text-ocean" title="garpunkal.github.io"
 					><svg class="h-4 pr-2 text-white fill-current dark:text-gray-500 " role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px" height="100%">
 						<title>garpunkal.dev</title>
 						<path
@@ -13,12 +13,12 @@
 					garpunkal.dev</a>
 			</div>
 			<div class="grid w-full grid-cols-1 gap-2 m-auto mt-10 text-center lg:w-2/3 md:grid-cols-6 md:text-sm">
-				<div><a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-brand" title="github">GitHub</a></div>
-				<div><a href="https://squidex.io/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-brand" title="SquidexCMS">SquidexCMS</a></div>
-				<div><a href="https://gridsome.org/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-brand" title="Gridsome">Gridsome</a></div>
-				<div><a href="https://vuejs.org/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-brand" title="Vue.js">Vue.js</a></div>
-				<div><a href="https://tailwindcss.com/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-brand" title="TailwindCSS">TailwindCSS</a></div>
-				<div><a href="https://vercel.com/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-brand" title="Vercel">Vercel</a></div>
+				<div><a href="https://github.com/garpunkal/garpunkal.dev" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-ocean" title="github">GitHub</a></div>
+				<div><a href="https://squidex.io/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-ocean" title="SquidexCMS">SquidexCMS</a></div>
+				<div><a href="https://gridsome.org/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-ocean" title="Gridsome">Gridsome</a></div>
+				<div><a href="https://vuejs.org/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-ocean" title="Vue.js">Vue.js</a></div>
+				<div><a href="https://tailwindcss.com/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-ocean" title="TailwindCSS">TailwindCSS</a></div>
+				<div><a href="https://vercel.com/" target="_blank" rel="noopener" class="text-gray-300 dark:text-gray-500 hover:text-ocean" title="Vercel">Vercel</a></div>
 			</div>
 		</div>
 	</footer>

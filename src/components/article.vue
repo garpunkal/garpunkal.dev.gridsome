@@ -16,8 +16,8 @@
 			<p class="mb-3 leading-relaxed text-gray-300 dark:text-gray-400">
 				{{ item.description }}
 			</p>
-			<div class="inline-flex items-center px-4 py-2 my-1 mr-1 text-xs font-medium text-gray-200 rounded bg-brand dark:bg-brand dark:text-gray-200" v-for="tag in item.tag_list" :key="tag">
-				<a :href="`https://dev.to/t/` + tag" target="_blank" rel="noopener" :title="tag" class="text-white dark:text-gray-300 hover:text-brand-dark dark:hover:text-white">{{ tag }}</a>
+			<div class="inline-flex items-center px-4 py-2 my-1 mr-1 text-xs font-medium text-gray-200 rounded bg-ocean dark:bg-ocean dark:text-gray-200" v-for="tag in item.tag_list" :key="tag">
+				<a :href="`https://dev.to/t/` + tag" target="_blank" rel="noopener" :title="tag" class="text-white dark:text-gray-300 hover:text-mirage dark:hover:text-white">{{ tag }}</a>
 			</div>
 		</div>
 	</div>
@@ -25,6 +25,3 @@
 <script>
 export default { props: { item: { type: Object, required: true } } };
 </script>
-
-
-

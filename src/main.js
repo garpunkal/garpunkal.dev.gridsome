@@ -63,7 +63,7 @@ export default function (Vue, { router, head, isClient }) {
 	})
 
 	head.bodyAttrs = {
-		class: "bg-brand dark:bg-black"
+		class: "bg-ocean dark:bg-black"
 	};
 
 	head.script.push({

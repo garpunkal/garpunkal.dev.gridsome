@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-row flex-wrap w-full">
-		<div class="flex justify-center w-full mb-2 rounded-lg ring-brand dark:ring-brand-dark ring-4 dark:brightness-50 dark:hover:brightness-100" :style="`background-color:` + item.logo.background + `;background-size:auto;`">		
+		<div class="flex justify-center w-full mb-2 rounded-lg ring-ocean dark:ring-mirage ring-4 dark:brightness-50 dark:hover:brightness-100" :style="`background-color:` + item.logo.background + `;background-size:auto;`">		
 			<a v-if="item.url" :href="item.url" target="_blank" rel="noopener" :title="item.title" class="flex justify-center w-full h-full">
 				<picture>
 					<source type="image/webp" :srcset="item.logo.webp" />
@@ -21,7 +21,7 @@
 					{{ item.title }}
 				</h4>			
 				<p class="mt-4 text-sm text-white font-smaller">
-					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase rounded bg-brand dark:text-gray-300 dark:bg-brand last:mr-0" v-if="item.isCurrent">CURRENT</span>
+					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase rounded bg-ocean dark:text-gray-300 dark:bg-ocean last:mr-0" v-if="item.isCurrent">CURRENT</span>
 					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-gray-500 dark:bg-gray-800 last:mr-0" v-else>{{ GetMonthYear(item.to) }}</span>
 					-
 					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-gray-500 dark:bg-gray-800 last:mr-0">{{ GetMonthYear(item.from) }}</span>

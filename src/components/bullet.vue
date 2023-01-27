@@ -19,7 +19,7 @@ export default {
 		fill: { default: "currentColor", type: String },
 		strokeLineCap: { default: "currentColor", type: String },
 		strokeLineJoin: { default: "currentColor", type: String },
-		cssclass: { default: "h-6 w-6 fill-current text-brand dark:text-brand p-1", type: String },
+		cssclass: { default: "h-6 w-6 fill-current text-ocean dark:text-ocean p-1", type: String },
 	},
 };
 </script>
