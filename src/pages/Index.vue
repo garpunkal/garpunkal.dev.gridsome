@@ -4,7 +4,7 @@
 		<Projects :items="$page.highlights" title="Projects" />
 		<Articles :items="$page.articles" />
 		<Experiences :items="$page.experiences" />
-		<Tweets />
+		<!-- <Tweets /> -->
 		<SiteFooter />
 	</Layout>
 </template>
