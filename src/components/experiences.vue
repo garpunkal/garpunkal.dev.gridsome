@@ -1,7 +1,7 @@
 <template>
 	<section class=" bg-mirage dark:bg-gray-900 body-font" id="experience">
 		<div class="container px-5 py-5 mx-auto md:py-14">
-			<h3 class="w-full mt-10 mb-20 text-3xl font-extrabold tracking-tighter text-center text-gray-400 sm:text-65xl lg:text-4xl lg:mt-0 dark:text-gray-500">
+			<h3 class="w-full mt-10 mb-20 text-3xl font-extrabold tracking-tighter text-center text-santa-grey sm:text-65xl lg:text-4xl lg:mt-0 dark:text-pale-sky">
 				Experience
 			</h3>
 			<div class="grid grid-cols-1 gap-8 md:grid-cols-3">

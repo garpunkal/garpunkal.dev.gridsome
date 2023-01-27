@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full mx-auto text-gray-800 rounded-lg mb-14" id="twitter-timeline"></div>
+	<div class="w-full mx-auto text-pale-sky rounded-lg mb-14" id="twitter-timeline"></div>
 </template>
 <script>
 export default {

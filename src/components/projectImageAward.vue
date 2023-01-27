@@ -25,7 +25,7 @@
 				loading="lazy"
 			/>
 		</picture>
-		<figcaption class="absolute bottom-0 left-0 px-2 py-1 text-xs text-black rounded-tr-lg rounded-bl-lg md:-left-1 md:-bottom-1 md:px-4 md:py-2 bg-tulip-tree dark:bg-mirage dark:text-gray-400 ">
+		<figcaption class="absolute bottom-0 left-0 px-2 py-1 text-xs text-black rounded-tr-lg rounded-bl-lg md:-left-1 md:-bottom-1 md:px-4 md:py-2 bg-tulip-tree dark:bg-mirage dark:text-santa-grey ">
 			<span class="hidden font-bold lg:inline-block">Award Winner:</span> {{ item.title }}
 		</figcaption>
 	</figure>

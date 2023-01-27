@@ -14,19 +14,19 @@
 		</div>
 		<div class="w-full h-full mt-2 ">
 			<div class="w-full ">
-				<h3 class="mb-1 text-xl font-bold text-white dark:text-gray-400">
+				<h3 class="mb-1 text-xl font-bold text-white dark:text-santa-grey">
 					{{ item.job }}
 				</h3>
-				<h4 class="mb-1 text-lg text-gray-300 dark:text-gray-400">
+				<h4 class="mb-1 text-lg text-iron dark:text-santa-grey">
 					{{ item.title }}
 				</h4>			
 				<p class="mt-4 text-sm text-white font-smaller">
-					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase rounded bg-ocean dark:text-gray-300 dark:bg-ocean last:mr-0" v-if="item.isCurrent">CURRENT</span>
-					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-gray-500 dark:bg-gray-800 last:mr-0" v-else>{{ GetMonthYear(item.to) }}</span>
+					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase rounded bg-ocean dark:text-iron dark:bg-ocean last:mr-0" v-if="item.isCurrent">CURRENT</span>
+					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-pale-sky dark:bg-gray-800 last:mr-0" v-else>{{ GetMonthYear(item.to) }}</span>
 					-
-					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-gray-500 dark:bg-gray-800 last:mr-0">{{ GetMonthYear(item.from) }}</span>
+					<span class="inline-block px-4 py-2 my-1 text-sm text-white uppercase bg-gray-800 rounded dark:text-pale-sky dark:bg-gray-800 last:mr-0">{{ GetMonthYear(item.from) }}</span>
 				</p>
-				<div class="inline-block px-1 py-1 text-xs text-gray-400 dark:text-gray-500" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>				
+				<div class="inline-block px-1 py-1 text-xs text-santa-grey dark:text-pale-sky" v-if="GetMonths(item.from, item.to) != '0 months'">{{ GetMonths(item.from, item.to) }}</div>				
 			</div>
 		</div>
 	</div>

@@ -9,15 +9,15 @@
 		</div>
 		<div class="p-6">
 			<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title">
-				<h2 class="mb-3 text-lg font-bold text-white dark:text-gray-400 min-h-56">
+				<h2 class="mb-3 text-lg font-bold text-white dark:text-santa-grey min-h-56">
 					{{ item.title }}
 				</h2>
 			</a>
-			<p class="mb-3 leading-relaxed text-gray-300 dark:text-gray-400">
+			<p class="mb-3 leading-relaxed text-iron dark:text-santa-grey">
 				{{ item.description }}
 			</p>
-			<div class="inline-flex items-center px-4 py-2 my-1 mr-1 text-xs font-medium text-gray-200 rounded bg-ocean dark:bg-ocean dark:text-gray-200" v-for="tag in item.tag_list" :key="tag">
-				<a :href="`https://dev.to/t/` + tag" target="_blank" rel="noopener" :title="tag" class="text-white dark:text-gray-300 hover:text-mirage dark:hover:text-white">{{ tag }}</a>
+			<div class="inline-flex items-center px-4 py-2 my-1 mr-1 text-xs font-medium text-mercury rounded bg-ocean dark:bg-ocean dark:text-mercury" v-for="tag in item.tag_list" :key="tag">
+				<a :href="`https://dev.to/t/` + tag" target="_blank" rel="noopener" :title="tag" class="text-white dark:text-iron hover:text-mirage dark:hover:text-white">{{ tag }}</a>
 			</div>
 		</div>
 	</div>

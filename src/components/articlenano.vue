@@ -6,7 +6,7 @@
 			</figure>
 		</a>
 		<a v-if="item.canonical_url" :href="item.canonical_url" target="_blank" rel="noopener" :title="item.title" class="flex items-center w-full col-span-8 pr-4">
-			<h2 class="text-sm font-medium text-white dark:text-gray-200">
+			<h2 class="text-sm font-medium text-white dark:text-mercury">
 				{{ item.title }}
 			</h2> 
 		</a>

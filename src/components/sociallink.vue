@@ -17,7 +17,7 @@ export default {
 		fill: { default: "currentColor", type: String},
 		strokeLineCap: { default: "currentColor", type: String },
 		strokeLineJoin: { default: "currentColor", type: String },
-		cssclass: { default: "h-6 w-6 md:h-7 md:w-7 fill-current text-gray-600 hover:text-ocean dark:text-ocean dark:hover:text-white hover:animate-pulse", type: String },
+		cssclass: { default: "h-6 w-6 md:h-7 md:w-7 fill-current text-davy-grey hover:text-ocean dark:text-ocean dark:hover:text-white hover:animate-pulse", type: String },
 	},
 };
 </script>

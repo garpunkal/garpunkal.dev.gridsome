@@ -2,19 +2,19 @@
 	<section class="flex flex-wrap items-center h-auto max-w-6xl mx-auto my-8 mt-24 mb-10 lg:h-144 lg:mx-10 xl:mx-auto lg:my-18 xl:my-12">
 		<div
 			id="profile"
-			class="order-2 w-full pt-32 mx-6 bg-white rounded-lg lg:w-3/5 md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none dark:bg-mirage dark:text-gray-300 lg:mx-0 lg:order-1 -mt-36 md:-mt-40 md:pt-28 lg:-mt-0 lg:pt-0 shadow-2xl-black ">
+			class="order-2 w-full pt-32 mx-6 bg-white rounded-lg lg:w-3/5 md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none dark:bg-mirage dark:text-iron lg:mx-0 lg:order-1 -mt-36 md:-mt-40 md:pt-28 lg:-mt-0 lg:pt-0 shadow-2xl-black ">
 			<div class="p-4 md:p-12">
 				<div class="flex flex-col items-center w-full lg:items-start">
 					<h1 class="mt-6 text-3xl font-extrabold tracking-tighter lg:mt-3 sm:text-4xl md:text-5xl lg:text-6xl">
 						Gareth Wright
 					</h1>
 					<h2 class="mb-5 text-2xl font-extrabold tracking-tighter md:mb-8 md:text-3xl lg:text-4xl sm:text-3xl">
-						<a class="text-black dark:text-gray-500 hover:text-black" href="https://github.com/garpunkal" target="_blank" rel="noopener" title="GitHub">
+						<a class="text-black dark:text-pale-sky hover:text-black" href="https://github.com/garpunkal" target="_blank" rel="noopener" title="GitHub">
 							@garpunkal
 						</a>
 					</h2>
 
-					<div class="flex flex-col w-full gap-1 text-sm text-gray-600 dark:text-gray-300 lg:text-sm">
+					<div class="flex flex-col w-full gap-1 text-sm text-davy-grey dark:text-iron lg:text-sm">
 						<Bullet title="Technical Development Lead" svgPath="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" stroke="currentColor" strokeWidth="2.5" fill="none" strokeLineCap="round" strokeLineJoin="round" cssclass="h-6 w-6 text-ocean dark:text-ocean p-1" />
 						<Bullet
 							title="Senior C# .net MVC Developer"

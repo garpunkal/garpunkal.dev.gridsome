@@ -3,19 +3,19 @@
 @tailwind base;
 @layer base {
 	h1 {
-		@apply text-ocean dark:text-gray-300;
+		@apply text-ocean dark:text-iron;
 	}
 
 	h2 {
-		@apply text-mirage dark:text-gray-500;
+		@apply text-mirage dark:text-pale-sky;
 	}
 
 	h3 {
-		@apply text-gray-600 dark:text-gray-500;
+		@apply text-davy-grey dark:text-pale-sky;
 	}
 
 	a {
-		@apply text-gray-400 dark:text-ocean hover:text-ocean;
+		@apply text-santa-grey dark:text-ocean hover:text-ocean;
 	}
 }
 
