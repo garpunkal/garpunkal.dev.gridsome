@@ -1,5 +1,5 @@
 <template>
-	<footer class="text-santa-grey bg-ocean dark:text-iron dark:bg-gray-900 ">
+	<footer class="text-santa-grey bg-ocean dark:text-iron dark:bg-black">
 		<div class="container flex flex-wrap px-10 py-8 mx-auto">
 			<UpArrow />
 			<div class="flex flex-wrap justify-center w-full">
