@@ -41,7 +41,7 @@ module.exports = {
 				"santa-grey": "#9CA3AF",
 				"mercury": "#E5E7EB",
 				"pale-sky": "#6B7280",
-				"davy-grey": "#4B5563"
+				"davy-grey": "#4B5563"			
 			},
 			spacing: {
 				"96": "24rem",
