@@ -23,7 +23,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="z-10 order-1 w-full -mt-16 lg:w-2/5 lg:order-2 lg:mt-0 lg:shadow-2xl-black">
+			<div class="z-10 order-1 w-full -mt-16 lg:w-2/5 lg:order-2 lg:mt-2">
 				<ProfileImage :image="item.node.image" />
 			</div>
 			<div class="flex justify-center order-3 w-full pt-10 md:pt-10 lg:pt-6">

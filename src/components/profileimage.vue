@@ -1,5 +1,5 @@
 <template>
-	<a id="switchTheme" aria-label="dark mode" title="dark mode" class="cursor-pointer">
+	<button id="switchTheme" aria-label="dark mode" title="dark mode" class="w-full">
 		<div class="w-48 h-48 mx-auto bg-center bg-cover rounded-full lg:w-auto lg:h-auto">
 			<picture>
 				<source type="image/webp" :srcset="image.webp + `?width=690&height=690`" />
@@ -9,13 +9,13 @@
 					:src="image.webp + `?width=690&height=690`"
 					:alt="image.alt"
 					:title="image.alt"
-					class="object-cover w-full h-full rounded-full lg:rounded-lg lg:block dark:brightness-50 dark:hover:brightness-100 ring-mirage dark:ring-ocean ring-4 filter-grayscale"					
+					class="object-cover w-full h-full rounded-full lg:rounded-lg lg:block dark:brightness-50 dark:hover:brightness-100 ring-mirage dark:ring-ocean ring-4 filter-grayscale lg:shadow-2xl-black"					
 					width="690"
 					height="690"					
 				/>
 			</picture>		
 		</div>
-	</a>
+	</button>
 </template>
 <script>
 export default {
