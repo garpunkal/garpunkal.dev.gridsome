@@ -15,7 +15,8 @@
 					>
 				</div>
 				<div class="grid w-full grid-cols-1 gap-2 m-auto mt-10 text-center lg:w-2/3 md:grid-cols-6 md:text-sm">
-					<a :if="item.node.footerLinks" v-for="footerLink in item.node.footerLinks" :key="footerLink.title" :href="footerLink.url" :title="footerLink.title" target="_blank" rel="noopener" class="text-iron dark:text-pale-sky">{{ footerLink.title }}</a>
+					<a :if="item.node.footerLinks" v-for="footerLink in item.node.footerLinks" :key="footerLink.title" :href="footerLink.url" 
+					:title="footerLink.title" target="_blank" rel="noopener" class="text-white dark:text-pale-sky">{{ footerLink.title }}</a>
 				</div>
 			</div>
 		</div>
