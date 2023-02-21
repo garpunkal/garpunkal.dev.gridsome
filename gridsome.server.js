@@ -1,5 +1,4 @@
 const axios = require('axios');
-const axiosRetry = require('axios-retry');
 
 module.exports = function (api) {
 
@@ -18,21 +17,11 @@ module.exports = function (api) {
       }
     };
 
-    axiosRetry(axios, {
-      retries: 3,
-      retryDelay: (retryCount) => {
-        console.log(`retry attempt: ${retryCount}`);
-        return retryCount * 2000; 
-      },
-      retryCondition: (error) => {
-        return error.response.status === 503;
-      },
-    });  
-
     // gather data from api
     const { data: companyData } = await GetAsync(baseApiUrl + 'company', config);
     const { data: projectData } = await GetAsync(baseApiUrl + 'project', config);
     const { data: experienceData } = await GetAsync(baseApiUrl + 'experience', config);
+    const { data: homeData } = await GetAsync(baseApiUrl + 'home', config);
 
     // experiences    
     const expCollection = actions.addCollection({ typeName: 'Experiences' })
@@ -54,7 +43,22 @@ module.exports = function (api) {
         highCollection.addNode(MapProject(item));
       }
     }
+
+    // home
+    const homeCollection = actions.addCollection({ typeName: 'Homes' })
+    for (const item of homeData.items) {
+      homeCollection.addNode(MapHome(item));
+    }
+
+ 
   })
+
+  async function GetAsync(url, config) {
+    return await axios
+      .get(url, config)
+      .then(response => { return response; })
+      .catch(err => { console.log(err); });
+  }
 
   function BuildList(selection, source) {
     var items = [];
@@ -82,7 +86,7 @@ module.exports = function (api) {
       },
       "sortOrder": item.data.SortOrder ?? 0,
       "isHighlight": GetBool(item.data.IsHighlight),
-      "isWinner":GetBool(item.data.IsWinner)     
+      "isWinner": GetBool(item.data.IsWinner)
     }
   }
 
@@ -117,6 +121,41 @@ module.exports = function (api) {
     }
   }
 
+  function MapHome(item) {
+    return {
+      "id": item.id,
+      "title": item.data.title,
+      "subTitle": item.data.subTitle,
+      "githubUrl": item.data.githubUrl,
+      "image": {
+        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.profileImage[0] + "?cache=31536000&format=WEBP",
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.profileImage[0] + "?cache=31536000",
+        "alt": item.data.title
+      },
+      githubSource: MapLink(item.data.githubSource),
+      specialisms: item.data.specialisms.map(p => MapLink(p)),
+      socials: item.data.socials.map(p => MapLink(p)),
+      footerLinks: item.data.footerLinks.map(p => MapLink(p)),
+      projectsLabel: item.data.projectsLabel,
+      articlesLabel: item.data.articlesLabel,
+      experiencesLabel: item.data.experiencesLabel,
+    };
+  }
+
+  function MapLink(item) {
+    return {
+      "title": item.title ?? "",
+      "url": item.url ?? "",
+      "cssClasses": item.cssClasses?? "",
+      "svgPath": item.svgPath?? "",
+      "svgStroke": item.svgStroke?? "",
+      "svgStrokeWidth": item.svgStrokeWidth?? "",
+      "svgFill": item.svgFill?? "",
+      "svgStrokeLineCap": item.svgStrokeLineCap?? "",
+      "svgStrokeLineJoin": item.svgStrokeLineJoin?? ""
+    }
+  }
+
   function GetDate(date) {
     if (date === null || date === undefined) {
       return null;
@@ -127,12 +166,5 @@ module.exports = function (api) {
 
   function GetBool(value) {
     return (value === null || value === undefined) ? false : value;
-  }
-
-  async function GetAsync(url, config) {    
-    return await axios
-      .get(url, config)
-      .then(response => { return response; })
-      .catch(err => { console.log(err); });
   }
 }

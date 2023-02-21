@@ -1,11 +1,10 @@
 <template>
 	<Layout>
-		<Profile />
-		<Projects :items="$page.highlights" title="Projects" />
-		<Articles :items="$page.articles" />
-		<Experiences :items="$page.experiences" />
-		<!-- <Tweets /> -->
-		<SiteFooter />
+		<Profile :items="$page.homes" />
+		<Projects :items="$page.highlights" :home="$page.homes" />
+		<Articles :items="$page.articles" :home="$page.homes"  />
+		<Experiences :items="$page.experiences" :home="$page.homes"  />
+		<SiteFooter :items="$page.homes" />
 	</Layout>
 </template>
 
@@ -15,7 +14,6 @@ import SiteFooter from "@/components/sitefooter.vue";
 import Projects from "@/components/projects.vue";
 import Profile from "@/components/profile.vue";
 import Articles from "@/components/articles.vue";
-import Tweets from "@/components/tweets.vue";
 
 export default {
 	metaInfo: {
@@ -26,8 +24,7 @@ export default {
 		SiteFooter,
 		Projects,
 		Profile,
-		Articles,
-		Tweets,
+		Articles	
 	},
 	mounted: function() {
 		document.querySelectorAll('a[href^="#projects"]').forEach((anchor) => {
@@ -49,6 +46,62 @@ export default {
 </script>
 <page-query>
 query {
+   homes: allHomes(limit: 1) {        
+    edges { 
+      node {
+        id
+        title
+        subTitle
+        githubUrl       
+        image {
+          webp
+          url
+          alt
+        }
+        githubSource {
+          title
+          url
+          svgPath
+        }
+        socials { 
+          title         
+          url
+          cssClasses
+          svgPath
+          svgStroke
+          svgStrokeWidth
+          svgFill
+          svgStrokeLineCap
+          svgStrokeLineJoin
+        }
+        specialisms {           
+          title         
+          url
+          cssClasses
+          svgPath
+          svgStroke
+          svgStrokeWidth
+          svgFill
+          svgStrokeLineCap
+          svgStrokeLineJoin
+        }
+        footerLinks { 
+          title         
+          url
+          cssClasses
+          svgPath
+          svgStroke
+          svgStrokeWidth
+          svgFill
+          svgStrokeLineCap
+          svgStrokeLineJoin
+        }
+        projectsLabel
+        articlesLabel
+        experiencesLabel
+        }
+      } 
+    }
     articles: allDevToArticles(page:0, perPage: 11, sortBy: "published_at", order: DESC) {
       edges {
         node {
@@ -60,8 +113,7 @@ query {
           canonical_url
           cover_image
           positive_reactions_count
-          comments_count    
-     
+          comments_count         
         }
       }
     }  
@@ -120,6 +172,7 @@ query {
         isWinner       
       }
     }
-  } 
+  }  
 }
+
 </page-query>
