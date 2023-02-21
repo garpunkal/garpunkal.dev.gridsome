@@ -1,5 +1,5 @@
 <template>
-	<footer>
+	<footer :if="items.edges">
 		<div v-for="item in items.edges" :key="item.node.id" class="text-santa-grey bg-ocean dark:text-iron dark:bg-black">
 			<div class="container flex flex-wrap px-10 py-8 mx-auto">
 				<UpArrow />

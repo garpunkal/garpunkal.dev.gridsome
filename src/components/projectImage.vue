@@ -1,5 +1,5 @@
 <template>
-	<figure class="relative">
+	<figure class="relative" :if="item.image">
 		<picture v-if="item.position === 'left top'">
 			<source type="image/webp" :srcset="isLarge() ? `${item.image.webp}&width=615&height=340` : `${item.image.webp}&width=300&height=165`" />
 			<img				
@@ -25,7 +25,7 @@
 				loading="lazy" 
 			/>
 		</picture>
-		<figcaption class="absolute px-2 py-1 text-xs text-white rounded-tr-lg rounded-br-lg rounded-bl-lg -left-1 -bottom-1 md:px-4 md:py-2 bg-ocean dark:bg-mirage dark:text-santa-grey ">
+		<figcaption class="absolute px-2 py-1 text-xs text-white rounded-tr-lg rounded-br-lg rounded-bl-lg -left-1 -bottom-1 md:px-4 md:py-2 bg-ocean dark:bg-mirage dark:text-santa-grey " :if="item.image">
 			{{ item.title }}
 		</figcaption>
 	</figure> 

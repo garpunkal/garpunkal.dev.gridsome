@@ -48,9 +48,7 @@ module.exports = function (api) {
     const homeCollection = actions.addCollection({ typeName: 'Homes' })
     for (const item of homeData.items) {
       homeCollection.addNode(MapHome(item));
-    }
-
- 
+    } 
   })
 
   async function GetAsync(url, config) {
