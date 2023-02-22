@@ -4,13 +4,13 @@
 		<Projects :items="$page.highlights" :home="$page.homes" />
 		<Articles :items="$page.articles" :home="$page.homes"  />
 		<Experiences :items="$page.experiences" :home="$page.homes"  />
-		<SiteFooter :items="$page.homes" />
+		<Footer :items="$page.homes" />
 	</Layout>
 </template>
 
 <script>
 import Experiences from "@/components/experiences.vue";
-import SiteFooter from "@/components/sitefooter.vue";
+import Footer from "@/components/footer.vue";
 import Projects from "@/components/projects.vue";
 import Profile from "@/components/profile.vue";
 import Articles from "@/components/articles.vue";
@@ -21,7 +21,7 @@ export default {
 	},
 	components: {
 		Experiences,
-		SiteFooter,
+		Footer,
 		Projects,
 		Profile,
 		Articles	

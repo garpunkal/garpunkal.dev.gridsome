@@ -33,15 +33,15 @@ module.exports = {
 			'56': "56px"
 		},
 		extend: {
-			colors: {			
+			colors: {
 				ocean: "#077da0",
 				mirage: "#111827",
 				"tulip-tree": "#e3b440",
-				"iron":"#d1d5db",
+				"iron": "#d1d5db",
 				"santa-grey": "#9CA3AF",
 				"mercury": "#E5E7EB",
 				"pale-sky": "#6B7280",
-				"davy-grey": "#4B5563"			
+				"davy-grey": "#4B5563"
 			},
 			spacing: {
 				"96": "24rem",
@@ -71,7 +71,7 @@ module.exports = {
 	variants: {
 		animation: ['responsive', 'hover'],
 		visibility: ['hover', 'focus'],
-		boxShadow: ['responsive','dark'],
+		boxShadow: ['responsive', 'dark'],
 		zIndex: ['hover']
 	},
 	purge: {
@@ -85,7 +85,8 @@ module.exports = {
 			safelist: [
 				"list-outside",
 				"list-disc",
-				"text-tulip-tree"]
+				"text-tulip-tree"
+			]
 		}
 	},
 	darkMode: "class"
