@@ -25,7 +25,7 @@
 <script>
 import UpArrow from "@/components/uparrow.vue";
 export default {
-	name: "SiteFooter",
+	name: "Footer",
 	props: {
 		items: { type: Object, required: true },
 	},
