@@ -2,11 +2,11 @@
 	<button id="switchTheme" aria-label="dark mode" title="dark mode" class="w-full">
 		<div class="w-48 h-48 mx-auto bg-center bg-cover rounded-full lg:w-auto lg:h-auto">
 			<picture>
-				<source type="image/webp" :srcset="image.webp + `?width=690&height=690`" />
-				<source :srcset="image.webp + `?width=690&height=690`" media="(min-width: 690px)" />
-				<source :srcset="image.webp + `?width=192&height=192`" media="(min-width: 192px)" />
+				<source type="image/webp" :srcset="image.webp + `&width=690&height=690`" />
+				<source :srcset="image.url + `&width=690&height=690`" media="(min-width: 690px)" />
+				<source :srcset="image.url + `&width=192&height=192`" media="(min-width: 192px)" />
 				<img
-					:src="image.webp + `?width=690&height=690`"
+					:src="image.url + `&width=690&height=690`"
 					:alt="image.alt"
 					:title="image.alt"
 					class="object-cover w-full h-full rounded-full lg:rounded-lg lg:block dark:brightness-50 dark:hover:brightness-100 ring-mirage dark:ring-ocean ring-4 filter-grayscale lg:shadow-2xl-black"					

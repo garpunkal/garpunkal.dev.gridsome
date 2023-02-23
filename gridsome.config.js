@@ -1,7 +1,6 @@
 const tailwindcss = require("tailwindcss");
 const autoprefixer = require("autoprefixer");
 const tailwindcssnesting = require("tailwindcss/nesting");
-
 const postcssPlugins = [tailwindcssnesting(), tailwindcss(), autoprefixer()];
 
 module.exports = {
