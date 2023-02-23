@@ -1,6 +1,6 @@
 <template>
 	<Layout>
-		<Profile :items="$page.homes" />
+		<Header :items="$page.homes" />
 		<Projects :items="$page.highlights" :home="$page.homes" />
 		<Articles :items="$page.articles" :home="$page.homes"  />
 		<Experiences :items="$page.experiences" :home="$page.homes"  />
@@ -9,22 +9,22 @@
 </template>
 
 <script>
+import Header from "@/components/header.vue";
+import Projects from "@/components/projects.vue";
+import Articles from "@/components/articles.vue";
 import Experiences from "@/components/experiences.vue";
 import Footer from "@/components/footer.vue";
-import Projects from "@/components/projects.vue";
-import Profile from "@/components/profile.vue";
-import Articles from "@/components/articles.vue";
 
 export default {
 	metaInfo: {
 		title: "Gareth Wright - Technical Development Lead",
 	},
 	components: {
+    Header,
+    Projects,
+    Articles,
 		Experiences,
-		Footer,
-		Projects,
-		Profile,
-		Articles	
+		Footer
 	},
 	mounted: function() {
 		document.querySelectorAll('a[href^="#projects"]').forEach((anchor) => {
@@ -174,5 +174,4 @@ query {
     }
   }  
 }
-
 </page-query>
