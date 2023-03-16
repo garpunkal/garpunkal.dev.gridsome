@@ -1,5 +1,5 @@
 <template>
-	<figure class="relative" :if="item.image">
+	<figure class="relative" :if="item.image.length">
 		<picture v-if="item.position === 'left top'">
 			<source type="image/webp" :srcset="isLarge() ? `${item.image.webp}&width=615&height=340` : `${item.image.webp}&width=300&height=165`" />
 			<img

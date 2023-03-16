@@ -13,7 +13,7 @@
 							</a>
 						</h2>
 
-						<div class="flex flex-col w-full gap-1 text-sm text-davy-grey dark:text-iron lg:text-sm" :if="item.node.specialisms" v-for="specialism in item.node.specialisms" :key="specialism.title">
+						<div class="flex flex-col w-full gap-1 text-sm text-davy-grey dark:text-iron lg:text-sm" :if="item.node.specialisms.length" v-for="specialism in item.node.specialisms" :key="specialism.title">
 							<Bullet :title="specialism.title" :cssclass="specialism.cssClasses" :svgPath="specialism.svgPath" :stroke="specialism.svgStroke" :strokeWidth="specialism.svgStrokeWidth" :fill="specialism.svgFill" :strokeLineCap="specialism.svgStrokeLineCap" :strokeLineJoin="specialism.svgStrokeLineJoin" />
 						</div>
 					</div>
