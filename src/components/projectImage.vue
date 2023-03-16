@@ -25,7 +25,7 @@
 				loading="lazy"
 			/>
 		</picture>
-		<figcaption class="absolute px-2 py-1 text-xs text-white rounded-tr-lg rounded-br-lg rounded-bl-lg -left-1 -bottom-1 md:px-4 md:py-2 bg-ocean dark:bg-mirage dark:text-santa-grey " :if="item.image">
+		<figcaption class="absolute px-2 py-1 text-xs text-white rounded-tr-lg rounded-br-lg rounded-bl-lg -left-1 -bottom-1 md:px-4 md:py-2 bg-ocean dark:bg-mirage dark:text-santa-grey " :if="item.image.length">
 			{{ item.title }}
 		</figcaption>
 	</figure>
