@@ -1,5 +1,5 @@
 <template>
-	<section :if="items.edges">
+	<section :if="items.edges.length">
 		<div v-for="item in items.edges" :key="item.node.id" class="flex flex-wrap items-center h-auto max-w-6xl mx-auto my-8 mt-24 mb-10 lg:h-144 lg:mx-10 xl:mx-auto lg:my-18 xl:my-12">
 			<div id="profile" class="order-2 w-full pt-32 mx-6 bg-white rounded-lg lg:w-3/5 md:rounded-r-lg lg:rounded-l-lg xl:rounded-r-none dark:bg-mirage dark:text-iron lg:mx-0 lg:order-1 -mt-36 md:-mt-40 md:pt-28 lg:-mt-0 lg:pt-0 shadow-2xl-black ">
 				<div class="p-4 md:p-12">
