@@ -20,7 +20,7 @@ export default function (Vue, { router, head, isClient }) {
 		name: "author",
 		content: "Gareth Wright"
 	});
-
+	
 	head.meta.push({
 		name: "theme-color",
 		content: "#077DA0"
@@ -30,6 +30,11 @@ export default function (Vue, { router, head, isClient }) {
 		name: "copyright",
 		content: "Gareth Wright"
 	});
+
+	head.link.push({
+		rel: 'publisher',
+		href: 'https://garpunkal.dev'
+	})
 
 	head.link.push({
 		rel: 'canonical',
