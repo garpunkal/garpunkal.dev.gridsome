@@ -3,7 +3,7 @@
 		<div v-for="item in items.edges" :key="item.node.id" class="text-santa-grey bg-ocean dark:text-iron dark:bg-black">
 			<div class="container flex flex-wrap px-10 py-8 mx-auto">
 				<UpArrow />
-				<div class="flex flex-wrap justify-center w-full" :if="item.node.githubSource">
+				<div class="flex flex-wrap justify-center w-full" :if="item.node.githubSource.length">
 					<a :href="item.node.githubSource.url" :title="item.node.githubSource.title" target="_blank" rel="noopener" class="inline-flex items-center font-bold text-white dark:text-pale-sky "
 						><svg class="h-4 pr-2 text-white fill-current dark:text-pale-sky " role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px" height="100%">
 							<title>{{item.node.githubSource.title}}</title>
