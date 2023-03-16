@@ -1,5 +1,5 @@
 <template>
-	<footer :if="items.edges">
+	<footer :if="items.edges.length">
 		<div v-for="item in items.edges" :key="item.node.id" class="text-santa-grey bg-ocean dark:text-iron dark:bg-black">
 			<div class="container flex flex-wrap px-10 py-8 mx-auto">
 				<UpArrow />
@@ -15,7 +15,7 @@
 					>
 				</div>
 				<div class="grid w-full grid-cols-1 gap-2 m-auto mt-10 text-center lg:w-2/3 md:grid-cols-6 md:text-sm">
-					<a :if="item.node.footerLinks" v-for="footerLink in item.node.footerLinks" :key="footerLink.title" :href="footerLink.url" 
+					<a :if="item.node.footerLinks.length" v-for="footerLink in item.node.footerLinks" :key="footerLink.title" :href="footerLink.url" 
 					:title="footerLink.title" target="_blank" rel="noopener" class="text-white dark:text-pale-sky">{{ footerLink.title }}</a>
 				</div>
 			</div>
