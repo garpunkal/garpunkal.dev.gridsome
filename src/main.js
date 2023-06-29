@@ -67,6 +67,11 @@ export default function (Vue, { router, head, isClient }) {
 		href: 'https://fonts.googleapis.com'
 	})
 
+	head.link.push({
+	rel:'me' ,
+	href:'https://mastodon.social/@garpunkal'
+	})
+
 	head.bodyAttrs = {
 		class: "bg-ocean dark:bg-black"
 	};
