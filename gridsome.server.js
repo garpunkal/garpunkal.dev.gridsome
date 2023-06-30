@@ -150,7 +150,8 @@ module.exports = function (api) {
       "svgStrokeWidth": item.svgStrokeWidth?? "",
       "svgFill": item.svgFill?? "",
       "svgStrokeLineCap": item.svgStrokeLineCap?? "",
-      "svgStrokeLineJoin": item.svgStrokeLineJoin?? ""
+      "svgStrokeLineJoin": item.svgStrokeLineJoin?? "",
+      "rel": item.rel ?? ""
     }
   }
 
