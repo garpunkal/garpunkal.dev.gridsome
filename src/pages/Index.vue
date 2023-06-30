@@ -73,6 +73,7 @@ query {
           svgFill
           svgStrokeLineCap
           svgStrokeLineJoin
+          rel
         }
         specialisms {           
           title         
@@ -84,6 +85,7 @@ query {
           svgFill
           svgStrokeLineCap
           svgStrokeLineJoin
+          rel
         }
         footerLinks { 
           title         
@@ -95,6 +97,7 @@ query {
           svgFill
           svgStrokeLineCap
           svgStrokeLineJoin
+          rel
         }
         projectsLabel
         articlesLabel
