@@ -1,6 +1,7 @@
 <template>
 	<footer :if="items.edges.length">
-		<div v-for="item in items.edges" :key="item.node.id" class="text-santa-grey bg-ocean dark:text-iron dark:bg-black">
+		<div v-for="item in items.edges" :key="item.node.id" class="text-santa-grey bg-ocean dark:text-iron dark:bg-black"
+		v-if="item.displayComponent" >
 			<div class="container flex flex-wrap px-10 py-8 mx-auto">
 				<UpArrow />
 				<div class="flex flex-wrap justify-center w-full" :if="item.node.githubSource.length">

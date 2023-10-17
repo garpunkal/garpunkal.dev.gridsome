@@ -14,12 +14,17 @@
 						</h2>
 
 						<div class="flex flex-col w-full gap-1 text-sm text-davy-grey dark:text-iron lg:text-sm" :if="item.node.specialisms.length" v-for="specialism in item.node.specialisms" :key="specialism.title">
-							<Bullet :title="specialism.title" :cssclass="specialism.cssClasses" :svgPath="specialism.svgPath" :stroke="specialism.svgStroke" :strokeWidth="specialism.svgStrokeWidth" :fill="specialism.svgFill" :strokeLineCap="specialism.svgStrokeLineCap" :strokeLineJoin="specialism.svgStrokeLineJoin" />
+							<Bullet :title="specialism.title" :cssclass="specialism.cssClasses" :svgPath="specialism.svgPath" :stroke="specialism.svgStroke" 
+							:strokeWidth="specialism.svgStrokeWidth" :fill="specialism.svgFill" :strokeLineCap="specialism.svgStrokeLineCap" 
+							:strokeLineJoin="specialism.svgStrokeLineJoin"
+							v-if="specialism.displayComponent"  />
 						</div>
 					</div>
 
 					<div class="grid w-full grid-cols-5 gap-6 m-auto mt-12 mb-3 text-center md:grid-cols-5 lg:auto-cols-min">
-						<SocialLink :href="social.url" :title="social.title" :svgPath="social.svgPath" :rel="social.rel" :if="item.node.socials.length" v-for="social in item.node.socials" :key="social.title" />
+						<SocialLink :href="social.url" :title="social.title" :svgPath="social.svgPath" :rel="social.rel" :if="item.node.socials.length"
+							 v-for="social in item.node.socials" :key="social.title"
+							 v-if="social.displayComponent" />
 					</div>
 				</div>
 			</div>
