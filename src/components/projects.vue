@@ -6,7 +6,7 @@
 			</h3>
 			<div class="flex flex-wrap -m-1 md:-m-2">
 				<div class="flex flex-wrap w-full lg:flex-grow md:w-1/3 lg:w-1/3 p-2" v-for="project in items.edges.slice(0, 9)" :key="project.node.id">
-					<Project :item="project.node" :large="true" />
+					<Project :item="project.node" :large="true"  />
 				</div>
 				<div class="flex flex-wrap w-1/2 md:w-1/4 lg:w-1/4 p-2" v-for="project in this.orderedProjects(items.edges.slice(9, items.edges.length))" :key="project.node.id">
 					<Project :item="project.node" :large="false" />

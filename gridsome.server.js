@@ -95,8 +95,8 @@ module.exports = function (api) {
       "job": item.data.job,
       "location": item.data.location,
       "logo": {
-        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0] + "?cache=31536000&format=WEBP",
-        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo[0] + "?cache=31536000",
+        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo + "?cache=31536000&format=WEBP",
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + company.data.logo + "?cache=31536000",
         "background": company.data.logoBackgroundColour,
         "alt": company.data.title
       },
@@ -152,7 +152,7 @@ module.exports = function (api) {
       "svgStrokeLineCap": item.svgStrokeLineCap?? "",
       "svgStrokeLineJoin": item.svgStrokeLineJoin?? "",
       "rel": item.rel ?? "",
-      "displayComponent": item.displayComponent ?? true
+      "displayComponent": item.displayComponent
     }
   }
 

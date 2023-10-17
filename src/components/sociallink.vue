@@ -1,5 +1,5 @@
 <template>
-	<a class="inline-flex justify-center link" :href="href" target="_blank" :rel="`noopener ` + (rel || '')">
+	<a class="inline-flex justify-center link w-14 h-14 md:w-10 md:h-10" :href="href" target="_blank" :rel="`noopener ` + (rel || '')">
 		<svg xmlns="http://www.w3.org/2000/svg" :class="cssclass || 'h-6 w-6 md:h-7 md:w-7 fill-current text-davy-grey hover:text-ocean dark:text-ocean dark:hover:text-white hover:animate-pulse'" :stroke-width="strokeWidth" :stroke="stroke" :fill="fill || 'currentColor'" role="img" viewBox="0 0 24 24">
 			<title>{{ title }}</title>
 			<path :d="svgPath" :stroke-linecap="strokeLineCap || 'currentColor'" :stroke-linejoin="strokeLineJoin || 'currentColor'" :title="title" />
