@@ -74,6 +74,7 @@ query {
           svgStrokeLineCap
           svgStrokeLineJoin
           rel
+          displayComponent
         }
         specialisms {           
           title         
@@ -86,6 +87,7 @@ query {
           svgStrokeLineCap
           svgStrokeLineJoin
           rel
+          displayComponent
         }
         footerLinks { 
           title         
@@ -98,6 +100,7 @@ query {
           svgStrokeLineCap
           svgStrokeLineJoin
           rel
+          displayComponent
         }
         projectsLabel
         articlesLabel

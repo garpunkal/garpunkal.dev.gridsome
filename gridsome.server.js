@@ -78,8 +78,8 @@ module.exports = function (api) {
       "position": item.data.position,
       "url": item.data.url,
       "image": {
-        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image[0] + "?cache=31536000&format=WEBP",
-        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image[0] + "?cache=31536000",
+        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image + "?cache=31536000&format=WEBP",
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.image + "?cache=31536000",
         "alt": item.data.title
       },
       "sortOrder": item.data.SortOrder ?? 0,
@@ -126,8 +126,8 @@ module.exports = function (api) {
       "subTitle": item.data.subTitle,
       "githubUrl": item.data.githubUrl,
       "image": {
-        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.profileImage[0] + "?cache=31536000&format=WEBP",
-        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.profileImage[0] + "?cache=31536000",
+        "webp": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.profileImage + "?cache=31536000&format=WEBP",
+        "url": "https://cloud.squidex.io/api/assets/garpunkaldev/" + item.data.profileImage + "?cache=31536000",
         "alt": item.data.title
       },
       githubSource: MapLink(item.data.githubSource),
@@ -151,7 +151,8 @@ module.exports = function (api) {
       "svgFill": item.svgFill?? "",
       "svgStrokeLineCap": item.svgStrokeLineCap?? "",
       "svgStrokeLineJoin": item.svgStrokeLineJoin?? "",
-      "rel": item.rel ?? ""
+      "rel": item.rel ?? "",
+      "displayComponent": item.displayComponent ?? true
     }
   }
 

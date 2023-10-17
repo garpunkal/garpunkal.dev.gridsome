@@ -18,7 +18,7 @@
 						</div>
 					</div>
 
-					<div class="grid w-full grid-cols-5 gap-6 m-auto mt-12 mb-3 text-center md:grid-cols-5 lg:grid-cols-10 ">
+					<div class="grid w-full grid-cols-5 gap-6 m-auto mt-12 mb-3 text-center md:grid-cols-5 lg:auto-cols-min">
 						<SocialLink :href="social.url" :title="social.title" :svgPath="social.svgPath" :rel="social.rel" :if="item.node.socials.length" v-for="social in item.node.socials" :key="social.title" />
 					</div>
 				</div>
