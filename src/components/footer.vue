@@ -15,9 +15,9 @@
 						{{item.node.githubSource.title}}</a
 					>
 				</div>
-				<div class="grid w-full grid-cols-1 gap-2 m-auto mt-10 text-center lg:w-2/3 md:grid-cols-6 md:text-sm">
-					<a :if="item.node.footerLinks.length" v-for="footerLink in item.node.footerLinks" :key="footerLink.title" :href="footerLink.url" 
-					:title="footerLink.title" target="_blank" rel="noopener" class="text-white hover:text-mirage dark:text-pale-sky">{{ footerLink.title }}</a>
+				<div class="w-full md:w-2/3 m-auto mt-10 mb-3 flex flex-wrap justify-center md:justify-between text-center">
+ 					<a :if="item.node.footerLinks.length" v-for="footerLink in item.node.footerLinks" v-if="footerLink.displayComponent" :key="footerLink.title" :href="footerLink.url" 
+					:title="footerLink.title" target="_blank" rel="noopener" class="w-full md:w-auto text-white hover:text-mirage dark:text-pale-sky">{{ footerLink.title }}</a>
 				</div>
 			</div>
 		</div>
